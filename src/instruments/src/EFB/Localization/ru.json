@@ -366,7 +366,7 @@
       "Enable": "Включить",
       "EnableTelex": "Включить TELEX",
       "ErrorReporting": "Отчеты об ошибках",
-      "HoppieUserId": "Идентификатор пользователя Hoppie",
+      "HoppieUserId": "Идентификатор пользователя Hoppie (ID)",
       "MetarSource": "Источник METAR",
       "OptionalA32nxErrorReporting": "Необязательные отчеты об ошибках A32NX",
       "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Убедитесь, что вы правильно ввели имя пользователя simBrief или идентификатор пилота.",
@@ -375,11 +375,11 @@
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "TELEX обеспечивает свободный текст и живую карту. Если включено, данные о местоположении воздушного судна публикуются на время полета. Сообщения являются общедоступными и не проходят модерацию. ИСПОЛЬЗУЙТЕ ЭТУ ФУНКЦИЮ НА СВОЙ РИСК. Чтобы узнать больше о TELEX и его функциях, перейдите на страницу https://docs.flybywiresim.com/telex.",
       "TelexWarning": "Предупреждение TELEX",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "При проверке вашего Hoppie ID произошла ошибка",
       "Title": "ATSU / AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "Вы можете подписаться на анонимные отчеты об ошибках, которые позволят нам быстрее диагностировать, отслеживать и решать проблемы. Эта функция не является обязательной, и мы никогда не будем собирать ваши личные данные, но она может упростить вам получение поддержки и быстрее устранить возникшие проблемы.",
-      "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
-      "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
+      "YourHoppieIdHasBeenRemoved": "Ваш Hoppie ID удален",
+      "YourHoppieIdHasBeenValidated": "Ваш Hoppie ID был подтвержден",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "Ваш идентификатор SimBrief проверен и обновлен"
     },
     "Audio": {

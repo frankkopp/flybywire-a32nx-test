@@ -1,31 +1,31 @@
 {
   "AirTrafficControl": {
-    "Active": "Active",
-    "ConnectHoppieACARS": "Connect Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "No information available for this frequency",
-    "SetActive": "Set Active",
-    "SetStandby": "Set Standby",
-    "Standby": "Standby",
-    "Title": "Air Traffic Control"
+    "Active": "فعال",
+    "ConnectHoppieACARS": "قم بتوصيل لHoppie ACARS",
+    "NoInformationAvailableForThisFrequency": "لا توجد معلومات متاحة لهذا التردد",
+    "SetActive": "شغل",
+    "SetStandby": "تعيين الاستعداد",
+    "Standby": "الإستعداد",
+    "Title": "مراقبة الحركة الجوية"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Are you sure you want to reset all checklists?",
-    "AreYouSureYouWantToResetChecklists": "Are you sure you want to reset all checklists?",
-    "ChecklistResetWarning": "Checklist Reset Warning",
+    "AreYouSureYouWantToResetAllChecklists": "هل تريد بالتأكيد إعادة تعيين جميع قوائم التحقق؟",
+    "AreYouSureYouWantToResetChecklists": "هل انت متأكد من انك تريد اعادة تعيين جميع قوائم التحقق؟ ",
+    "ChecklistResetWarning": "إنذار إعادة تعيين قوائم التحقق",
     "MarkChecklistAsComplete": "Mark checklist as complete",
-    "MarkItemAsComplete": "Mark item as complete",
-    "ProceedToNextChecklist": "Proceed to next checklist",
-    "ResetAll": "Reset All",
-    "ResetChecklist": "Reset Checklist",
-    "TheLastChecklistIsComplete": "The last checklist is complete",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "There are remaining autofill checklist items that have not yet been completed",
-    "Title": "Checklists"
+    "MarkItemAsComplete": "اشر على العنصر على انه اكتمل",
+    "ProceedToNextChecklist": "الانتقال الى قائمة التحقق التالية",
+    "ResetAll": "إعادة تعيين الكل",
+    "ResetChecklist": "إعادة تعيين قائمة التحقق",
+    "TheLastChecklistIsComplete": "قائمة التحقق الاخيره اكتملت",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "يوجد عناصر غير مكتملة في اللائحة التلقائية ",
+    "Title": "قوائم التحقق"
   },
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "No Relevant Checklists",
-        "Title": "Checklists"
+        "NoRelevantChecklists": "لا توجد قوائم مراجعة ذات صلة",
+        "Title": "قوائم التحقق"
       },
       "GoToPage": "Go to Page",
       "Maintenance": {

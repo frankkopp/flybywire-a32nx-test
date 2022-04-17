@@ -375,11 +375,11 @@
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "TELEX omogoča \"free text\" in zemljevid v živo. Če je omogočen, so podatki o položaju zrakoplova objavljeni za čas trajanja leta. Sporočila so javna in niso moderirana. TO FUNKCIJO UPORABLJAJTE NA LASTNO ODGOVORNOST. Če želite izvedeti več o TELEX-u in funkcijah, ki jih omogoča, obiščite spletno mesto https://docs.flybywiresim.com/telex.",
       "TelexWarning": "TELEX opozorilo",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "Prišlo je do napake pri preverjanju vašega ID-ja Hoppie-ja",
       "Title": "ATSU / AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "Lahko se odločite za anonimno poročanje o napakah, kar nam bo omogočilo hitrejše diagnosticiranje, spremljanje in odpravljanje težav. Funkcija je popolnoma neobvezna in vaši osebni podatki niso zbirani, vendar vam lahko omogoči, da lažje dobite podporo in hitreje odpravite težave, na katere naletite.",
-      "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
-      "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
+      "YourHoppieIdHasBeenRemoved": "Vaš ID Hoppie-ja je bil odstranjen",
+      "YourHoppieIdHasBeenValidated": "Vaš ID Hoppie-ja je bil potrjen",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "Vaš SimBrief PilotID je bil potrjen in posodobljen na"
     },
     "Audio": {

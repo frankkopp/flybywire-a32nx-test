@@ -1,84 +1,84 @@
 {
   "AirTrafficControl": {
     "Active": "सक्रिय",
-    "ConnectHoppieACARS": "कनेक्ट होप्पी यकारस",
-    "NoInformationAvailableForThisFrequency": "No information available for this frequency",
-    "SetActive": "Set Active",
-    "SetStandby": "Set Standby",
-    "Standby": "Standby",
-    "Title": "Air Traffic Control"
+    "ConnectHoppieACARS": "कनेक्ट हॉपी एकारस",
+    "NoInformationAvailableForThisFrequency": "इस आवृत्ति के लिए कोई जानकारी उपलब्ध नहीं है",
+    "SetActive": "सक्रिय सेट करें",
+    "SetStandby": "स्टैंडबाय सेट करें",
+    "Standby": "स्टैंडबाय",
+    "Title": "एयर ट्रैफिक कंट्रोल"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Are you sure you want to reset all checklists?",
-    "AreYouSureYouWantToResetChecklists": "Are you sure you want to reset all checklists?",
-    "ChecklistResetWarning": "Checklist Reset Warning",
-    "MarkChecklistAsComplete": "Mark checklist as complete",
-    "MarkItemAsComplete": "Mark item as complete",
-    "ProceedToNextChecklist": "Proceed to next checklist",
-    "ResetAll": "Reset All",
-    "ResetChecklist": "Reset Checklist",
-    "TheLastChecklistIsComplete": "The last checklist is complete",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "There are remaining autofill checklist items that have not yet been completed",
-    "Title": "Checklists"
+    "AreYouSureYouWantToResetAllChecklists": "क्या आप वाकई सभी चेकलिस्ट रीसेट करना चाहते हैं?",
+    "AreYouSureYouWantToResetChecklists": "क्या आप वाकई सभी चेकलिस्ट रीसेट करना चाहते हैं?",
+    "ChecklistResetWarning": "चेकलिस्ट रीसेट चेतावनी",
+    "MarkChecklistAsComplete": "जांच सूची समाप्त चिन्हित करे ।",
+    "MarkItemAsComplete": "वस्तु समाप्त चिन्हित करे ।",
+    "ProceedToNextChecklist": "अगले जांच सूची की ओर बढ़ीये ।",
+    "ResetAll": "सभ कुछ पहले जैसे कर दे।",
+    "ResetChecklist": "जांच सूची रीसेट करे ।",
+    "TheLastChecklistIsComplete": "अंतिम जांच सूची को समाप्त किया गया है",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "ऑटोफिल चेकलिस्ट को पूरा नहीं किया गया है ।",
+    "Title": "जांच सूची"
   },
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "No Relevant Checklists",
-        "Title": "Checklists"
+        "NoRelevantChecklists": "कोई आधारित जांच सूची नही है",
+        "Title": "जांच सूची"
       },
-      "GoToPage": "Go to Page",
+      "GoToPage": "पृष्ट पर जाए ",
       "Maintenance": {
-        "NoActiveFailures": "No Active Failures",
-        "Title": "Maintenance"
+        "NoActiveFailures": "कोई चालू असफलता नही है ",
+        "Title": "रख-रखाव"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "No Pinned Charts",
-        "Title": "Pinned Charts"
+        "NoPinnedCharts": "कोई चार्ट लगाए नही गए है ",
+        "Title": "पिन किए गए चार्ट"
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "विजेट को अलग जगह करे"
       },
-      "Title": "Important Information",
+      "Title": "महत्वपूर्ण जानकारी",
       "Weather": {
-        "AirPressure": "Air Pressure",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
+        "AirPressure": "वायुदाब",
+        "DewPoint": "ओसांक",
+        "IcaoInvalid": "ICAO अमान्य है या कोई METAR उपलब्ध नहीं है",
+        "Loading": "लोड हो रहा है…",
+        "MetarParsingError": "प्राप्त METAR को पार्स नहीं किया जा सका",
+        "NoIcaoProvided": "कोई ICAO नहीं दिया गया",
         "Raw": "Raw",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToIconView": "आइकन दृश्य में स्विच करें",
+          "SwitchToRawMetarView": "कृपया सरल METAR इस्तमाल करे "
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "तापमान",
+        "Title": "मौसम",
+        "WindSpeed": "हवा की गति"
       }
     },
-    "Title": "Dashboard",
+    "Title": "डैशबोर्ड",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
+      "Alternate": "विकल्प",
+      "AverageWind": "औसत वायु",
+      "CompanyRoute": "कम्पनी रूट",
+      "CostIndex": "कॉस्ट इंडेक्स",
+      "CruiseAlt": "क्रूज़ ऊंचाई",
+      "ImportSimBriefData": "सिमब्रीफ डेटा आयात करें",
+      "Route": "मार्ग",
+      "SimBriefDataNotYetLoaded": "सिमब्रीफ डेटा अभी लोड नहीं हुआ है।",
+      "Title": "योर उड़ान",
       "ZFW": "ZFW"
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "सिमब्रीफ डेटा आयात करें",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "फ़ॉन्ट आकार बढ़ाएॅं",
+        "ReduceFontSize": "फ़ॉन्ट का आकार घटाएँ"
       },
-      "Title": "OFP",
+      "Title": "ओएफपी",
       "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
     },
     "Overview": {

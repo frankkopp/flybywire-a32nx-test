@@ -50,7 +50,7 @@
         "Raw": "ข้อมูลดิบ",
         "TT": {
           "SwitchToIconView": "สลับไปยังมุมมองไอคอน",
-          "SwitchToRawMetarView": "สลับไปยังมุมมอง METAR ข้อมูลดิบ"
+          "SwitchToRawMetarView": "สลับไปยังมุมมองข้อมูลดิบ METAR"
         },
         "Temperature": "อุณหภูมิ",
         "Title": "สภาพอากาศ",
@@ -375,11 +375,11 @@
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "TELEX เปิดในใช้งานการรับ-ส่งข้อความและแผนที่สด หากเปิดใช้งานไว้ ข้อมูลตำแหน่งเครื่องบินจะถูกเผยแพร่ในช่วงระยะเวลาของการบิน ข้อความเป็นสาธารณะและไม่ได้ตรวจสอบ ในการที่คุณจะใช้ Features เหล่านี้ คุณต้องใช้ด้วยความเสี่ยงของคุณเอง หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ TELEX และ Features ที่เปิดใช้งานได้ โปรดไปที่ https://docs.flybywiresim.com/telex",
       "TelexWarning": "การเตือน TELEX",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "มีข้อผิดพลาดในการตรวจสอบรหัสผู้ใช้ Hoppie ของคุณ",
       "Title": "ATSU / AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "คุณสามารถเลือกที่จะเข้าร่วมการรายงานข้อผิดพลาดแบบไม่ระบุตัวตน ที่จะช่วยให้เราสามารถวินิจฉัย ตรวจสอบ และดูแลปัญหาได้รวดเร็วมากยิ่งขึ้น Features นี้เป็นตัวเลือกที่ไม่บังคับและเราจะไม่เก็บรวบรวมข้อมูลส่วนบุคคลของคุณ แต่อาจช่วยให้คุณรับการช่วยเหลือได้ง่ายขึ้น และปัญหาที่คุณพบอาจได้รับการแก้ไขในอัตราที่เร็วขึ้น รวดเร็วมากยิ่งขึ้น",
-      "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
-      "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
+      "YourHoppieIdHasBeenRemoved": "รหัสผู้ใช้ Hoppie ของคุณถูกเอาออกแล้ว",
+      "YourHoppieIdHasBeenValidated": "รหัสผู้ใช้ Hoppie ของคุณได้รับการตรวจสอบแล้ว",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "SimBrief PilotID ของคุณได้รับการตรวจสอบและอัปเดตเป็น"
     },
     "Audio": {
@@ -459,7 +459,7 @@
       "Local": "ท้องถิ่น",
       "LocalTimeFormat": "รูปแบบเวลาท้องถิ่น",
       "OnscreenKeyboardLayout": "รูปแบบแป้นพิมพ์บนหน้าจอ",
-      "ShowColoredRawMetar": "แสดง METAR ข้อมูลดิบ แบบมีสี",
+      "ShowColoredRawMetar": "แสดงข้อมูลดิบ METAR แบบมีสี",
       "ShowStatusBarFlightProgressIndicator": "แสดงแถบสถานะความคืบหน้าของเที่ยวบิน",
       "Theme": "ธีม",
       "TimeDisplayed": "เวลาที่แสดง",
