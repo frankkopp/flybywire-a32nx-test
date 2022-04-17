@@ -1,6 +1,6 @@
 {
   "AirTrafficControl": {
-    "Active": "Aktive Frequenz",
+    "Active": "TEST",
     "ConnectHoppieACARS": "Hoppie ACARS verbinden",
     "NoInformationAvailableForThisFrequency": "Für diese Frequenz sind keine Informationen verfügbar",
     "SetActive": "Als Aktiv",
