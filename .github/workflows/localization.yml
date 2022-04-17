@@ -1,0 +1,32 @@
+name: 'FlyPad Localazy Download'
+on:
+  schedule:
+    # https://crontab.guru/
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  localization-update:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'frankkopp'
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: install
+        run: ./scripts/dev-env/run.sh ./scripts/setup.sh
+      - name: Download Translations
+        run: ./scripts/dev-env/run.sh npm run build:efb-translation
+      - name: Create PR
+        uses: gr2m/create-or-update-pull-request-action@v1.x  # Generate a PR or updates an existing PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          path: src/instruments/src/EFB/Localization
+          branch: master # Specify branch that this action uses.
+          title: 'build: update flyPadOS3 localization'
+          body: >
+            This PR automatically downloads and updates the approved changes from Localazy translations for the flyPadOS3.
+          commit-message: 'build: update flyPadOS3 localization'
+          labels: Do Not Merge
