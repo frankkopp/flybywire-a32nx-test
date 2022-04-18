@@ -16,7 +16,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v2
       - name: Print latest_commit
-        run: echo ${{ github.sha }} && git log -1
+        run: echo ${{ github.sha }} && date && git log -1
       - id: should_run
         continue-on-error: true
         name: Check latest commit is less than a day
@@ -28,7 +28,7 @@ jobs:
     # Prevent running this on forks
     # Prevent this from running when there was no commit in the last 24h
     needs: check_date
-    if: ${{ needs.check_date.outputs.should_run == 'false' && github.repository_owner == 'frankkopp' }}
+    if: ${{ needs.check_date.outputs.should_run != 'false' && github.repository_owner == 'frankkopp' }}
     runs-on: ubuntu-latest
     env:
       A32NX_PRODUCTION_BUILD: 1
