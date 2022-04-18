@@ -18,7 +18,7 @@ jobs:
         run: npm install -g @localazy/cli
       - name: Download Translations
         run: cd src/instruments/src/EFB/Localization && node build-translation.js
-      - name: Update Language Files
+#      - name: Update Language Files
       #        uses: test-room-7/action-update-file@v1
       #        with:
       #          file-path: src/instruments/src/EFB/Localization/*.json
