@@ -13,6 +13,8 @@ jobs:
     outputs:
       should_run: ${{ steps.should_run.outputs.should_run }}
     steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
       - name: Print latest_commit
         run: echo ${{ github.sha }}
       - id: should_run
