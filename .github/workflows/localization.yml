@@ -11,28 +11,35 @@ jobs:
     if: github.repository_owner == 'frankkopp'
     steps:
       - name: Checkout Branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
       - name: Install Localazy CLI
         run: npm install -g @localazy/cli
       - name: Download Translations
         run: cd src/instruments/src/EFB/Localization && node build-translation.js
-#      - name: Update Language Files
+      #      - name: Update Language Files
       #        uses: test-room-7/action-update-file@v1
       #        with:
       #          file-path: src/instruments/src/EFB/Localization/*.json
       #          commit-msg: Update FlyPad Language Files From Localazy
       #          github-token: ${{ secrets.GITHUB_TOKEN }}
       #          branch: language-update
-      - name: Create PR
-        uses: gr2m/create-or-update-pull-request-action@v1.x  # Generate a PR or updates an existing PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #      - name: Create PR
+      #        uses: gr2m/create-or-update-pull-request-action@v1.x  # Generate a PR or updates an existing PR
+      #        env:
+      #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #        with:
+      #          path: src/instruments/src/EFB/Localization
+      #          branch: language-update # Specify branch that this action uses.
+      #          title: 'build: update flyPadOS3 localization'
+      #          body: >
+      #            This PR automatically downloads and updates the approved changes from Localazy translations for the flyPadOS3.
+      #          commit-message: 'build: update flyPadOS3 localization'
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
         with:
-          path: src/instruments/src/EFB/Localization
-          branch: master # Specify branch that this action uses.
-          title: 'build: update flyPadOS3 localization'
-          body: >
-            This PR automatically downloads and updates the approved changes from Localazy translations for the flyPadOS3.
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'build: update flyPadOS3 localization'
+          branch: language-update
+          #delete-branch: true
