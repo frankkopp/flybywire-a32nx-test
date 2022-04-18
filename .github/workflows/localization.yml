@@ -25,20 +25,23 @@ jobs:
       #          commit-msg: Update FlyPad Language Files From Localazy
       #          github-token: ${{ secrets.GITHUB_TOKEN }}
       #          branch: language-update
-      - name: Create PR
-        uses: gr2m/create-or-update-pull-request-action@v1.x  # Generate a PR or updates an existing PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Print git status
+        run: git status
+      #      - name: Create PR
+      #        uses: gr2m/create-or-update-pull-request-action@v1.x  # Generate a PR or updates an existing PR
+      #        env:
+      #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #        with:
+      #          path: src/instruments/src/EFB/Localization
+      #          branch: language-update # Specify branch that this action uses.
+      #          commit-message: 'build: update flyPadOS3 localization'
+      #          title: 'build: update flyPadOS3 localization'
+      #          body: >
+      #            This PR automatically downloads and updates the approved changes from Localazy translations for the flyPadOS3.
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
         with:
-          branch: language-update # Specify branch that this action uses.
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'build: update flyPadOS3 localization'
-          title: 'build: update flyPadOS3 localization'
-          body: >
-            This PR automatically downloads and updates the approved changes from Localazy translations for the flyPadOS3.
-#      - name: Create Pull Request
-#        uses: peter-evans/create-pull-request@v4
-#        with:
-#          token: ${{ secrets.GITHUB_TOKEN }}
-#          commit-message: 'build: update flyPadOS3 localization'
-#          branch: language-update
-#          #delete-branch: true
+          branch: language-update
+          #delete-branch: true
