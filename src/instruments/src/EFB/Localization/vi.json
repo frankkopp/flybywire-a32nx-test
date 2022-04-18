@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Độ cao tăng tốc khi động cơ ngừng hoạt động (ft)",
       "IsisBaroUnit": "Đơn vị ISIS Baro",
       "IsisMetricAltitude": "Đơn vị ISIS hệ Mét",
+      "LatLonExtendedFormat": "Định dạng điểm trên FMGC dạng vĩ/kinh",
       "PaxSigns": "Đèn báo hiệu hành khách",
       "RmpVhfSpacing": "Khoảng cách RMP VHF",
       "ThrustReductionHeight": "Độ cao giảm lực đẩy (ft)",

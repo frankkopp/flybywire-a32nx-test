@@ -13,7 +13,7 @@
     "AreYouSureYouWantToResetChecklists": "¿Estás seguro de que quieres restablecer todas las listas de verificación?",
     "ChecklistResetWarning": "Advertencia de restablecimiento de lista de verificación",
     "MarkChecklistAsComplete": "Marcar lista de verificación como completa",
-    "MarkItemAsComplete": "Marcar elemento como completo",
+    "MarkItemAsComplete": "Marcar elemento como completado",
     "ProceedToNextChecklist": "Pasar a la siguiente lista de verificación",
     "ResetAll": "Restablecer todo",
     "ResetChecklist": "Restablecer lista de verificación",
@@ -34,19 +34,19 @@
       },
       "PinnedCharts": {
         "NoPinnedCharts": "No hay cartas ancladas",
-        "Title": "Cartas Ancladas"
+        "Title": "Cartas ancladas"
       },
       "TT": {
         "RearrangeWidgets": "Reorganizar widgets"
       },
       "Title": "Información importante",
       "Weather": {
-        "AirPressure": "Presión del aire",
-        "DewPoint": "Punto de rocío",
+        "AirPressure": "Presión",
+        "DewPoint": "Punto rocío",
         "IcaoInvalid": "ICAO inválido o sin METAR disponible",
         "Loading": "Cargando",
         "MetarParsingError": "El METAR recibido no ha podido ser analizado",
-        "NoIcaoProvided": "No se proporciona ICAO",
+        "NoIcaoProvided": "No se proporciona código ICAO",
         "Raw": "Sin procesar",
         "TT": {
           "SwitchToIconView": "Cambiar a vista de iconos",
@@ -54,7 +54,7 @@
         },
         "Temperature": "Temperatura",
         "Title": "Meteorología",
-        "WindSpeed": "Velocidad del viento"
+        "WindSpeed": "Viento"
       }
     },
     "Title": "Dashboard",
@@ -79,7 +79,7 @@
         "ReduceFontSize": "Reducir tamaño de la fuente"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "Aún no ha importado ningún dato de SimBrief."
+      "YouHaveNotYetImportedAnySimBriefData": "Aún no ha importado datos de SimBrief."
     },
     "Overview": {
       "Engines": "Motores",
@@ -88,13 +88,13 @@
       "MTOW": "MTOW",
       "MZFW": "MZFW",
       "MaximumCargo": "Carga Máxima",
-      "MaximumFuelCapacity": "Capacidad Máxima de Combustible",
-      "MaximumPassengers": "Máximo de Pasajeros",
+      "MaximumFuelCapacity": "Combustible Máximo",
+      "MaximumPassengers": "Pasajeros",
       "Model": "Modelo",
       "Range": "Distancia",
       "Title": "Resumen"
     },
-    "Title": "Enviar"
+    "Title": "Despacho"
   },
   "Failures": {
     "Comfort": {
@@ -103,25 +103,25 @@
     "Compact": {
       "Title": "Compacto"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Todavía no está garantizada la simulación completa de los fallos que aparecen a continuación.",
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "No está garantizada la simulación completa de fallos que aparecen a continuación.",
     "Search": "Buscar",
     "Title": "Fallos"
   },
   "Ground": {
     "Fuel": {
-      "CenterTank": "Tanque Central",
+      "CenterTank": "Tanque central",
       "Completed": "Completado",
       "Defueling": "Defueling",
       "EstimatedDuration": "Duración estimada (minutos)",
       "EstimatedTime": "Tiempo Estimado",
-      "LeftInnerTank": "Tanque Interior Izquierdo",
-      "LeftOuterTank": "Tanque Exterior Izquierdo",
-      "ReadyToStart": "Listo para Empezar",
+      "LeftInnerTank": "Tanque interior izquierdo",
+      "LeftOuterTank": "Tanque exterior izquierdo",
+      "ReadyToStart": "Listo para empezar",
       "Refuel": "Repostar",
-      "RefuelTime": "Tiempo de Repostaje",
+      "RefuelTime": "Tiempo de repostaje",
       "Refueling": "Refueling",
-      "RightInnerTank": "Tanque Interior Derecho",
-      "RightOuterTank": "Tanque Exterior Derecho",
+      "RightInnerTank": "Tanque interior derecho",
+      "RightOuterTank": "Tanque exterior derecho",
       "TT": {
         "AircraftMustBeColdAndDarkToChangeRefuelTimes": "El avión debe estar frío y oscuro para cambiar los tiempos de reabastecimiento",
         "FillBlockFuelFromSimBrief": "Rellenar Block Fuel de SimBrief"
@@ -136,14 +136,14 @@
     "Services": {
       "BaggageTruck": "Camión de equipaje",
       "CateringTruck": "Camión de catering",
-      "DoorAft": "Puerta Trasera",
-      "DoorFwd": "Puerta Delantera",
+      "DoorAft": "Puerta trasera",
+      "DoorFwd": "Puerta delantera",
       "ExternalPower": "Alimentación externa",
       "FuelTruck": "Camión de combustible",
       "JetBridge": "Puente de embarque",
       "Title": "Servicios"
     },
-    "Title": "Tierra"
+    "Title": "Ground"
   },
   "Modals": {
     "Cancel": "Cancelar",
@@ -169,10 +169,10 @@
       "AirportDoesNotExist": "El aeropuerto no existe",
       "AuthenticateWithNavigraph": "Autenticar con Navigraph",
       "InsufficientEnv": "Archivo .env insuficiente",
-      "IntoYourBrowserAndEnterTheCodeBelow": "en tu navegador e introduce el código a continuación\n",
+      "IntoYourBrowserAndEnterTheCodeBelow": "en su navegador e introduzca el siguiente código\n",
       "NoAirportSelected": "Sin aeropuerto seleccionado",
       "ResetNavigraphAuthentication": "Restablecer la autenticación de Navigraph",
-      "ScanTheQrCodeOrOpen": "Escanee el código QR o ábralo",
+      "ScanTheQrCodeOrOpen": "Escanee el código QR o pinche",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
@@ -192,7 +192,7 @@
         "ChangeChartProvider": "Cambiar proveedor de Cartas",
         "ChangeChartSortMethod": "Cambiar método de clasificación de Cartas"
       },
-      "Title": "Cartas Ancladas",
+      "Title": "Cartas ancladas",
       "View": "Ver"
     },
     "PleaseWait": "Por favor espere",
@@ -214,7 +214,7 @@
   "Performance": {
     "Data": "Datos",
     "Landing": {
-      "AirportIcao": "ICAO Aeropuerto",
+      "AirportIcao": "Aeropuerto",
       "ApproachSpeed": "Velocidad de aproximación",
       "ApproachSpeedUnit": "kts",
       "AutoLand": "Aterrizaje Automatico",
@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Altura de aceleración con motor apagado (ft)",
       "IsisBaroUnit": "Unidad Baro ISIS",
       "IsisMetricAltitude": "Altura métrica ISIS",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Señales PAX",
       "RmpVhfSpacing": "Espaciado VHF RMP",
       "ThrustReductionHeight": "Altura de reducción de empuje (ft)",
@@ -396,9 +397,9 @@
     "Instant": "Instantaneo",
     "Real": "Real",
     "Realism": {
-      "AdirsAlignTime": "Tiempo de alineación de ADIRS",
+      "AdirsAlignTime": "Tiempo de alineación ADIRS",
       "AutofillChecklists": "Autocompletar Listas de verificación",
-      "BoardingTime": "Hora de embarque",
+      "BoardingTime": "Tiempo de embarque",
       "DmcSelfTestTime": "Tiempo de autocomprobación DMC",
       "HomeCockpitMode": "Modo Home Cockpit",
       "McduFocusTimeout": "Tiempo de espera del MCDU (segundos)",
@@ -410,9 +411,9 @@
       "Active": "Activo",
       "Auto": "Auto",
       "Calibrate": "Calibrar",
-      "DefaultBarometerUnit": "Unidad de barómetro predeterminada",
+      "DefaultBarometerUnit": "Unidad del barómetro predeterminado",
       "DynamicRegistrationDecal": "Registro Decal dinámico",
-      "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Activar la conexión con el servidor MCDU (se desactiva automáticamente después de 5 minutos si no hay una conexión exitosa)",
+      "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Activar la conexión con el servidor MCDU (se desactivará automáticamente tras 5 minutos si no ha habido una conexión exitosa)",
       "ExternalMcduServerPort": "Puerto del servidor MCDU externo",
       "Hpa": "hPa",
       "Inactive": "Inactivo",
@@ -460,7 +461,7 @@
       "LocalTimeFormat": "Formato de hora local",
       "OnscreenKeyboardLayout": "Distribución del teclado en pantalla",
       "ShowColoredRawMetar": "Mostrar METAR sin procesar coloreado",
-      "ShowStatusBarFlightProgressIndicator": "Mostrar indicador de progreso de vuelo en la barra",
+      "ShowStatusBarFlightProgressIndicator": "Mostrar indicador de progreso de vuelo en la barra de estado",
       "Theme": "Tema",
       "TimeDisplayed": "Hora Mostrada",
       "Title": "flyPad",

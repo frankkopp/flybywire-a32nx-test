@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "גובה תאוצת מנוע (ft)",
       "IsisBaroUnit": "יחידת ברומטר ISIS",
       "IsisMetricAltitude": "גובה מטרי ISIS",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "שלטים PAX",
       "RmpVhfSpacing": "מרווח RMP VHF",
       "ThrustReductionHeight": "גובה הפחתת דחף (ft)",

@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Высота ускорения на выходе двигателя (фт)",
       "IsisBaroUnit": "Единица измерения барометра на ISIS",
       "IsisMetricAltitude": "Метрическая высота на ISIS",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Табло салона",
       "RmpVhfSpacing": "Интервал RMP VHF",
       "ThrustReductionHeight": "Высота уменьшения тяги (фт)",
