@@ -25,6 +25,7 @@ jobs:
           file-path: src/instruments/src/EFB/Localization/*.json
           commit-msg: Update FlyPad Language Files From Localazy
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          branch: language-update
 #      - name: Create PR
 #        uses: gr2m/create-or-update-pull-request-action@v1.x  # Generate a PR or updates an existing PR
 #        env:
