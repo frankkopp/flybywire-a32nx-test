@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Višina pospeška ob izgubi motorja (ft)",
       "IsisBaroUnit": "ISIS baro enota",
       "IsisMetricAltitude": "ISIS metrična nadmorska višina",
+      "LatLonExtendedFormat": "FMGC - format zapisa točk zemljepisne dolžine/širine",
       "PaxSigns": "PAX znaki",
       "RmpVhfSpacing": "RMP VHF razmik",
       "ThrustReductionHeight": "Višina zmanjšanja potiska (ft)",

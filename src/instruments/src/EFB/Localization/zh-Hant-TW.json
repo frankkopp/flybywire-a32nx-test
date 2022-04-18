@@ -1,6 +1,6 @@
 {
   "AirTrafficControl": {
-    "Active": "Active",
+    "Active": "使用中",
     "ConnectHoppieACARS": "Connect Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "No information available for this frequency",
     "SetActive": "Set Active",
@@ -112,7 +112,7 @@
       "CenterTank": "Center Tank",
       "Completed": "Completed",
       "Defueling": "Defueling",
-      "EstimatedDuration": "Jangkaan masa (minit)",
+      "EstimatedDuration": "Estimated duration (minutes)",
       "EstimatedTime": "Estimated Time",
       "LeftInnerTank": "Left Inner Tank",
       "LeftOuterTank": "Left Outer Tank",
@@ -137,7 +137,7 @@
       "BaggageTruck": "Baggage Truck",
       "CateringTruck": "Catering Truck",
       "DoorAft": "Door Aft",
-      "DoorFwd": "Pintu dpn.",
+      "DoorFwd": "Door Fwd",
       "ExternalPower": "External Power",
       "FuelTruck": "Fuel Truck",
       "JetBridge": "Jet Bridge",
@@ -408,7 +408,7 @@
       "Title": "Realism"
     },
     "SimOptions": {
-      "Active": "Active",
+      "Active": "使用中",
       "Auto": "Auto",
       "Calibrate": "Calibrate",
       "DefaultBarometerUnit": "Default Barometer Unit",

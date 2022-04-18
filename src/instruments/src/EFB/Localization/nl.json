@@ -138,38 +138,38 @@
       "CateringTruck": "Catering Truck",
       "DoorAft": "Deur achter",
       "DoorFwd": "Deur voor",
-      "ExternalPower": "External Power",
-      "FuelTruck": "Fuel Truck",
+      "ExternalPower": "Externe voeding",
+      "FuelTruck": "Brandstof Wagen",
       "JetBridge": "Jet Bridge",
-      "Title": "Services"
+      "Title": "Diensten"
     },
-    "Title": "Ground"
+    "Title": "Grond"
   },
   "Modals": {
-    "Cancel": "Cancel",
-    "Confirm": "Confirm",
-    "Okay": "Okay"
+    "Cancel": "Annuleren",
+    "Confirm": "Bevestigen",
+    "Okay": "Oké"
   },
   "NavigationAndCharts": {
-    "All": "All",
+    "All": "Alle",
     "Altn": "Altn",
-    "ExitFullscreenMode": "Exit Fullscreen Mode",
-    "From": "From",
+    "ExitFullscreenMode": "Volledig scherm afsluiten",
+    "From": "Van",
     "LocalFiles": {
-      "Both": "Both",
+      "Both": "Beide",
       "EstablishingConnection": "Establishing Connection",
-      "FailedToEstablishConnection": "Failed to Establish Connection.",
-      "FileName": "File Name",
-      "Image": "Image",
+      "FailedToEstablishConnection": "Verbinding tot stand brengen is mislukt.",
+      "FileName": "Bestandsnaam",
+      "Image": "Afbeelding",
       "Pdf": "Pdf",
-      "Retry": "Retry",
-      "Title": "Local Files"
+      "Retry": "Opnieuw proberen",
+      "Title": "Lokale Bestanden"
     },
     "Navigraph": {
-      "AirportDoesNotExist": "Airport Does Not Exist",
-      "AuthenticateWithNavigraph": "Authenticate with Navigraph",
-      "InsufficientEnv": "Insufficient .env File",
-      "IntoYourBrowserAndEnterTheCodeBelow": "into your browser and enter the code below\n",
+      "AirportDoesNotExist": "Luchthaven bestaat niet",
+      "AuthenticateWithNavigraph": "Authenticeren met Navigraph",
+      "InsufficientEnv": "Incorrect .env-bestand",
+      "IntoYourBrowserAndEnterTheCodeBelow": "in uw browser en voer de onderstaande code in\n",
       "NoAirportSelected": "No Airport Selected",
       "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
       "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
       "IsisBaroUnit": "ISIS Baro Unit",
       "IsisMetricAltitude": "ISIS Metric Altitude",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "PAX Signs",
       "RmpVhfSpacing": "RMP VHF Spacing",
       "ThrustReductionHeight": "Thrust Reduction Height (ft)",

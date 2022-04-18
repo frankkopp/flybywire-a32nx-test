@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Hauteur d'accélération du moteur en panne (pi)",
       "IsisBaroUnit": "Unité Baromètre ISIS",
       "IsisMetricAltitude": "Altitude métrique ISIS",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Panneaux PAX",
       "RmpVhfSpacing": "Espacement VHF RMP",
       "ThrustReductionHeight": "Hauteur de réduction de poussée (pi)",
@@ -375,11 +376,11 @@
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "Le TELEX active le free text et la live map. Si cette option est activée, les données de position de l'avion sont publiées pour la durée du vol. Les messages sont publics et ne sont pas modérés. UTILISEZ CETTE FONCTIONNALITÉ À VOS PROPRES RISQUES. Pour en savoir plus sur le TELEX et les fonctionnalités qu'il permet, rendez-vous sur https://docs.flybywiresim.com/telex.",
       "TelexWarning": "Avertissement TELEX",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "Il y a eu une erreur durant la validation de votre ID Hoppie",
       "Title": "ATSU/AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "Vous pouvez opter pour le signalement d'erreurs anonyme qui nous permettra de diagnostiquer, de surveiller et de traiter les problèmes plus rapidement. Cette fonctionnalité est totalement facultative et nous ne collecterons jamais vos données personnelles, mais elle peut vous permettre d'obtenir plus facilement de l'aide et de résoudre plus rapidement les problèmes que vous rencontrez.",
-      "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
-      "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
+      "YourHoppieIdHasBeenRemoved": "Votre ID Hoppie a bien été retiré",
+      "YourHoppieIdHasBeenValidated": "Votre ID Hoppie a bien été validé",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "Votre PilotID SimBrief a été validé et mis à jour à"
     },
     "Audio": {
@@ -443,7 +444,7 @@
       "ReverseIdle": "Inverse Idle",
       "ReverserOnAxis": "Inverseur sur l'axe",
       "SaveAndApply": "Enregistrer et appliquer",
-      "SetFromThrottle": "Configurer depuis la manette",
+      "SetFromThrottle": "Configurer depuis l'accélérateur",
       "ThrottleConfigurationReset": "Réinitialisation de la configuration"
     },
     "Title": "Paramètres",

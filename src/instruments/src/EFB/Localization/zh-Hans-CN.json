@@ -1,267 +1,267 @@
 {
   "AirTrafficControl": {
-    "Active": "Active",
-    "ConnectHoppieACARS": "Connect Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "No information available for this frequency",
-    "SetActive": "Set Active",
-    "SetStandby": "Set Standby",
-    "Standby": "Standby",
-    "Title": "Air Traffic Control"
+    "Active": "启用",
+    "ConnectHoppieACARS": "连接 Hoppie ACARS",
+    "NoInformationAvailableForThisFrequency": "当前频率里没有可用的信息",
+    "SetActive": "设置为启用",
+    "SetStandby": "设置为待命",
+    "Standby": "待命",
+    "Title": "空中交通管制"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Are you sure you want to reset all checklists?",
-    "AreYouSureYouWantToResetChecklists": "Are you sure you want to reset all checklists?",
-    "ChecklistResetWarning": "Checklist Reset Warning",
-    "MarkChecklistAsComplete": "Mark checklist as complete",
-    "MarkItemAsComplete": "Mark item as complete",
-    "ProceedToNextChecklist": "Proceed to next checklist",
-    "ResetAll": "Reset All",
-    "ResetChecklist": "Reset Checklist",
-    "TheLastChecklistIsComplete": "The last checklist is complete",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "There are remaining autofill checklist items that have not yet been completed",
-    "Title": "Checklists"
+    "AreYouSureYouWantToResetAllChecklists": "确定要重置所有检查单吗？",
+    "AreYouSureYouWantToResetChecklists": "确定要重置所有检查单吗？",
+    "ChecklistResetWarning": "检查单重置警告",
+    "MarkChecklistAsComplete": "将检查单标记为已完成",
+    "MarkItemAsComplete": "将项目标记为完成",
+    "ProceedToNextChecklist": "进行下一个检查单",
+    "ResetAll": "全部重置",
+    "ResetChecklist": "重置检查单",
+    "TheLastChecklistIsComplete": "最后一个检查单已完成",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "仍有自动填充检查单项目未完成",
+    "Title": "检查单"
   },
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "No Relevant Checklists",
-        "Title": "Checklists"
+        "NoRelevantChecklists": "没有相关的检查单",
+        "Title": "检查单"
       },
-      "GoToPage": "Go to Page",
+      "GoToPage": "跳转至此页面",
       "Maintenance": {
-        "NoActiveFailures": "No Active Failures",
-        "Title": "Maintenance"
+        "NoActiveFailures": "没有启用的故障",
+        "Title": "保养"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "No Pinned Charts",
-        "Title": "Pinned Charts"
+        "NoPinnedCharts": "没有固定的航图",
+        "Title": "固定的航图"
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "重新排列模块"
       },
-      "Title": "Important Information",
+      "Title": "重要信息",
       "Weather": {
-        "AirPressure": "Air Pressure",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
-        "Raw": "Raw",
+        "AirPressure": "气压",
+        "DewPoint": "露点",
+        "IcaoInvalid": "ICAO代码无效或没有可用的METAR",
+        "Loading": "正在加载",
+        "MetarParsingError": "无法解析 METAR",
+        "NoIcaoProvided": "未填入 ICAO 代码",
+        "Raw": "原始数据",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToIconView": "切换到图标视图",
+          "SwitchToRawMetarView": "切换到原始 METAR 报文视图"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "气温",
+        "Title": "天气",
+        "WindSpeed": "风速"
       }
     },
-    "Title": "Dashboard",
+    "Title": "主页面",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
-      "ZFW": "ZFW"
+      "Alternate": "备降机场",
+      "AverageWind": "平均风速",
+      "CompanyRoute": "公司航路",
+      "CostIndex": "成本指数",
+      "CruiseAlt": "巡航高度",
+      "ImportSimBriefData": "从 SimBrief 导入数据",
+      "Route": "航路",
+      "SimBriefDataNotYetLoaded": "SimBrief 数据尚未加载",
+      "Title": "你的航班任务",
+      "ZFW": "零油重量"
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "从 SimBrief 导入数据",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "增大字号",
+        "ReduceFontSize": "减小字号"
       },
-      "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
+      "Title": "运行飞行计划",
+      "YouHaveNotYetImportedAnySimBriefData": "您尚未从 SimBrief 导入任何数据"
     },
     "Overview": {
-      "Engines": "Engines",
-      "MMO": "MMO",
-      "MRW": "MRW",
-      "MTOW": "MTOW",
-      "MZFW": "MZFW",
-      "MaximumCargo": "Maximum Cargo",
-      "MaximumFuelCapacity": "Maximum Fuel Capacity",
-      "MaximumPassengers": "Maximum Passengers",
-      "Model": "Model",
-      "Range": "Range",
-      "Title": "Overview"
+      "Engines": "引擎信息",
+      "MMO": "最大操作马赫数",
+      "MRW": "最大机坪重量",
+      "MTOW": "最大起飞重量",
+      "MZFW": "最大零油重量",
+      "MaximumCargo": "最大载货量",
+      "MaximumFuelCapacity": "最大燃油量",
+      "MaximumPassengers": "最大乘客人数",
+      "Model": "机型",
+      "Range": "范围",
+      "Title": "概述"
     },
-    "Title": "Dispatch"
+    "Title": "签派"
   },
   "Failures": {
     "Comfort": {
-      "Title": "Comfort"
+      "Title": "舒适"
     },
     "Compact": {
-      "Title": "Compact"
+      "Title": "紧凑"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Full simulation of the failures below isn't yet guaranteed.",
-    "Search": "Search",
-    "Title": "Failures"
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "以下故障的模拟尚不能保证完全完整",
+    "Search": "搜索",
+    "Title": "失效"
   },
   "Ground": {
     "Fuel": {
-      "CenterTank": "Center Tank",
-      "Completed": "Completed",
-      "Defueling": "Defueling",
-      "EstimatedDuration": "Jangkaan masa (minit)",
+      "CenterTank": "中央油箱",
+      "Completed": "已完成",
+      "Defueling": "放油",
+      "EstimatedDuration": "预计剩余时间（分钟）",
       "EstimatedTime": "Estimated Time",
-      "LeftInnerTank": "Left Inner Tank",
-      "LeftOuterTank": "Left Outer Tank",
-      "ReadyToStart": "Ready to Start",
-      "Refuel": "Refuel",
-      "RefuelTime": "Refuel Time",
-      "Refueling": "Refueling",
-      "RightInnerTank": "Right Inner Tank",
-      "RightOuterTank": "Right Outer Tank",
+      "LeftInnerTank": "左内侧油箱",
+      "LeftOuterTank": "左外侧油箱",
+      "ReadyToStart": "准备开始加油",
+      "Refuel": "加油",
+      "RefuelTime": "加油时间",
+      "Refueling": "加油中",
+      "RightInnerTank": "右内侧油箱",
+      "RightOuterTank": "右外侧油箱",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Aircraft Must Be Cold and Dark to Change Refuel Times",
-        "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "飞机必须处于冷舱状态才能更改加油时间",
+        "FillBlockFuelFromSimBrief": "填充来自SimBrief的燃油量"
       },
-      "Title": "Fuel",
-      "TotalFuel": "Total Fuel",
-      "Unavailable": "Unavailable"
+      "Title": "燃油",
+      "TotalFuel": "总燃油量",
+      "Unavailable": "不可用"
     },
     "Pushback": {
-      "Title": "Pushback"
+      "Title": "推出"
     },
     "Services": {
-      "BaggageTruck": "Baggage Truck",
-      "CateringTruck": "Catering Truck",
-      "DoorAft": "Door Aft",
-      "DoorFwd": "Pintu dpn.",
-      "ExternalPower": "External Power",
-      "FuelTruck": "Fuel Truck",
-      "JetBridge": "Jet Bridge",
-      "Title": "Services"
+      "BaggageTruck": "行李车",
+      "CateringTruck": "餐车",
+      "DoorAft": "后门",
+      "DoorFwd": "前门",
+      "ExternalPower": "外部电源",
+      "FuelTruck": "加油车",
+      "JetBridge": "廊桥",
+      "Title": "地面服务"
     },
-    "Title": "Ground"
+    "Title": "地面"
   },
   "Modals": {
-    "Cancel": "Cancel",
-    "Confirm": "Confirm",
-    "Okay": "Okay"
+    "Cancel": "取消",
+    "Confirm": "确认",
+    "Okay": "好的"
   },
   "NavigationAndCharts": {
-    "All": "All",
-    "Altn": "Altn",
-    "ExitFullscreenMode": "Exit Fullscreen Mode",
-    "From": "From",
+    "All": "所有文件",
+    "Altn": "备降机场",
+    "ExitFullscreenMode": "退出全屏模式",
+    "From": "从",
     "LocalFiles": {
-      "Both": "Both",
-      "EstablishingConnection": "Establishing Connection",
-      "FailedToEstablishConnection": "Failed to Establish Connection.",
-      "FileName": "File Name",
-      "Image": "Image",
-      "Pdf": "Pdf",
-      "Retry": "Retry",
-      "Title": "Local Files"
+      "Both": "全部",
+      "EstablishingConnection": "正在建立连接",
+      "FailedToEstablishConnection": "建立连接失败",
+      "FileName": "文件名",
+      "Image": "图像",
+      "Pdf": "PDF 文件",
+      "Retry": "重试",
+      "Title": "本地文件"
     },
     "Navigraph": {
-      "AirportDoesNotExist": "Airport Does Not Exist",
-      "AuthenticateWithNavigraph": "Authenticate with Navigraph",
-      "InsufficientEnv": "Insufficient .env File",
-      "IntoYourBrowserAndEnterTheCodeBelow": "into your browser and enter the code below\n",
-      "NoAirportSelected": "No Airport Selected",
-      "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
-      "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
+      "AirportDoesNotExist": "机场不存在",
+      "AuthenticateWithNavigraph": "使用 Navigraph 帐户进行身份验证",
+      "InsufficientEnv": ".env 文件数量不足",
+      "IntoYourBrowserAndEnterTheCodeBelow": "进入浏览器并输入下面的代码\n",
+      "NoAirportSelected": "未选择机场",
+      "ResetNavigraphAuthentication": "重置 Navigraph 身份验证",
+      "ScanTheQrCodeOrOpen": "扫描二维码或打开",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
-      "Delete": "Delete",
-      "Edit": "Edit",
-      "NoItemsFound": "No Items Found",
-      "SearchPlaceholder": "Search",
-      "ShowingChartsFromAllProviders": "Showing Charts from All Providers",
+      "Delete": "删除",
+      "Edit": "编辑",
+      "NoItemsFound": "未找到任何项目",
+      "SearchPlaceholder": "搜索",
+      "ShowingChartsFromAllProviders": "显示来自所有提供商的航图",
       "SortMethods": {
-        "AlphabeticalAZ": "Alphabetical - A -> Z",
-        "AlphabeticalZA": "Alphabetical - Z -> A",
-        "FirstAccessed": "First Accessed",
-        "LastAccessed": "Last Accessed",
-        "None": "None"
+        "AlphabeticalAZ": "按字母顺序排列 - A-> Z",
+        "AlphabeticalZA": "按字母顺序排列 - Z -> A",
+        "FirstAccessed": "首次访问",
+        "LastAccessed": "上次访问",
+        "None": "无"
       },
       "TT": {
-        "ChangeChartProvider": "Change Chart Provider",
-        "ChangeChartSortMethod": "Change Chart Sort Method"
+        "ChangeChartProvider": "更换航图来源",
+        "ChangeChartSortMethod": "更改航图排序方式"
       },
-      "Title": "Pinned Charts",
-      "View": "View"
+      "Title": "固定的航图",
+      "View": "浏览"
     },
-    "PleaseWait": "Please Wait",
-    "ShowingAllItems": "Showing All Items",
+    "PleaseWait": "请稍候",
+    "ShowingAllItems": "显示所有项目",
     "TT": {
-      "FitChartToHeight": "Fit Chart to Height",
-      "FitChartToWidth": "Fit Chart to Width",
-      "ResetMovement": "Reset Movement",
-      "RotateLeft45Degrees": "Rotate Left 45 Degrees",
-      "RotateRight45Degrees": "Rotate Right 45 Degrees",
-      "ZoomIn": "Zoom In",
-      "ZoomOut": "Zoom Out"
+      "FitChartToHeight": "使航图适合高度",
+      "FitChartToWidth": "使航图适合宽度",
+      "ResetMovement": "重置移动",
+      "RotateLeft45Degrees": "向左旋转45度",
+      "RotateRight45Degrees": "向右旋转45度",
+      "ZoomIn": "放大",
+      "ZoomOut": "缩小"
     },
-    "ThereAreNoChartsToDisplay": "There are no charts to display.",
-    "ThereIsNoChartToDisplay": "There is no chart to display.",
-    "Title": "Navigation & Charts",
-    "To": "To"
+    "ThereAreNoChartsToDisplay": "没有可以显示的航图",
+    "ThereIsNoChartToDisplay": "没有可以显示的航图",
+    "Title": "导航和航图",
+    "To": "至"
   },
   "Performance": {
-    "Data": "Data",
+    "Data": "数据",
     "Landing": {
-      "AirportIcao": "Airport ICAO",
-      "ApproachSpeed": "Approach Speed",
-      "ApproachSpeedUnit": "kts",
-      "AutoLand": "Autoland",
-      "Calculate": "Calculate",
-      "Clear": "Clear",
-      "DropDownNo": "No",
-      "DropDownYes": "Yes",
-      "FillDataFrom": "Fill data from",
-      "FlapsConfiguration": "Flaps Configuration",
-      "Low": "Low",
-      "MaximumManual": "Maximum Manual",
-      "Medium": "Medium",
-      "OverweightProcedure": "Overweight Procedure",
-      "Qnh": "QNH",
-      "ReverseThrust": "Reverse Thrust",
-      "RunwayAltitude": "Runway Altitude",
-      "RunwayAltitudeUnit": "ft ASL",
-      "RunwayCondition": "Runway Condition",
-      "RunwayHeading": "Runway Heading",
+      "AirportIcao": "机场 ICAO",
+      "ApproachSpeed": "进近速度",
+      "ApproachSpeedUnit": "海里/小时",
+      "AutoLand": "自动着陆",
+      "Calculate": "计算",
+      "Clear": "清空",
+      "DropDownNo": "否",
+      "DropDownYes": "是",
+      "FillDataFrom": "填充的数据来自于",
+      "FlapsConfiguration": "襟翼配置",
+      "Low": "低性能",
+      "MaximumManual": "最高性能手动降落",
+      "Medium": "中性能降落",
+      "OverweightProcedure": "超重程序",
+      "Qnh": "海平面气压",
+      "ReverseThrust": "反推",
+      "RunwayAltitude": "跑道海拔",
+      "RunwayAltitudeUnit": "海拔高度（英尺）",
+      "RunwayCondition": "跑道状况",
+      "RunwayHeading": "跑道航向",
       "RunwayHeadingUnit": "°",
-      "RunwayLda": "Runway LDA",
-      "RunwayLdaUnitFt": "ft",
-      "RunwayLdaUnitMeter": "m",
-      "RunwaySlope": "Runway Slope",
+      "RunwayLda": "跑道可用着陆长度",
+      "RunwayLdaUnitFt": "英尺",
+      "RunwayLdaUnitMeter": "米",
+      "RunwaySlope": "跑道坡度",
       "TT": {
-        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "You need to enter an ICAO code in order to make a METAR request",
-        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "You need to load SimBrief data in order to autofill data"
+        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "您需要输入 ICAO 代码才能提交 METAR 报文申请",
+        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "您需要加载来自SimBrief数据，才能自动填充"
       },
       "Temperature": "Temperature",
-      "Title": "Landing",
-      "UnitFt": "ft",
-      "UnitMeter": "m",
-      "Weight": "Weight",
-      "WindDirection": "Wind Direction",
+      "Title": "着陆",
+      "UnitFt": "英尺",
+      "UnitMeter": "米",
+      "Weight": "重量",
+      "WindDirection": "风向",
       "WindDirectionUnit": "°",
-      "WindMagnitude": "Wind Magnitude",
-      "WindMagnitudeUnit": "kts"
+      "WindMagnitude": "风级",
+      "WindMagnitudeUnit": "节"
     },
-    "SYNC": "SYNC",
-    "Title": "Performance",
+    "SYNC": "同步",
+    "Title": "性能",
     "TopOfDescent": {
       "Data": {
-        "Angle": "Angle",
-        "CurrentAltitude": "Current Altitude",
-        "Distance": "Distance",
-        "GroundSpeed": "Ground Speed",
-        "TargetAltitude": "Target Altitude",
+        "Angle": "角度",
+        "CurrentAltitude": "当前高度",
+        "Distance": "距离",
+        "GroundSpeed": "地速",
+        "TargetAltitude": "目标高度",
         "Title": "Data",
         "UnitAngleDegrees": "degrees",
         "UnitFeet": "feet",

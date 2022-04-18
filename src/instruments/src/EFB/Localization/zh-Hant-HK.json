@@ -44,7 +44,7 @@
         "AirPressure": "氣壓",
         "DewPoint": "露點",
         "IcaoInvalid": "ICAO 代碼無效或無 METAR 供應",
-        "Loading": "加載中…",
+        "Loading": "載入中...",
         "MetarParsingError": "無法解析 METAR",
         "NoIcaoProvided": "未提供 ICAO 代碼",
         "Raw": "原本",
@@ -103,7 +103,7 @@
     "Compact": {
       "Title": "加壓"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "以下故障仿真度未能保證。",
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "未能保證以下故障的仿真度。",
     "Search": "搜尋",
     "Title": "故障"
   },
@@ -123,7 +123,7 @@
       "RightInnerTank": "右內油箱",
       "RightOuterTank": "右外油箱",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "飛機必須完全關掉才能改變加油時間",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "飛機必須冷艙才能改變加油時間",
         "FillBlockFuelFromSimBrief": "由 SimBrief 填充油量"
       },
       "Title": "燃油",
@@ -282,10 +282,10 @@
         "UnitKt": "節 (kts)"
       },
       "Result": {
-        "BeforeTarget": "大約開始你的下降",
+        "BeforeTarget": "開始你的下降",
         "DesiredDescentAngle": "所需的下降角度",
         "DesiredVerticalSpeed": "所需的下降率",
-        "StartYourDescentAbout": "在目標前",
+        "StartYourDescentAbout": "在目標前大約",
         "Title": "結果"
       },
       "TT": {
@@ -354,10 +354,11 @@
       "EngineOutAccelerationHeight": "引擎死火加速度高度 (英尺，ft)",
       "IsisBaroUnit": "ISIS 氣壓單位",
       "IsisMetricAltitude": "ISIS 公尺高度 (米)",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "客倉標誌",
       "RmpVhfSpacing": "RMP 高頻間距",
       "ThrustReductionHeight": "減油高度 (英尺，ft)",
-      "Title": "飛機選項/編上程式",
+      "Title": "飛機選項/電針程式",
       "WeightUnit": "重量單位"
     },
     "AtsuAoc": {
@@ -375,11 +376,11 @@
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "TELEX 包括短信和實時地圖功能。啟用時會使用飛行位置數據。短信是公開式，並不受檢查。自行承擔風險使用。詳情請參閱 https://docs.flybywiresim.com/telex",
       "TelexWarning": "TELEX 警告",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "驗證您的Hoppie-ID時出現錯誤",
       "Title": "ATSU / AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "為了以便我們診斷、監控和處理問題，您可以自願選擇匿名報告錯誤。我們絕不會收集您的個人數據。",
-      "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
-      "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
+      "YourHoppieIdHasBeenRemoved": "您的 Hoppie ID 已被刪除",
+      "YourHoppieIdHasBeenValidated": "您的Hoppie-ID已經驗證",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "您的 SimBrief 用戶編號已被核實和更新"
     },
     "Audio": {

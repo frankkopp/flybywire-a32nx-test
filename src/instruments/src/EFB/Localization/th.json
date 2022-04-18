@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
       "IsisBaroUnit": "ISIS หน่วย Baro",
       "IsisMetricAltitude": "ความสูง ISIS Metric",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "ป้ายห้องโดยสาร",
       "RmpVhfSpacing": "ระยะห่าง RMP VHF",
       "ThrustReductionHeight": "Thrust Reduction Height (ft)",

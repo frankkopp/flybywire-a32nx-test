@@ -1,6 +1,6 @@
 {
   "AirTrafficControl": {
-    "Active": "TEST",
+    "Active": "Aktive Frequenz",
     "ConnectHoppieACARS": "Hoppie ACARS verbinden",
     "NoInformationAvailableForThisFrequency": "Für diese Frequenz sind keine Informationen verfügbar",
     "SetActive": "Als Aktiv",
@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Beschleunigungshöhe bei Triebwerksausfall (Fuß)",
       "IsisBaroUnit": "ISIS-Baro-Einheit",
       "IsisMetricAltitude": "ISIS metrische Höhe",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Passagier-Anzeigen",
       "RmpVhfSpacing": "RMP VHF Kanalraster",
       "ThrustReductionHeight": "Flughöhe für Schubreduzierung (Fuß)",

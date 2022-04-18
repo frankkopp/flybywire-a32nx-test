@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Akselerasjonshøyde for tap av motor (ft)",
       "IsisBaroUnit": "ISIS Baro-enhet",
       "IsisMetricAltitude": "ISIS Metrisk høyde",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Passasjerskilter",
       "RmpVhfSpacing": "RMP VHF-intervall",
       "ThrustReductionHeight": "Kraftreduksjonshøyde (ft)",

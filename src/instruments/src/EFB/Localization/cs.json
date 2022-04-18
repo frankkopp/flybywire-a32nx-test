@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Akcelerační výška s vysazeným motorem - EO ACC (ft AGL)",
       "IsisBaroUnit": "ISIS jednotky tlaku",
       "IsisMetricAltitude": "ISIS metrická nadmořská výška",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Transparenty",
       "RmpVhfSpacing": "RMP VHF rozteč",
       "ThrustReductionHeight": "Výška snížení tahu (ft AGL)",

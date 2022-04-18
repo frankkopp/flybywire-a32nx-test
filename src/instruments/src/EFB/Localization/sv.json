@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Accelerationshöjd för motorfel (ft)",
       "IsisBaroUnit": "ISIS Baro-enhet",
       "IsisMetricAltitude": "ISIS metrisk höjd",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint-format",
       "PaxSigns": "Passagerarskyltar",
       "RmpVhfSpacing": "RMP VHF-avstånd",
       "ThrustReductionHeight": "Höjd för dragkraftsreduktion (ft)",

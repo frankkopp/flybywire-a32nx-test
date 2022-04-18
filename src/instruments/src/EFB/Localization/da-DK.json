@@ -157,8 +157,8 @@
     "From": "Fra",
     "LocalFiles": {
       "Both": "Begge",
-      "EstablishingConnection": "Oprettelse af forbindelse",
-      "FailedToEstablishConnection": "Det lykkedes ikke at etablere forbindelse.",
+      "EstablishingConnection": "Opretter forbindelse",
+      "FailedToEstablishConnection": "Det lykkedes ikke at oprette forbindelse.",
       "FileName": "Filnavn",
       "Image": "Billede",
       "Pdf": "PDF",
@@ -354,6 +354,7 @@
       "EngineOutAccelerationHeight": "Accelerationshøjde for motorfejl (ft)",
       "IsisBaroUnit": "ISIS Baro Unit",
       "IsisMetricAltitude": "Højde ISIS Metric",
+      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Passager skilte",
       "RmpVhfSpacing": "RMP VHF Afstand",
       "ThrustReductionHeight": "Thrustreduktionshøjde (ft)",
