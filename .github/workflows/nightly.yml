@@ -13,14 +13,12 @@ jobs:
     outputs:
       should_run: ${{ steps.should_run.outputs.should_run }}
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v2
       - name: Print latest_commit
         run: echo ${{ github.sha }}
       - id: should_run
         continue-on-error: true
         name: Check latest commit is less than a day
-        if: ${{ github.event_name == 'schedule' }}
+        #        if: ${{ github.event_name == 'schedule' }}
         run: test -z $(git log --since="10 minutes") && echo "::set-output name=should_run::false"
   build:
     needs: check_date
@@ -36,6 +34,8 @@ jobs:
       MASTER_ZIP_NAME: A32NX-master.zip
       BUILD_DIR_NAME: vmaster
     steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
       - name: Set BUILT_DATE_TIME
         run: echo "BUILT_DATE_TIME=$(date -u -Iseconds)" >> $GITHUB_ENV
       - name: Create .env file
