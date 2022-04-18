@@ -18,7 +18,7 @@ jobs:
         run: ./scripts/dev-env/run.sh ./scripts/setup.sh
       - name: Download Translations
         run: ./scripts/dev-env/run.sh npm run build:efb-translation
-      - name: Update resources
+      - name: Update Language Files
         uses: test-room-7/action-update-file@v1
         with:
           # Include all JS files from the `dist` directory
