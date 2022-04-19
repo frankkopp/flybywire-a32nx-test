@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Check latest commit
     outputs:
-      should_run: ${{ steps.should_run.outputs.result }}
+      result: ${{ steps.should_run.outputs.result }}
     steps:
       - name: Checkout source
         uses: actions/checkout@v2
