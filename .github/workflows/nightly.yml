@@ -21,7 +21,7 @@ jobs:
         continue-on-error: true
         name: Check latest commit is less than a day
         # if: ${{ github.event_name == 'schedule' }}
-        run: echo ::set-output name=should_run::$(git log -1 --since="10 minutes")"
+        run: echo ::set-output name=should_run::$(git log -1 --since="10 minutes")
       - name: Result
         run: echo Should run = ${{ needs.check_date.outputs.should_run  }} && echo Owner = ${{ github.repository_owner }}
   build:
