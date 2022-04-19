@@ -21,14 +21,14 @@ jobs:
         continue-on-error: true
         name: Check latest commit is less than a day
         # if: ${{ github.event_name == 'schedule' }}
-        run: echo ::set-output name=should_run::$(git log -1 --since="10 minutes")
+        run: echo BUILD_SHOULD_RUN=$(git log -1 --since="10 minutes") >> $GITHUB_ENV
       - name: Result
-        run: echo Should run = ${{ should_run  }} && echo Owner = ${{ github.repository_owner }}
+        run: echo Should run = ${{ env.BUILD_SHOULD_RUN  }} && echo Owner = ${{ github.repository_owner }}
   build:
     # Prevent running this on forks
     # Prevent this from running when there was no commit in the last 24h
     needs: check_date
-    if: ${{ needs.check_date.outputs.should_run != '' }}
+    if: ${{ env.BUILD_SHOULD_RUN != '' }}
     runs-on: ubuntu-latest
     env:
       A32NX_PRODUCTION_BUILD: 1
@@ -39,7 +39,7 @@ jobs:
       BUILD_DIR_NAME: vmaster
     steps:
       - name: Should Run?
-        run: echo Did run!!! shoud_run = ${{ needs.check_date.outputs.should_run }}
+        run: echo Did run!!! should_run = ${{ env.BUILD_SHOULD_RUN }}
 
 #      - name: Checkout source
 #        uses: actions/checkout@v2
