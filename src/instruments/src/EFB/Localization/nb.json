@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Aktiv",
+    "ChangeATISATCSourceButton": "Endre ATIS/ATC-kilde",
     "ConnectHoppieACARS": "Koble til Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Ingen informasjon er tilgjengelig for denne frekvensen",
+    "SelectCorrectATISATCSource": "Denne siden er bare tilgjengelig når IVAO eller VATSIM er valgt som ATIS/ATC-kilde på innstillingssiden.",
     "SetActive": "Sett aktiv",
     "SetStandby": "Sett standby",
     "Standby": "Standby",
@@ -432,7 +434,8 @@
       "AreYouSureThatYouWantToResetYourCurrentThrottleConfigurationToTheirDefaultStates": "Er du sikker på at du vil tilbakestille gjeldende gasskonfigurasjonsinnstillinger til standard? Denne handlingen er irreversibel.",
       "Axis": "Akse",
       "Back": "Tilbake",
-      "ConfigureEnd": "Avslutt konfigureringen",
+      "ConfigureEnd": "Toleranseområde slutt",
+      "ConfigureStart": "Toleranseområde start",
       "CurrentValue": "Nåværende verdi",
       "Deadband": "Dødsone",
       "ErrorOverlapMsg": "overlapper med",

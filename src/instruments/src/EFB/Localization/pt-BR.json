@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Ativo",
+    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "Conectar Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "NENHUMA INFORMAÇÃO DISPONÍVEL PARA ESSA FREQUÊNCIA",
+    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "Definir ativo",
     "SetStandby": "Setar Standby",
     "Standby": "Standby",
@@ -433,6 +435,7 @@
       "Axis": "Axis",
       "Back": "Back",
       "ConfigureEnd": "Configure End",
+      "ConfigureStart": "Configure Start",
       "CurrentValue": "Current Value",
       "Deadband": "Deadband",
       "ErrorOverlapMsg": "overlaps with",

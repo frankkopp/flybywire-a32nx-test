@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "פעיל",
+    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "לְחַבֵּר Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "אין מידע זמין עבור זה תדר רדיו",
+    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "הגדר פעיל",
     "SetStandby": "להגדיר המתנה",
     "Standby": "המתנה",
@@ -354,7 +356,7 @@
       "EngineOutAccelerationHeight": "גובה תאוצת מנוע (ft)",
       "IsisBaroUnit": "יחידת ברומטר ISIS",
       "IsisMetricAltitude": "גובה מטרי ISIS",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
+      "LatLonExtendedFormat": "פורמט נקודת ציון של קו רוחב/אורך FMGC",
       "PaxSigns": "שלטים PAX",
       "RmpVhfSpacing": "מרווח RMP VHF",
       "ThrustReductionHeight": "גובה הפחתת דחף (ft)",
@@ -433,6 +435,7 @@
       "Axis": "צירים",
       "Back": "חזרה",
       "ConfigureEnd": "להגדיר סוף",
+      "ConfigureStart": "Configure Start",
       "CurrentValue": "ערך נוכחי",
       "Deadband": "דבנד",
       "ErrorOverlapMsg": "חופף עם",

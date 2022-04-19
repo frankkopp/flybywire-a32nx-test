@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Etkin",
+    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "Hoppie ACARS'a bağlan",
     "NoInformationAvailableForThisFrequency": "BU FREKANS İÇİN MEVCUT BİLGİ YOK",
+    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "Etkinleştir",
     "SetStandby": "Beklemede Ayarla",
     "Standby": "Beklemede",
@@ -433,6 +435,7 @@
       "Axis": "Eksen",
       "Back": "Geri",
       "ConfigureEnd": "Sonu Yapılandır",
+      "ConfigureStart": "Configure Start",
       "CurrentValue": "Geçerli Değer",
       "Deadband": "Ölü bant",
       "ErrorOverlapMsg": "ile örtüşen",

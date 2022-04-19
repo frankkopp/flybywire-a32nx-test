@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Đang hoạt động",
+    "ChangeATISATCSourceButton": "Thay đổi nguồn ATIS/ATC",
     "ConnectHoppieACARS": "Kết nối Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "KHÔNG CÓ THÔNG TIN CÓ SẴN CHO TẦN SỐ NÀY",
+    "SelectCorrectATISATCSource": "Trang này chỉ khả dụng khi IVAO hoặc VATSIM được sử dụng làm nguồn ATIS/ATC trong trang Cài đặt.",
     "SetActive": "Đặt hoạt động",
     "SetStandby": "Đặt chế độ chờ",
     "Standby": "Chế độ chờ",
@@ -11,7 +13,7 @@
   "Checklists": {
     "AreYouSureYouWantToResetAllChecklists": "Bạn có chắc chắn muốn đặt lại bảng kiểm không?",
     "AreYouSureYouWantToResetChecklists": "Bạn có chắc chắn muốn đặt lại bảng kiểm không?",
-    "ChecklistResetWarning": "Cảnh báo đặt lại bản kiểm",
+    "ChecklistResetWarning": "Cảnh báo đặt lại bảng kiểm",
     "MarkChecklistAsComplete": "Đánh dấu bảng kiểm là hoàn tất",
     "MarkItemAsComplete": "Đánh dấu mục là hoàn tất",
     "ProceedToNextChecklist": "Tiến tới bảng kiểm tiếp theo",
@@ -60,7 +62,7 @@
     "Title": "Bảng điều khiển",
     "YourFlight": {
       "Alternate": "Thay thế",
-      "AverageWind": "Gió trung bình",
+      "AverageWind": "Vận tốc gió trung bình",
       "CompanyRoute": "Tuyến công ty",
       "CostIndex": "Chỉ số tiêu hao",
       "CruiseAlt": "Độ cao bay đường trường.",
@@ -98,7 +100,7 @@
   },
   "Failures": {
     "Comfort": {
-      "Title": "Sự thoải mái"
+      "Title": "Thoải mái"
     },
     "Compact": {
       "Title": "Nhỏ gọn"
@@ -123,7 +125,7 @@
       "RightInnerTank": "Bình phía phải trong cùng",
       "RightOuterTank": "Bình phía phải ngoài cùng",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Máy bay phải ở trong chế độ lạnh và tối để thay đổi thời gian tiếp nhiên liệu",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Máy bay phải ở trong chế độ Cold and Dark để thay đổi thời gian tiếp nhiên liệu",
         "FillBlockFuelFromSimBrief": "Nạp nhiên liệu từ SimBrief"
       },
       "Title": "Nhiên liệu",
@@ -403,7 +405,7 @@
       "DmcSelfTestTime": "Thời gian tự kiểm tra của DMC",
       "HomeCockpitMode": "Chế độ buồng lái tại nhà",
       "McduFocusTimeout": "Thời gian chờ MCDU chỉnh (giây)",
-      "McduKeyboardInput": "Đầu vào bàn phím cho MCDU",
+      "McduKeyboardInput": "Dùng bàn phím cho MCDU",
       "SeparateTillerFromRudderInputs": "Tách rời Đầu lái bánh xe từ Đầu vào bánh lái",
       "Title": "Mức thực tế"
     },
@@ -433,6 +435,7 @@
       "Axis": "Trục",
       "Back": "Quay lại",
       "ConfigureEnd": "Cấu hình cuối",
+      "ConfigureStart": "Cấu hình bắt đầu",
       "CurrentValue": "Giá trị hiện tại",
       "Deadband": "Deadband",
       "ErrorOverlapMsg": "chồng chéo với",
@@ -460,7 +463,7 @@
       "Local": "Cục bộ",
       "LocalTimeFormat": "Định dạng thời gian cục bộ",
       "OnscreenKeyboardLayout": "Bố cục bàn phím trên màn hình",
-      "ShowColoredRawMetar": "Hiển thị màu METAR",
+      "ShowColoredRawMetar": "Hiển thị METAR nguyên có màu",
       "ShowStatusBarFlightProgressIndicator": "Hiển thị thanh trạng thái chuyến bay",
       "Theme": "Giao diện",
       "TimeDisplayed": "Thời gian hiển thị",
