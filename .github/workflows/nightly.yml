@@ -13,8 +13,6 @@ jobs:
     outputs:
       result: ${{ steps.should_run.outputs.result }}
     steps:
-      #      - name: Checkout source
-      #        uses: actions/checkout@v3
       - name: Shallow clone remote repo
         run: git clone https://github.com/frankkopp/flybywire-a32nx-test -b master --depth 3 --bare --filter=blob:none -q .
       - name: Print latest_commit
@@ -32,17 +30,16 @@ jobs:
     needs: check_date
     if: ${{ (needs.check_date.outputs.result != '') && (github.repository_owner == 'frankkopp') }}
     runs-on: ubuntu-latest
-    #    env:
-    #      A32NX_PRODUCTION_BUILD: 1
-    #      A32NX_INSTRUMENTS_BUILD_WORKERS: 2
-    #      MASTER_PRE_RELEASE_ID: 32243965
-    #      MASTER_PRE_RELEASE_TAG: vmaster
-    #      MASTER_ZIP_NAME: A32NX-master.zip
-    #      BUILD_DIR_NAME: vmaster
+    env:
+      A32NX_PRODUCTION_BUILD: 1
+      A32NX_INSTRUMENTS_BUILD_WORKERS: 2
+      MASTER_PRE_RELEASE_ID: 32243965
+      MASTER_PRE_RELEASE_TAG: vmaster
+      MASTER_ZIP_NAME: A32NX-master.zip
+      BUILD_DIR_NAME: vmaster
     steps:
       - name: Should Run?
         run: echo "Did run!!! should_run = ${{ needs.check_date.outputs.result }}"
-
 #      - name: Checkout source
 #        uses: actions/checkout@v3
 #      - name: Set BUILT_DATE_TIME

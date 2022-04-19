@@ -27,7 +27,7 @@ jobs:
         with:
           path: src/instruments/src/EFB/Localization/*.json
           branch: language-update # Specify branch that this action uses.
-          commit-message: 'build: update flyPadOS3 localization'
+          commit-message: 'automatically updated flyPadOS3 localization'
           title: 'build: update flyPadOS3 localization'
           body: >
             This PR automatically downloads and updates the approved changes from Localazy translations for 
