@@ -16,7 +16,7 @@ jobs:
       #      - name: Checkout source
       #        uses: actions/checkout@v3
       - name: Shallow clone remote repo
-        run: git clone --filter=blob:none --no-checkout --single-branch --branch master git://github.com/frankkopp/flybywire-a32nx-test
+        run: git clone https://github.com/frankkopp/flybywire-a32nx-test -b master --depth 3 --bare --filter=blob:none -q .
       - name: Print latest_commit
         run: git log -1 --relative-date
       - id: should_run
