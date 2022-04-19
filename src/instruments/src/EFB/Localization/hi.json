@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "सक्रिय",
+    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "कनेक्ट हॉपी एकारस",
     "NoInformationAvailableForThisFrequency": "इस आवृत्ति के लिए कोई जानकारी उपलब्ध नहीं है",
+    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "सक्रिय सेट करें",
     "SetStandby": "स्टैंडबाय सेट करें",
     "Standby": "स्टैंडबाय",
@@ -433,6 +435,7 @@
       "Axis": "Axis",
       "Back": "Back",
       "ConfigureEnd": "Configure End",
+      "ConfigureStart": "Configure Start",
       "CurrentValue": "Current Value",
       "Deadband": "Deadband",
       "ErrorOverlapMsg": "overlaps with",

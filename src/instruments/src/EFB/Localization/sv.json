@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Aktiv",
+    "ChangeATISATCSourceButton": "Ändra ATIS/ATC-källa",
     "ConnectHoppieACARS": "Anslut Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "INFORMATION EJ TILLGÄNGLIG FÖR DENNA FREKVENS",
+    "SelectCorrectATISATCSource": "Denna sida är endast tillgänglig när IVAO eller VATSIM har valts som ATIS/ATC-källa på inställningssidan.",
     "SetActive": "Sätt Aktiv",
     "SetStandby": "Sätt Standby",
     "Standby": "Standby",
@@ -433,6 +435,7 @@
       "Axis": "Axel",
       "Back": "Tillbaka",
       "ConfigureEnd": "Toleransområde slut",
+      "ConfigureStart": "Toleransområde start",
       "CurrentValue": "Aktuellt värde",
       "Deadband": "Toleransområde",
       "ErrorOverlapMsg": "överlappar med",
