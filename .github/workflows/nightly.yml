@@ -23,20 +23,20 @@ jobs:
         # if: ${{ github.event_name == 'schedule' }}
         run: echo ::set-output name=result::$(git log -1 --since="10 minutes")
       - name: Result
-        run: echo Should run = ${{ steps.should_run.outputs.result }} && echo Owner = ${{ github.repository_owner }}
+        run: echo "Should run = ${{ steps.should_run.outputs.result }}" && echo "Owner = ${{ github.repository_owner }}"
   build:
     # Prevent running this on forks
     # Prevent this from running when there was no commit in the last 24h
     needs: check_date
     #    if: ${{ env.BUILD_SHOULD_RUN != '' }}
     runs-on: ubuntu-latest
-    env:
-      A32NX_PRODUCTION_BUILD: 1
-      A32NX_INSTRUMENTS_BUILD_WORKERS: 2
-      MASTER_PRE_RELEASE_ID: 32243965
-      MASTER_PRE_RELEASE_TAG: vmaster
-      MASTER_ZIP_NAME: A32NX-master.zip
-      BUILD_DIR_NAME: vmaster
+    #    env:
+    #      A32NX_PRODUCTION_BUILD: 1
+    #      A32NX_INSTRUMENTS_BUILD_WORKERS: 2
+    #      MASTER_PRE_RELEASE_ID: 32243965
+    #      MASTER_PRE_RELEASE_TAG: vmaster
+    #      MASTER_ZIP_NAME: A32NX-master.zip
+    #      BUILD_DIR_NAME: vmaster
     steps:
       - name: Should Run?
         run: echo "Did run!!! should_run = ${{ needs.check_date.outputs.result }}"
