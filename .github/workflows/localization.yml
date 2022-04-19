@@ -38,6 +38,9 @@ jobs:
           title: 'build: update flyPadOS3 localization'
           body: >
             This PR automatically downloads and updates the approved changes from Localazy translations for the flyPadOS3.
+          labels: |
+            EFB
+            i18n
       #      - name: Create Pull Request
       #        uses: peter-evans/create-pull-request@v4
       #        with:
