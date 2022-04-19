@@ -31,7 +31,7 @@
       },
       "GoToPage": "Gehe zur Seite",
       "Maintenance": {
-        "NoActiveFailures": "Keine aktiven Ausfälle",
+        "NoActiveFailures": "Keine aktiven Störungen",
         "Title": "Wartung"
       },
       "PinnedCharts": {
@@ -105,9 +105,9 @@
     "Compact": {
       "Title": "Kompakt"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Eine vollständige Simulation der folgenden Ausfälle ist noch nicht garantiert.",
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Eine vollständige Simulation der folgenden Störungen ist noch nicht garantiert.",
     "Search": "Suchen",
-    "Title": "Ausfälle"
+    "Title": "Störungen"
   },
   "Ground": {
     "Fuel": {
