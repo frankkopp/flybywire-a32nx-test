@@ -39,7 +39,7 @@ jobs:
       BUILD_DIR_NAME: vmaster
     steps:
       - name: Should Run?
-        run: echo Did run!!! should_run = ${{ needs.check_date.outputs.result }}
+        run: echo "Did run!!! should_run = ${{ needs.check_date.outputs.result }}"
 
 #      - name: Checkout source
 #        uses: actions/checkout@v2
