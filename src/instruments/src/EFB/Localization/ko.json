@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "프리셋을 저장하려면 항공기에 전원이 공급되어야 합니다",
       "LoadPreset": "프리셋 불러오기",
       "LoadingPreset": "프리셋 불러오는 중...",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "이름 없음",
       "PleaseConfirmSavingPreset": "저장하려는 프리셋을 확인해주세요",
       "SavePreset": "프리셋 저장",

@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Ön Ayarları Kaydetmek için Uçağa Güç Verilmesi Gerekiyor",
       "LoadPreset": "Ön Ayarı Yükle",
       "LoadingPreset": "Ön Ayar Yükleniyor",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "İsimsiz",
       "PleaseConfirmSavingPreset": "Lütfen Ön Ayarı Kaydetmeyi Onaylayın",
       "SavePreset": "Ön ayarı kaydet",

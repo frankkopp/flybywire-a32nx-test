@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Aircraft Needs to Be Powered to Save Presets",
       "LoadPreset": "Load Preset",
       "LoadingPreset": "Loading Preset",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "No Name",
       "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
       "SavePreset": "Save Preset",

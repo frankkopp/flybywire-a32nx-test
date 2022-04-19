@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "プリセットを保存するには、航空機に電力を供給する必要があります",
       "LoadPreset": "プリセットの読み込み",
       "LoadingPreset": "プリセットの読み込み中",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "名称未設定",
       "PleaseConfirmSavingPreset": "プリセットの保存を確認してください",
       "SavePreset": "プリセットの保存",

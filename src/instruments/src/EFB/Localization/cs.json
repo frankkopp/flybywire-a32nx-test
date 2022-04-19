@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "K uložení předvoleb musí být letadlo napájené",
       "LoadPreset": "Načíst předvolbu",
       "LoadingPreset": "Načítání předvolby",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "Bez názvu",
       "PleaseConfirmSavingPreset": "Prosím potvrďte uložení předvolby",
       "SavePreset": "Uložit předvolbu",

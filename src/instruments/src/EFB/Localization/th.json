@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "เครื่องบินจำเป็นต้องใช้พลังงานสำหรับการบันทึกค่าที่ตั้งไว้",
       "LoadPreset": "โหลดค่าที่ตั้งไว้ล่วงหน้า",
       "LoadingPreset": "กำลังโหลดค่าที่ตั้งไว้",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "ไม่มีชื่อ",
       "PleaseConfirmSavingPreset": "กรุณายืนยันการบันทึกค่าที่ตั้งไว้ล่วงหน้า",
       "SavePreset": "บันทึกค่าที่ตั้งไว้",

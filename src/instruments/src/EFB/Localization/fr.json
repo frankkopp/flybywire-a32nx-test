@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "L'avion doit être alimenté pour enregistrer les préréglages",
       "LoadPreset": "Charger le préréglage",
       "LoadingPreset": "Chargement du préréglage",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "Sans nom",
       "PleaseConfirmSavingPreset": "Veuillez confirmer l'enregistrement du préréglage",
       "SavePreset": "Sauvegarder le préréglage",

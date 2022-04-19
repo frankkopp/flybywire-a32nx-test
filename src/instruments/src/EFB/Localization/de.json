@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Das Flugzeug muss mit Strom versorgt sein, um Voreinstellungen zu speichern",
       "LoadPreset": "Voreinstellung laden",
       "LoadingPreset": "Voreinstellung wird geladen",
+      "NewNameConfirmationDialogMsg": "Bestätige bitte den neuen Namen der Voreinstellung",
       "NoName": "Kein Name",
       "PleaseConfirmSavingPreset": "Bitte bestätige das Speichern der Voreinstellung",
       "SavePreset": "Voreinstellung speichern",

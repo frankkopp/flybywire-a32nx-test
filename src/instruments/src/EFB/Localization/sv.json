@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Flygplan måste ha ström för att spara förinställningar",
       "LoadPreset": "Ladda förval",
       "LoadingPreset": "Laddar förval …",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "Namnlös",
       "PleaseConfirmSavingPreset": "Bekräfta att spara förinställning",
       "SavePreset": "Spara förval",

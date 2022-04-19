@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Máy bay cần được cung cấp năng lượng để lưu cấu hình sẵn",
       "LoadPreset": "Tải cấu hình sẵn",
       "LoadingPreset": "Đang tải cấu hình sẵn",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "Không tên",
       "PleaseConfirmSavingPreset": "Vui lòng xác nhận lưu cấu hình sẵn.",
       "SavePreset": "Lưu cấu hình sẵn",

@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Самолёт должен иметь питание для загрузки пресетов",
       "LoadPreset": "Загрузить пресет",
       "LoadingPreset": "Загрузка пресета...",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "Без имени",
       "PleaseConfirmSavingPreset": "Подтвердите сохранение пресета",
       "SavePreset": "Сохранить пресет",

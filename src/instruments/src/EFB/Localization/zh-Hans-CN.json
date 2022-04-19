@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "飞机必须接通电源才能保存预设",
       "LoadPreset": "加载预设",
       "LoadingPreset": "正在加载预设",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "无名称",
       "PleaseConfirmSavingPreset": "请确认保存预设",
       "SavePreset": "保存预设",

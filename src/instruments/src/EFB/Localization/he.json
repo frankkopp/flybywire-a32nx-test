@@ -318,6 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "מטוס צריך להיות מופעל כדי לשמור הגדרות קבועות מראש",
       "LoadPreset": "טען הגדרה מראש",
       "LoadingPreset": "טעינה מוגדר מראש",
+      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
       "NoName": "ללא שם",
       "PleaseConfirmSavingPreset": "נא אשר את שמירת ההגדרה המוגדרת מראש",
       "SavePreset": "שמור על הגדרה מראש",
