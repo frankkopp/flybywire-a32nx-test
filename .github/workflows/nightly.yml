@@ -13,8 +13,10 @@ jobs:
     outputs:
       result: ${{ steps.should_run.outputs.result }}
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v3
+      #      - name: Checkout source
+      #        uses: actions/checkout@v3
+      - name: Shallow clone remote repo
+        run: git clone https://github.com/frankkopp/flybywire-a32nx-test -b master --depth 3 --bare --filter=blob:none -q .
       - name: Print latest_commit
         run: git log -1 --relative-date
       - id: should_run
