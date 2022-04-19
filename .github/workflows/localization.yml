@@ -30,7 +30,10 @@ jobs:
           commit-message: 'build: update flyPadOS3 localization'
           title: 'build: update flyPadOS3 localization'
           body: >
-            This PR automatically downloads and updates the approved changes from Localazy translations for the flyPadOS3.
+            This PR automatically downloads and updates the approved changes from Localazy translations for 
+            the flyPadOS3 for persisting these changes in the repo. 
+            Changes a be collected in this PR and this PR needs to be manually merged to master eventually.
+            Ask on Discord #efb if you have questions about this.
           labels: |
             EFB,
             i18n
