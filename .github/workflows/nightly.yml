@@ -14,7 +14,7 @@ jobs:
       result: ${{ steps.should_run.outputs.result }}
     steps:
       - name: Checkout source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Print latest_commit
         run: git log -1 --relative-date
       - id: should_run
@@ -42,7 +42,7 @@ jobs:
         run: echo "Did run!!! should_run = ${{ needs.check_date.outputs.result }}"
 
 #      - name: Checkout source
-#        uses: actions/checkout@v2
+#        uses: actions/checkout@v3
 #      - name: Set BUILT_DATE_TIME
 #        run: echo "BUILT_DATE_TIME=$(date -u -Iseconds)" >> $GITHUB_ENV
 #      - name: Create .env file
