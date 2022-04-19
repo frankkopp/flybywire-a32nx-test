@@ -38,28 +38,31 @@ jobs:
       MASTER_ZIP_NAME: A32NX-master.zip
       BUILD_DIR_NAME: vmaster
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v2
-      - name: Set BUILT_DATE_TIME
-        run: echo "BUILT_DATE_TIME=$(date -u -Iseconds)" >> $GITHUB_ENV
-      - name: Create .env file
-        run: |
-          echo A32NX_PRODUCTION_BUILD=1 >> .env
-          echo CLIENT_ID=${{ secrets.NAVIGRAPH_CLIENT_ID }} >> .env
-          echo CLIENT_SECRET=${{ secrets.NAVIGRAPH_CLIENT_SECRET }} >> .env
-          echo CHARTFOX_SECRET=${{ secrets.CHARTFOX_SECRET }} >> .env
-          echo SENTRY_DSN=${{ secrets.SENTRY_DSN }} >> .env
-          echo LOCALAZY_READ_KEY=${{ secrets.LOCALAZY_READ_KEY }} >> .env
-      - name: Build A32NX
-        run: |
-          ./scripts/dev-env/run.sh ./scripts/setup.sh
-          ./scripts/dev-env/run.sh ./scripts/build.sh --no-tty -j 4
-      - name: Build ZIP files
-        run: |
-          ./scripts/dev-env/run.sh node ./scripts/fragment.js
+      - name: Should Run?
+        run: echo Did run!!!
 
-          mkdir ./${{ env.BUILD_DIR_NAME }}
-          zip -r ./${{ env.BUILD_DIR_NAME }}/${{ env.MASTER_ZIP_NAME }} ./flybywire-aircraft-a320-neo/
+#      - name: Checkout source
+#        uses: actions/checkout@v2
+#      - name: Set BUILT_DATE_TIME
+#        run: echo "BUILT_DATE_TIME=$(date -u -Iseconds)" >> $GITHUB_ENV
+#      - name: Create .env file
+#        run: |
+#          echo A32NX_PRODUCTION_BUILD=1 >> .env
+#          echo CLIENT_ID=${{ secrets.NAVIGRAPH_CLIENT_ID }} >> .env
+#          echo CLIENT_SECRET=${{ secrets.NAVIGRAPH_CLIENT_SECRET }} >> .env
+#          echo CHARTFOX_SECRET=${{ secrets.CHARTFOX_SECRET }} >> .env
+#          echo SENTRY_DSN=${{ secrets.SENTRY_DSN }} >> .env
+#          echo LOCALAZY_READ_KEY=${{ secrets.LOCALAZY_READ_KEY }} >> .env
+#      - name: Build A32NX
+#        run: |
+#          ./scripts/dev-env/run.sh ./scripts/setup.sh
+#          ./scripts/dev-env/run.sh ./scripts/build.sh --no-tty -j 4
+#      - name: Build ZIP files
+#        run: |
+#          ./scripts/dev-env/run.sh node ./scripts/fragment.js
+#
+#          mkdir ./${{ env.BUILD_DIR_NAME }}
+#          zip -r ./${{ env.BUILD_DIR_NAME }}/${{ env.MASTER_ZIP_NAME }} ./flybywire-aircraft-a320-neo/
 #      - name: Get and delete master pre-release zip asset
 #        run: |
 #          echo 'checking for first release asset...'
