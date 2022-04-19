@@ -23,7 +23,7 @@ jobs:
         # if: ${{ github.event_name == 'schedule' }}
         run: test -z $(git rev-list --after="20 minutes" ${{ github.sha }}) && echo "::set-output name=should_run::false"
       - name: Result
-        run: echo Should run ${{ needs.check_date.outputs.should_run != 'false' }} && echo Owner correct ${{ github.repository_owner == 'frankkopp' }}
+        run: echo Should run ${{ needs.check_date.outputs.should_run != 'false' }} && echo Owner correct ${{ github.repository_owner == 'frankkopp' }} ${{ github.repository_owner }}
   build:
     # Prevent running this on forks
     # Prevent this from running when there was no commit in the last 24h
