@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Aktivno",
+    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "Povežite Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "ZA TO FREKVENCO NI NA VOLJO NOBENIH INFORMACIJ",
+    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "Nastavi kot aktivno",
     "SetStandby": "Nastavi v pripravljenost",
     "Standby": "V pripravljenosti",
@@ -433,6 +435,7 @@
       "Axis": "Os",
       "Back": "Nazaj",
       "ConfigureEnd": "Končaj konfiguracijo",
+      "ConfigureStart": "Configure Start",
       "CurrentValue": "Trenutna vrednost",
       "Deadband": "Mrtvi trak",
       "ErrorOverlapMsg": "se prekriva z/s",

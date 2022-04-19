@@ -1,6 +1,6 @@
 {
   "AirTrafficControl": {
-    "Active": "Aktywny",
+    "Active": "Activo",
     "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "Connect Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "No information available for this frequency",

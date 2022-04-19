@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Активная",
+    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "Подключить Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Нет доступной информации по этой частоте",
+    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "Установить активную",
     "SetStandby": "Установить резервную",
     "Standby": "Резервная",
@@ -433,6 +435,7 @@
       "Axis": "Ось",
       "Back": "Назад",
       "ConfigureEnd": "Настроить конец защелки",
+      "ConfigureStart": "Configure Start",
       "CurrentValue": "Текущее значение",
       "Deadband": "Зона нечувствительности",
       "ErrorOverlapMsg": "перекрывается",

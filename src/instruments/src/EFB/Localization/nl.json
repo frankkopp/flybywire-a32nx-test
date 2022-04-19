@@ -1,8 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Actief",
+    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
     "ConnectHoppieACARS": "Verbindt Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Geen informatie beschikbaar voor deze frequentie",
+    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "Actief instellen",
     "SetStandby": "Stand-by instellen",
     "Standby": "Stand-by",
@@ -170,7 +172,7 @@
       "AuthenticateWithNavigraph": "Authenticeren met Navigraph",
       "InsufficientEnv": "Incorrect .env-bestand",
       "IntoYourBrowserAndEnterTheCodeBelow": "in uw browser en voer de onderstaande code in\n",
-      "NoAirportSelected": "No Airport Selected",
+      "NoAirportSelected": "Geen luchthaven geselecteerd",
       "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
       "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
       "Title": "Navigraph"
@@ -433,6 +435,7 @@
       "Axis": "Axis",
       "Back": "Back",
       "ConfigureEnd": "Configure End",
+      "ConfigureStart": "Configure Start",
       "CurrentValue": "Current Value",
       "Deadband": "Deadband",
       "ErrorOverlapMsg": "overlaps with",
