@@ -21,9 +21,9 @@ jobs:
         continue-on-error: true
         name: Check latest commit is less than a day
         # if: ${{ github.event_name == 'schedule' }}
-        run: test -z $(git rev-list --after="10 minutes" ${{ github.sha }}) && echo "::set-output name=should_run::false"
+        run: test -z $(git log -1 --since="10 minutes")
       - name: Result
-        run: echo Should run ${{ needs.check_date.outputs.should_run != 'false' }} && echo Owner correct ${{ github.repository_owner == 'frankkopp' }} ${{ github.repository_owner }}
+        run: echo Should run = ${{ needs.check_date.outputs.should_run  }} && echo Owner = ${{ github.repository_owner }}
   build:
     # Prevent running this on forks
     # Prevent this from running when there was no commit in the last 24h
