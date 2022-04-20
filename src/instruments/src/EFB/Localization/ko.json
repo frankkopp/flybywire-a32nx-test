@@ -3,7 +3,7 @@
     "Active": "활성",
     "ChangeATISATCSourceButton": "ATIS/ATC 출처 변경",
     "ConnectHoppieACARS": "Hoppie ACARS 연결",
-    "NoInformationAvailableForThisFrequency": "이 주파수에 사용 가능한 정보 없음",
+    "NoInformationAvailableForThisFrequency": "이 주파수에서 사용할 수 있는 정보 없음",
     "SelectCorrectATISATCSource": "이 페이지는 설정 페이지의 ATIS/ATC 출처를 IVAO 또는 VATSIM으로 설정했을 때만 사용할 수 있습니다.",
     "SetActive": "활성 주파수로 설정",
     "SetStandby": "대기 주파수로 설정",
@@ -68,7 +68,7 @@
       "CruiseAlt": "순항 고도",
       "ImportSimBriefData": "SimBrief 데이터 불러오기",
       "Route": "루트",
-      "SimBriefDataNotYetLoaded": "SimBrief 데이터가 아직 로드되지 않았습니다.",
+      "SimBriefDataNotYetLoaded": "SimBrief 데이터가 로드되지 않았습니다.",
       "Title": "운항 정보",
       "ZFW": "ZFW"
     }
@@ -81,7 +81,7 @@
         "ReduceFontSize": "글씨 작게"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "아직 SimBrief 데이터를 불러오지 않았습니다."
+      "YouHaveNotYetImportedAnySimBriefData": "SimBrief 데이터를 불러오지 않았습니다."
     },
     "Overview": {
       "Engines": "엔진",
@@ -93,7 +93,7 @@
       "MaximumFuelCapacity": "최대 연료 용량",
       "MaximumPassengers": "최대 승객 수",
       "Model": "모델",
-      "Range": "거리",
+      "Range": "항속 거리",
       "Title": "개요"
     },
     "Title": "운항 관리"
@@ -174,7 +174,7 @@
       "IntoYourBrowserAndEnterTheCodeBelow": "브라우저에서 아래 코드를 입력하세요",
       "NoAirportSelected": "선택된 공항 없음",
       "ResetNavigraphAuthentication": "Navigraph 인증 재설정",
-      "ScanTheQrCodeOrOpen": "QR코드 스캔 또는 열기",
+      "ScanTheQrCodeOrOpen": "QR코드 스캔 또는 열기 - ",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
@@ -318,7 +318,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "프리셋을 저장하려면 항공기에 전원이 공급되어야 합니다",
       "LoadPreset": "프리셋 불러오기",
       "LoadingPreset": "프리셋 불러오는 중...",
-      "NewNameConfirmationDialogMsg": "Please confirm new name of Lighting Preset",
+      "NewNameConfirmationDialogMsg": "조명 프리셋의 이름을 확인해주세요",
       "NoName": "이름 없음",
       "PleaseConfirmSavingPreset": "저장하려는 프리셋을 확인해주세요",
       "SavePreset": "프리셋 저장",
