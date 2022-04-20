@@ -4,7 +4,7 @@
     "ChangeATISATCSourceButton": "更改 ATIS/ATC 来源",
     "ConnectHoppieACARS": "连接 Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "当前频率里没有可用的信息",
-    "SelectCorrectATISATCSource": "只有在设置页面中选择 IVAO 或 VATSIM 作为 ATIS/ATC 来源时,此页面才可用.",
+    "SelectCorrectATISATCSource": "只有在设置页面中选择 IVAO 或 VATSIM 作为 ATIS/ATC 来源时,此页面才可用。",
     "SetActive": "设置为启用",
     "SetStandby": "设置为待命",
     "Standby": "待命",
