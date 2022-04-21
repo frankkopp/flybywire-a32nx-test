@@ -285,7 +285,7 @@
       },
       "Result": {
         "BeforeTarget": "で降下開始",
-        "DesiredDescentAngle": "望ましい降下角",
+        "DesiredDescentAngle": "望ましい降下角度",
         "DesiredVerticalSpeed": "望ましい降下速度",
         "StartYourDescentAbout": "目標の手前",
         "Title": "結果"
