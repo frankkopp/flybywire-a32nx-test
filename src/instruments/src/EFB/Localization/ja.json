@@ -125,7 +125,7 @@
       "RightInnerTank": "右内側タンク",
       "RightOuterTank": "右外側タンク",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "給油時間を変更するには、機体の状態をコールド＆ダーク(全電源停止)にする必要がある",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "給油時間を変更するには、機体の状態をコールド＆ダーク(全電源停止)にする必要があります",
         "FillBlockFuelFromSimBrief": "SimBriefからブロック燃料を読み込む"
       },
       "Title": "燃料",
@@ -232,15 +232,15 @@
       "OverweightProcedure": "過積載の手順",
       "Qnh": "QNH",
       "ReverseThrust": "逆噴射の使用",
-      "RunwayAltitude": "滑走路標高",
+      "RunwayAltitude": "滑走路の標高",
       "RunwayAltitudeUnit": "ft(海抜高度)",
       "RunwayCondition": "滑走路の状態",
-      "RunwayHeading": "滑走路方位",
+      "RunwayHeading": "滑走路の方位",
       "RunwayHeadingUnit": "°",
-      "RunwayLda": "滑走路LDA",
+      "RunwayLda": "滑走路のLDA",
       "RunwayLdaUnitFt": "ft",
       "RunwayLdaUnitMeter": "m",
-      "RunwaySlope": "滑走路勾配",
+      "RunwaySlope": "滑走路の勾配",
       "TT": {
         "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "METARをリクエストするにはICAOコードを入力してください",
         "YouNeedToLoadSimBriefDataInOrderToAutofillData": "データを自動入力するにはSimBriefのデータを読み込む必要があります"
@@ -407,7 +407,7 @@
       "HomeCockpitMode": "ホームコックピットモード",
       "McduFocusTimeout": "MCDUへのフォーカスがタイムアウトする時間(秒)",
       "McduKeyboardInput": "MCDUへのキーボード入力",
-      "SeparateTillerFromRudderInputs": "ティラーをラダー入力から分離する",
+      "SeparateTillerFromRudderInputs": "ティラーをラダー入力から分離",
       "Title": "リアリズム"
     },
     "SimOptions": {
@@ -427,7 +427,7 @@
       "SyncMsfsFlightPlan": "MSFSのフライトプランと同期",
       "ThrottleDetents": "スロットルディテント",
       "Title": "シミュレーターオプション",
-      "UseCalculatedIlsSignals": "計算されたILS信号を使用する",
+      "UseCalculatedIlsSignals": "計算されたILS信号を使用",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -448,14 +448,14 @@
       "ReverseIdle": "Reverse Idle",
       "ReverserOnAxis": "逆噴射を軸に設定",
       "SaveAndApply": "保存して適用",
-      "SetFromThrottle": "現在のスロットルをセット",
+      "SetFromThrottle": "現在のスロットル値をセット",
       "ThrottleConfigurationReset": "スロットル構成のリセット"
     },
     "Title": "設定",
     "Unrealistic": "非現実的",
     "flyPad": {
       "AutoBrightness": "明るさ自動調節",
-      "AutomaticallyShowOnscreenKeyboard": "スクリーンキーボードを自動的に表示する",
+      "AutomaticallyShowOnscreenKeyboard": "スクリーンキーボードを自動的に表示",
       "Blue": "ブルー",
       "Brightness": "明るさ",
       "Dark": "ダーク",
