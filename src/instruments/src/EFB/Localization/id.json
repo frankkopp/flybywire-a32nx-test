@@ -1,14 +1,14 @@
 {
   "AirTrafficControl": {
     "Active": "Aktif",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Ubah sumber ATIS/ATC",
     "ConnectHoppieACARS": "Connect Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "No information available for this frequency",
     "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
     "SetActive": "Set Active",
     "SetStandby": "Set Standby",
     "Standby": "Standby",
-    "Title": "Air Traffic Control"
+    "Title": "Pemandu Lalu lintas Udara (ATC)"
   },
   "Checklists": {
     "AreYouSureYouWantToResetAllChecklists": "Are you sure you want to reset all checklists?",
@@ -128,20 +128,20 @@
         "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Aircraft Must Be Cold and Dark to Change Refuel Times",
         "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
       },
-      "Title": "Fuel",
-      "TotalFuel": "Total Fuel",
+      "Title": "Bahan Bakar",
+      "TotalFuel": "Total Bahan Bakar",
       "Unavailable": "Unavailable"
     },
     "Pushback": {
       "Title": "Pushback"
     },
     "Services": {
-      "BaggageTruck": "Baggage Truck",
-      "CateringTruck": "Catering Truck",
+      "BaggageTruck": "Truk Bagasi",
+      "CateringTruck": "Truk Katering",
       "DoorAft": "Door Aft",
       "DoorFwd": "Door Fwd",
       "ExternalPower": "External Power",
-      "FuelTruck": "Fuel Truck",
+      "FuelTruck": "Truk Bahan Bakar",
       "JetBridge": "Garbarata",
       "Title": "Services"
     },
@@ -173,7 +173,7 @@
       "InsufficientEnv": "Insufficient .env File",
       "IntoYourBrowserAndEnterTheCodeBelow": "into your browser and enter the code below\n",
       "NoAirportSelected": "No Airport Selected",
-      "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
+      "ResetNavigraphAuthentication": "Atur Ulang Autentikasi Navigraph",
       "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
       "Title": "Navigraph"
     },
@@ -275,9 +275,9 @@
         "Add": "Tambah",
         "FetchingSpeedFromSimulator": "Mengambil data kecepatan dari simulator",
         "GroundSpeed": "Ground Speed",
-        "ManualInput": "Manual Input",
-        "MinAltitude": "Min. Altitude",
-        "RemoveLast": "Remove Last",
+        "ManualInput": "Input Manual",
+        "MinAltitude": "Ketinggian Minimal",
+        "RemoveLast": "Singkirkan Terakhir",
         "Sync": "SYNC",
         "Title": "Ground Speed",
         "UnitKnots": "knot",
@@ -304,13 +304,13 @@
       "ConfirmationDialogMsg": "Please confirm loading of preset.",
       "CurrentProcedureStep": "Current Procedure Step",
       "PleaseConfirmLoadingOfPreset": "Please confirm loading of preset.",
-      "ReadyPushback": "Ready for Pushback",
-      "ReadyTakeoff": "Ready for Takeoff",
-      "ReadyTaxi": "Ready for Taxi",
+      "ReadyPushback": "Siap untuk Pushback",
+      "ReadyTakeoff": "Siap untuk Lepas Landas",
+      "ReadyTaxi": "Siap untuk Taxi",
       "SelectAPresetToLoad": "Select a Preset to Load",
       "TheAircraftMustBeOnTheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
       "TheAircraftMustBeOntheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "Title": "Aircraft States",
+      "Title": "Kondisi Pesawat",
       "Turnaround": "Turnaround"
     },
     "InteriorLighting": {
@@ -373,13 +373,13 @@
       "HoppieUserId": "Hoppie User ID",
       "MetarSource": "METAR Source",
       "OptionalA32nxErrorReporting": "Optional A32NX Error Reporting",
-      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Please check that you have correctly entered your SimBrief username or pilot ID.",
-      "SimBriefUsernamePilotId": "SimBrief Username/Pilot ID",
+      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Mohon periksa kesesuaian data username/pilot ID SimBrief anda.",
+      "SimBriefUsernamePilotId": "Username/Pilot ID SimBrief",
       "TafSource": "TAF Source",
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "TELEX enables free text and live map. If enabled, aircraft position data is published for the duration of the flight. Messages are public and not moderated. USE THIS FEATURE AT YOUR OWN RISK. To learn more about TELEX and the features it enables, please go to https://docs.flybywiresim.com/telex.",
-      "TelexWarning": "TELEX Warning",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "TelexWarning": "Peringatan TELEX",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "Validasi ID Hoppie anda gagal.",
       "Title": "ATSU / AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "You are able to opt into anonymous error reporting that will allow us to diagnose, monitor, and take care of issues at a faster rate. This feature is completely optional and we will never collect your personal data, but may allow you to more easily get support and have the issues you encounter fixed at a faster rate.",
       "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",

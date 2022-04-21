@@ -169,12 +169,12 @@
     },
     "Navigraph": {
       "AirportDoesNotExist": "空港が存在しません",
-      "AuthenticateWithNavigraph": "Navigraphで認証",
+      "AuthenticateWithNavigraph": "Navigraphで認証する",
       "InsufficientEnv": ".envファイルが不足しています",
       "IntoYourBrowserAndEnterTheCodeBelow": "このURLをブラウザに入力し、以下のコードを入力してください\n",
       "NoAirportSelected": "空港が選択されていません",
       "ResetNavigraphAuthentication": "Navigraph認証のリセット",
-      "ScanTheQrCodeOrOpen": "QRコードをスキャンするか、これを開く",
+      "ScanTheQrCodeOrOpen": "QRコードをスキャンするか、これを開いてください",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
@@ -202,7 +202,7 @@
     "TT": {
       "FitChartToHeight": "チャートの高さに合わせる",
       "FitChartToWidth": "チャートの幅に合わせる",
-      "ResetMovement": "拡大や移動のリセット",
+      "ResetMovement": "拡縮、移動のリセット",
       "RotateLeft45Degrees": "左に45 度回転",
       "RotateRight45Degrees": "右に45 度回転",
       "ZoomIn": "拡大",
