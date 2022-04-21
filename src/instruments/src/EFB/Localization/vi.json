@@ -3,7 +3,7 @@
     "Active": "Đang hoạt động",
     "ChangeATISATCSourceButton": "Thay đổi nguồn ATIS/ATC",
     "ConnectHoppieACARS": "Kết nối Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "KHÔNG CÓ THÔNG TIN CÓ SẴN CHO TẦN SỐ NÀY",
+    "NoInformationAvailableForThisFrequency": "Không có thông tin có sẵn cho tần số này",
     "SelectCorrectATISATCSource": "Trang này chỉ khả dụng khi IVAO hoặc VATSIM được sử dụng làm nguồn ATIS/ATC trong trang Cài đặt.",
     "SetActive": "Đặt hoạt động",
     "SetStandby": "Đặt chế độ chờ",
@@ -325,7 +325,7 @@
       "SavingPreset": "Đang lưu cấu hình sẵn",
       "SelectAnInteriorLightingPresetToLoadOrSave": "Chọn cấu hình đèn bên trong máy bay sẵn để tải hoặc lưu.",
       "TT": {
-        "AircraftMustBePowered": "Máy bay cần được cung cấp năng lượng",
+        "AircraftMustBePowered": "Máy bay cần được cung cấp điện",
         "ClickTextToChangeThePresetsName": "Chọn vào dòng chữ để đổi tên cấu hình sẵn",
         "LoadThisPreset": "Tải cấu hình sẵn này",
         "SaveTheCurrentLightingLevels": "Lưu cấu hình mức độ đèn hiện tại"
