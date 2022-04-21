@@ -427,7 +427,7 @@
       "SyncMsfsFlightPlan": "同步 MSFS 内飞行计划",
       "ThrottleDetents": "油门卡位",
       "Title": "模拟选项",
-      "UseCalculatedIlsSignals": "使用计算的 ILS 信号",
+      "UseCalculatedIlsSignals": "使用经系统计算的ILS 信号",
       "inHg": "英寸汞柱 (inHg)"
     },
     "ThrottleConfig": {
