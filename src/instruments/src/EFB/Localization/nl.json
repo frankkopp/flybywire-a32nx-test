@@ -291,82 +291,82 @@
         "Title": "Resultaat"
       },
       "TT": {
-        "DesynchronizeInputWithAircraftsCurrentAltitude": "Desynchronize Input with Aircraft's Current Altitude",
-        "SynchronizeInputWithAircraftsCurrentAltitude": "Synchronize Input with Aircraft's Current Altitude"
+        "DesynchronizeInputWithAircraftsCurrentAltitude": "Desynchroniseer invoer met de huidige hoogte van het vliegtuig",
+        "SynchronizeInputWithAircraftsCurrentAltitude": "Input synchroniseren met de huidige hoogte van het vliegtuig"
       },
-      "Title": "Top of Descent"
+      "Title": "Top van afdaling"
     }
   },
   "Presets": {
     "AircraftStates": {
-      "Cancel": "Cancel",
-      "ColdDark": "Cold & Dark",
-      "ConfirmationDialogMsg": "Please confirm loading of preset.",
-      "CurrentProcedureStep": "Current Procedure Step",
-      "PleaseConfirmLoadingOfPreset": "Please confirm loading of preset.",
-      "ReadyPushback": "Ready for Pushback",
-      "ReadyTakeoff": "Ready for Takeoff",
-      "ReadyTaxi": "Ready for Taxi",
-      "SelectAPresetToLoad": "Select a Preset to Load",
-      "TheAircraftMustBeOnTheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "TheAircraftMustBeOntheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "Title": "Aircraft States",
+      "Cancel": "Annuleren",
+      "ColdDark": "Volledige Opstart",
+      "ConfirmationDialogMsg": "Bevestig het laden van de voorinstelling.",
+      "CurrentProcedureStep": "Stap van de huidige procedure",
+      "PleaseConfirmLoadingOfPreset": "Bevestig het laden van de voorinstelling.",
+      "ReadyPushback": "Klaar voor pushback",
+      "ReadyTakeoff": "Klaar voor opstijgen",
+      "ReadyTaxi": "Klaar voor taxi",
+      "SelectAPresetToLoad": "Selecteer een voorinstelling om te laden",
+      "TheAircraftMustBeOnTheGroundToLoadAPreset": "Het vliegtuig moet op de grond staan om een voorinstelling te laden.",
+      "TheAircraftMustBeOntheGroundToLoadAPreset": "Het vliegtuig moet op de grond staan om een voorinstelling te laden.",
+      "Title": "Status van vliegtuig",
       "Turnaround": "Turnaround"
     },
     "InteriorLighting": {
-      "AircraftNeedsToBePoweredToLoadPresets": "Aircraft Needs to be Powered to Load Presets",
-      "AircraftNeedsToBePoweredToSavePresets": "Aircraft Needs to Be Powered to Save Presets",
-      "LoadPreset": "Load Preset",
-      "LoadingPreset": "Loading Preset",
+      "AircraftNeedsToBePoweredToLoadPresets": "Vliegtuig moet voeding hebben om instellingen te kunnen laden",
+      "AircraftNeedsToBePoweredToSavePresets": "Vliegtuigen moeten worden aangedreven om presets op te slaan",
+      "LoadPreset": "Voorinstelling laden",
+      "LoadingPreset": "Voorinstelling laden",
       "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
-      "NoName": "No Name",
-      "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
-      "SavePreset": "Save Preset",
-      "SavingPreset": "Saving Preset",
-      "SelectAnInteriorLightingPresetToLoadOrSave": "Select an interior lighting preset to load or save.",
+      "NoName": "Geen naam",
+      "PleaseConfirmSavingPreset": "Bevestig het opslaan van voorinstelling",
+      "SavePreset": "Voorkeursinstellingen Opslaan",
+      "SavingPreset": "Voorinstelling opslaan",
+      "SelectAnInteriorLightingPresetToLoadOrSave": "Selecteer een vooraf ingestelde binnenverlichting om te laden of op te slaan.",
       "TT": {
-        "AircraftMustBePowered": "Aircraft Must be Powered",
-        "ClickTextToChangeThePresetsName": "Click Text to Change the Preset's Name",
-        "LoadThisPreset": "Load This Preset",
-        "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
+        "AircraftMustBePowered": "Vliegtuigen moeten worden aangedreven",
+        "ClickTextToChangeThePresetsName": "Klik op Tekst om de naam van de preset te wijzigen",
+        "LoadThisPreset": "Deze voorinstelling laden",
+        "SaveTheCurrentLightingLevels": "De huidige verlichtingsniveaus opslaan"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "The aircraft must be powered for interior lighting presets.",
-      "Title": "Interior Lighting"
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "Het vliegtuig moet worden aangedreven  voor de instellingen voor binnenverlichting.",
+      "Title": "Binnenverlichting"
     },
-    "Title": "Presets"
+    "Title": "Voorinstellingen"
   },
   "Pushback": {
-    "Backward": "Backward",
-    "CallTug": "Call Tug",
-    "Forward": "Forward",
-    "Halt": "Halt",
+    "Backward": "Terug",
+    "CallTug": "Bel Tug",
+    "Forward": "Vooruit",
+    "Halt": "Stoppen",
     "ParkingBrake": {
-      "Off": "Off",
-      "On": "On",
-      "Title": "Parking Brake"
+      "Off": "Uit",
+      "On": "Aan",
+      "Title": "Parkeerrem"
     },
-    "TugDirection": "Tug Direction",
-    "TugSpeed": "Tug Speed"
+    "TugDirection": "Richting tug",
+    "TugSpeed": "Tug snelheid"
   },
   "Settings": {
     "About": {
-      "Title": "About"
+      "Title": "Over"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Acceleration Height (ft)",
-      "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
-      "IsisBaroUnit": "ISIS Baro Unit",
-      "IsisMetricAltitude": "ISIS Metric Altitude",
+      "AccelerationHeight": "Versnelling hoogte (ft)",
+      "EngineOutAccelerationHeight": "Motor-uit versnelling hoogte (ft)",
+      "IsisBaroUnit": "ISIS Baro-eenheid",
+      "IsisMetricAltitude": "ISIS Metrische hoogte",
       "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "PAX Signs",
-      "RmpVhfSpacing": "RMP VHF Spacing",
-      "ThrustReductionHeight": "Thrust Reduction Height (ft)",
-      "Title": "Aircraft Options / Pin Programs",
-      "WeightUnit": "Weight Unit"
+      "RmpVhfSpacing": "RMP VHF Afstand",
+      "ThrustReductionHeight": "Hoogte stuwkrachtreductie (ft)",
+      "Title": "Vliegtuig Opties / Pin Programma's",
+      "WeightUnit": "Gewichtseenheid"
     },
     "AtsuAoc": {
-      "AtisAtcSource": "ATIS/ATC Source",
-      "AutomaticallyImportSimBriefData": "Automatically Import SimBrief Data",
+      "AtisAtcSource": "ATIS/ATC-bron",
+      "AutomaticallyImportSimBriefData": "SimBrief-gegevens automatisch importeren",
       "Enable": "Enable",
       "EnableTelex": "Enable TELEX",
       "ErrorReporting": "Error Reporting",
