@@ -13,40 +13,40 @@
   "Checklists": {
     "AreYouSureYouWantToResetAllChecklists": "Sei sicuro di voler ripristinare tutte le checklist?",
     "AreYouSureYouWantToResetChecklists": "Sei sicuro di voler ripristinare tutte le checklist?",
-    "ChecklistResetWarning": "Checklist Reset Warning",
-    "MarkChecklistAsComplete": "Mark checklist as complete",
-    "MarkItemAsComplete": "Mark item as complete",
-    "ProceedToNextChecklist": "Proceed to next checklist",
-    "ResetAll": "Reset All",
-    "ResetChecklist": "Reset Checklist",
-    "TheLastChecklistIsComplete": "The last checklist is complete",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "There are remaining autofill checklist items that have not yet been completed",
+    "ChecklistResetWarning": "Avviso reimpostazione checklist",
+    "MarkChecklistAsComplete": "Segna la checklist come completata",
+    "MarkItemAsComplete": "Segna elemento come completato",
+    "ProceedToNextChecklist": "Procedi alla prossima checklist",
+    "ResetAll": "Reimposta tutto",
+    "ResetChecklist": "Reimposta checklist",
+    "TheLastChecklistIsComplete": "L'ultima checklist è completa",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Ci sono voci rimanenti per il completamento automatico della checklist, che non sono ancora state completate",
     "Title": "Checklists"
   },
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "No Relevant Checklists",
+        "NoRelevantChecklists": "Nessuna checklist pertinente",
         "Title": "Checklists"
       },
-      "GoToPage": "Go to Page",
+      "GoToPage": "Vai a pagina",
       "Maintenance": {
-        "NoActiveFailures": "No Active Failures",
-        "Title": "Maintenance"
+        "NoActiveFailures": "Nessun guasto attivo",
+        "Title": "Manutenzione"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "No Pinned Charts",
-        "Title": "Pinned Charts"
+        "NoPinnedCharts": "Nessun carta fissata",
+        "Title": "Grafici appuntati"
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "Riorganizza i widget"
       },
-      "Title": "Important Information",
+      "Title": "Informazione importante",
       "Weather": {
-        "AirPressure": "Air Pressure",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
+        "AirPressure": "Pressione dell'aria",
+        "DewPoint": "Punto di rugiada",
+        "IcaoInvalid": "ICAO non valido o nessun METAR disponibile",
+        "Loading": "Caricamento",
         "MetarParsingError": "Received METAR could not be parsed",
         "NoIcaoProvided": "No ICAO provided",
         "Raw": "Raw",
@@ -358,7 +358,7 @@
       "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
       "IsisBaroUnit": "ISIS Baro Unit",
       "IsisMetricAltitude": "ISIS Metric Altitude",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
+      "LatLonExtendedFormat": "Formato Waypoint Lat/Lon FMGC",
       "PaxSigns": "PAX Signs",
       "RmpVhfSpacing": "RMP VHF Spacing",
       "ThrustReductionHeight": "Thrust Reduction Height (ft)",
