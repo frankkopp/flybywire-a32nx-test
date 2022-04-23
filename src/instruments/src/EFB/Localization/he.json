@@ -27,11 +27,11 @@
     "ImportantInformation": {
       "Checklists": {
         "NoRelevantChecklists": "אין רשימות ביקורת רלוונטיות",
-        "Title": "רשימת תיוג"
+        "Title": "רשימות בדיקה"
       },
       "GoToPage": "עבור לעמוד",
       "Maintenance": {
-        "NoActiveFailures": "אין כשלים נוכחיים",
+        "NoActiveFailures": "אין כשלים פעילים",
         "Title": "תחזוקה"
       },
       "PinnedCharts": {
@@ -39,15 +39,15 @@
         "Title": "תרשימים שמורים"
       },
       "TT": {
-        "RearrangeWidgets": "סידור מחדש של ווידג'טים"
+        "RearrangeWidgets": "סדר מחדש ווידג'טים"
       },
       "Title": "מידע חשוב",
       "Weather": {
         "AirPressure": "לחץ אוויר",
         "DewPoint": "נקודת רוויה",
-        "IcaoInvalid": "ICAO לא חוקי או לא METAR זמין",
+        "IcaoInvalid": "METAR לא חוקי על פי ICAO או אינו זמין",
         "Loading": "טעינה",
-        "MetarParsingError": "לא ניתן היה לנתח את METAR שהתקבל",
+        "MetarParsingError": "לא ניתן היה לנתח את ה-METAR שהתקבל",
         "NoIcaoProvided": "לא סיפק ICAO",
         "Raw": "גלם",
         "TT": {
