@@ -1,7 +1,7 @@
 {
   "AirTrafficControl": {
     "Active": "Attivo",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Cambia fonte ATIS/ATC",
     "ConnectHoppieACARS": "Connetti Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Nessuna informazione disponibile per questa frequenza",
     "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
@@ -47,25 +47,25 @@
         "DewPoint": "Punto di rugiada",
         "IcaoInvalid": "ICAO non valido o nessun METAR disponibile",
         "Loading": "Caricamento",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
-        "Raw": "Raw",
+        "MetarParsingError": "Il METAR ricevuto non può essere analizzato",
+        "NoIcaoProvided": "Nessun ICAO fornito",
+        "Raw": "Grezzo",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToIconView": "Passa alla vista a icone",
+          "SwitchToRawMetarView": "Passa alla vista del METAR grezzo"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "Temperatura",
+        "Title": "Meteo",
+        "WindSpeed": "Velocità Vento"
       }
     },
     "Title": "Dashboard",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
+      "Alternate": "Alternato",
+      "AverageWind": "Velocità Media Vento",
+      "CompanyRoute": "Rotta Compagnia",
       "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
+      "CruiseAlt": "Alt. Crociera",
       "ImportSimBriefData": "Import SimBrief Data",
       "Route": "Route",
       "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
