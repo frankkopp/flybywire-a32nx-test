@@ -2,17 +2,17 @@
   "AirTrafficControl": {
     "Active": "Attivo",
     "ChangeATISATCSourceButton": "Change ATIS/ATC source",
-    "ConnectHoppieACARS": "Connect Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "No information available for this frequency",
+    "ConnectHoppieACARS": "Connetti Hoppie ACARS",
+    "NoInformationAvailableForThisFrequency": "Nessuna informazione disponibile per questa frequenza",
     "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
-    "SetActive": "Set Active",
-    "SetStandby": "Set Standby",
+    "SetActive": "Imposta attivo",
+    "SetStandby": "Imposta standby",
     "Standby": "Standby",
-    "Title": "Air Traffic Control"
+    "Title": "Controllo Traffico Aereo"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Are you sure you want to reset all checklists?",
-    "AreYouSureYouWantToResetChecklists": "Are you sure you want to reset all checklists?",
+    "AreYouSureYouWantToResetAllChecklists": "Sei sicuro di voler ripristinare tutte le checklist?",
+    "AreYouSureYouWantToResetChecklists": "Sei sicuro di voler ripristinare tutte le checklist?",
     "ChecklistResetWarning": "Checklist Reset Warning",
     "MarkChecklistAsComplete": "Mark checklist as complete",
     "MarkItemAsComplete": "Mark item as complete",
