@@ -141,9 +141,9 @@
       "DoorAft": "Porta Posteriore",
       "DoorFwd": "Porta Anteriore",
       "ExternalPower": "Alimentazione Esterna",
-      "FuelTruck": "Fuel Truck",
-      "JetBridge": "Jet Bridge",
-      "Title": "Services"
+      "FuelTruck": "Autocarro Carburante",
+      "JetBridge": "Ponte di Imbarco",
+      "Title": "Servizi"
     },
     "Title": "Ground"
   },
