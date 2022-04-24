@@ -35,7 +35,7 @@
         "Title": "Manutenzione"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "Nessun carta fissata",
+        "NoPinnedCharts": "Nessuna Cartina Fissata",
         "Title": "Grafici appuntati"
       },
       "TT": {
@@ -92,8 +92,8 @@
       "MaximumCargo": "Carico Massimo",
       "MaximumFuelCapacity": "Capacità Massima Carburante",
       "MaximumPassengers": "Maximum Passengers",
-      "Model": "Model",
-      "Range": "Range",
+      "Model": "Modello",
+      "Range": "Autonomia",
       "Title": "Overview"
     },
     "Title": "Dispatch"
