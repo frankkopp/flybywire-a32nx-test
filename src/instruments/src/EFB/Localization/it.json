@@ -137,10 +137,10 @@
     },
     "Services": {
       "BaggageTruck": "Carrello Portabagagli",
-      "CateringTruck": "Catering Truck",
-      "DoorAft": "Door Aft",
-      "DoorFwd": "Door Fwd",
-      "ExternalPower": "External Power",
+      "CateringTruck": "Catering-truck",
+      "DoorAft": "Porta Posteriore",
+      "DoorFwd": "Porta Anteriore",
+      "ExternalPower": "Alimentazione Esterna",
       "FuelTruck": "Fuel Truck",
       "JetBridge": "Jet Bridge",
       "Title": "Services"
