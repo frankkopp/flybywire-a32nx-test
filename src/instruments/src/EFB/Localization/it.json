@@ -36,7 +36,7 @@
       },
       "PinnedCharts": {
         "NoPinnedCharts": "Nessuna Cartina Fissata",
-        "Title": "Grafici appuntati"
+        "Title": "Cartine fissate"
       },
       "TT": {
         "RearrangeWidgets": "Riordina Widget"
@@ -122,21 +122,21 @@
       "Refuel": "Rifornimento Carburante",
       "RefuelTime": "Tempo di Rifornimento",
       "Refueling": "Rifornimento in corso",
-      "RightInnerTank": "Right Inner Tank",
-      "RightOuterTank": "Right Outer Tank",
+      "RightInnerTank": "Serbatoio Interno Destro",
+      "RightOuterTank": "Serbatoio Esterno Destro",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Aircraft Must Be Cold and Dark to Change Refuel Times",
-        "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'Aereo Deve Essere Spento per Cambiare i Tempi di Rifornimento",
+        "FillBlockFuelFromSimBrief": "Inserisci il Block Fuel da SimBrief"
       },
-      "Title": "Fuel",
-      "TotalFuel": "Total Fuel",
-      "Unavailable": "Unavailable"
+      "Title": "Carburante",
+      "TotalFuel": "Carburante Totale",
+      "Unavailable": "Non Disponibile"
     },
     "Pushback": {
       "Title": "Pushback"
     },
     "Services": {
-      "BaggageTruck": "Baggage Truck",
+      "BaggageTruck": "Carrello Portabagagli",
       "CateringTruck": "Catering Truck",
       "DoorAft": "Door Aft",
       "DoorFwd": "Door Fwd",
