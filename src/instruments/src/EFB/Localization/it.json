@@ -91,10 +91,10 @@
       "MZFW": "MZFW",
       "MaximumCargo": "Carico Massimo",
       "MaximumFuelCapacity": "Capacità Massima Carburante",
-      "MaximumPassengers": "Maximum Passengers",
+      "MaximumPassengers": "Passeggeri Massimi",
       "Model": "Modello",
       "Range": "Autonomia",
-      "Title": "Overview"
+      "Title": "Sommario"
     },
     "Title": "Dispatch"
   },
@@ -103,25 +103,25 @@
       "Title": "Comfort"
     },
     "Compact": {
-      "Title": "Compact"
+      "Title": "Compatto"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Full simulation of the failures below isn't yet guaranteed.",
-    "Search": "Search",
-    "Title": "Failures"
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "La simulazione completa dei guasti riportati di seguito non è ancora garantita.",
+    "Search": "Cerca",
+    "Title": "Guasti"
   },
   "Ground": {
     "Fuel": {
-      "CenterTank": "Center Tank",
-      "Completed": "Completed",
-      "Defueling": "Defueling",
-      "EstimatedDuration": "Estimated duration (minutes)",
+      "CenterTank": "Serbatoio Centrale",
+      "Completed": "Completato",
+      "Defueling": "Scarico Carburante",
+      "EstimatedDuration": "Durata stimata (minuti)",
       "EstimatedTime": "Estimated Time",
-      "LeftInnerTank": "Left Inner Tank",
-      "LeftOuterTank": "Left Outer Tank",
-      "ReadyToStart": "Ready to Start",
-      "Refuel": "Refuel",
-      "RefuelTime": "Refuel Time",
-      "Refueling": "Refueling",
+      "LeftInnerTank": "Serbatoio Interno Sinistro",
+      "LeftOuterTank": "Serbatoio Esterno Sinistro",
+      "ReadyToStart": "Pronto per l'Avvio",
+      "Refuel": "Rifornimento Carburante",
+      "RefuelTime": "Tempo di Rifornimento",
+      "Refueling": "Rifornimento in corso",
       "RightInnerTank": "Right Inner Tank",
       "RightOuterTank": "Right Outer Tank",
       "TT": {
