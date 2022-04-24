@@ -21,7 +21,7 @@
     "ResetChecklist": "Ripristina checklist",
     "TheLastChecklistIsComplete": "L'ultima checklist è completa",
     "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Ci sono voci rimanenti per il completamento automatico della checklist, che non sono ancora state completate",
-    "Title": "Checklists"
+    "Title": "Checklist"
   },
   "Dashboard": {
     "ImportantInformation": {
@@ -145,25 +145,25 @@
       "JetBridge": "Ponte di Imbarco",
       "Title": "Servizi"
     },
-    "Title": "Ground"
+    "Title": "Terra"
   },
   "Modals": {
-    "Cancel": "Cancel",
-    "Confirm": "Confirm",
-    "Okay": "Okay"
+    "Cancel": "Annulla",
+    "Confirm": "Conferma",
+    "Okay": "Ok"
   },
   "NavigationAndCharts": {
-    "All": "All",
+    "All": "Tutti",
     "Altn": "Altn",
-    "ExitFullscreenMode": "Exit Fullscreen Mode",
-    "From": "From",
+    "ExitFullscreenMode": "Esci dalla Modalità Schermo Intero",
+    "From": "Da",
     "LocalFiles": {
-      "Both": "Both",
-      "EstablishingConnection": "Establishing Connection",
-      "FailedToEstablishConnection": "Failed to Establish Connection.",
-      "FileName": "File Name",
-      "Image": "Image",
-      "Pdf": "Pdf",
+      "Both": "Entrambi",
+      "EstablishingConnection": "Connessione in Corso",
+      "FailedToEstablishConnection": "Connessione Fallita",
+      "FileName": "Nome File",
+      "Image": "Immagine",
+      "Pdf": "PDF",
       "Retry": "Retry",
       "Title": "Local Files"
     },
