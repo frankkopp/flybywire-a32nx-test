@@ -39,9 +39,9 @@
         "Title": "Grafici appuntati"
       },
       "TT": {
-        "RearrangeWidgets": "Riorganizza i widget"
+        "RearrangeWidgets": "Riordina Widget"
       },
-      "Title": "Informazione importante",
+      "Title": "Informazioni importanti",
       "Weather": {
         "AirPressure": "Pressione dell'aria",
         "DewPoint": "Punto di rugiada",
@@ -51,8 +51,8 @@
         "NoIcaoProvided": "Nessun ICAO fornito",
         "Raw": "Tecnica",
         "TT": {
-          "SwitchToIconView": "Passa alla vista a icone",
-          "SwitchToRawMetarView": "Passa alla vista del METAR grezzo"
+          "SwitchToIconView": "Passa alla Visualizzazione a Icone",
+          "SwitchToRawMetarView": "Passa alla Visualizzazione Tecnica del METAR"
         },
         "Temperature": "Temperatura",
         "Title": "Meteo",
@@ -66,31 +66,31 @@
       "CompanyRoute": "Rotta Compagnia",
       "CostIndex": "Cost Index",
       "CruiseAlt": "Alt. Crociera",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
+      "ImportSimBriefData": "Importa Dati SimBrief",
+      "Route": "Rotta",
+      "SimBriefDataNotYetLoaded": "Dati SiemBrief non ancora caricati.",
+      "Title": "Il tuo Volo",
       "ZFW": "ZFW"
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "Importa Dati SimBrief",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "Aumenta Dimensione Carattere",
+        "ReduceFontSize": "Riduci Dimensione Carattere"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
+      "YouHaveNotYetImportedAnySimBriefData": "Non hai ancora importato alcun dato da SimBrief."
     },
     "Overview": {
-      "Engines": "Engines",
+      "Engines": "Motori",
       "MMO": "MMO",
       "MRW": "MRW",
       "MTOW": "MTOW",
       "MZFW": "MZFW",
-      "MaximumCargo": "Maximum Cargo",
-      "MaximumFuelCapacity": "Maximum Fuel Capacity",
+      "MaximumCargo": "Carico Massimo",
+      "MaximumFuelCapacity": "Capacità Massima Carburante",
       "MaximumPassengers": "Maximum Passengers",
       "Model": "Model",
       "Range": "Range",
