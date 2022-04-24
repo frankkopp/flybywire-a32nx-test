@@ -35,8 +35,8 @@
         "Title": "Manutenzione"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "Nessuna Cartina Fissata",
-        "Title": "Cartine fissate"
+        "NoPinnedCharts": "Nessuna Cartina Appuntata",
+        "Title": "Cartine Appuntate"
       },
       "TT": {
         "RearrangeWidgets": "Riordina Widget"
@@ -164,52 +164,52 @@
       "FileName": "Nome File",
       "Image": "Immagine",
       "Pdf": "PDF",
-      "Retry": "Retry",
-      "Title": "Local Files"
+      "Retry": "Riprova",
+      "Title": "File locali"
     },
     "Navigraph": {
-      "AirportDoesNotExist": "Airport Does Not Exist",
-      "AuthenticateWithNavigraph": "Authenticate with Navigraph",
-      "InsufficientEnv": "Insufficient .env File",
-      "IntoYourBrowserAndEnterTheCodeBelow": "into your browser and enter the code below\n",
-      "NoAirportSelected": "No Airport Selected",
-      "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
-      "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
+      "AirportDoesNotExist": "Aeroporto Inesistente",
+      "AuthenticateWithNavigraph": "Autenticazione con Navigraph",
+      "InsufficientEnv": "File .env Insufficiente",
+      "IntoYourBrowserAndEnterTheCodeBelow": "nel tuo browser e inserisci il codice qui sotto",
+      "NoAirportSelected": "Nessun Aeroporto Selezionato",
+      "ResetNavigraphAuthentication": "Ripristina Autenticazione Navigraph",
+      "ScanTheQrCodeOrOpen": "Scansiona il Codice QR o Apri",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
-      "Delete": "Delete",
-      "Edit": "Edit",
-      "NoItemsFound": "No Items Found",
-      "SearchPlaceholder": "Search",
-      "ShowingChartsFromAllProviders": "Showing Charts from All Providers",
+      "Delete": "Elimina",
+      "Edit": "Modifica",
+      "NoItemsFound": "Nessun Elemento Trovato",
+      "SearchPlaceholder": "Cerca",
+      "ShowingChartsFromAllProviders": "Visualizzazione delle Cartine da tutti i Fornitori",
       "SortMethods": {
-        "AlphabeticalAZ": "Alphabetical - A -> Z",
-        "AlphabeticalZA": "Alphabetical - Z -> A",
-        "FirstAccessed": "First Accessed",
-        "LastAccessed": "Last Accessed",
-        "None": "None"
+        "AlphabeticalAZ": "Alfabetico - A -> Z",
+        "AlphabeticalZA": "Alfabetico - Z -> A",
+        "FirstAccessed": "Primo Accesso",
+        "LastAccessed": "Ultimo Accesso",
+        "None": "Nessuno"
       },
       "TT": {
-        "ChangeChartProvider": "Change Chart Provider",
-        "ChangeChartSortMethod": "Change Chart Sort Method",
-        "RemoveAllPinnedCharts": "Remove All Pinned Charts"
+        "ChangeChartProvider": "Cambia Fornitore Cartine",
+        "ChangeChartSortMethod": "Cambia Metodo di Ordinamento Cartine",
+        "RemoveAllPinnedCharts": "Rimuovi Tutte le Cartine Appuntate"
       },
-      "Title": "Pinned Charts",
-      "View": "View"
+      "Title": "Cartine Appuntate",
+      "View": "Visualizza"
     },
-    "PleaseWait": "Please Wait",
-    "ShowingAllItems": "Showing All Items",
+    "PleaseWait": "Attendere Prego",
+    "ShowingAllItems": "Visualizzazione di Tutti gli Elementi",
     "TT": {
-      "FitChartToHeight": "Fit Chart to Height",
-      "FitChartToWidth": "Fit Chart to Width",
-      "ResetMovement": "Reset Movement",
-      "RotateLeft45Degrees": "Rotate Left 45 Degrees",
-      "RotateRight45Degrees": "Rotate Right 45 Degrees",
-      "ZoomIn": "Zoom In",
-      "ZoomOut": "Zoom Out"
+      "FitChartToHeight": "Adatta Cartina all'Altezza",
+      "FitChartToWidth": "Adatta Cartina alla Larghezza",
+      "ResetMovement": "Ripristina Movimento",
+      "RotateLeft45Degrees": "Ruota a Sinistra di 45 Gradi",
+      "RotateRight45Degrees": "Ruota a Destra di 45 Gradi",
+      "ZoomIn": "Ingrandisci",
+      "ZoomOut": "Rimpicciolisci"
     },
-    "ThereAreNoChartsToDisplay": "There are no charts to display.",
+    "ThereAreNoChartsToDisplay": "Non ci sono cartine da visualizzare.",
     "ThereIsNoChartToDisplay": "There is no chart to display.",
     "Title": "Navigation & Charts",
     "To": "To"
