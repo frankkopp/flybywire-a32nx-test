@@ -13,12 +13,12 @@
   "Checklists": {
     "AreYouSureYouWantToResetAllChecklists": "Sei sicuro di voler ripristinare tutte le checklist?",
     "AreYouSureYouWantToResetChecklists": "Sei sicuro di voler ripristinare tutte le checklist?",
-    "ChecklistResetWarning": "Avviso reimpostazione checklist",
-    "MarkChecklistAsComplete": "Segna la checklist come completata",
+    "ChecklistResetWarning": "Avviso ripristino checklist",
+    "MarkChecklistAsComplete": "Segna checklist come completata",
     "MarkItemAsComplete": "Segna elemento come completato",
     "ProceedToNextChecklist": "Procedi alla prossima checklist",
-    "ResetAll": "Reimposta tutto",
-    "ResetChecklist": "Reimposta checklist",
+    "ResetAll": "Ripristina tutto",
+    "ResetChecklist": "Ripristina checklist",
     "TheLastChecklistIsComplete": "L'ultima checklist è completa",
     "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Ci sono voci rimanenti per il completamento automatico della checklist, che non sono ancora state completate",
     "Title": "Checklists"
@@ -26,12 +26,12 @@
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "Nessuna checklist pertinente",
+        "NoRelevantChecklists": "Nessuna Checklist Pertinente",
         "Title": "Checklists"
       },
-      "GoToPage": "Vai a pagina",
+      "GoToPage": "Vai alla Pagina",
       "Maintenance": {
-        "NoActiveFailures": "Nessun guasto attivo",
+        "NoActiveFailures": "Nessun Guasto Attivo",
         "Title": "Manutenzione"
       },
       "PinnedCharts": {
