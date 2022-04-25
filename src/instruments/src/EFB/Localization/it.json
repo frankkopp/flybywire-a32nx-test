@@ -403,7 +403,7 @@
     "Real": "Reale",
     "Realism": {
       "AdirsAlignTime": "Tempo Allineamento ADIRS",
-      "AutofillChecklists": "Autofill Checklists",
+      "AutofillChecklists": "Autoriempi Checklist",
       "BoardingTime": "Tempo Imbarco",
       "DmcSelfTestTime": "Tempo Autotest DMC",
       "HomeCockpitMode": "Modalità Home Cockpit",
@@ -427,7 +427,7 @@
       "Off": "Off",
       "Save": "Salva",
       "SyncMsfsFlightPlan": "Sincronizza Piano di Volo MSFS",
-      "ThrottleDetents": "Throttle Detents",
+      "ThrottleDetents": "Punti Manetta",
       "Title": "Opzioni Simulatore",
       "UseCalculatedIlsSignals": "Usa Segnali ILS Calcolati",
       "inHg": "inHg"
@@ -448,7 +448,7 @@
       "ResetToDefaults": "Ripristina Predefiniti",
       "ReverseFull": "Reverse Full",
       "ReverseIdle": "Reverse Idle",
-      "ReverserOnAxis": "Reverser On Axis",
+      "ReverserOnAxis": "Inversore sull'Asse",
       "SaveAndApply": "Salva e Applica",
       "SetFromThrottle": "Imposta dalla Manetta",
       "ThrottleConfigurationReset": "Ripristina Configurazione Manetta"
@@ -457,7 +457,7 @@
     "Unrealistic": "Irrealistico",
     "flyPad": {
       "AutoBrightness": "Luminosità Automatica",
-      "AutomaticallyShowOnscreenKeyboard": "Imposta Automaticamente Tastiera a Schermo",
+      "AutomaticallyShowOnscreenKeyboard": "Mostra Automaticamente Tastiera a Schermo",
       "Blue": "Blu",
       "Brightness": "Luminosità",
       "Dark": "Scuro",
@@ -497,7 +497,7 @@
     "TT": {
       "ConnectedToLocalApi": "Connesso ad API Locali",
       "DisconnectedFromLocalApi": "Sconnesso da API Locali",
-      "TurnOffOrShutdownEfb": "Turn off or Shutdown EFB"
+      "TurnOffOrShutdownEfb": "Spegni o Arresta EFB"
     },
     "Thu": "Gio",
     "Tue": "Mar",

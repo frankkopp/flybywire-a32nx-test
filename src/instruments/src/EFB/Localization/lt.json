@@ -18,7 +18,7 @@
     "MarkItemAsComplete": "Pažymėti punktą atliktu",
     "ProceedToNextChecklist": "Pereiti į kitą patikrinimų sąrašą",
     "ResetAll": "Viską atstatyti",
-    "ResetChecklist": "Atstatyti patikrinimų sąrašą",
+    "ResetChecklist": "Atstatyti sąrašą",
     "TheLastChecklistIsComplete": "Paskutinis patikrinimų sąrašas baigtas",
     "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Yra nebaigtų automatinio patikrinimų sąrašo punktų",
     "Title": "Patikrinimų sąrašai"
@@ -52,7 +52,7 @@
         "Raw": "Neapdorotas",
         "TT": {
           "SwitchToIconView": "Pereiti į ikonų vaizdą",
-          "SwitchToRawMetarView": "Pereiti į neapdorotų METAR vaizdą"
+          "SwitchToRawMetarView": "Pereiti į neapdorotų METAR peržiūrą"
         },
         "Temperature": "Temperatūra",
         "Title": "Oras",
@@ -68,7 +68,7 @@
       "CruiseAlt": "Kreiserinis aukštis",
       "ImportSimBriefData": "Įkelti SimBrief duomenis",
       "Route": "Maršrutas",
-      "SimBriefDataNotYetLoaded": "SimBrief duomenys dar neįkelti.",
+      "SimBriefDataNotYetLoaded": "SimBrief duomenys dar neužkrauti.",
       "Title": "Tavo Skrydis",
       "ZFW": "ZFW"
     }
@@ -119,121 +119,121 @@
       "LeftInnerTank": "Kairysis vidinis kuro bakas",
       "LeftOuterTank": "Kairysis išorinis kuro bakas",
       "ReadyToStart": "Pasiruošę Pradėti",
-      "Refuel": "Atpildyti kurą",
+      "Refuel": "Kuro pildymas",
       "RefuelTime": "Kuro pildymo trukmė",
       "Refueling": "Kuro pildymas",
       "RightInnerTank": "Dešinysis vidinis kuro bakas",
       "RightOuterTank": "Dešinysis išorinis kuro bakas",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Norint pakeisti degalų papildymo laiką, orlaivis turi būti pilnai išjungtas",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Norint pakeisti kuro pildymo laiką, orlaivis turi būti pilnai išjungtas",
         "FillBlockFuelFromSimBrief": "Įkelti bendrą kurą iš SimBrief"
       },
       "Title": "Kuras",
-      "TotalFuel": "Total Fuel",
-      "Unavailable": "Unavailable"
+      "TotalFuel": "Bendras kuras",
+      "Unavailable": "Nepasiekiama"
     },
     "Pushback": {
-      "Title": "Pushback"
+      "Title": "Išstumimas"
     },
     "Services": {
-      "BaggageTruck": "Baggage Truck",
-      "CateringTruck": "Catering Truck",
-      "DoorAft": "Door Aft",
-      "DoorFwd": "Door Fwd",
-      "ExternalPower": "External Power",
-      "FuelTruck": "Fuel Truck",
-      "JetBridge": "Jet Bridge",
-      "Title": "Services"
+      "BaggageTruck": "Bagažo sunkvežimis",
+      "CateringTruck": "Maitinimo sunkvežimis",
+      "DoorAft": "Galinės durys",
+      "DoorFwd": "Priekinės durys",
+      "ExternalPower": "Išorinė energija",
+      "FuelTruck": "Kuro cisterna",
+      "JetBridge": "Rankovė",
+      "Title": "Aptarnavimas"
     },
-    "Title": "Ground"
+    "Title": "Žemė"
   },
   "Modals": {
-    "Cancel": "Cancel",
-    "Confirm": "Confirm",
-    "Okay": "Okay"
+    "Cancel": "Atšaukti",
+    "Confirm": "Patvirtinti",
+    "Okay": "Gerai"
   },
   "NavigationAndCharts": {
-    "All": "All",
+    "All": "Visi",
     "Altn": "Altn",
-    "ExitFullscreenMode": "Exit Fullscreen Mode",
-    "From": "From",
+    "ExitFullscreenMode": "Išeiti iš pilno ekrano režimo",
+    "From": "Iš",
     "LocalFiles": {
-      "Both": "Both",
-      "EstablishingConnection": "Establishing Connection",
-      "FailedToEstablishConnection": "Failed to Establish Connection.",
-      "FileName": "File Name",
-      "Image": "Image",
-      "Pdf": "Pdf",
-      "Retry": "Retry",
-      "Title": "Local Files"
+      "Both": "Abu",
+      "EstablishingConnection": "Nustatomas ryšys",
+      "FailedToEstablishConnection": "Nepavyko užmegzti ryšio.",
+      "FileName": "Failo pavadinimas",
+      "Image": "Paveikslėlis",
+      "Pdf": "PDF",
+      "Retry": "Bandyti dar kartą",
+      "Title": "Vietiniai failai"
     },
     "Navigraph": {
-      "AirportDoesNotExist": "Airport Does Not Exist",
-      "AuthenticateWithNavigraph": "Authenticate with Navigraph",
+      "AirportDoesNotExist": "Oro uostas neegzistuoja",
+      "AuthenticateWithNavigraph": "Autentifikuoti su Navigraph",
       "InsufficientEnv": "Insufficient .env File",
-      "IntoYourBrowserAndEnterTheCodeBelow": "into your browser and enter the code below\n",
-      "NoAirportSelected": "No Airport Selected",
-      "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
-      "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
+      "IntoYourBrowserAndEnterTheCodeBelow": "į savo naršyklę ir įveskite žemiau esantį kodą\n",
+      "NoAirportSelected": "Oro uostas nepasirinktas",
+      "ResetNavigraphAuthentication": "Atstatyti Navigraph autentifikaciją",
+      "ScanTheQrCodeOrOpen": "Nuskanuoti ar atidaryti QR kodą",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
-      "Delete": "Delete",
-      "Edit": "Edit",
-      "NoItemsFound": "No Items Found",
-      "SearchPlaceholder": "Search",
-      "ShowingChartsFromAllProviders": "Showing Charts from All Providers",
+      "Delete": "Ištrinti",
+      "Edit": "Redaguoti",
+      "NoItemsFound": "Nerasta",
+      "SearchPlaceholder": "Paieška",
+      "ShowingChartsFromAllProviders": "Rodomi dokumentai iš visų tiekėjų",
       "SortMethods": {
-        "AlphabeticalAZ": "Alphabetical - A -> Z",
-        "AlphabeticalZA": "Alphabetical - Z -> A",
-        "FirstAccessed": "First Accessed",
-        "LastAccessed": "Last Accessed",
-        "None": "None"
+        "AlphabeticalAZ": "Alfabetiškai - A -> Z",
+        "AlphabeticalZA": "Alfabetiškai - Z -> A",
+        "FirstAccessed": "Pirmą kartą prisijungta",
+        "LastAccessed": "Paskutinį kartą prisijungta",
+        "None": "Nėra"
       },
       "TT": {
-        "ChangeChartProvider": "Change Chart Provider",
-        "ChangeChartSortMethod": "Change Chart Sort Method",
+        "ChangeChartProvider": "Pakeisti dokumentų tiekėją",
+        "ChangeChartSortMethod": "Pakeisti dokumentų rūšiavimą",
         "RemoveAllPinnedCharts": "Pašalinti visus prisegtus dokumentus"
       },
-      "Title": "Pinned Charts",
-      "View": "View"
+      "Title": "Prisegti dokumentai",
+      "View": "Peržiūrėti"
     },
-    "PleaseWait": "Please Wait",
-    "ShowingAllItems": "Showing All Items",
+    "PleaseWait": "Prašome palaukti",
+    "ShowingAllItems": "Rodomi visi punktai",
     "TT": {
-      "FitChartToHeight": "Fit Chart to Height",
-      "FitChartToWidth": "Fit Chart to Width",
-      "ResetMovement": "Reset Movement",
-      "RotateLeft45Degrees": "Rotate Left 45 Degrees",
-      "RotateRight45Degrees": "Rotate Right 45 Degrees",
-      "ZoomIn": "Zoom In",
-      "ZoomOut": "Zoom Out"
+      "FitChartToHeight": "Pritaikyti dokumentą aukščiu",
+      "FitChartToWidth": "Pritaikyti dokumentą pločiu",
+      "ResetMovement": "Atstatyti judėjimą",
+      "RotateLeft45Degrees": "Pasukti kairėn 45 laipsniais",
+      "RotateRight45Degrees": "Pasukti dešinėn 45 laipsniais",
+      "ZoomIn": "Priartinti",
+      "ZoomOut": "Nutolinti"
     },
-    "ThereAreNoChartsToDisplay": "There are no charts to display.",
-    "ThereIsNoChartToDisplay": "There is no chart to display.",
-    "Title": "Navigation & Charts",
-    "To": "To"
+    "ThereAreNoChartsToDisplay": "Nėra jokių dokumentų.",
+    "ThereIsNoChartToDisplay": "Nėra jokių dokumentų.",
+    "Title": "Navigacija ir dokumentai",
+    "To": "Į"
   },
   "Performance": {
-    "Data": "Data",
+    "Data": "Duomenys",
     "Landing": {
-      "AirportIcao": "Airport ICAO",
-      "ApproachSpeed": "Approach Speed",
-      "ApproachSpeedUnit": "kts",
-      "AutoLand": "Autoland",
-      "Calculate": "Calculate",
-      "Clear": "Clear",
-      "DropDownNo": "No",
-      "DropDownYes": "Yes",
-      "FillDataFrom": "Fill data from",
-      "FlapsConfiguration": "Flaps Configuration",
-      "Low": "Low",
-      "MaximumManual": "Maximum Manual",
-      "Medium": "Medium",
-      "OverweightProcedure": "Overweight Procedure",
+      "AirportIcao": "Oro uosto ICAO",
+      "ApproachSpeed": "Priartėjimo greitis",
+      "ApproachSpeedUnit": "kns",
+      "AutoLand": "Automatinis nusileidimas",
+      "Calculate": "Apskaičiuoti",
+      "Clear": "Išvalyti",
+      "DropDownNo": "Ne",
+      "DropDownYes": "Taip",
+      "FillDataFrom": "Įvesti duomenis iš",
+      "FlapsConfiguration": "Posparnių konfiguracija",
+      "Low": "Žemas",
+      "MaximumManual": "Maksimalus rankinis",
+      "Medium": "Vidutinis",
+      "OverweightProcedure": "Antsvorio procedūra",
       "Qnh": "QNH",
-      "ReverseThrust": "Reverse Thrust",
-      "RunwayAltitude": "Runway Altitude",
+      "ReverseThrust": "Atbulinė trauka",
+      "RunwayAltitude": "Pakilimo tako aukštis",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Runway Condition",
       "RunwayHeading": "Runway Heading",
