@@ -309,74 +309,74 @@
       "ReadyTakeoff": "Pronto para decolar",
       "ReadyTaxi": "Pronto para o táxi",
       "SelectAPresetToLoad": "Selecione uma predefinição para carregar",
-      "TheAircraftMustBeOnTheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "TheAircraftMustBeOntheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "Title": "Aircraft States",
+      "TheAircraftMustBeOnTheGroundToLoadAPreset": "A aeronave deve estar no solo para carregar uma predefinição.",
+      "TheAircraftMustBeOntheGroundToLoadAPreset": "A aeronave deve estar no solo para carregar uma predefinição.",
+      "Title": "Estados da aeronave",
       "Turnaround": "Turnaround"
     },
     "InteriorLighting": {
-      "AircraftNeedsToBePoweredToLoadPresets": "Aircraft Needs to be Powered to Load Presets",
-      "AircraftNeedsToBePoweredToSavePresets": "Aircraft Needs to Be Powered to Save Presets",
-      "LoadPreset": "Load Preset",
-      "LoadingPreset": "Loading Preset",
+      "AircraftNeedsToBePoweredToLoadPresets": "A aeronave precisa ser energizada para carregar predefinições",
+      "AircraftNeedsToBePoweredToSavePresets": "A aeronave precisa ser energizada para salvar predefinições",
+      "LoadPreset": "Carregar Predefinição",
+      "LoadingPreset": "Carregar Predefinição",
       "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
-      "NoName": "No Name",
-      "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
-      "SavePreset": "Save Preset",
-      "SavingPreset": "Saving Preset",
-      "SelectAnInteriorLightingPresetToLoadOrSave": "Select an interior lighting preset to load or save.",
+      "NoName": "Sem nome",
+      "PleaseConfirmSavingPreset": "Por favor confirme para salvar predefinição",
+      "SavePreset": "Salvar predefinição",
+      "SavingPreset": "Salvando predefinição",
+      "SelectAnInteriorLightingPresetToLoadOrSave": "Selecione uma predefinição de iluminação interna para carregar ou salvar.",
       "TT": {
-        "AircraftMustBePowered": "Aircraft Must be Powered",
-        "ClickTextToChangeThePresetsName": "Click Text to Change the Preset's Name",
-        "LoadThisPreset": "Load This Preset",
-        "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
+        "AircraftMustBePowered": "A aeronave deve ser energizada",
+        "ClickTextToChangeThePresetsName": "Clique no texto para alterar o nome da predefinição",
+        "LoadThisPreset": "Carregar esta predefinição",
+        "SaveTheCurrentLightingLevels": "Salvar os níveis de iluminação atuais"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "The aircraft must be powered for interior lighting presets.",
-      "Title": "Interior Lighting"
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "A aeronave deve ser energizada para predefinições de iluminação interior.",
+      "Title": "Iluminação interior"
     },
-    "Title": "Presets"
+    "Title": "Predefinições"
   },
   "Pushback": {
     "Backward": "Backward",
-    "CallTug": "Call Tug",
-    "Forward": "Forward",
-    "Halt": "Halt",
+    "CallTug": "Chamar reboque",
+    "Forward": "Para frente",
+    "Halt": "Parar",
     "ParkingBrake": {
-      "Off": "Off",
-      "On": "On",
-      "Title": "Parking Brake"
+      "Off": "Desativado",
+      "On": "Ativado",
+      "Title": "Freio de estacionamento"
     },
-    "TugDirection": "Tug Direction",
-    "TugSpeed": "Tug Speed"
+    "TugDirection": "Direção do rebocador",
+    "TugSpeed": "Velocidade do rebocador"
   },
   "Settings": {
     "About": {
-      "Title": "About"
+      "Title": "Sobre"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Acceleration Height (ft)",
-      "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
-      "IsisBaroUnit": "ISIS Baro Unit",
-      "IsisMetricAltitude": "ISIS Metric Altitude",
+      "AccelerationHeight": "Altitude de aceleração (pés)",
+      "EngineOutAccelerationHeight": "Altitude de aceleração de perda do motor (pés)",
+      "IsisBaroUnit": "Unidade ISIS Baro",
+      "IsisMetricAltitude": "Altitude métrica ISIS",
       "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
-      "PaxSigns": "PAX Signs",
-      "RmpVhfSpacing": "RMP VHF Spacing",
-      "ThrustReductionHeight": "Thrust Reduction Height (ft)",
+      "PaxSigns": "Aviso de Passageiros",
+      "RmpVhfSpacing": "Espaçamento RMP VHF",
+      "ThrustReductionHeight": "Altura de redução de empuxo (ft)",
       "Title": "Aircraft Options / Pin Programs",
-      "WeightUnit": "Weight Unit"
+      "WeightUnit": "Unidade de peso"
     },
     "AtsuAoc": {
-      "AtisAtcSource": "ATIS/ATC Source",
-      "AutomaticallyImportSimBriefData": "Automatically Import SimBrief Data",
-      "Enable": "Enable",
-      "EnableTelex": "Enable TELEX",
-      "ErrorReporting": "Error Reporting",
+      "AtisAtcSource": "Fonte ATIS/ATC",
+      "AutomaticallyImportSimBriefData": "Importar dados do SimBrief automaticamente",
+      "Enable": "Ativar",
+      "EnableTelex": "Ativar o TELEX",
+      "ErrorReporting": "Relatório de erros",
       "HoppieEnabled": "Hoppie enabled",
-      "HoppieUserId": "Hoppie User ID",
-      "MetarSource": "METAR Source",
-      "OptionalA32nxErrorReporting": "Optional A32NX Error Reporting",
-      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Please check that you have correctly entered your SimBrief username or pilot ID.",
-      "SimBriefUsernamePilotId": "SimBrief Username/Pilot ID",
+      "HoppieUserId": "ID de usuário Hoppie",
+      "MetarSource": "Fonte do METAR",
+      "OptionalA32nxErrorReporting": "Relatório de erros opcionais do A32NX",
+      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Verifique se você inseriu corretamente seu nome de usuário ou ID de piloto do SimBrief.",
+      "SimBriefUsernamePilotId": "Nome de usuário/ID piloto do SimBrief",
       "TafSource": "TAF Source",
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "TELEX enables free text and live map. If enabled, aircraft position data is published for the duration of the flight. Messages are public and not moderated. USE THIS FEATURE AT YOUR OWN RISK. To learn more about TELEX and the features it enables, please go to https://docs.flybywiresim.com/telex.",

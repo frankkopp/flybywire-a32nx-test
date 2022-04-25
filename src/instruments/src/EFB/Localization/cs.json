@@ -61,7 +61,7 @@
     },
     "Title": "Hlavní panel",
     "YourFlight": {
-      "Alternate": "Záložní let.",
+      "Alternate": "Náhradní letiště",
       "AverageWind": "Průměrný vítr",
       "CompanyRoute": "Company Route",
       "CostIndex": "Cost Index",
@@ -100,7 +100,7 @@
   },
   "Failures": {
     "Comfort": {
-      "Title": "Příjemné"
+      "Title": "Komfort"
     },
     "Compact": {
       "Title": "Kompaktní"
