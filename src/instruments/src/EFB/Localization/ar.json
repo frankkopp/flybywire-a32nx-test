@@ -39,11 +39,11 @@
         "Title": "خرائط مثبتة "
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "إعادة ترتيب عناصر الواجهة "
       },
-      "Title": "Important Information",
+      "Title": "معلومات هامة",
       "Weather": {
-        "AirPressure": "Air Pressure",
+        "AirPressure": "ضغط الهواء",
         "DewPoint": "Dew Point",
         "IcaoInvalid": "ICAO invalid or no METAR available",
         "Loading": "Loading",
