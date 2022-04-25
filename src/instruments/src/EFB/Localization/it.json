@@ -379,7 +379,7 @@
       "SimBriefUsernamePilotId": "Nome Utente/ID Pilota SimBrief",
       "TafSource": "Fonte TAF",
       "Telex": "TELEX",
-      "TelexEnablesFreeTextAndLiveMap": "TELEX abilita il testo libero e la mappa live. Se abilitato, i dati sulla posizione dell'aeromobile vengono pubblicati durante il volo. I messaggi sono pubblici e non gestiti. UTILIZZA QUESTA FUNZIONE A TUO RISCHIO. Per saperne di più su TELEX e le funzionalità che abilita, ti preghiamo di andare su https://docs.flybywiresim.com/telex.",
+      "TelexEnablesFreeTextAndLiveMap": "TELEX abilita il free text e la live map. Se abilitato, i dati sulla posizione dell'aeromobile vengono pubblicati durante il volo. I messaggi sono pubblici e non gestiti. UTILIZZA QUESTA FUNZIONE A TUO RISCHIO. Per saperne di più su TELEX e le funzionalità che abilita, ti preghiamo di andare su https://docs.flybywiresim.com/telex.",
       "TelexWarning": "Avviso TELEX",
       "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "C'è stato un errore con la convalidazione del tuo Hoppie-ID",
       "Title": "ATSU / AOC",
@@ -409,7 +409,7 @@
       "HomeCockpitMode": "Modalità Home Cockpit",
       "McduFocusTimeout": "Timeout Puntatore su MCDU (secondi)",
       "McduKeyboardInput": "Input Tastiera MCDU",
-      "SeparateTillerFromRudderInputs": "Separa gli input del Tiller e dei Pedali",
+      "SeparateTillerFromRudderInputs": "Separa gli Input del Tiller e dei Pedali",
       "Title": "Realismo"
     },
     "SimOptions": {
@@ -428,7 +428,7 @@
       "Save": "Salva",
       "SyncMsfsFlightPlan": "Sincronizza Piano di Volo MSFS",
       "ThrottleDetents": "Posizioni Manetta",
-      "Title": "Opzioni Simulatore",
+      "Title": "Opzioni Sim",
       "UseCalculatedIlsSignals": "Usa Segnali ILS Calcolati",
       "inHg": "inHg"
     },

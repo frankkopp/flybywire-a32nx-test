@@ -302,7 +302,7 @@
     "AircraftStates": {
       "Cancel": "Cancelar",
       "ColdDark": "Frio e escuro",
-      "ConfirmationDialogMsg": "Confirme o carregamento da predefinição.",
+      "ConfirmationDialogMsg": "Por favor, confirme o carregamento da predefinição.",
       "CurrentProcedureStep": "Etapa do procedimento atual",
       "PleaseConfirmLoadingOfPreset": "Confirme o carregamento da predefinição.",
       "ReadyPushback": "Pronto para o pushback",
@@ -424,7 +424,7 @@
       "Inactive": "Inativo",
       "LoadOnly": "Carregar somente",
       "None": "Nenhum",
-      "Off": "Desligado",
+      "Off": "Desativado",
       "Save": "Salvar",
       "SyncMsfsFlightPlan": "Sincronizar plano de voo do MSFS",
       "ThrottleDetents": "Manetes de potência",
