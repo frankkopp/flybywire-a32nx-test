@@ -203,7 +203,7 @@
     "TT": {
       "FitChartToHeight": "Adatta Carta all'Altezza",
       "FitChartToWidth": "Adatta Carta alla Larghezza",
-      "ResetMovement": "Ripristina Movimento",
+      "ResetMovement": "Ripristina Posizione",
       "RotateLeft45Degrees": "Ruota a Sinistra di 45 Gradi",
       "RotateRight45Degrees": "Ruota a Destra di 45 Gradi",
       "ZoomIn": "Ingrandisci",
@@ -292,8 +292,8 @@
         "Title": "Risultato"
       },
       "TT": {
-        "DesynchronizeInputWithAircraftsCurrentAltitude": "Non sincronizzare valore con Altitudine Attuale dell'Aeromobile",
-        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizzare valore con Altitudine Attuale dell'Aeromobile"
+        "DesynchronizeInputWithAircraftsCurrentAltitude": "Non sincronizzare inserimento con Altitudine Attuale dell'Aeromobile",
+        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizzare inserimento con Altitudine Attuale dell'Aeromobile"
       },
       "Title": "Inizio della Discesa"
     }
