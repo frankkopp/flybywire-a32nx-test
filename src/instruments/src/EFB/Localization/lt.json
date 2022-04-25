@@ -234,127 +234,127 @@
       "Qnh": "QNH",
       "ReverseThrust": "Atbulinė trauka",
       "RunwayAltitude": "Pakilimo tako aukštis",
-      "RunwayAltitudeUnit": "ft ASL",
-      "RunwayCondition": "Runway Condition",
-      "RunwayHeading": "Runway Heading",
+      "RunwayAltitudeUnit": "pėdos virš jūros lygio",
+      "RunwayCondition": "Pakilimo tako kondicija",
+      "RunwayHeading": "Pakilimo tako kryptis",
       "RunwayHeadingUnit": "°",
-      "RunwayLda": "Runway LDA",
-      "RunwayLdaUnitFt": "ft",
+      "RunwayLda": "Galimas nusileidimo tako nuotolis",
+      "RunwayLdaUnitFt": "pėdų",
       "RunwayLdaUnitMeter": "m",
-      "RunwaySlope": "Runway Slope",
+      "RunwaySlope": "Pakilimo tako nuolydis",
       "TT": {
-        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "You need to enter an ICAO code in order to make a METAR request",
-        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "You need to load SimBrief data in order to autofill data"
+        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "Turite įvesti ICAO kodą norint prašyti METAR",
+        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "Jūs turite įkelti SimBrief duomenis norint automatiškai suvesti duomenis"
       },
-      "Temperature": "Temperature",
-      "Title": "Landing",
-      "UnitFt": "ft",
+      "Temperature": "Temperatūra",
+      "Title": "Nusileidimas",
+      "UnitFt": "pėdų",
       "UnitMeter": "m",
-      "Weight": "Weight",
-      "WindDirection": "Wind Direction",
+      "Weight": "Svoris",
+      "WindDirection": "Vėjo kryptis",
       "WindDirectionUnit": "°",
-      "WindMagnitude": "Wind Magnitude",
-      "WindMagnitudeUnit": "kts"
+      "WindMagnitude": "Vėjo stipris",
+      "WindMagnitudeUnit": "kns"
     },
-    "SYNC": "SYNC",
-    "Title": "Performance",
+    "SYNC": "Sinchr.",
+    "Title": "Našumas",
     "TopOfDescent": {
       "Data": {
-        "Angle": "Angle",
-        "CurrentAltitude": "Current Altitude",
-        "Distance": "Distance",
-        "GroundSpeed": "Ground Speed",
-        "TargetAltitude": "Target Altitude",
-        "Title": "Data",
-        "UnitAngleDegrees": "degrees",
-        "UnitFeet": "feet",
-        "UnitFtMin": "ft/min",
-        "UnitNM": "NM",
-        "VerticalSpeed": "Vertical Speed"
+        "Angle": "Kampas",
+        "CurrentAltitude": "Dabartinis aukštis",
+        "Distance": "Atstumas",
+        "GroundSpeed": "Greitis žemės atžvilgiu",
+        "TargetAltitude": "Numatomas aukštis",
+        "Title": "Duomenys",
+        "UnitAngleDegrees": "laipsniai",
+        "UnitFeet": "pėdos",
+        "UnitFtMin": "pėdų/min",
+        "UnitNM": "Jūrmylių",
+        "VerticalSpeed": "Vertikalus greitis"
       },
       "GroundSpeed": {
-        "Add": "Add",
-        "FetchingSpeedFromSimulator": "Fetching speed from simulator",
-        "GroundSpeed": "Ground Speed",
-        "ManualInput": "Manual Input",
-        "MinAltitude": "Min. Altitude",
-        "RemoveLast": "Remove Last",
-        "Sync": "SYNC",
-        "Title": "Ground Speed",
-        "UnitKnots": "knots",
-        "UnitKt": "kt"
+        "Add": "Pridėti",
+        "FetchingSpeedFromSimulator": "Greitis gaunamas iš simuliatoriaus",
+        "GroundSpeed": "Greitis žemės atžvilgiu",
+        "ManualInput": "Įvedimas rankiniu būdu",
+        "MinAltitude": "Minimalus aukštis",
+        "RemoveLast": "Pašalinti paskutinį",
+        "Sync": "Sinchr.",
+        "Title": "Greitis žemės atžvilgiu",
+        "UnitKnots": "mazgai",
+        "UnitKt": "kn"
       },
       "Result": {
-        "BeforeTarget": "before target",
-        "DesiredDescentAngle": "Desired Descent Angle",
-        "DesiredVerticalSpeed": "Desired Vertical Speed",
-        "StartYourDescentAbout": "Start your descent about",
-        "Title": "Result"
+        "BeforeTarget": "prieš taikinį",
+        "DesiredDescentAngle": "Norimas nusileidimo kampas",
+        "DesiredVerticalSpeed": "Norimas vertikalus greitis",
+        "StartYourDescentAbout": "Pradėkite nusileidimą maždaug",
+        "Title": "Rezultatas"
       },
       "TT": {
         "DesynchronizeInputWithAircraftsCurrentAltitude": "Desynchronize Input with Aircraft's Current Altitude",
         "SynchronizeInputWithAircraftsCurrentAltitude": "Synchronize Input with Aircraft's Current Altitude"
       },
-      "Title": "Top of Descent"
+      "Title": "Nusileidimo pradžia"
     }
   },
   "Presets": {
     "AircraftStates": {
-      "Cancel": "Cancel",
-      "ColdDark": "Cold & Dark",
-      "ConfirmationDialogMsg": "Please confirm loading of preset.",
-      "CurrentProcedureStep": "Current Procedure Step",
-      "PleaseConfirmLoadingOfPreset": "Please confirm loading of preset.",
-      "ReadyPushback": "Ready for Pushback",
-      "ReadyTakeoff": "Ready for Takeoff",
-      "ReadyTaxi": "Ready for Taxi",
-      "SelectAPresetToLoad": "Select a Preset to Load",
-      "TheAircraftMustBeOnTheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "TheAircraftMustBeOntheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "Title": "Aircraft States",
+      "Cancel": "Atšaukti",
+      "ColdDark": "Visiškai išjungtas",
+      "ConfirmationDialogMsg": "Patvirtinkite išankstinio nustatymo įkėlimą.",
+      "CurrentProcedureStep": "Dabartinis procedūros žingsnis",
+      "PleaseConfirmLoadingOfPreset": "Patvirtinkite išankstinio nustatymo įkėlimą.",
+      "ReadyPushback": "Paruoštas išstumimui",
+      "ReadyTakeoff": "Paruoštas pakilimui",
+      "ReadyTaxi": "Paruoštas riedėjimui",
+      "SelectAPresetToLoad": "Pasirinkite išankstinį nustatymą",
+      "TheAircraftMustBeOnTheGroundToLoadAPreset": "Norint įkelti išankstinius nustatymus, orlaivis turi būti ant žemės",
+      "TheAircraftMustBeOntheGroundToLoadAPreset": "Norint įkelti išankstinius nustatymus, orlaivis turi būti ant žemės",
+      "Title": "Lėktuvo būsenos",
       "Turnaround": "Turnaround"
     },
     "InteriorLighting": {
-      "AircraftNeedsToBePoweredToLoadPresets": "Aircraft Needs to be Powered to Load Presets",
-      "AircraftNeedsToBePoweredToSavePresets": "Aircraft Needs to Be Powered to Save Presets",
-      "LoadPreset": "Load Preset",
-      "LoadingPreset": "Loading Preset",
+      "AircraftNeedsToBePoweredToLoadPresets": "Norint įkelti išankstinius nustatymus, orlaivis turi būti įjungtas",
+      "AircraftNeedsToBePoweredToSavePresets": "Norint išsaugoti išankstinius nustatymus, orlaivis turi būti įjungtas",
+      "LoadPreset": "Įkelti išankstinį nustatymą",
+      "LoadingPreset": "Išankstinis nustatymas įkeliamas",
       "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
-      "NoName": "No Name",
-      "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
-      "SavePreset": "Save Preset",
-      "SavingPreset": "Saving Preset",
-      "SelectAnInteriorLightingPresetToLoadOrSave": "Select an interior lighting preset to load or save.",
+      "NoName": "Nėra pavadinimo",
+      "PleaseConfirmSavingPreset": "Patvirtinkite išankstinio nustatymo išsaugojimą",
+      "SavePreset": "Išsaugoti išankstinį nustatymą",
+      "SavingPreset": "Išankstinis nustatymas išsaugomas",
+      "SelectAnInteriorLightingPresetToLoadOrSave": "Pasirinkite iš anksto nustatytą vidaus apšvietimo nustatymą, kurį norite įkelti arba išsaugoti.",
       "TT": {
-        "AircraftMustBePowered": "Aircraft Must be Powered",
-        "ClickTextToChangeThePresetsName": "Click Text to Change the Preset's Name",
-        "LoadThisPreset": "Load This Preset",
-        "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
+        "AircraftMustBePowered": "Orlaivis turi būti įjungtas",
+        "ClickTextToChangeThePresetsName": "Paspauskite norint pakeisti išansktinio nustatymo pavadinimą",
+        "LoadThisPreset": "Įkelti šį išankstinį nustatymą",
+        "SaveTheCurrentLightingLevels": "Išsaugoti esamus apšvietimo lygius"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "The aircraft must be powered for interior lighting presets.",
-      "Title": "Interior Lighting"
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "Orlaivis turi būti maitinamas norint iš anksto nustatyti vidaus apšvietimą.",
+      "Title": "Vidaus apšvietimas"
     },
-    "Title": "Presets"
+    "Title": "Išankstiniai nustatymai"
   },
   "Pushback": {
-    "Backward": "Backward",
-    "CallTug": "Call Tug",
-    "Forward": "Forward",
-    "Halt": "Halt",
+    "Backward": "Atgal",
+    "CallTug": "Iškviesti vilkiką",
+    "Forward": "Pirmyn",
+    "Halt": "Sustabdyti",
     "ParkingBrake": {
-      "Off": "Off",
-      "On": "On",
-      "Title": "Parking Brake"
+      "Off": "Išjungta",
+      "On": "Įjungta",
+      "Title": "Stovėjimo stabdys"
     },
-    "TugDirection": "Tug Direction",
-    "TugSpeed": "Tug Speed"
+    "TugDirection": "Vilkiko kryptis",
+    "TugSpeed": "Vilkiko greitis"
   },
   "Settings": {
     "About": {
-      "Title": "About"
+      "Title": "Apie"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Acceleration Height (ft)",
+      "AccelerationHeight": "Pagreitėjimo aukštis (pėdos)",
       "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
       "IsisBaroUnit": "ISIS Baro Unit",
       "IsisMetricAltitude": "ISIS Metric Altitude",
