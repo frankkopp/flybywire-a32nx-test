@@ -1,26 +1,26 @@
 {
   "AirTrafficControl": {
-    "Active": "Ativo",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
-    "ConnectHoppieACARS": "Conectar Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "NENHUMA INFORMAÇÃO DISPONÍVEL PARA ESSA FREQUÊNCIA",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
-    "SetActive": "Definir ativo",
-    "SetStandby": "Setar Standby",
+    "Active": "Aktív",
+    "ChangeATISATCSourceButton": "ATIS/ATC forrás módosítása",
+    "ConnectHoppieACARS": "Csatlakozás Hoppie ACARS-hoz",
+    "NoInformationAvailableForThisFrequency": "Nincs információ erről a frekvenciáról",
+    "SelectCorrectATISATCSource": "Ez az oldal csak akkor érhető el, ha az IVAO vagy a VATSIM van kiválasztva ATIS/ATC forrásként a beállítások oldalon.",
+    "SetActive": "Aktiválás",
+    "SetStandby": "Set Standby",
     "Standby": "Standby",
-    "Title": "Controle de tráfego aéreo"
+    "Title": "Air Traffic Control"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Tem certeza de que deseja redefinir todos os Checklists?",
-    "AreYouSureYouWantToResetChecklists": "Tem certeza de que deseja redefinir todos os Checklists?",
-    "ChecklistResetWarning": "Aviso de reinicialização do Checklist",
-    "MarkChecklistAsComplete": "Marcar Checklist como completo",
-    "MarkItemAsComplete": "Marcar item como completo",
+    "AreYouSureYouWantToResetAllChecklists": "Are you sure you want to reset all checklists?",
+    "AreYouSureYouWantToResetChecklists": "Are you sure you want to reset all checklists?",
+    "ChecklistResetWarning": "Checklist Reset Warning",
+    "MarkChecklistAsComplete": "Mark checklist as complete",
+    "MarkItemAsComplete": "Mark item as complete",
     "ProceedToNextChecklist": "Proceed to next checklist",
-    "ResetAll": "Redefinir tudo",
-    "ResetChecklist": "Redefinir Checklist",
-    "TheLastChecklistIsComplete": "O último checklist está completo",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Restam itens de preenchimento automático no checklist que ainda não foram concluídos",
+    "ResetAll": "Reset All",
+    "ResetChecklist": "Reset Checklist",
+    "TheLastChecklistIsComplete": "The last checklist is complete",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "There are remaining autofill checklist items that have not yet been completed",
     "Title": "Checklists"
   },
   "Dashboard": {
@@ -29,10 +29,10 @@
         "NoRelevantChecklists": "No Relevant Checklists",
         "Title": "Checklists"
       },
-      "GoToPage": "Ir para a página",
+      "GoToPage": "Go to Page",
       "Maintenance": {
-        "NoActiveFailures": "Sem falhas ativas",
-        "Title": "Manutenção"
+        "NoActiveFailures": "No Active Failures",
+        "Title": "Maintenance"
       },
       "PinnedCharts": {
         "NoPinnedCharts": "No Pinned Charts",

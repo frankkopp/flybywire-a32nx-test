@@ -100,7 +100,7 @@
   },
   "Failures": {
     "Comfort": {
-      "Title": "Comfort"
+      "Title": "Comodo"
     },
     "Compact": {
       "Title": "Compatto"
@@ -136,13 +136,13 @@
       "Title": "Pushback"
     },
     "Services": {
-      "BaggageTruck": "Carrello Portabagagli",
-      "CateringTruck": "Catering-truck",
-      "DoorAft": "Porta Posteriore",
-      "DoorFwd": "Porta Anteriore",
+      "BaggageTruck": "Veicolo Bagagli",
+      "CateringTruck": "Veicolo Catering",
+      "DoorAft": "Porta Post.",
+      "DoorFwd": "Porta Ant.",
       "ExternalPower": "Alimentazione Esterna",
-      "FuelTruck": "Autocarro Carburante",
-      "JetBridge": "Ponte di Imbarco",
+      "FuelTruck": "Veicolo Carburante",
+      "JetBridge": "Ponte d'Imbarco",
       "Title": "Servizi"
     },
     "Title": "Terra"
@@ -182,7 +182,7 @@
       "Edit": "Modifica",
       "NoItemsFound": "Nessun Elemento Trovato",
       "SearchPlaceholder": "Cerca",
-      "ShowingChartsFromAllProviders": "Visualizzazione delle Cartine da tutti i Fornitori",
+      "ShowingChartsFromAllProviders": "Visualizzazione delle Carte da tutti i Fornitori",
       "SortMethods": {
         "AlphabeticalAZ": "Alfabetico - A -> Z",
         "AlphabeticalZA": "Alfabetico - Z -> A",
@@ -191,27 +191,27 @@
         "None": "Nessuno"
       },
       "TT": {
-        "ChangeChartProvider": "Cambia Fornitore Cartine",
-        "ChangeChartSortMethod": "Cambia Metodo di Ordinamento Cartine",
-        "RemoveAllPinnedCharts": "Rimuovi Tutte le Cartine Affissate"
+        "ChangeChartProvider": "Cambia Fornitore Carte",
+        "ChangeChartSortMethod": "Cambia Modalità di Ordinamento delle Carte",
+        "RemoveAllPinnedCharts": "Rimuovi Tutte le Carte Fissate"
       },
-      "Title": "Cartine Affissate",
+      "Title": "Carte Fissate",
       "View": "Visualizza"
     },
     "PleaseWait": "Attendere Prego",
     "ShowingAllItems": "Visualizzazione di Tutti gli Elementi",
     "TT": {
-      "FitChartToHeight": "Adatta Cartina all'Altezza",
-      "FitChartToWidth": "Adatta Cartina alla Larghezza",
+      "FitChartToHeight": "Adatta Carta all'Altezza",
+      "FitChartToWidth": "Adatta Carta alla Larghezza",
       "ResetMovement": "Ripristina Movimento",
       "RotateLeft45Degrees": "Ruota a Sinistra di 45 Gradi",
       "RotateRight45Degrees": "Ruota a Destra di 45 Gradi",
       "ZoomIn": "Ingrandisci",
       "ZoomOut": "Rimpicciolisci"
     },
-    "ThereAreNoChartsToDisplay": "Non ci sono cartine da visualizzare.",
-    "ThereIsNoChartToDisplay": "Non c'è nessuna cartina da visualizzare",
-    "Title": "Navigazione & Cartine",
+    "ThereAreNoChartsToDisplay": "Non ci sono carte da visualizzare.",
+    "ThereIsNoChartToDisplay": "Non c'è nessuna carta da visualizzare",
+    "Title": "Navigazione e Carte",
     "To": "A"
   },
   "Performance": {
@@ -264,7 +264,7 @@
         "CurrentAltitude": "Altitudine Attuale",
         "Distance": "Distanza",
         "GroundSpeed": "Velocità al Suolo",
-        "TargetAltitude": "Altitudine da Raggiungere",
+        "TargetAltitude": "Altitudine Target",
         "Title": "Dati",
         "UnitAngleDegrees": "Gradi",
         "UnitFeet": "Piedi",
@@ -285,7 +285,7 @@
         "UnitKt": "kt"
       },
       "Result": {
-        "BeforeTarget": "Prima del Raggiungimento",
+        "BeforeTarget": "Prima del Target",
         "DesiredDescentAngle": "Angolo Discesa Desiderato",
         "DesiredVerticalSpeed": "Velocità Verticale Desiderata",
         "StartYourDescentAbout": "Inizia la tua discesa a circa",
@@ -360,8 +360,8 @@
       "IsisMetricAltitude": "Altitudine Metrica ISIS",
       "LatLonExtendedFormat": "Formato Waypoint Lat/Lon FMGC",
       "PaxSigns": "PAX Sign",
-      "RmpVhfSpacing": "RMP VHF Spacing",
-      "ThrustReductionHeight": "Thrust Reduction Height (ft)",
+      "RmpVhfSpacing": "Spaziatura VHF RMP",
+      "ThrustReductionHeight": "Altezza Riduzione Spinta (ft)",
       "Title": "Opzioni Aeromobile / Programmi Fissati",
       "WeightUnit": "Unità Peso"
     },
@@ -409,7 +409,7 @@
       "HomeCockpitMode": "Modalità Home Cockpit",
       "McduFocusTimeout": "Timeout Puntatore su MCDU (secondi)",
       "McduKeyboardInput": "Input Tastiera MCDU",
-      "SeparateTillerFromRudderInputs": "Separa Input del Tiller da quello dei Pedali",
+      "SeparateTillerFromRudderInputs": "Separa gli input del Tiller e dei Pedali",
       "Title": "Realismo"
     },
     "SimOptions": {
@@ -440,7 +440,7 @@
       "ConfigureEnd": "Configura Fine",
       "ConfigureStart": "Configura Inizio",
       "CurrentValue": "Valore Corrente",
-      "Deadband": "Deadband",
+      "Deadband": "Zona Morta",
       "ErrorOverlapMsg": "Conflitto con",
       "IndependentAxis": "Asse Unica",
       "LoadFromFile": "Carica da File",
@@ -448,7 +448,7 @@
       "ResetToDefaults": "Ripristina Predefiniti",
       "ReverseFull": "Reverse Full",
       "ReverseIdle": "Reverse Idle",
-      "ReverserOnAxis": "Reverser su Asse/i",
+      "ReverserOnAxis": "Inversori Su Asse/i",
       "SaveAndApply": "Salva e Applica",
       "SetFromThrottle": "Imposta dalla Manetta",
       "ThrottleConfigurationReset": "Ripristina Configurazione Manetta"

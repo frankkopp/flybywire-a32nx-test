@@ -48,48 +48,48 @@
         "IcaoInvalid": "ICAO inválido ou METAR indisponível",
         "Loading": "A Carregar",
         "MetarParsingError": "METAR recebido não pode ser analisado ",
-        "NoIcaoProvided": "No ICAO provided",
+        "NoIcaoProvided": "ICAO não fornecido",
         "Raw": "Raw",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToIconView": "Mudar para a visualização de ícones",
+          "SwitchToRawMetarView": "Mudar para vista de METAR não processada"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "Temperatura",
+        "Title": "Meteorologia",
+        "WindSpeed": "Velocidade do vento"
       }
     },
-    "Title": "Dashboard",
+    "Title": "Painel",
     "YourFlight": {
-      "Alternate": "Alternate",
+      "Alternate": "Alternativo",
       "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
+      "CompanyRoute": "Rota da companhia",
+      "CostIndex": "Índice de Custo",
+      "CruiseAlt": "Altitude de Cruzeiro",
+      "ImportSimBriefData": "Importar dados do SimBrief",
+      "Route": "Rota",
+      "SimBriefDataNotYetLoaded": "Dados do SimBrief não carregados.",
       "Title": "Your Flight",
       "ZFW": "ZFW"
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "Importar dados do SimBrief",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "Aumentar tamanho de letra",
+        "ReduceFontSize": "Reduzir o tamanho da letra"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
+      "YouHaveNotYetImportedAnySimBriefData": "Ainda não importou nenhuns dados do SimBrief"
     },
     "Overview": {
-      "Engines": "Engines",
+      "Engines": "Motores",
       "MMO": "MMO",
       "MRW": "MRW",
       "MTOW": "MTOW",
       "MZFW": "MZFW",
-      "MaximumCargo": "Maximum Cargo",
+      "MaximumCargo": "Carga Máxima",
       "MaximumFuelCapacity": "Maximum Fuel Capacity",
       "MaximumPassengers": "Maximum Passengers",
       "Model": "Model",
