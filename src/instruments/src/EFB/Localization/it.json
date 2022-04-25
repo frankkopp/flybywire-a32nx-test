@@ -225,16 +225,16 @@
       "Clear": "Cancella",
       "DropDownNo": "No",
       "DropDownYes": "Sì",
-      "FillDataFrom": "Inserisci i dati da",
+      "FillDataFrom": "Riempi dati da",
       "FlapsConfiguration": "Configurazione Flap",
-      "Low": "Basso",
-      "MaximumManual": "Massima Manuale",
-      "Medium": "Medio",
+      "Low": "Low",
+      "MaximumManual": "Max Manuale",
+      "Medium": "Medium",
       "OverweightProcedure": "Procedura in Sovraccarico",
       "Qnh": "QNH",
       "ReverseThrust": "Inversori di Spinta",
       "RunwayAltitude": "Altitudine Pista",
-      "RunwayAltitudeUnit": "ft ASL",
+      "RunwayAltitudeUnit": "ASL ft",
       "RunwayCondition": "Condizioni Pista",
       "RunwayHeading": "Orientamento Pista",
       "RunwayHeadingUnit": "°",
@@ -292,8 +292,8 @@
         "Title": "Risultato"
       },
       "TT": {
-        "DesynchronizeInputWithAircraftsCurrentAltitude": "De-sincronizza immissione con l'Altitudine Attuale dell'Aeromobile",
-        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizza Immissione con l'Altitudine Attuale dell' Aeromobile"
+        "DesynchronizeInputWithAircraftsCurrentAltitude": "Non sincronizzare valore con Altitudine Attuale dell'Aeromobile",
+        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizzare valore con Altitudine Attuale dell'Aeromobile"
       },
       "Title": "Inizio della Discesa"
     }
@@ -374,7 +374,7 @@
       "HoppieEnabled": "Hoppie Abilitato",
       "HoppieUserId": "ID Utente Hoppie",
       "MetarSource": "Fonte METAR",
-      "OptionalA32nxErrorReporting": "Segnalazione Errori Opzionale A32NX ",
+      "OptionalA32nxErrorReporting": "Segnalazione Opzionale Errori A32NX ",
       "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Verifica di aver inserito correttamente il tuo nome utente o pilota ID SimBrief",
       "SimBriefUsernamePilotId": "Nome Utente/ID Pilota SimBrief",
       "TafSource": "Fonte TAF",
@@ -383,7 +383,7 @@
       "TelexWarning": "Avviso TELEX",
       "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "C'è stato un errore con la convalidazione del tuo Hoppie-ID",
       "Title": "ATSU / AOC",
-      "YouAreAbleToOptIntoAnonymousErrorReporting": "Puoi attivare la segnalazione anonima degli errori, che ci consentirà di diagnosticare, monitorare e occuparci dei problemi più velocemente. Questa funzione è completamente facoltativa e non raccoglieremo mai i tuoi dati personali, ma potrebbe consentirti di ricevere supporto più facilmente e risolvere i problemi che incontri più rapidamente.",
+      "YouAreAbleToOptIntoAnonymousErrorReporting": "Puoi attivare la segnalazione anonima degli errori, che ci consentirà di diagnosticare, monitorare e occuparci dei problemi più velocemente. Questa funzione è completamente facoltativa e non raccoglieremo mai i tuoi dati personali, ma potrebbe consentirti di ricevere supporto più facilmente e avere risolti i problemi che incontri più rapidamente.",
       "YourHoppieIdHasBeenRemoved": "Il tuo Hoppie-ID è stato rimosso",
       "YourHoppieIdHasBeenValidated": "Il tuo Hoppie-ID è stato convalidato",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "Il tuo ID Pilota SimBrief è stato convalidato e aggiornato"
@@ -439,7 +439,7 @@
       "Back": "Indietro",
       "ConfigureEnd": "Configura Fine",
       "ConfigureStart": "Configura Inizio",
-      "CurrentValue": "Valore Corrente",
+      "CurrentValue": "Valore Attuale",
       "Deadband": "Zona Morta",
       "ErrorOverlapMsg": "Conflitto con",
       "IndependentAxis": "Asse Unica",

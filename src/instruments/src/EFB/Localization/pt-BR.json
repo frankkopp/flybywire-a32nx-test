@@ -39,71 +39,71 @@
         "Title": "Pinned Charts"
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "Reorganizar widgets"
       },
-      "Title": "Important Information",
+      "Title": "Informação importante",
       "Weather": {
-        "AirPressure": "Air Pressure",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
+        "AirPressure": "Pressão do ar",
+        "DewPoint": "Ponto de orvalho",
+        "IcaoInvalid": "ICAO inválido ou METAR indisponível",
+        "Loading": "Carregando",
+        "MetarParsingError": "O METAR recebido não pôde ser analisado",
+        "NoIcaoProvided": "Nenhum ICAO fornecido",
         "Raw": "Raw",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
+          "SwitchToIconView": "Mudar para a visualização de ícones",
           "SwitchToRawMetarView": "Switch to Raw METAR View"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "Temperatura",
+        "Title": "Clima",
+        "WindSpeed": "Velocidade do vento"
       }
     },
-    "Title": "Dashboard",
+    "Title": "Painel",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
+      "Alternate": "Alternativo",
+      "AverageWind": "Vento médio",
+      "CompanyRoute": "Rota da companhia",
       "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
+      "CruiseAlt": "Altitude de Cruzeiro",
+      "ImportSimBriefData": "Importar dados do SimBrief",
+      "Route": "Rota",
+      "SimBriefDataNotYetLoaded": "Os dados do SimBrief ainda não foram carregados.",
+      "Title": "Seu voo",
       "ZFW": "ZFW"
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "Importar dados do SimBrief",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "Aumentar o tamanho da fonte",
+        "ReduceFontSize": "Reduzir o tamanho da fonte"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
+      "YouHaveNotYetImportedAnySimBriefData": "Você ainda não importou nenhum dado do SimBrief."
     },
     "Overview": {
-      "Engines": "Engines",
+      "Engines": "Motores",
       "MMO": "MMO",
       "MRW": "MRW",
       "MTOW": "MTOW",
       "MZFW": "MZFW",
-      "MaximumCargo": "Maximum Cargo",
-      "MaximumFuelCapacity": "Maximum Fuel Capacity",
-      "MaximumPassengers": "Maximum Passengers",
-      "Model": "Model",
-      "Range": "Range",
-      "Title": "Overview"
+      "MaximumCargo": "Carga máxima",
+      "MaximumFuelCapacity": "Capacidade máxima de combustível",
+      "MaximumPassengers": "Máximo de passageiros",
+      "Model": "Modelo",
+      "Range": "Autonomia",
+      "Title": "Visão geral"
     },
-    "Title": "Dispatch"
+    "Title": "Despacho"
   },
   "Failures": {
     "Comfort": {
-      "Title": "Comfort"
+      "Title": "Conforto"
     },
     "Compact": {
-      "Title": "Compact"
+      "Title": "Compacto"
     },
     "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Full simulation of the failures below isn't yet guaranteed.",
     "Search": "Search",
