@@ -15,120 +15,120 @@
     "AreYouSureYouWantToResetChecklists": "Ar tikrai norite atstatyti visus patikrinimų sąrašus?",
     "ChecklistResetWarning": "Patikrinimų sąrašo atstatymo perspėjimas",
     "MarkChecklistAsComplete": "Pažymėti patikrinimų sąrašą atliktu",
-    "MarkItemAsComplete": "Mark item as complete",
-    "ProceedToNextChecklist": "Proceed to next checklist",
-    "ResetAll": "Reset All",
-    "ResetChecklist": "Reset Checklist",
-    "TheLastChecklistIsComplete": "The last checklist is complete",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "There are remaining autofill checklist items that have not yet been completed",
-    "Title": "Checklists"
+    "MarkItemAsComplete": "Pažymėti punktą atliktu",
+    "ProceedToNextChecklist": "Pereiti į kitą patikrinimų sąrašą",
+    "ResetAll": "Viską atstatyti",
+    "ResetChecklist": "Atstatyti patikrinimų sąrašą",
+    "TheLastChecklistIsComplete": "Paskutinis patikrinimų sąrašas baigtas",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Yra nebaigtų automatinio patikrinimų sąrašo punktų",
+    "Title": "Patikrinimų sąrašai"
   },
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "No Relevant Checklists",
-        "Title": "Checklists"
+        "NoRelevantChecklists": "Nėra tinkamų patikrinimų sąrašų",
+        "Title": "Patikrinimų sąrašai"
       },
-      "GoToPage": "Go to Page",
+      "GoToPage": "Eiti į puslapį",
       "Maintenance": {
-        "NoActiveFailures": "No Active Failures",
-        "Title": "Maintenance"
+        "NoActiveFailures": "Nėra aktyvių gedimų",
+        "Title": "Aptarnavimas"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "No Pinned Charts",
-        "Title": "Pinned Charts"
+        "NoPinnedCharts": "Jokių prisegtų dokumentų",
+        "Title": "Prisegti dokumentai"
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "Pertvarkyti valdiklius"
       },
-      "Title": "Important Information",
+      "Title": "Svarbi Informacija",
       "Weather": {
-        "AirPressure": "Air Pressure",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
-        "Raw": "Raw",
+        "AirPressure": "Oro slėgis",
+        "DewPoint": "Rasos taškas",
+        "IcaoInvalid": "ICAO oro uosto kodas netinkamas arba nėra prieinamos METAR informacijos",
+        "Loading": "Kraunama",
+        "MetarParsingError": "Gauta METAR informacija negalėjo buti išanalizuota",
+        "NoIcaoProvided": "ICAO kodas nepateiktas",
+        "Raw": "Neapdorotas",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToIconView": "Pereiti į ikonų vaizdą",
+          "SwitchToRawMetarView": "Pereiti į neapdorotų METAR vaizdą"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "Temperatūra",
+        "Title": "Oras",
+        "WindSpeed": "Vėjo greitis"
       }
     },
-    "Title": "Dashboard",
+    "Title": "Prietaisų skydelis",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
+      "Alternate": "Alternatyvus",
+      "AverageWind": "Vidutinis vėjas",
+      "CompanyRoute": "Kompanijos maršrutas",
+      "CostIndex": "Kainos indeksas",
+      "CruiseAlt": "Kreiserinis aukštis",
+      "ImportSimBriefData": "Įkelti SimBrief duomenis",
+      "Route": "Maršrutas",
+      "SimBriefDataNotYetLoaded": "SimBrief duomenys dar neįkelti.",
+      "Title": "Tavo Skrydis",
       "ZFW": "ZFW"
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "Įkelti SimBrief duomenis",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "Padidinti šrifto dydį",
+        "ReduceFontSize": "Sumažinti šrifto dydį"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
+      "YouHaveNotYetImportedAnySimBriefData": "Jūs dar neįkėlėte SimBrief duomenų"
     },
     "Overview": {
-      "Engines": "Engines",
+      "Engines": "Varikliai",
       "MMO": "MMO",
       "MRW": "MRW",
       "MTOW": "MTOW",
       "MZFW": "MZFW",
-      "MaximumCargo": "Maximum Cargo",
-      "MaximumFuelCapacity": "Maximum Fuel Capacity",
-      "MaximumPassengers": "Maximum Passengers",
-      "Model": "Model",
-      "Range": "Range",
-      "Title": "Overview"
+      "MaximumCargo": "Maksimalus krovinys",
+      "MaximumFuelCapacity": "Maksimali kuro talpa",
+      "MaximumPassengers": "Maksimalus keleivių skaičius",
+      "Model": "Modelis",
+      "Range": "Atstumas",
+      "Title": "Apžvalga"
     },
-    "Title": "Dispatch"
+    "Title": "Išsiuntimas"
   },
   "Failures": {
     "Comfort": {
-      "Title": "Comfort"
+      "Title": "Komfortas"
     },
     "Compact": {
-      "Title": "Compact"
+      "Title": "Kompaktinis"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Full simulation of the failures below isn't yet guaranteed.",
-    "Search": "Search",
-    "Title": "Failures"
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Pilna gedimų simuliacija dar negali būti užtikrinta",
+    "Search": "Paieška",
+    "Title": "Gedimai"
   },
   "Ground": {
     "Fuel": {
-      "CenterTank": "Center Tank",
-      "Completed": "Completed",
-      "Defueling": "Defueling",
-      "EstimatedDuration": "Estimated duration (minutes)",
+      "CenterTank": "Centrinis kuro bakas",
+      "Completed": "Užbaigta",
+      "Defueling": "Kuro išpylimas",
+      "EstimatedDuration": "Numatoma trukmė (minutėmis)",
       "EstimatedTime": "Estimated Time",
-      "LeftInnerTank": "Left Inner Tank",
-      "LeftOuterTank": "Left Outer Tank",
-      "ReadyToStart": "Ready to Start",
-      "Refuel": "Refuel",
-      "RefuelTime": "Refuel Time",
+      "LeftInnerTank": "Kairysis vidinis kuro bakas",
+      "LeftOuterTank": "Kairysis išorinis kuro bakas",
+      "ReadyToStart": "Pasiruošę Pradėti",
+      "Refuel": "Atpildyti kurą",
+      "RefuelTime": "Kuro pildymo trukmė",
       "Refueling": "Refueling",
-      "RightInnerTank": "Right Inner Tank",
-      "RightOuterTank": "Right Outer Tank",
+      "RightInnerTank": "Dešinysis vidinis kuro bakas",
+      "RightOuterTank": "Dešinysis išorinis kuro bakas",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Aircraft Must Be Cold and Dark to Change Refuel Times",
-        "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Norint pakeisti degalų papildymo laiką, orlaivis turi būti pilnai išjungtas",
+        "FillBlockFuelFromSimBrief": "Įkelti bendrą kurą iš SimBrief"
       },
-      "Title": "Fuel",
+      "Title": "Kuras",
       "TotalFuel": "Total Fuel",
       "Unavailable": "Unavailable"
     },

@@ -17,8 +17,8 @@
     "MarkChecklistAsComplete": "Segna completamento checklist",
     "MarkItemAsComplete": "Segna completamento campo",
     "ProceedToNextChecklist": "Procedi alla prossima checklist",
-    "ResetAll": "Ripristina tutto",
-    "ResetChecklist": "Ripristina checklist",
+    "ResetAll": "Ripristina Tutto",
+    "ResetChecklist": "Ripristina Checklist",
     "TheLastChecklistIsComplete": "L'ultima checklist è completa",
     "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Ci sono campi rimanenti per l'autoriempimento della checklist, che non sono ancora stati completati",
     "Title": "Checklist"
@@ -94,7 +94,7 @@
       "MaximumPassengers": "Passeggeri Massimi",
       "Model": "Modello",
       "Range": "Autonomia",
-      "Title": "Sommario"
+      "Title": "Panoramica"
     },
     "Title": "Dispatch"
   },
@@ -121,7 +121,7 @@
       "ReadyToStart": "Pronto per l'Avvio",
       "Refuel": "Rifornimento Carburante",
       "RefuelTime": "Tempo di Rifornimento",
-      "Refueling": "Rifornimento",
+      "Refueling": "Caricamento",
       "RightInnerTank": "Serbatoio Interno Destro",
       "RightOuterTank": "Serbatoio Esterno Destro",
       "TT": {
@@ -155,7 +155,7 @@
   "NavigationAndCharts": {
     "All": "Tutti",
     "Altn": "Altn",
-    "ExitFullscreenMode": "Esci dalla Modalità Schermo Intero",
+    "ExitFullscreenMode": "Esci dalla Modalità a Schermo Intero",
     "From": "Da",
     "LocalFiles": {
       "Both": "Entrambi",
@@ -173,7 +173,7 @@
       "InsufficientEnv": "File .env Insufficiente",
       "IntoYourBrowserAndEnterTheCodeBelow": "nel tuo browser e inserisci il codice qui sotto",
       "NoAirportSelected": "Nessun Aeroporto Selezionato",
-      "ResetNavigraphAuthentication": "Ripristina Autenticazione Navigraph",
+      "ResetNavigraphAuthentication": "Rimuovi Autenticazione con Navigraph",
       "ScanTheQrCodeOrOpen": "Scansiona il Codice QR o Apri",
       "Title": "Navigraph"
     },
@@ -230,7 +230,7 @@
       "Low": "Basso",
       "MaximumManual": "Massima Manuale",
       "Medium": "Medio",
-      "OverweightProcedure": "Procedura Peso Eccessivo",
+      "OverweightProcedure": "Procedura in Sovraccarico",
       "Qnh": "QNH",
       "ReverseThrust": "Inversori di Spinta",
       "RunwayAltitude": "Altitudine Pista",
@@ -319,7 +319,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "L' Aereo deve essere Alimentato per Salvare i Preset",
       "LoadPreset": "Carica Preset",
       "LoadingPreset": "Caricamento Preset",
-      "NewNameConfirmationDialogMsg": "Conferma nuovo nome per preset di illuminazione",
+      "NewNameConfirmationDialogMsg": "Conferma nuovo nome per il preset di illuminazione",
       "NoName": "Nessun Nome",
       "PleaseConfirmSavingPreset": "Conferma Salvataggio Preset",
       "SavePreset": "Salva Preset",
@@ -344,7 +344,7 @@
     "ParkingBrake": {
       "Off": "Off",
       "On": "On",
-      "Title": "Parking Brake"
+      "Title": "Freni di Parcheggio"
     },
     "TugDirection": "Tug Direction",
     "TugSpeed": "Tug Speed"
