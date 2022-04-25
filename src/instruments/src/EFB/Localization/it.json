@@ -116,14 +116,14 @@
       "Defueling": "Scaricamento",
       "EstimatedDuration": "Durata stimata (minuti)",
       "EstimatedTime": "Estimated Time",
-      "LeftInnerTank": "Serbatoio Interno Sinistro",
-      "LeftOuterTank": "Serbatoio Esterno Sinistro",
-      "ReadyToStart": "Pronto per l'Avvio",
+      "LeftInnerTank": "Serbatoio Sinistro Interno",
+      "LeftOuterTank": "Serbatoio Sinistro Esterno",
+      "ReadyToStart": "Pronto a Iniziare",
       "Refuel": "Rifornimento Carburante",
       "RefuelTime": "Tempo di Rifornimento",
       "Refueling": "Caricamento",
-      "RightInnerTank": "Serbatoio Interno Destro",
-      "RightOuterTank": "Serbatoio Esterno Destro",
+      "RightInnerTank": "Serbatoio Destro Interno",
+      "RightOuterTank": "Serbatoio Destro Esterno",
       "TT": {
         "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'Aereo Deve Essere Spento per Cambiare i Tempi di Rifornimento",
         "FillBlockFuelFromSimBrief": "Inserisci Block Fuel da SimBrief"
@@ -340,7 +340,7 @@
     "Backward": "Indietro",
     "CallTug": "Chiama Tug",
     "Forward": "Avanti",
-    "Halt": "Fermo",
+    "Halt": "Ferma",
     "ParkingBrake": {
       "Off": "Off",
       "On": "On",
@@ -404,7 +404,7 @@
     "Realism": {
       "AdirsAlignTime": "Tempo Allineamento ADIRS",
       "AutofillChecklists": "Autoriempi Checklist",
-      "BoardingTime": "Tempo Imbarco",
+      "BoardingTime": "Tempo d'Imbarco",
       "DmcSelfTestTime": "Tempo Autotest DMC",
       "HomeCockpitMode": "Modalità Home Cockpit",
       "McduFocusTimeout": "Timeout Puntatore su MCDU (secondi)",
@@ -457,7 +457,7 @@
     "Unrealistic": "Irrealistico",
     "flyPad": {
       "AutoBrightness": "Luminosità Automatica",
-      "AutomaticallyShowOnscreenKeyboard": "Mostra Automaticamente Tastiera a Schermo",
+      "AutomaticallyShowOnscreenKeyboard": "Visualizza Automaticamente Tastiera a Schermo",
       "Blue": "Blu",
       "Brightness": "Luminosità",
       "Dark": "Scuro",

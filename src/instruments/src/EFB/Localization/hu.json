@@ -7,7 +7,7 @@
     "SelectCorrectATISATCSource": "Ez az oldal csak akkor érhető el, ha az IVAO vagy a VATSIM van kiválasztva ATIS/ATC forrásként a beállítások oldalon.",
     "SetActive": "Beállítás aktívként",
     "SetStandby": "Beállítás készenléti állapotba",
-    "Standby": "Készenléti",
+    "Standby": "Készenléti állapot",
     "Title": "Légiforgalmi irányítás"
   },
   "Checklists": {
@@ -20,56 +20,56 @@
     "ResetAll": "Összes alaphelyzetbe állítása",
     "ResetChecklist": "Ellenőrzőlista alaphelyzetbe állítása",
     "TheLastChecklistIsComplete": "Az utolsó ellenőrzőlista kész",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Automatikusan kitöltött ellenörzőlista elemek vannak még befejezetlenül",
-    "Title": "Checklists"
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Automatikusan kitöltött ellenörzőlista elemek vannak befejezetlenül",
+    "Title": "Ellenőrzőlisták"
   },
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "No Relevant Checklists",
-        "Title": "Checklists"
+        "NoRelevantChecklists": "Nincs idevonatkozó ellenőrzőlista",
+        "Title": "Ellenőrzőlisták"
       },
-      "GoToPage": "Go to Page",
+      "GoToPage": "Ugrás az oldalra",
       "Maintenance": {
-        "NoActiveFailures": "No Active Failures",
-        "Title": "Maintenance"
+        "NoActiveFailures": "Nincs aktív meghibásodás",
+        "Title": "Karbantartás"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "No Pinned Charts",
-        "Title": "Pinned Charts"
+        "NoPinnedCharts": "Nincsenek rögzített chart-ok",
+        "Title": "Rögzített chart-ok"
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "Alkalmazások átrendezése"
       },
-      "Title": "Important Information",
+      "Title": "Fontos Információ",
       "Weather": {
-        "AirPressure": "Air Pressure",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
+        "AirPressure": "Légnyomás",
+        "DewPoint": "Harmatpont",
+        "IcaoInvalid": "ICAO helytelen vagy nincs elérhető METAR",
+        "Loading": "Betöltés",
+        "MetarParsingError": "A kapott METAR nem értelmezhető",
+        "NoIcaoProvided": "Nincs ICAO megadva",
         "Raw": "Raw",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
+          "SwitchToIconView": "Váltás ikon nézetre",
           "SwitchToRawMetarView": "Switch to Raw METAR View"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "Hőmérséklet",
+        "Title": "Időjárás",
+        "WindSpeed": "Szélsebesség"
       }
     },
-    "Title": "Dashboard",
+    "Title": "Vezérlőpult",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
+      "Alternate": "Kitérő reptér",
+      "AverageWind": "Átlagos szél",
+      "CompanyRoute": "Légitársasági útvonal",
+      "CostIndex": "Költség index",
+      "CruiseAlt": "Utazómagasság",
+      "ImportSimBriefData": "SimBrief adatok importálása",
+      "Route": "Útvonal",
+      "SimBriefDataNotYetLoaded": "SimBrief adatok még nincsenek betöltve.",
+      "Title": "Repülésed",
       "ZFW": "ZFW"
     }
   },
