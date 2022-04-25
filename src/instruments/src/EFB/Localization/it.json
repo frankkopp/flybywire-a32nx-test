@@ -35,8 +35,8 @@
         "Title": "Manutenzione"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "Nessuna Cartina Appuntata",
-        "Title": "Cartine Appuntate"
+        "NoPinnedCharts": "Nessuna Cartina Affissata",
+        "Title": "Cartine Affissate"
       },
       "TT": {
         "RearrangeWidgets": "Riordina Widget"
@@ -193,9 +193,9 @@
       "TT": {
         "ChangeChartProvider": "Cambia Fornitore Cartine",
         "ChangeChartSortMethod": "Cambia Metodo di Ordinamento Cartine",
-        "RemoveAllPinnedCharts": "Rimuovi Tutte le Cartine Appuntate"
+        "RemoveAllPinnedCharts": "Rimuovi Tutte le Cartine Affissate"
       },
-      "Title": "Cartine Appuntate",
+      "Title": "Cartine Affissate",
       "View": "Visualizza"
     },
     "PleaseWait": "Attendere Prego",
@@ -264,32 +264,32 @@
         "CurrentAltitude": "Altitudine Attuale",
         "Distance": "Distanza",
         "GroundSpeed": "Velocità al Suolo",
-        "TargetAltitude": "Target Altitude",
-        "Title": "Data",
-        "UnitAngleDegrees": "degrees",
-        "UnitFeet": "feet",
+        "TargetAltitude": "Altitudine da Raggiungere",
+        "Title": "Dati",
+        "UnitAngleDegrees": "Gradi",
+        "UnitFeet": "Piedi",
         "UnitFtMin": "ft/min",
         "UnitNM": "NM",
-        "VerticalSpeed": "Vertical Speed"
+        "VerticalSpeed": "Velocità Verticale"
       },
       "GroundSpeed": {
-        "Add": "Add",
-        "FetchingSpeedFromSimulator": "Fetching speed from simulator",
-        "GroundSpeed": "Ground Speed",
-        "ManualInput": "Manual Input",
-        "MinAltitude": "Min. Altitude",
-        "RemoveLast": "Remove Last",
+        "Add": "Aggiungi",
+        "FetchingSpeedFromSimulator": "Acquisizione velocità dal simulatore",
+        "GroundSpeed": "Velocità al Suolo",
+        "ManualInput": "Inserimento Manuale",
+        "MinAltitude": "Altitudine Min.",
+        "RemoveLast": "Rimuovi Ultimo",
         "Sync": "SYNC",
-        "Title": "Ground Speed",
-        "UnitKnots": "knots",
+        "Title": "Velocità al Suolo",
+        "UnitKnots": "nodi",
         "UnitKt": "kt"
       },
       "Result": {
-        "BeforeTarget": "before target",
-        "DesiredDescentAngle": "Desired Descent Angle",
-        "DesiredVerticalSpeed": "Desired Vertical Speed",
-        "StartYourDescentAbout": "Start your descent about",
-        "Title": "Result"
+        "BeforeTarget": "Prima del Raggiungimento",
+        "DesiredDescentAngle": "Angolo Discesa Desiderato",
+        "DesiredVerticalSpeed": "Velocità Verticale Desiderata",
+        "StartYourDescentAbout": "Inizia la tua discesa circa",
+        "Title": "Risultato"
       },
       "TT": {
         "DesynchronizeInputWithAircraftsCurrentAltitude": "Desynchronize Input with Aircraft's Current Altitude",
