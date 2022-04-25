@@ -105,7 +105,7 @@
     "Compact": {
       "Title": "Compatto"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "La simulazione completa dei guasti riportati di seguito non è ancora garantita.",
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "La completa simulazione dei guasti riportati di seguito non è ancora garantita.",
     "Search": "Cerca",
     "Title": "Guasti"
   },
@@ -226,7 +226,7 @@
       "DropDownNo": "No",
       "DropDownYes": "Sì",
       "FillDataFrom": "Inserisci i dati da",
-      "FlapsConfiguration": "Configurazione Flaps",
+      "FlapsConfiguration": "Configurazione Flap",
       "Low": "Basso",
       "MaximumManual": "Massima Manuale",
       "Medium": "Medio",
@@ -288,7 +288,7 @@
         "BeforeTarget": "Prima del Raggiungimento",
         "DesiredDescentAngle": "Angolo Discesa Desiderato",
         "DesiredVerticalSpeed": "Velocità Verticale Desiderata",
-        "StartYourDescentAbout": "Inizia la tua discesa circa",
+        "StartYourDescentAbout": "Inizia la tua discesa a circa",
         "Title": "Risultato"
       },
       "TT": {

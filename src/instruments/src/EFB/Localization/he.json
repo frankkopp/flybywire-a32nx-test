@@ -326,56 +326,56 @@
       "SavingPreset": "שומר תבנית",
       "SelectAnInteriorLightingPresetToLoadOrSave": "בחר תבנית תאורה פנימית בכדי לטעון או לשמור",
       "TT": {
-        "AircraftMustBePowered": "מטוס צריך להיות מופעל",
-        "ClickTextToChangeThePresetsName": "לחץ על טקסט כדי לשנות את השם המוגדר מראש",
-        "LoadThisPreset": "טען הגדרה מראש זו",
+        "AircraftMustBePowered": "המטוס חייב להיות מחובר למתח",
+        "ClickTextToChangeThePresetsName": "לחץ על הטקסט כדי לשנות את שם התבנית",
+        "LoadThisPreset": "טען תבנית זו",
         "SaveTheCurrentLightingLevels": "שמור את רמות התאורה הנוכחיות"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "המטוס חייב להיות מופעל עבור הגדרות קבועות מראש של תאורה פנימית.",
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "המטוס חייב להיות מחובר למתח בשביל תבניות תאורה פנימית",
       "Title": "תאורה פנימית"
     },
-    "Title": "הגדרות קבועות מראש"
+    "Title": "תבניות"
   },
   "Pushback": {
     "Backward": "אחורה",
-    "CallTug": "שִׂיחָה גוֹרֶרֶת",
+    "CallTug": "קרא לנע-דחף",
     "Forward": "קדימה",
-    "Halt": "לַעֲצוֹר",
+    "Halt": "עצור",
     "ParkingBrake": {
       "Off": "כבוי",
       "On": "פועל",
       "Title": "בלם חניה"
     },
-    "TugDirection": "כיוון גוֹרֶרֶת",
-    "TugSpeed": "מְהִירוּת גוֹרֶרֶת"
+    "TugDirection": "כיוון הגרירה",
+    "TugSpeed": "מהירות הגרירה"
   },
   "Settings": {
     "About": {
-      "Title": "אוֹדוֹת"
+      "Title": "אודות"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "גובה תאוצה (ft)",
-      "EngineOutAccelerationHeight": "גובה תאוצת מנוע (ft)",
-      "IsisBaroUnit": "יחידת ברומטר ISIS",
-      "IsisMetricAltitude": "גובה מטרי ISIS",
-      "LatLonExtendedFormat": "פורמט נקודת ציון של קו רוחב/אורך FMGC",
-      "PaxSigns": "שלטים PAX",
-      "RmpVhfSpacing": "מרווח RMP VHF",
-      "ThrustReductionHeight": "גובה הפחתת דחף (ft)",
-      "Title": "אפשרויות מטוסים / תוכניות סיכות",
+      "AccelerationHeight": "גובה האצה (רגל)",
+      "EngineOutAccelerationHeight": "גובה האצה - איבוד מנוע (רגל)",
+      "IsisBaroUnit": "ISIS - יחידות ברומטר",
+      "IsisMetricAltitude": "ISIS - גובה מטרי",
+      "LatLonExtendedFormat": "FMGC - פורמט נקודת ציון של קו רוחב/אורך",
+      "PaxSigns": "שלטי נוסעים",
+      "RmpVhfSpacing": "פאנל רדיו - מרווח תדרי VHF",
+      "ThrustReductionHeight": "גובה הפחתת דחף (רגל)",
+      "Title": "אפשרויות מטוס / תוכניות סיכות",
       "WeightUnit": "יחידת משקל"
     },
     "AtsuAoc": {
-      "AtisAtcSource": "מָקוֹר ATIS/ATC",
-      "AutomaticallyImportSimBriefData": "ייבא נתונים אוטומטית SimBrief",
+      "AtisAtcSource": "מקור ATIS/ATC",
+      "AutomaticallyImportSimBriefData": "ייבא נתוני SimBrief אוטומטית",
       "Enable": "הפעל",
       "EnableTelex": "הפעל TELEX",
       "ErrorReporting": "דיווח שגיאות",
-      "HoppieEnabled": "Hoppie enabled",
-      "HoppieUserId": "זיהוי משתמש של Hoppie",
-      "MetarSource": "מָקוֹר METAR",
+      "HoppieEnabled": "Hoppie מופעל",
+      "HoppieUserId": "מזהה משתמש Hoppie",
+      "MetarSource": "מקור METAR",
       "OptionalA32nxErrorReporting": "דיווח שגיאות A32NX אופציונלי",
-      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "אנא בדוק שהזנת נכון את שם המשתמש או מזהה הטייס שלך ב-SimBrief.",
+      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "אנא בדוק שהזנת נכון את שם המשתמש או מזהה הטייס שלך כמוגדר ב-SimBrief.",
       "SimBriefUsernamePilotId": "שם משתמש/זיהוי טייס SimBrief",
       "TafSource": "מקור TAF",
       "Telex": "TELEX",
