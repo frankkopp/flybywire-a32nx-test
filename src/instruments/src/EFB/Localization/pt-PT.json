@@ -96,7 +96,7 @@
       "Range": "Alcance",
       "Title": "Vista Geral"
     },
-    "Title": "Dispatch"
+    "Title": "Despacho"
   },
   "Failures": {
     "Comfort": {
@@ -126,7 +126,7 @@
       "RightOuterTank": "Tanque Externo Direito",
       "TT": {
         "AircraftMustBeColdAndDarkToChangeRefuelTimes": "A aeronave deve estar totalmente desligada para mudar os tempos de reabastecimento",
-        "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
+        "FillBlockFuelFromSimBrief": "Preencher com o Combustível entre Blocos do SimBrief"
       },
       "Title": "Combustível",
       "TotalFuel": "Combustível Total",
@@ -150,10 +150,10 @@
   "Modals": {
     "Cancel": "Cancelar",
     "Confirm": "Confirmar",
-    "Okay": "Okay"
+    "Okay": "Aceitar"
   },
   "NavigationAndCharts": {
-    "All": "All",
+    "All": "Todos",
     "Altn": "Altn",
     "ExitFullscreenMode": "Sair do modo de tela cheia",
     "From": "De",
@@ -239,73 +239,73 @@
       "RunwayHeading": "Orientação da Pista",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Runway LDA",
-      "RunwayLdaUnitFt": "ft",
+      "RunwayLdaUnitFt": "Pés",
       "RunwayLdaUnitMeter": "m",
-      "RunwaySlope": "Runway Slope",
+      "RunwaySlope": "Inclinação da Pista",
       "TT": {
-        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "You need to enter an ICAO code in order to make a METAR request",
-        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "You need to load SimBrief data in order to autofill data"
+        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "Tu precisas de inserir um código ICAO para fazer uma solicitação METAR",
+        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "É necessário carregar os dados do SimBrief para preencher automaticamente a informação"
       },
-      "Temperature": "Temperature",
-      "Title": "Landing",
-      "UnitFt": "ft",
+      "Temperature": "Temperatura",
+      "Title": "Aterragem",
+      "UnitFt": "Pés",
       "UnitMeter": "m",
-      "Weight": "Weight",
-      "WindDirection": "Wind Direction",
+      "Weight": "Peso",
+      "WindDirection": "Direção do Vento",
       "WindDirectionUnit": "°",
-      "WindMagnitude": "Wind Magnitude",
-      "WindMagnitudeUnit": "kts"
+      "WindMagnitude": "Magnitude do Vento",
+      "WindMagnitudeUnit": "Nós"
     },
-    "SYNC": "SYNC",
-    "Title": "Performance",
+    "SYNC": "Sincronizar",
+    "Title": "Desempenho",
     "TopOfDescent": {
       "Data": {
-        "Angle": "Angle",
-        "CurrentAltitude": "Current Altitude",
-        "Distance": "Distance",
-        "GroundSpeed": "Ground Speed",
-        "TargetAltitude": "Target Altitude",
-        "Title": "Data",
-        "UnitAngleDegrees": "degrees",
-        "UnitFeet": "feet",
-        "UnitFtMin": "ft/min",
+        "Angle": "Ângulo",
+        "CurrentAltitude": "Altitude Atual",
+        "Distance": "Distância",
+        "GroundSpeed": "Velocidade de Solo",
+        "TargetAltitude": "Altitude Alvo",
+        "Title": "Dados",
+        "UnitAngleDegrees": "Graus",
+        "UnitFeet": "Pés",
+        "UnitFtMin": "Pés/Min",
         "UnitNM": "NM",
-        "VerticalSpeed": "Vertical Speed"
+        "VerticalSpeed": "Velocidade Vertical"
       },
       "GroundSpeed": {
-        "Add": "Add",
-        "FetchingSpeedFromSimulator": "Fetching speed from simulator",
-        "GroundSpeed": "Ground Speed",
-        "ManualInput": "Manual Input",
-        "MinAltitude": "Min. Altitude",
-        "RemoveLast": "Remove Last",
-        "Sync": "SYNC",
-        "Title": "Ground Speed",
-        "UnitKnots": "knots",
+        "Add": "Adicionar",
+        "FetchingSpeedFromSimulator": "A obter velocidade do simulador",
+        "GroundSpeed": "Velocidade de Solo",
+        "ManualInput": "Entrada Manual",
+        "MinAltitude": "Altitude Mín.",
+        "RemoveLast": "Remover Último",
+        "Sync": "Sincronizar",
+        "Title": "Velocidade de Solo",
+        "UnitKnots": "Nós",
         "UnitKt": "kt"
       },
       "Result": {
-        "BeforeTarget": "before target",
-        "DesiredDescentAngle": "Desired Descent Angle",
-        "DesiredVerticalSpeed": "Desired Vertical Speed",
-        "StartYourDescentAbout": "Start your descent about",
-        "Title": "Result"
+        "BeforeTarget": "Antes do Alvo",
+        "DesiredDescentAngle": "Ângulo de descida desejado",
+        "DesiredVerticalSpeed": "Velocidade vertical desejada",
+        "StartYourDescentAbout": "Inicie a sua descida a cerca",
+        "Title": "Resultado"
       },
       "TT": {
-        "DesynchronizeInputWithAircraftsCurrentAltitude": "Desynchronize Input with Aircraft's Current Altitude",
-        "SynchronizeInputWithAircraftsCurrentAltitude": "Synchronize Input with Aircraft's Current Altitude"
+        "DesynchronizeInputWithAircraftsCurrentAltitude": "Dessincronizar o valor com a altitude atual do Avião",
+        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizar o valor com a altitude atual do Avião"
       },
-      "Title": "Top of Descent"
+      "Title": "Topo de Descida"
     }
   },
   "Presets": {
     "AircraftStates": {
-      "Cancel": "Cancel",
-      "ColdDark": "Cold & Dark",
-      "ConfirmationDialogMsg": "Please confirm loading of preset.",
-      "CurrentProcedureStep": "Current Procedure Step",
-      "PleaseConfirmLoadingOfPreset": "Please confirm loading of preset.",
-      "ReadyPushback": "Ready for Pushback",
+      "Cancel": "Cancelar",
+      "ColdDark": "Tudo Desligado",
+      "ConfirmationDialogMsg": "Por favor, confirme o carregamento da predefinição.",
+      "CurrentProcedureStep": "Etapa do Procedimento Atual",
+      "PleaseConfirmLoadingOfPreset": "Por favor, confirme o carregamento da predefinição.",
+      "ReadyPushback": "Pronto para o pushback",
       "ReadyTakeoff": "Ready for Takeoff",
       "ReadyTaxi": "Ready for Taxi",
       "SelectAPresetToLoad": "Select a Preset to Load",

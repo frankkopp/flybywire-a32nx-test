@@ -49,9 +49,9 @@
         "Loading": "جارٍ التحميل…",
         "MetarParsingError": "لا يمكن تحليل الMETAR المستلم",
         "NoIcaoProvided": "لم يتم توفير ICAO\n",
-        "Raw": "Raw",
+        "Raw": "غير معالج",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
+          "SwitchToIconView": "التبديل إلى عرض الأيقونة",
           "SwitchToRawMetarView": "Switch to Raw METAR View"
         },
         "Temperature": "Temperature",
