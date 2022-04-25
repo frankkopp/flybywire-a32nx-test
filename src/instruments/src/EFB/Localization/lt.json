@@ -11,10 +11,10 @@
     "Title": "Oro Erdvės Kontrolė"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Ar tikrai norite atstatyti visus patikrinimų sąrašus?",
-    "AreYouSureYouWantToResetChecklists": "Ar tikrai norite atstatyti visus patikrinimų sąrašus?",
+    "AreYouSureYouWantToResetAllChecklists": "Ar tikrai norite atstatyti visus patikrinimo sąrašus?",
+    "AreYouSureYouWantToResetChecklists": "Ar tikrai norite atstatyti visus patikrinimo sąrašus?",
     "ChecklistResetWarning": "Patikrinimų sąrašo atstatymo perspėjimas",
-    "MarkChecklistAsComplete": "Pažymėti patikrinimų sąrašą atliktu",
+    "MarkChecklistAsComplete": "Pažymėti patikrinimų sąrašą baigtu",
     "MarkItemAsComplete": "Pažymėti punktą atliktu",
     "ProceedToNextChecklist": "Pereiti į kitą patikrinimų sąrašą",
     "ResetAll": "Viską atstatyti",
@@ -121,7 +121,7 @@
       "ReadyToStart": "Pasiruošę Pradėti",
       "Refuel": "Atpildyti kurą",
       "RefuelTime": "Kuro pildymo trukmė",
-      "Refueling": "Refueling",
+      "Refueling": "Kuro pildymas",
       "RightInnerTank": "Dešinysis vidinis kuro bakas",
       "RightOuterTank": "Dešinysis išorinis kuro bakas",
       "TT": {
