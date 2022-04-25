@@ -106,26 +106,26 @@
       "Title": "Compacto"
     },
     "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Simulação total das falhas abaixo ainda não está garantida.",
-    "Search": "Search",
-    "Title": "Failures"
+    "Search": "Pesquisa",
+    "Title": "Falhas"
   },
   "Ground": {
     "Fuel": {
-      "CenterTank": "Center Tank",
-      "Completed": "Completed",
-      "Defueling": "Defueling",
-      "EstimatedDuration": "Estimated duration (minutes)",
+      "CenterTank": "Tanque Central",
+      "Completed": "Concluído",
+      "Defueling": "Desabastecer",
+      "EstimatedDuration": "Duração estimada (minutos)",
       "EstimatedTime": "Estimated Time",
-      "LeftInnerTank": "Left Inner Tank",
-      "LeftOuterTank": "Left Outer Tank",
-      "ReadyToStart": "Ready to Start",
-      "Refuel": "Refuel",
-      "RefuelTime": "Refuel Time",
-      "Refueling": "Refueling",
-      "RightInnerTank": "Right Inner Tank",
-      "RightOuterTank": "Right Outer Tank",
+      "LeftInnerTank": "Tanque Interno Esquerdo",
+      "LeftOuterTank": "Tanque Externo Esquerdo",
+      "ReadyToStart": "Pronto para Iniciar",
+      "Refuel": "Reabastecer",
+      "RefuelTime": "Tempo de Reabastecimento",
+      "Refueling": "Reabastecimento",
+      "RightInnerTank": "Tanque Interno Direito",
+      "RightOuterTank": "Tanque Externo Direito",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Aircraft Must Be Cold and Dark to Change Refuel Times",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "A aeronave deve estar totalmente desligada para mudar os tempos de reabastecimento",
         "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
       },
       "Title": "Fuel",

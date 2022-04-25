@@ -301,60 +301,60 @@
   "Presets": {
     "AircraftStates": {
       "Cancel": "Mégse",
-      "ColdDark": "Cold & Dark",
-      "ConfirmationDialogMsg": "Please confirm loading of preset.",
+      "ColdDark": "Cold & Dark állapot",
+      "ConfirmationDialogMsg": "Kérem erősítse meg a beállítás betöltését",
       "CurrentProcedureStep": "Current Procedure Step",
-      "PleaseConfirmLoadingOfPreset": "Please confirm loading of preset.",
-      "ReadyPushback": "Ready for Pushback",
-      "ReadyTakeoff": "Ready for Takeoff",
-      "ReadyTaxi": "Ready for Taxi",
-      "SelectAPresetToLoad": "Select a Preset to Load",
-      "TheAircraftMustBeOnTheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "TheAircraftMustBeOntheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "Title": "Aircraft States",
-      "Turnaround": "Turnaround"
+      "PleaseConfirmLoadingOfPreset": "Kérem erősítse meg a beállítás betöltését",
+      "ReadyPushback": "Hátratolásra kész",
+      "ReadyTakeoff": "Felszállásra kész",
+      "ReadyTaxi": "Gurulásra kész",
+      "SelectAPresetToLoad": "Válasszon egy beállítás a betöltéshez",
+      "TheAircraftMustBeOnTheGroundToLoadAPreset": "A repülőgépnek a földön kell lennie a beállítás betöltéséhez.",
+      "TheAircraftMustBeOntheGroundToLoadAPreset": "A repülőgépnek a földön kell lennie a beállítás betöltéséhez.",
+      "Title": "Repülőgép Állapotai",
+      "Turnaround": "Forduló"
     },
     "InteriorLighting": {
-      "AircraftNeedsToBePoweredToLoadPresets": "Aircraft Needs to be Powered to Load Presets",
-      "AircraftNeedsToBePoweredToSavePresets": "Aircraft Needs to Be Powered to Save Presets",
-      "LoadPreset": "Load Preset",
-      "LoadingPreset": "Loading Preset",
-      "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
-      "NoName": "No Name",
-      "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
-      "SavePreset": "Save Preset",
-      "SavingPreset": "Saving Preset",
-      "SelectAnInteriorLightingPresetToLoadOrSave": "Select an interior lighting preset to load or save.",
+      "AircraftNeedsToBePoweredToLoadPresets": "Helyezze áram alá a repülőgépet a beállítások betöltéséhez",
+      "AircraftNeedsToBePoweredToSavePresets": "Helyezze áram alá a repülőgépet a beállítások mentéséhez",
+      "LoadPreset": "Beállítás betöltése",
+      "LoadingPreset": "Beállítás betöltée folyamatban",
+      "NewNameConfirmationDialogMsg": "Erősítse meg az új elnevezését a világítási beállításnak",
+      "NoName": "Nincs név",
+      "PleaseConfirmSavingPreset": "Erősítse meg a beállítás mentését",
+      "SavePreset": "Beállítás mentése",
+      "SavingPreset": "Beállítás mentése folyamatban",
+      "SelectAnInteriorLightingPresetToLoadOrSave": "Válasszon egy belső világítási beállítást betölteni vagy elmenteni",
       "TT": {
-        "AircraftMustBePowered": "Aircraft Must be Powered",
-        "ClickTextToChangeThePresetsName": "Click Text to Change the Preset's Name",
-        "LoadThisPreset": "Load This Preset",
-        "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
+        "AircraftMustBePowered": "A repülőnek áramellátás alatt kell lennie",
+        "ClickTextToChangeThePresetsName": "Kattints a szövegre a beállítás nevének megváltozatásához",
+        "LoadThisPreset": "Töltse be ezt a beállítást",
+        "SaveTheCurrentLightingLevels": "Az aktuális megvilágítási szintek mentése"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "The aircraft must be powered for interior lighting presets.",
-      "Title": "Interior Lighting"
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "A repülőnek áramellátás alatt kell lennie a belső világítási beállításokhoz",
+      "Title": "Belső világítás"
     },
-    "Title": "Presets"
+    "Title": "Beállítások"
   },
   "Pushback": {
-    "Backward": "Backward",
-    "CallTug": "Call Tug",
-    "Forward": "Forward",
-    "Halt": "Halt",
+    "Backward": "Hátrafelé",
+    "CallTug": "Vontató hívása",
+    "Forward": "Előre",
+    "Halt": "Állj",
     "ParkingBrake": {
-      "Off": "Off",
-      "On": "On",
-      "Title": "Parking Brake"
+      "Off": "Ki",
+      "On": "Be",
+      "Title": "Rögzítőfék"
     },
-    "TugDirection": "Tug Direction",
-    "TugSpeed": "Tug Speed"
+    "TugDirection": "Vontatás iránya",
+    "TugSpeed": "Vontatás sebessége"
   },
   "Settings": {
     "About": {
       "Title": "About"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Acceleration Height (ft)",
+      "AccelerationHeight": "Gyorsulási magasság (ft)",
       "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
       "IsisBaroUnit": "ISIS Baro Unit",
       "IsisMetricAltitude": "ISIS Metric Altitude",
