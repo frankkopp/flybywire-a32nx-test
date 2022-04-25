@@ -128,9 +128,9 @@
         "AircraftMustBeColdAndDarkToChangeRefuelTimes": "A aeronave deve estar totalmente desligada para mudar os tempos de reabastecimento",
         "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
       },
-      "Title": "Fuel",
-      "TotalFuel": "Total Fuel",
-      "Unavailable": "Unavailable"
+      "Title": "Combustível",
+      "TotalFuel": "Combustível Total",
+      "Unavailable": "Indisponível"
     },
     "Pushback": {
       "Title": "Pushback"
