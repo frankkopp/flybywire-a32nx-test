@@ -39,16 +39,16 @@
         "Title": "خرائط مثبتة "
       },
       "TT": {
-        "RearrangeWidgets": "إعادة ترتيب عناصر الواجهة "
+        "RearrangeWidgets": "إعادة ترتيب الأدوات "
       },
       "Title": "معلومات هامة",
       "Weather": {
         "AirPressure": "ضغط الهواء",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
+        "DewPoint": "درجة الندى",
+        "IcaoInvalid": "رمز ال ICAO غير صحيح او لا يوجد نشرة METAR متاحة ",
+        "Loading": "جارٍ التحميل…",
+        "MetarParsingError": "لا يمكن تحليل الMETAR المستلم",
+        "NoIcaoProvided": "لم يتم توفير ICAO\n",
         "Raw": "Raw",
         "TT": {
           "SwitchToIconView": "Switch to Icon View",
