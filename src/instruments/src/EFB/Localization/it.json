@@ -394,7 +394,7 @@
       "EngineInteriorVolume": "Volume Motori all'Interno",
       "ExteriorMasterVolume": "Volume Generale all'Esterno",
       "PassengerAmbience": "Brusio Passeggeri",
-      "PtuAudibleInCockpit": "PTU Udibile nella Cabina di Pilotaggio",
+      "PtuAudibleInCockpit": "PTU Udibile nel Cockpit",
       "Title": "Audio",
       "WindInteriorVolume": "Volume Vento all'Interno"
     },
@@ -427,7 +427,7 @@
       "Off": "Off",
       "Save": "Salva",
       "SyncMsfsFlightPlan": "Sincronizza Piano di Volo MSFS",
-      "ThrottleDetents": "Punti Manetta",
+      "ThrottleDetents": "Scalini Manetta",
       "Title": "Opzioni Simulatore",
       "UseCalculatedIlsSignals": "Usa Segnali ILS Calcolati",
       "inHg": "inHg"
@@ -441,7 +441,7 @@
       "ConfigureStart": "Configura Inizio",
       "CurrentValue": "Valore Corrente",
       "Deadband": "Deadband",
-      "ErrorOverlapMsg": "overlaps with",
+      "ErrorOverlapMsg": "Conflitto con",
       "IndependentAxis": "Asse Unica",
       "LoadFromFile": "Carica da File",
       "PleaseEnterAValidDeadzone": "Prego inserisci una zona morta valida",
@@ -497,7 +497,7 @@
     "TT": {
       "ConnectedToLocalApi": "Connesso ad API Locali",
       "DisconnectedFromLocalApi": "Sconnesso da API Locali",
-      "TurnOffOrShutdownEfb": "Spegni o Arresta EFB"
+      "TurnOffOrShutdownEfb": "Spegni o Arresta l'EFB"
     },
     "Thu": "Gio",
     "Tue": "Mar",

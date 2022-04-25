@@ -2,10 +2,10 @@
   "AirTrafficControl": {
     "Active": "Ativo",
     "ChangeATISATCSourceButton": "Change ATIS/ATC source",
-    "ConnectHoppieACARS": "Connect Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "No information available for this frequency",
+    "ConnectHoppieACARS": "Conetar Hoppie ACARS",
+    "NoInformationAvailableForThisFrequency": "Sem informação disponível para esta frequência",
     "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
-    "SetActive": "Set Active",
+    "SetActive": "Selecionar ativo",
     "SetStandby": "Set Standby",
     "Standby": "Standby",
     "Title": "Air Traffic Control"
