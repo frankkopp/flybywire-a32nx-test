@@ -148,61 +148,61 @@
     "Title": "Földi kiszolgálók"
   },
   "Modals": {
-    "Cancel": "Cancel",
-    "Confirm": "Confirm",
-    "Okay": "Okay"
+    "Cancel": "Mégse",
+    "Confirm": "Megerősítés",
+    "Okay": "OK"
   },
   "NavigationAndCharts": {
-    "All": "All",
-    "Altn": "Altn",
-    "ExitFullscreenMode": "Exit Fullscreen Mode",
-    "From": "From",
+    "All": "Mind",
+    "Altn": "Kitérő reptér",
+    "ExitFullscreenMode": "Kilépés teljes képernyős üzemmódból",
+    "From": "Honnan",
     "LocalFiles": {
-      "Both": "Both",
-      "EstablishingConnection": "Establishing Connection",
-      "FailedToEstablishConnection": "Failed to Establish Connection.",
-      "FileName": "File Name",
-      "Image": "Image",
-      "Pdf": "Pdf",
-      "Retry": "Retry",
-      "Title": "Local Files"
+      "Both": "Mindkettő",
+      "EstablishingConnection": "Kapcsolat létrehozása",
+      "FailedToEstablishConnection": "Csatlakozás sikertelen",
+      "FileName": "Fájlnév",
+      "Image": "Kép",
+      "Pdf": "PDF",
+      "Retry": "Újra",
+      "Title": "Helyi fájlok"
     },
     "Navigraph": {
-      "AirportDoesNotExist": "Airport Does Not Exist",
-      "AuthenticateWithNavigraph": "Authenticate with Navigraph",
-      "InsufficientEnv": "Insufficient .env File",
-      "IntoYourBrowserAndEnterTheCodeBelow": "into your browser and enter the code below\n",
-      "NoAirportSelected": "No Airport Selected",
+      "AirportDoesNotExist": "A repülőtér nem létezik",
+      "AuthenticateWithNavigraph": "Hitelesítés a Navigraph segítségével",
+      "InsufficientEnv": "Nem megfelelő .env fájl",
+      "IntoYourBrowserAndEnterTheCodeBelow": "a böngészőbe, és írja be a kódot lentebb\n",
+      "NoAirportSelected": "Nincs repülőtér kiválasztva",
       "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
-      "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
+      "ScanTheQrCodeOrOpen": "Szkennelje be a QR-kódot vagy Megnyitás",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
-      "Delete": "Delete",
-      "Edit": "Edit",
-      "NoItemsFound": "No Items Found",
-      "SearchPlaceholder": "Search",
-      "ShowingChartsFromAllProviders": "Showing Charts from All Providers",
+      "Delete": "Törlés",
+      "Edit": "Szerkesztés",
+      "NoItemsFound": "Nem található elem",
+      "SearchPlaceholder": "Keresés",
+      "ShowingChartsFromAllProviders": "Chartok megjelenítése az összes szolgáltatótól",
       "SortMethods": {
-        "AlphabeticalAZ": "Alphabetical - A -> Z",
-        "AlphabeticalZA": "Alphabetical - Z -> A",
+        "AlphabeticalAZ": "ABC sorrend - A->Z",
+        "AlphabeticalZA": "ABC sorrend - Z->A",
         "FirstAccessed": "First Accessed",
         "LastAccessed": "Last Accessed",
-        "None": "None"
+        "None": "Egyik sem"
       },
       "TT": {
-        "ChangeChartProvider": "Change Chart Provider",
-        "ChangeChartSortMethod": "Change Chart Sort Method",
-        "RemoveAllPinnedCharts": "Remove All Pinned Charts"
+        "ChangeChartProvider": "Chart szolgáltató váltása",
+        "ChangeChartSortMethod": "Chart rendezési módszer módosítása",
+        "RemoveAllPinnedCharts": "Összes rögzített Chart eltávolítása"
       },
-      "Title": "Pinned Charts",
-      "View": "View"
+      "Title": "Rögzített chart-ok",
+      "View": "Megtekintés"
     },
-    "PleaseWait": "Please Wait",
-    "ShowingAllItems": "Showing All Items",
+    "PleaseWait": "Kérem várjon",
+    "ShowingAllItems": "Az összes elem megjelenítése",
     "TT": {
-      "FitChartToHeight": "Fit Chart to Height",
-      "FitChartToWidth": "Fit Chart to Width",
+      "FitChartToHeight": "Chart illesztése a magassághoz",
+      "FitChartToWidth": "Chart illesztése szélességhez",
       "ResetMovement": "Reset Movement",
       "RotateLeft45Degrees": "Rotate Left 45 Degrees",
       "RotateRight45Degrees": "Rotate Right 45 Degrees",
