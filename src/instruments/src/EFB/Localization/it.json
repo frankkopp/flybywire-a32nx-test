@@ -309,14 +309,14 @@
       "ReadyTakeoff": "Pronto per Decollo",
       "ReadyTaxi": "Pronto per Rullaggio",
       "SelectAPresetToLoad": "Seleziona un Preset da Caricare",
-      "TheAircraftMustBeOnTheGroundToLoadAPreset": "L' Aereo deve essere a terra per caricare un preset",
-      "TheAircraftMustBeOntheGroundToLoadAPreset": "L' Aereo deve essere a terra per caricare un preset.",
+      "TheAircraftMustBeOnTheGroundToLoadAPreset": "L'Aeromobile deve essere a terra per caricare un preset",
+      "TheAircraftMustBeOntheGroundToLoadAPreset": "L'Aeromobile deve essere a terra per caricare un preset.",
       "Title": "Stati Aeromobile",
       "Turnaround": "Turnaround"
     },
     "InteriorLighting": {
-      "AircraftNeedsToBePoweredToLoadPresets": "L' Aereo deve essere Alimentato per Caricare i Preset",
-      "AircraftNeedsToBePoweredToSavePresets": "L' Aereo deve essere Alimentato per Salvare i Preset",
+      "AircraftNeedsToBePoweredToLoadPresets": "L'Aeromobile deve essere Alimentato per Caricare i Preset",
+      "AircraftNeedsToBePoweredToSavePresets": "L'Aeromobile deve essere Alimentato per Salvare i Preset",
       "LoadPreset": "Carica Preset",
       "LoadingPreset": "Caricamento Preset",
       "NewNameConfirmationDialogMsg": "Conferma nuovo nome per il preset di illuminazione",
@@ -331,7 +331,7 @@
         "LoadThisPreset": "Carica Questo Preset",
         "SaveTheCurrentLightingLevels": "Salva Livelli di Illuminazione Correnti"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "L'aeromobile deve essere alimentato per i preset di illuminazione interna.",
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "L’aeromobile deve essere alimentato per i preset di illuminazione interna.",
       "Title": "Illuminazione Interna"
     },
     "Title": "Preset"
@@ -375,7 +375,7 @@
       "HoppieUserId": "ID Utente Hoppie",
       "MetarSource": "Fonte METAR",
       "OptionalA32nxErrorReporting": "Segnalazione Opzionale Errori A32NX ",
-      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Verifica di aver inserito correttamente il tuo nome utente o pilota ID SimBrief",
+      "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Verifica di aver inserito correttamente il tuo nome utente o ID pilota SimBrief",
       "SimBriefUsernamePilotId": "Nome Utente/ID Pilota SimBrief",
       "TafSource": "Fonte TAF",
       "Telex": "TELEX",
