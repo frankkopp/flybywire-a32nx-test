@@ -113,7 +113,7 @@
     "Fuel": {
       "CenterTank": "Serbatoio Centrale",
       "Completed": "Completato",
-      "Defueling": "Scarico Carburante",
+      "Defueling": "Scaricamento",
       "EstimatedDuration": "Durata stimata (minuti)",
       "EstimatedTime": "Estimated Time",
       "LeftInnerTank": "Serbatoio Interno Sinistro",
@@ -121,12 +121,12 @@
       "ReadyToStart": "Pronto per l'Avvio",
       "Refuel": "Rifornimento Carburante",
       "RefuelTime": "Tempo di Rifornimento",
-      "Refueling": "Rifornimento in corso",
+      "Refueling": "Rifornimento",
       "RightInnerTank": "Serbatoio Interno Destro",
       "RightOuterTank": "Serbatoio Esterno Destro",
       "TT": {
         "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'Aereo Deve Essere Spento per Cambiare i Tempi di Rifornimento",
-        "FillBlockFuelFromSimBrief": "Inserisci il Block Fuel da SimBrief"
+        "FillBlockFuelFromSimBrief": "Inserisci Block Fuel da SimBrief"
       },
       "Title": "Carburante",
       "TotalFuel": "Carburante Totale",
@@ -320,15 +320,15 @@
       "LoadPreset": "Carica Preset",
       "LoadingPreset": "Caricamento Preset",
       "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
-      "NoName": "No Name",
-      "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
-      "SavePreset": "Save Preset",
-      "SavingPreset": "Saving Preset",
-      "SelectAnInteriorLightingPresetToLoadOrSave": "Select an interior lighting preset to load or save.",
+      "NoName": "Nessun Nome",
+      "PleaseConfirmSavingPreset": "Conferma Salvataggio Preset",
+      "SavePreset": "Salva Preset",
+      "SavingPreset": "Salvataggio Preset",
+      "SelectAnInteriorLightingPresetToLoadOrSave": "Seleziona un preset di illuminazione interna da caricare o salvare.",
       "TT": {
-        "AircraftMustBePowered": "Aircraft Must be Powered",
-        "ClickTextToChangeThePresetsName": "Click Text to Change the Preset's Name",
-        "LoadThisPreset": "Load This Preset",
+        "AircraftMustBePowered": "L'Aeromobile deve essere Alimentato",
+        "ClickTextToChangeThePresetsName": "Clicca il Testo per Cambiare Nome Preset",
+        "LoadThisPreset": "Carica Questo Preset",
         "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
       },
       "TheAircraftMustBePoweredForInteriorLightingPresets": "The aircraft must be powered for interior lighting presets.",
