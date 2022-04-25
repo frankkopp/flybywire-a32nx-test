@@ -302,9 +302,9 @@
     "AircraftStates": {
       "Cancel": "Annulla",
       "ColdDark": "Spento",
-      "ConfirmationDialogMsg": "Prego confermare il caricamento del preset.",
+      "ConfirmationDialogMsg": "Prego conferma caricamento del preset.",
       "CurrentProcedureStep": "Fase Attuale della Procedura",
-      "PleaseConfirmLoadingOfPreset": "Prego confermare il caricamento del preset.",
+      "PleaseConfirmLoadingOfPreset": "Prego conferma caricamento del preset.",
       "ReadyPushback": "Pronto per il Pushback",
       "ReadyTakeoff": "Pronto al Decollo",
       "ReadyTaxi": "Pronto al Rullaggio",
@@ -319,7 +319,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "L' Aereo deve essere Alimentato per Salvare i Preset",
       "LoadPreset": "Carica Preset",
       "LoadingPreset": "Caricamento Preset",
-      "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
+      "NewNameConfirmationDialogMsg": "Conferma nuovo nome per preset di illuminazione",
       "NoName": "Nessun Nome",
       "PleaseConfirmSavingPreset": "Conferma Salvataggio Preset",
       "SavePreset": "Salva Preset",
@@ -329,7 +329,7 @@
         "AircraftMustBePowered": "L'Aeromobile deve essere Alimentato",
         "ClickTextToChangeThePresetsName": "Clicca il Testo per Cambiare Nome Preset",
         "LoadThisPreset": "Carica Questo Preset",
-        "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
+        "SaveTheCurrentLightingLevels": "Salva Livelli di Illuminazione Correnti"
       },
       "TheAircraftMustBePoweredForInteriorLightingPresets": "L'aeromobile deve essere alimentato per i preset di illuminazione interna.",
       "Title": "Illuminazione Interna"
@@ -371,10 +371,10 @@
       "Enable": "Abilita",
       "EnableTelex": "Abilita TELEX",
       "ErrorReporting": "Segnalazione Errori",
-      "HoppieEnabled": "Hoppie enabled",
+      "HoppieEnabled": "Hoppie Abilitato",
       "HoppieUserId": "ID Utente Hoppie",
       "MetarSource": "Fonte METAR",
-      "OptionalA32nxErrorReporting": "Optional A32NX Error Reporting",
+      "OptionalA32nxErrorReporting": "Segnalazione Errori Opzionale A32NX ",
       "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Verifica di aver inserito correttamente il tuo nome utente o pilota ID SimBrief",
       "SimBriefUsernamePilotId": "Nome Utente/ID Pilota SimBrief",
       "TafSource": "Fonte TAF",
@@ -407,8 +407,8 @@
       "BoardingTime": "Tempo Imbarco",
       "DmcSelfTestTime": "Tempo Autotest DMC",
       "HomeCockpitMode": "Modalità Home Cockpit",
-      "McduFocusTimeout": "MCDU Focus Timeout (seconds)",
-      "McduKeyboardInput": "MCDU Keyboard Input",
+      "McduFocusTimeout": "Timeout Puntatore su MCDU (secondi)",
+      "McduKeyboardInput": "Input Tastiera MCDU",
       "SeparateTillerFromRudderInputs": "Separate Tiller from Rudder Inputs",
       "Title": "Realismo"
     },
