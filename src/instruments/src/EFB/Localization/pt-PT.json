@@ -90,22 +90,22 @@
       "MTOW": "MTOW",
       "MZFW": "MZFW",
       "MaximumCargo": "Carga Máxima",
-      "MaximumFuelCapacity": "Maximum Fuel Capacity",
-      "MaximumPassengers": "Maximum Passengers",
-      "Model": "Model",
-      "Range": "Range",
-      "Title": "Overview"
+      "MaximumFuelCapacity": "Capacidade Máxima de Combustível",
+      "MaximumPassengers": "Lotação Máxima",
+      "Model": "Modelo",
+      "Range": "Alcance",
+      "Title": "Vista Geral"
     },
     "Title": "Dispatch"
   },
   "Failures": {
     "Comfort": {
-      "Title": "Comfort"
+      "Title": "Conforto"
     },
     "Compact": {
-      "Title": "Compact"
+      "Title": "Compacto"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Full simulation of the failures below isn't yet guaranteed.",
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Simulação total das falhas abaixo ainda não está garantida.",
     "Search": "Search",
     "Title": "Failures"
   },
