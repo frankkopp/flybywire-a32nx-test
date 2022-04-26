@@ -125,7 +125,7 @@
       "RightInnerTank": "Serbatoio Destro Interno",
       "RightOuterTank": "Serbatoio Destro Esterno",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'Aereo Deve Essere Spento per Cambiare i Tempi di Rifornimento",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'Aereomobile Deve Essere Spento per Cambiare i Tempi di Rifornimento",
         "FillBlockFuelFromSimBrief": "Inserisci Block Fuel da SimBrief"
       },
       "Title": "Carburante",
