@@ -126,7 +126,7 @@
       "RightOuterTank": "Tanque Externo Direito",
       "TT": {
         "AircraftMustBeColdAndDarkToChangeRefuelTimes": "A aeronave deve estar totalmente desligada para mudar os tempos de reabastecimento",
-        "FillBlockFuelFromSimBrief": "Preencher com o Combustível entre Blocos do SimBrief"
+        "FillBlockFuelFromSimBrief": "Preencher com o Combustível Bloco do SimBrief"
       },
       "Title": "Combustível",
       "TotalFuel": "Combustível Total",
@@ -386,17 +386,17 @@
       "YouAreAbleToOptIntoAnonymousErrorReporting": "Pode optar por um relatório de erros anónimo que nos permitirá diagnosticar, monitorizar e cuidar de problemas num ritmo mais célere. Este recurso é totalmente opcional e nunca faremos coleção de dados pessoais, mas pode facultar suporte com mais facilidade assim como também, proporcionar a correção de problemas encontrados com maior brevidade.",
       "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
       "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
-      "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "Your SimBrief PilotID has been validated and updated to"
+      "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "O seu ID Piloto do Simbrief foi validado e atualizado para"
     },
     "Audio": {
-      "Announcements": "Announcements",
-      "BoardingMusic": "Boarding Music",
-      "EngineInteriorVolume": "Engine Interior Volume",
-      "ExteriorMasterVolume": "Exterior Master Volume",
-      "PassengerAmbience": "Passenger Ambience",
-      "PtuAudibleInCockpit": "PTU Audible in Cockpit",
-      "Title": "Audio",
-      "WindInteriorVolume": "Wind Interior Volume"
+      "Announcements": "Anúncios",
+      "BoardingMusic": "Música de Embarque",
+      "EngineInteriorVolume": "Volume interior do Motor",
+      "ExteriorMasterVolume": "Volume principal Exterior",
+      "PassengerAmbience": "Ambiente de Passageiros",
+      "PtuAudibleInCockpit": "PTU Audível no Cockpit",
+      "Title": "Áudio",
+      "WindInteriorVolume": "Volume Interior do Vento"
     },
     "Fast": "Fast",
     "Instant": "Instant",
