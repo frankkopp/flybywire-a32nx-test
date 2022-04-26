@@ -230,6 +230,8 @@
       "Low": "低刹力",
       "MaximumManual": "最高性能手动降落",
       "Medium": "中刹力",
+      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
+      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
       "OverweightProcedure": "超重程序",
       "Qnh": "海平面气压",
       "ReverseThrust": "反推",

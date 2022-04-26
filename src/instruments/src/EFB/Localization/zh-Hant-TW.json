@@ -51,21 +51,21 @@
         "NoIcaoProvided": "未填充 ICAO 代碼",
         "Raw": "原始數據",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToIconView": "切換到圖標視圖",
+          "SwitchToRawMetarView": "切換到原始 METAR 視圖"
         },
-        "Temperature": "Temperature",
+        "Temperature": "溫度",
         "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "WindSpeed": "風速"
       }
     },
-    "Title": "Dashboard",
+    "Title": "控制台",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
+      "Alternate": "備降機場",
+      "AverageWind": "平均風速",
+      "CompanyRoute": "公司航路",
+      "CostIndex": "成本指數",
+      "CruiseAlt": "巡航高度",
       "ImportSimBriefData": "Import SimBrief Data",
       "Route": "Route",
       "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
@@ -230,6 +230,8 @@
       "Low": "Low",
       "MaximumManual": "Maximum Manual",
       "Medium": "Medium",
+      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
+      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
       "OverweightProcedure": "Overweight Procedure",
       "Qnh": "QNH",
       "ReverseThrust": "Reverse Thrust",
