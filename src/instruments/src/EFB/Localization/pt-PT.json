@@ -1,10 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Ativo",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Alterar fonte ATIS/ATC",
     "ConnectHoppieACARS": "Conetar Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Sem informação disponível para esta frequência",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
+    "SelectCorrectATISATCSource": "Esta página só está disponível quando IVAO ou VATSIM é selecionado como a fonte ATIS/ATC na página de configurações.",
     "SetActive": "Selecionar ativo",
     "SetStandby": "Definir Standby",
     "Standby": "Standby",
@@ -193,7 +193,7 @@
       "TT": {
         "ChangeChartProvider": "Alterar Fornecedor de Cartas",
         "ChangeChartSortMethod": "Alterar Método de Organização de Cartas",
-        "RemoveAllPinnedCharts": "Remove All Pinned Charts"
+        "RemoveAllPinnedCharts": "Remover todas as Cartas fixadas"
       },
       "Title": "Cartas Afixadas",
       "View": "Ver"
@@ -319,7 +319,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "O avião precisa ser alimentado para guardar predefinições",
       "LoadPreset": "Carregar predefinição",
       "LoadingPreset": "A Carregar Predefinição",
-      "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
+      "NewNameConfirmationDialogMsg": "Por favor, confirme o novo nome para a predefinição de iluminação",
       "NoName": "Sem Nome",
       "PleaseConfirmSavingPreset": "Por favor confirme salvar a predefinição",
       "SavePreset": "Salvar Predefinição",
@@ -358,7 +358,7 @@
       "EngineOutAccelerationHeight": "Altura de aceleração de saída do motor (ft)",
       "IsisBaroUnit": "Unidade ISIS Baro",
       "IsisMetricAltitude": "Altitude métrica ISIS",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
+      "LatLonExtendedFormat": "Formato Waypoint FMGC Lat/Lon",
       "PaxSigns": "Sinal de Passageiros",
       "RmpVhfSpacing": "Espaçamento RMP VHF",
       "ThrustReductionHeight": "Altura de redução de propulsão (ft)",
@@ -371,7 +371,7 @@
       "Enable": "Ativar",
       "EnableTelex": "Ativar o TELEX",
       "ErrorReporting": "Relatório de Erros",
-      "HoppieEnabled": "Hoppie enabled",
+      "HoppieEnabled": "Hoppie Habilitado",
       "HoppieUserId": "ID de utilizador Hoppie",
       "MetarSource": "Fonte METAR",
       "OptionalA32nxErrorReporting": "Relatório de erros do A32NX opcional",
@@ -381,11 +381,11 @@
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "O TELEX permite texto livre e mapa ao vivo. Se ativado, os dados de posição do Avião são publicados durante o voo. As mensagens são públicas e não moderadas. USE ESTE RECURSO POR SUA PRÓPRIA CONTA E RISCO. Para saber mais sobre o TELEX e os recursos que ele permite, clique https://docs.flybywiresim.com/telex.",
       "TelexWarning": "Aviso de TELEX",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "Ocorreu um erro ao validar o seu Hoppie-ID",
       "Title": "ATSU / AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "Pode optar por um relatório de erros anónimo que nos permitirá diagnosticar, monitorizar e cuidar de problemas num ritmo mais célere. Este recurso é totalmente opcional e nunca faremos coleção de dados pessoais, mas pode facultar suporte com mais facilidade assim como também, proporcionar a correção de problemas encontrados com maior brevidade.",
-      "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
-      "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
+      "YourHoppieIdHasBeenRemoved": "O seu Hoppie-ID foi removido",
+      "YourHoppieIdHasBeenValidated": "O seu Hoppie-ID foi validado",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "O seu ID Piloto do Simbrief foi validado e atualizado para"
     },
     "Audio": {
@@ -438,7 +438,7 @@
       "Axis": "Eixo",
       "Back": "Retroceder",
       "ConfigureEnd": "Configurar fim",
-      "ConfigureStart": "Configure Start",
+      "ConfigureStart": "Configurar Início",
       "CurrentValue": "Valor Atual",
       "Deadband": "Zona Morta",
       "ErrorOverlapMsg": "sobrepõe-se com",
@@ -487,20 +487,20 @@
     "Jan": "Jan",
     "Jun": "Jun",
     "Mar": "Mar",
-    "May": "May",
-    "Mon": "Mon",
+    "May": "Mai",
+    "Mon": "Seg",
     "Nov": "Nov",
-    "Oct": "Oct",
-    "Sat": "Sat",
-    "Sep": "Sep",
-    "Sun": "Sun",
+    "Oct": "Out",
+    "Sat": "Sáb",
+    "Sep": "Set",
+    "Sun": "Dom",
     "TT": {
-      "ConnectedToLocalApi": "Connected to Local API",
-      "DisconnectedFromLocalApi": "Disconnected from Local API",
-      "TurnOffOrShutdownEfb": "Turn off or Shutdown EFB"
+      "ConnectedToLocalApi": "Conectado à API local",
+      "DisconnectedFromLocalApi": "Desconectado da API local",
+      "TurnOffOrShutdownEfb": "Desligar o EFB"
     },
-    "Thu": "Thu",
-    "Tue": "Tue",
-    "Wed": "Wed"
+    "Thu": "Qui",
+    "Tue": "Ter",
+    "Wed": "Qua"
   }
 }
