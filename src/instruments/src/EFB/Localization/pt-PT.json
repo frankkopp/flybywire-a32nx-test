@@ -49,7 +49,7 @@
         "Loading": "A Carregar",
         "MetarParsingError": "METAR recebido não pode ser analisado ",
         "NoIcaoProvided": "ICAO não fornecido",
-        "Raw": "Raw",
+        "Raw": "Mau Tempo",
         "TT": {
           "SwitchToIconView": "Mudar para a visualização de ícones",
           "SwitchToRawMetarView": "Mudar para vista de METAR não processada"
@@ -62,14 +62,14 @@
     "Title": "Painel",
     "YourFlight": {
       "Alternate": "Alternativo",
-      "AverageWind": "Average Wind",
+      "AverageWind": "Vento Médio",
       "CompanyRoute": "Rota da companhia",
       "CostIndex": "Índice de Custo",
       "CruiseAlt": "Altitude de Cruzeiro",
       "ImportSimBriefData": "Importar dados do SimBrief",
       "Route": "Rota",
       "SimBriefDataNotYetLoaded": "Dados do SimBrief não carregados.",
-      "Title": "Your Flight",
+      "Title": "O teu Voo",
       "ZFW": "ZFW"
     }
   },
@@ -182,7 +182,7 @@
       "Edit": "Editar",
       "NoItemsFound": "Nenhum Item Encontrado",
       "SearchPlaceholder": "Pesquisar",
-      "ShowingChartsFromAllProviders": "Mostrando cartas de todos os fornecedores",
+      "ShowingChartsFromAllProviders": "A mostrar cartas de todos os fornecedores",
       "SortMethods": {
         "AlphabeticalAZ": "Alfabético - A -> Z",
         "AlphabeticalZA": "Alfabético - Z -> A",
@@ -220,7 +220,7 @@
       "AirportIcao": "ICAO Aeroporto",
       "ApproachSpeed": "Velocidade de Aproximação",
       "ApproachSpeedUnit": "Nós",
-      "AutoLand": "Autoland",
+      "AutoLand": "Aterragem Automática",
       "Calculate": "Calcular",
       "Clear": "Limpar",
       "DropDownNo": "Não",
@@ -238,7 +238,7 @@
       "RunwayCondition": "Condição da Pista",
       "RunwayHeading": "Orientação da Pista",
       "RunwayHeadingUnit": "°",
-      "RunwayLda": "Runway LDA",
+      "RunwayLda": "LDA da pista",
       "RunwayLdaUnitFt": "Pés",
       "RunwayLdaUnitMeter": "m",
       "RunwaySlope": "Inclinação da Pista",
@@ -306,75 +306,75 @@
       "CurrentProcedureStep": "Etapa do Procedimento Atual",
       "PleaseConfirmLoadingOfPreset": "Por favor, confirme o carregamento da predefinição.",
       "ReadyPushback": "Pronto para o pushback",
-      "ReadyTakeoff": "Ready for Takeoff",
-      "ReadyTaxi": "Ready for Taxi",
-      "SelectAPresetToLoad": "Select a Preset to Load",
-      "TheAircraftMustBeOnTheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "TheAircraftMustBeOntheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "Title": "Aircraft States",
-      "Turnaround": "Turnaround"
+      "ReadyTakeoff": "Pronto para Descolar",
+      "ReadyTaxi": "Pronto para o Táxi",
+      "SelectAPresetToLoad": "Selecione uma Predefinição para Carregar",
+      "TheAircraftMustBeOnTheGroundToLoadAPreset": "O Avião deve estar em terra para carregar uma predefinição.",
+      "TheAircraftMustBeOntheGroundToLoadAPreset": "O Avião deve estar em terra para carregar uma predefinição.",
+      "Title": "Estados do Avião",
+      "Turnaround": "Rotação"
     },
     "InteriorLighting": {
-      "AircraftNeedsToBePoweredToLoadPresets": "Aircraft Needs to be Powered to Load Presets",
-      "AircraftNeedsToBePoweredToSavePresets": "Aircraft Needs to Be Powered to Save Presets",
-      "LoadPreset": "Load Preset",
-      "LoadingPreset": "Loading Preset",
+      "AircraftNeedsToBePoweredToLoadPresets": "O avião precisa ser alimentado para carregar predefinições",
+      "AircraftNeedsToBePoweredToSavePresets": "O avião precisa ser alimentado para guardar predefinições",
+      "LoadPreset": "Carregar predefinição",
+      "LoadingPreset": "A Carregar Predefinição",
       "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
-      "NoName": "No Name",
-      "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
-      "SavePreset": "Save Preset",
-      "SavingPreset": "Saving Preset",
-      "SelectAnInteriorLightingPresetToLoadOrSave": "Select an interior lighting preset to load or save.",
+      "NoName": "Sem Nome",
+      "PleaseConfirmSavingPreset": "Por favor confirme salvar a predefinição",
+      "SavePreset": "Salvar Predefinição",
+      "SavingPreset": "A Salvar Predefinição",
+      "SelectAnInteriorLightingPresetToLoadOrSave": "Selecione uma predefinição de iluminação interna para carregar ou salvar.",
       "TT": {
-        "AircraftMustBePowered": "Aircraft Must be Powered",
-        "ClickTextToChangeThePresetsName": "Click Text to Change the Preset's Name",
-        "LoadThisPreset": "Load This Preset",
-        "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
+        "AircraftMustBePowered": "O Avião deve ser alimentado",
+        "ClickTextToChangeThePresetsName": "Clique em Texto para alterar o nome da predefinição",
+        "LoadThisPreset": "Carregar esta Predefinição",
+        "SaveTheCurrentLightingLevels": "Salve os níveis de iluminação atuais"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "The aircraft must be powered for interior lighting presets.",
-      "Title": "Interior Lighting"
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "O Avião deve ser alimentado para predefinições de iluminação interior.",
+      "Title": "Iluminação interior"
     },
-    "Title": "Presets"
+    "Title": "Predefinições"
   },
   "Pushback": {
-    "Backward": "Backward",
-    "CallTug": "Call Tug",
-    "Forward": "Forward",
-    "Halt": "Halt",
+    "Backward": "Reverso",
+    "CallTug": "Ligar para o Reboque",
+    "Forward": "Frontal",
+    "Halt": "Parar",
     "ParkingBrake": {
-      "Off": "Off",
-      "On": "On",
-      "Title": "Parking Brake"
+      "Off": "Destravado",
+      "On": "Travado",
+      "Title": "Travão de Estacionamento"
     },
-    "TugDirection": "Tug Direction",
-    "TugSpeed": "Tug Speed"
+    "TugDirection": "Direção do Reboque",
+    "TugSpeed": "Velocidade do Reboque"
   },
   "Settings": {
     "About": {
-      "Title": "About"
+      "Title": "Acerca"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Acceleration Height (ft)",
-      "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
-      "IsisBaroUnit": "ISIS Baro Unit",
-      "IsisMetricAltitude": "ISIS Metric Altitude",
+      "AccelerationHeight": "Altura de Aceleração (ft)",
+      "EngineOutAccelerationHeight": "Altura de aceleração de saída do motor (ft)",
+      "IsisBaroUnit": "Unidade ISIS Baro",
+      "IsisMetricAltitude": "Altitude métrica ISIS",
       "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
-      "PaxSigns": "PAX Signs",
-      "RmpVhfSpacing": "RMP VHF Spacing",
-      "ThrustReductionHeight": "Thrust Reduction Height (ft)",
-      "Title": "Aircraft Options / Pin Programs",
-      "WeightUnit": "Weight Unit"
+      "PaxSigns": "Sinal de Passageiros",
+      "RmpVhfSpacing": "Espaçamento RMP VHF",
+      "ThrustReductionHeight": "Altura de redução de propulsão (ft)",
+      "Title": "Opções do Avião / Programas de pinos",
+      "WeightUnit": "Unidade de Peso"
     },
     "AtsuAoc": {
-      "AtisAtcSource": "ATIS/ATC Source",
-      "AutomaticallyImportSimBriefData": "Automatically Import SimBrief Data",
-      "Enable": "Enable",
-      "EnableTelex": "Enable TELEX",
-      "ErrorReporting": "Error Reporting",
+      "AtisAtcSource": "Fonte ATIS/ATC",
+      "AutomaticallyImportSimBriefData": "Importar dados do SimBrief automaticamente",
+      "Enable": "Ativar",
+      "EnableTelex": "Ativar o TELEX",
+      "ErrorReporting": "Relatório de Erros",
       "HoppieEnabled": "Hoppie enabled",
-      "HoppieUserId": "Hoppie User ID",
-      "MetarSource": "METAR Source",
-      "OptionalA32nxErrorReporting": "Optional A32NX Error Reporting",
+      "HoppieUserId": "ID de utilizador Hoppie",
+      "MetarSource": "Fonte METAR",
+      "OptionalA32nxErrorReporting": "Relatório de erros do A32NX opcional",
       "PleaseCheckThatYouHaveCorrectlyEnteredYourSimbBriefUsernameOrPilotId": "Please check that you have correctly entered your SimBrief username or pilot ID.",
       "SimBriefUsernamePilotId": "SimBrief Username/Pilot ID",
       "TafSource": "TAF Source",
@@ -413,7 +413,7 @@
       "Title": "Realism"
     },
     "SimOptions": {
-      "Active": "Active",
+      "Active": "Ativo",
       "Auto": "Auto",
       "Calibrate": "Calibrate",
       "DefaultBarometerUnit": "Default Barometer Unit",
@@ -423,8 +423,8 @@
       "Hpa": "hPa",
       "Inactive": "Inactive",
       "LoadOnly": "Load Only",
-      "None": "None",
-      "Off": "Off",
+      "None": "Nenhum",
+      "Off": "Desativado",
       "Save": "Save",
       "SyncMsfsFlightPlan": "Sync MSFS Flight Plan",
       "ThrottleDetents": "Throttle Detents",
@@ -474,7 +474,7 @@
       "TwelveHours": "12h",
       "TwentyFourHours": "24h",
       "Utc": "UTC",
-      "UtcAndLocal": "UTC and Local"
+      "UtcAndLocal": "UTC e Local"
     }
   },
   "Settings.flyPad.BatteryLifeEnabled": "Battery Life Simulated",
