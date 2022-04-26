@@ -2,7 +2,7 @@ name: 'FlyPad Localazy Download'
 on:
   schedule:
     # https://crontab.guru/
-    - cron: '*/30 * * * *'
+    - cron: '* */12 * * *'
   workflow_dispatch:
 
 jobs:
