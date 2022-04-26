@@ -3,7 +3,7 @@ on:
   schedule:
     # https://crontab.guru/
     # Every 24h at 1:00 am
-    - cron: '0/10 * * * *'
+    - cron: '15 */12 * * *'
   workflow_dispatch:
 
 jobs:
