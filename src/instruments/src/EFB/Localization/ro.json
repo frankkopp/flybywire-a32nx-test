@@ -1,319 +1,319 @@
 {
   "AirTrafficControl": {
-    "Active": "Active",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
-    "ConnectHoppieACARS": "Connect Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "No information available for this frequency",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
-    "SetActive": "Set Active",
-    "SetStandby": "Set Standby",
+    "Active": "Activ",
+    "ChangeATISATCSourceButton": "Schimbați sursa ATIS/ATC",
+    "ConnectHoppieACARS": "Conectare la Hoppie ACARS",
+    "NoInformationAvailableForThisFrequency": "Nicio informație disponibilă pentru această frecvență",
+    "SelectCorrectATISATCSource": "Această pagină este disponibilă doar când IVAO sau VATSIM este selectată ca sursă ATIS/ATC în această pagină.",
+    "SetActive": "Setare Activ",
+    "SetStandby": "Setare Standby",
     "Standby": "Standby",
-    "Title": "Air Traffic Control"
+    "Title": "Control de Trafic Aerian"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Are you sure you want to reset all checklists?",
-    "AreYouSureYouWantToResetChecklists": "Are you sure you want to reset all checklists?",
-    "ChecklistResetWarning": "Checklist Reset Warning",
-    "MarkChecklistAsComplete": "Mark checklist as complete",
-    "MarkItemAsComplete": "Mark item as complete",
-    "ProceedToNextChecklist": "Proceed to next checklist",
-    "ResetAll": "Reset All",
-    "ResetChecklist": "Reset Checklist",
-    "TheLastChecklistIsComplete": "The last checklist is complete",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "There are remaining autofill checklist items that have not yet been completed",
-    "Title": "Checklists"
+    "AreYouSureYouWantToResetAllChecklists": "Sigur doriți să resetați toate listele de verificare?",
+    "AreYouSureYouWantToResetChecklists": "Sigur doriți să resetați toate listele de verificare?",
+    "ChecklistResetWarning": "Avertisment privind resetarea listelor de verificare",
+    "MarkChecklistAsComplete": "Marcați lista drept completată",
+    "MarkItemAsComplete": "Marcați elementul ca fiind completat",
+    "ProceedToNextChecklist": "Treceți la următoarea listă de verificare",
+    "ResetAll": "Resetați tot",
+    "ResetChecklist": "Resetați lista de verificare",
+    "TheLastChecklistIsComplete": "Ultima listă de verificare este completă",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Există elemente rămase din lista de verificare automată care nu au fost încă finalizate",
+    "Title": "Liste de verificare"
   },
   "Dashboard": {
     "ImportantInformation": {
       "Checklists": {
-        "NoRelevantChecklists": "No Relevant Checklists",
-        "Title": "Checklists"
+        "NoRelevantChecklists": "Nu există liste de verificare relevante",
+        "Title": "Liste de verificare"
       },
-      "GoToPage": "Go to Page",
+      "GoToPage": "Accesează pagina",
       "Maintenance": {
-        "NoActiveFailures": "No Active Failures",
+        "NoActiveFailures": "Fără defecțiuni active",
         "Title": "Mentenanță"
       },
       "PinnedCharts": {
-        "NoPinnedCharts": "No Pinned Charts",
-        "Title": "Pinned Charts"
+        "NoPinnedCharts": "Nicio hartă fixată",
+        "Title": "Hărți fixate"
       },
       "TT": {
-        "RearrangeWidgets": "Rearrange Widgets"
+        "RearrangeWidgets": "Rearanjarea Widget-urilor"
       },
-      "Title": "Important Information",
+      "Title": "Informații importante",
       "Weather": {
-        "AirPressure": "Air Pressure",
-        "DewPoint": "Dew Point",
-        "IcaoInvalid": "ICAO invalid or no METAR available",
-        "Loading": "Loading",
-        "MetarParsingError": "Received METAR could not be parsed",
-        "NoIcaoProvided": "No ICAO provided",
-        "Raw": "Raw",
+        "AirPressure": "Presiunea aerului",
+        "DewPoint": "Punct de rouă",
+        "IcaoInvalid": "Cod ICAO invalid sau niciun METAR disponibil",
+        "Loading": "Se incarcă",
+        "MetarParsingError": "METAR-ul primit nu a putut fi analizat",
+        "NoIcaoProvided": "Niciun cod ICAO furnizat",
+        "Raw": "Brut",
         "TT": {
-          "SwitchToIconView": "Switch to Icon View",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToIconView": "Comutare la vizualizarea pictogramă",
+          "SwitchToRawMetarView": "Treci la METAR neprelucrat"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "Temperatură",
+        "Title": "Vreme",
+        "WindSpeed": "Viteza vântului"
       }
     },
-    "Title": "Dashboard",
+    "Title": "Meniu principal",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
+      "Alternate": "Alternativă",
+      "AverageWind": "Vânt mediu",
+      "CompanyRoute": "Ruta Companiei",
+      "CostIndex": "Indice de cost",
+      "CruiseAlt": "Altitudinea de croazieră",
+      "ImportSimBriefData": "Importă datele din SimBrief",
+      "Route": "Rută",
+      "SimBriefDataNotYetLoaded": "Datele din SimBrief nu au fost încă încărcate ",
+      "Title": "Zborul tău",
       "ZFW": "ZFW"
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "Importa datele din SimBrief",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "Măriți dimensiunea fontului",
+        "ReduceFontSize": "Reduceți dimensiunea fontului"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
+      "YouHaveNotYetImportedAnySimBriefData": "Încă nu ați încărcat datele din SimBrief"
     },
     "Overview": {
-      "Engines": "Engines",
+      "Engines": "Motoare",
       "MMO": "MMO",
       "MRW": "MRW",
       "MTOW": "MTOW",
       "MZFW": "MZFW",
-      "MaximumCargo": "Maximum Cargo",
-      "MaximumFuelCapacity": "Maximum Fuel Capacity",
-      "MaximumPassengers": "Maximum Passengers",
+      "MaximumCargo": "Cargo Maxim",
+      "MaximumFuelCapacity": "Capacitate maximă de combustibil",
+      "MaximumPassengers": "Maxim pasageri",
       "Model": "Model",
-      "Range": "Range",
-      "Title": "Overview"
+      "Range": "Distanță",
+      "Title": "Prezentare generală"
     },
-    "Title": "Dispatch"
+    "Title": "Expediere"
   },
   "Failures": {
     "Comfort": {
-      "Title": "Comfort"
+      "Title": "Confort"
     },
     "Compact": {
       "Title": "Compact"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Full simulation of the failures below isn't yet guaranteed.",
-    "Search": "Search",
-    "Title": "Failures"
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Simularea completă a defecțiunilor de mai jos nu este încă garantată.",
+    "Search": "Căutare",
+    "Title": "Defecțiuni"
   },
   "Ground": {
     "Fuel": {
-      "CenterTank": "Center Tank",
-      "Completed": "Completed",
-      "Defueling": "Defueling",
-      "EstimatedDuration": "Estimated duration (minutes)",
+      "CenterTank": "Rezervor Central",
+      "Completed": "Completat",
+      "Defueling": "Dezalimentare",
+      "EstimatedDuration": "Durata estimată (minute)",
       "EstimatedTime": "Estimated Time",
-      "LeftInnerTank": "Left Inner Tank",
-      "LeftOuterTank": "Left Outer Tank",
-      "ReadyToStart": "Ready to Start",
-      "Refuel": "Refuel",
-      "RefuelTime": "Refuel Time",
-      "Refueling": "Refueling",
-      "RightInnerTank": "Right Inner Tank",
-      "RightOuterTank": "Right Outer Tank",
+      "LeftInnerTank": "Rezervor interior stânga",
+      "LeftOuterTank": "Rezervor exterior stânga",
+      "ReadyToStart": "Gata de pornire",
+      "Refuel": "Alimentare",
+      "RefuelTime": "Timp de alimentare",
+      "Refueling": "Realimentare",
+      "RightInnerTank": "Rezervor interior dreapta",
+      "RightOuterTank": "Rezervor exterior dreapta",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Aircraft Must Be Cold and Dark to Change Refuel Times",
-        "FillBlockFuelFromSimBrief": "Fill Block Fuel from SimBrief"
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Aeronava trebuie să fie in stadiul de \"Cold and Dark\" pentru a schimba timpii de alimentare",
+        "FillBlockFuelFromSimBrief": "Umpleți combustibilul necesar folosind datele din SimBrief"
       },
-      "Title": "Fuel",
-      "TotalFuel": "Total Fuel",
-      "Unavailable": "Unavailable"
+      "Title": "Combustibil",
+      "TotalFuel": "Combustibil total ",
+      "Unavailable": "Indisponibil"
     },
     "Pushback": {
       "Title": "Pushback"
     },
     "Services": {
-      "BaggageTruck": "Baggage Truck",
-      "CateringTruck": "Catering Truck",
-      "DoorAft": "Door Aft",
-      "DoorFwd": "Door Fwd",
-      "ExternalPower": "External Power",
-      "FuelTruck": "Fuel Truck",
-      "JetBridge": "Jet Bridge",
-      "Title": "Services"
+      "BaggageTruck": "Camion de bagaje",
+      "CateringTruck": "Camion de Catering",
+      "DoorAft": "Uşa din spate",
+      "DoorFwd": "Uşa din față",
+      "ExternalPower": "Unitate externă",
+      "FuelTruck": "Camion de combustibil",
+      "JetBridge": "Burduf de îmbarcare ",
+      "Title": "Servicii"
     },
-    "Title": "Ground"
+    "Title": "Sol"
   },
   "Modals": {
-    "Cancel": "Cancel",
-    "Confirm": "Confirm",
-    "Okay": "Okay"
+    "Cancel": "Anulare",
+    "Confirm": "Confirmare",
+    "Okay": "OK"
   },
   "NavigationAndCharts": {
-    "All": "All",
+    "All": "Toate",
     "Altn": "Altn",
-    "ExitFullscreenMode": "Exit Fullscreen Mode",
-    "From": "From",
+    "ExitFullscreenMode": "Ieșire din modul pe tot ecranul",
+    "From": "De la",
     "LocalFiles": {
-      "Both": "Both",
-      "EstablishingConnection": "Establishing Connection",
-      "FailedToEstablishConnection": "Failed to Establish Connection.",
-      "FileName": "File Name",
-      "Image": "Image",
-      "Pdf": "Pdf",
-      "Retry": "Retry",
-      "Title": "Local Files"
+      "Both": "Ambele",
+      "EstablishingConnection": "Stabilire conexiune",
+      "FailedToEstablishConnection": "Eșec în stabilirea conexiunii",
+      "FileName": "Nume fișier",
+      "Image": "Imagine",
+      "Pdf": "PDF",
+      "Retry": "Reîncercați",
+      "Title": "Fișiere locale"
     },
     "Navigraph": {
-      "AirportDoesNotExist": "Airport Does Not Exist",
-      "AuthenticateWithNavigraph": "Authenticate with Navigraph",
-      "InsufficientEnv": "Insufficient .env File",
-      "IntoYourBrowserAndEnterTheCodeBelow": "into your browser and enter the code below\n",
-      "NoAirportSelected": "No Airport Selected",
-      "ResetNavigraphAuthentication": "Reset Navigraph Authentication",
-      "ScanTheQrCodeOrOpen": "Scan the QR Code or Open",
+      "AirportDoesNotExist": "Aeroportul nu există",
+      "AuthenticateWithNavigraph": "Autentificare cu Navigraph",
+      "InsufficientEnv": "Fișier .env insuficient",
+      "IntoYourBrowserAndEnterTheCodeBelow": "în browser-ul dumneavoastră și introduceți codul de mai jos\n",
+      "NoAirportSelected": "Niciun aeroport selectat",
+      "ResetNavigraphAuthentication": "Resetare autentificare Navigraph",
+      "ScanTheQrCodeOrOpen": "Scanați codul QR sau Deschideti",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
-      "Delete": "Delete",
-      "Edit": "Edit",
-      "NoItemsFound": "No Items Found",
-      "SearchPlaceholder": "Search",
-      "ShowingChartsFromAllProviders": "Showing Charts from All Providers",
+      "Delete": "Șterge",
+      "Edit": "Editează",
+      "NoItemsFound": "Niciun element găsit",
+      "SearchPlaceholder": "Căutați",
+      "ShowingChartsFromAllProviders": "Afișarea hărților de la toţi furnizorii",
       "SortMethods": {
-        "AlphabeticalAZ": "Alphabetical - A -> Z",
-        "AlphabeticalZA": "Alphabetical - Z -> A",
-        "FirstAccessed": "First Accessed",
-        "LastAccessed": "Last Accessed",
-        "None": "None"
+        "AlphabeticalAZ": "În ordine alfabetică - A -> Z",
+        "AlphabeticalZA": "În ordine alfabetică - Z -> A",
+        "FirstAccessed": "Prima accesare",
+        "LastAccessed": "Ultima accesare",
+        "None": "Niciunul"
       },
       "TT": {
-        "ChangeChartProvider": "Change Chart Provider",
-        "ChangeChartSortMethod": "Change Chart Sort Method",
-        "RemoveAllPinnedCharts": "Remove All Pinned Charts"
+        "ChangeChartProvider": "Schimbați furnizorul hărți",
+        "ChangeChartSortMethod": "Schimbați metoda de sortare a hărților",
+        "RemoveAllPinnedCharts": "Eliminați toate hărțile fixate"
       },
-      "Title": "Pinned Charts",
-      "View": "View"
+      "Title": "Hărți fixate",
+      "View": "Visualizati"
     },
-    "PleaseWait": "Please Wait",
-    "ShowingAllItems": "Showing All Items",
+    "PleaseWait": "Vă rugăm așteptați",
+    "ShowingAllItems": "Vizualizați toate elementele",
     "TT": {
-      "FitChartToHeight": "Fit Chart to Height",
-      "FitChartToWidth": "Fit Chart to Width",
-      "ResetMovement": "Reset Movement",
-      "RotateLeft45Degrees": "Rotate Left 45 Degrees",
-      "RotateRight45Degrees": "Rotate Right 45 Degrees",
-      "ZoomIn": "Zoom In",
-      "ZoomOut": "Zoom Out"
+      "FitChartToHeight": "Potrivire hartă pe înălțime",
+      "FitChartToWidth": "Potrivire hartă pe lățime",
+      "ResetMovement": "Resetare mișcare",
+      "RotateLeft45Degrees": "Rotire stânga 45 de grade",
+      "RotateRight45Degrees": "Rotire la dreapta 45 de grade",
+      "ZoomIn": "Mărire",
+      "ZoomOut": "Micşorare"
     },
-    "ThereAreNoChartsToDisplay": "There are no charts to display.",
-    "ThereIsNoChartToDisplay": "There is no chart to display.",
-    "Title": "Navigation & Charts",
-    "To": "To"
+    "ThereAreNoChartsToDisplay": "Nu există hărți de afișat.",
+    "ThereIsNoChartToDisplay": "Nu există nicio diagramă de afișat.",
+    "Title": "Navigare și hărți",
+    "To": "Către"
   },
   "Performance": {
-    "Data": "Data",
+    "Data": "Date",
     "Landing": {
-      "AirportIcao": "Airport ICAO",
-      "ApproachSpeed": "Approach Speed",
-      "ApproachSpeedUnit": "kts",
-      "AutoLand": "Autoland",
-      "Calculate": "Calculate",
-      "Clear": "Clear",
-      "DropDownNo": "No",
-      "DropDownYes": "Yes",
-      "FillDataFrom": "Fill data from",
-      "FlapsConfiguration": "Flaps Configuration",
-      "Low": "Low",
-      "MaximumManual": "Maximum Manual",
-      "Medium": "Medium",
-      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
-      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
-      "OverweightProcedure": "Overweight Procedure",
+      "AirportIcao": "Codul ICAO al aeroportului",
+      "ApproachSpeed": "Viteza de apropiere",
+      "ApproachSpeedUnit": "Noduri",
+      "AutoLand": "Aterizare automată",
+      "Calculate": "Calculează",
+      "Clear": "Goleşte",
+      "DropDownNo": "Nu",
+      "DropDownYes": "Da",
+      "FillDataFrom": "Completați datele din",
+      "FlapsConfiguration": "Configurare flaps-uri",
+      "Low": "Jos",
+      "MaximumManual": "Manual maxim",
+      "Medium": "Mediu",
+      "MetarErrorDialogMessage": "METAR din OFP dvs. nu a putut fi analizat cu succes. Doriți să completați automat datele folosind un METAR preluat în schimb?",
+      "MetarErrorDialogTitle": "Eroare analizare OFP METAR",
+      "OverweightProcedure": "Procedura supraponderală",
       "Qnh": "QNH",
-      "ReverseThrust": "Reverse Thrust",
-      "RunwayAltitude": "Runway Altitude",
+      "ReverseThrust": "Reversor de jet",
+      "RunwayAltitude": "Altitudinea pistei",
       "RunwayAltitudeUnit": "ft ASL",
-      "RunwayCondition": "Runway Condition",
-      "RunwayHeading": "Runway Heading",
+      "RunwayCondition": "Starea pistei",
+      "RunwayHeading": "Traiectorie pistă ",
       "RunwayHeadingUnit": "°",
-      "RunwayLda": "Runway LDA",
+      "RunwayLda": "Pista LDA",
       "RunwayLdaUnitFt": "ft",
       "RunwayLdaUnitMeter": "m",
-      "RunwaySlope": "Runway Slope",
+      "RunwaySlope": "Panta pistei",
       "TT": {
-        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "You need to enter an ICAO code in order to make a METAR request",
-        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "You need to load SimBrief data in order to autofill data"
+        "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "Trebuie să introduci un cod ICAO pentru a face o solicitare METAR",
+        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "Trebuie să încărcați datele SimBrief pentru a completa automat datele"
       },
-      "Temperature": "Temperature",
-      "Title": "Landing",
+      "Temperature": "Temperatură",
+      "Title": "Aterizare",
       "UnitFt": "ft",
       "UnitMeter": "m",
-      "Weight": "Weight",
-      "WindDirection": "Wind Direction",
+      "Weight": "Greutate",
+      "WindDirection": "Direcţia vântului",
       "WindDirectionUnit": "°",
-      "WindMagnitude": "Wind Magnitude",
+      "WindMagnitude": "Magnitudinea vântului",
       "WindMagnitudeUnit": "kts"
     },
-    "SYNC": "SYNC",
-    "Title": "Performance",
+    "SYNC": "Sincronizare",
+    "Title": "Performanță",
     "TopOfDescent": {
       "Data": {
-        "Angle": "Angle",
-        "CurrentAltitude": "Current Altitude",
-        "Distance": "Distance",
-        "GroundSpeed": "Ground Speed",
-        "TargetAltitude": "Target Altitude",
-        "Title": "Data",
-        "UnitAngleDegrees": "degrees",
-        "UnitFeet": "feet",
+        "Angle": "Unghi",
+        "CurrentAltitude": "Altitudine curentă",
+        "Distance": "Distanță",
+        "GroundSpeed": "Viteză la sol",
+        "TargetAltitude": "Altitudinea dorită",
+        "Title": "Date",
+        "UnitAngleDegrees": "grade",
+        "UnitFeet": "picioare",
         "UnitFtMin": "ft/min",
         "UnitNM": "NM",
-        "VerticalSpeed": "Vertical Speed"
+        "VerticalSpeed": "Viteză verticală"
       },
       "GroundSpeed": {
-        "Add": "Add",
-        "FetchingSpeedFromSimulator": "Fetching speed from simulator",
-        "GroundSpeed": "Ground Speed",
-        "ManualInput": "Manual Input",
-        "MinAltitude": "Min. Altitude",
-        "RemoveLast": "Remove Last",
-        "Sync": "SYNC",
-        "Title": "Ground Speed",
-        "UnitKnots": "knots",
+        "Add": "Adaugă",
+        "FetchingSpeedFromSimulator": "Preluarea vitezei de la simulator",
+        "GroundSpeed": "Viteza la sol",
+        "ManualInput": "Introducere manuală",
+        "MinAltitude": "Altitudine min.",
+        "RemoveLast": "Elimină ultima",
+        "Sync": "Sincronizare",
+        "Title": "Viteza la sol",
+        "UnitKnots": "noduri",
         "UnitKt": "kt"
       },
       "Result": {
-        "BeforeTarget": "before target",
-        "DesiredDescentAngle": "Desired Descent Angle",
-        "DesiredVerticalSpeed": "Desired Vertical Speed",
-        "StartYourDescentAbout": "Start your descent about",
-        "Title": "Result"
+        "BeforeTarget": "înainte de țintă",
+        "DesiredDescentAngle": "Unghi de coborâre dorit",
+        "DesiredVerticalSpeed": "Viteza verticală dorită",
+        "StartYourDescentAbout": "Începeți coborârea la aproximativ",
+        "Title": "Rezultat"
       },
       "TT": {
-        "DesynchronizeInputWithAircraftsCurrentAltitude": "Desynchronize Input with Aircraft's Current Altitude",
-        "SynchronizeInputWithAircraftsCurrentAltitude": "Synchronize Input with Aircraft's Current Altitude"
+        "DesynchronizeInputWithAircraftsCurrentAltitude": "Desincronizarea intrărilor cu altitudinea curentă a aeronavei",
+        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizarea intrărilor cu altitudinea curentă a aeronavei"
       },
-      "Title": "Top of Descent"
+      "Title": "Partea de sus a coborârii"
     }
   },
   "Presets": {
     "AircraftStates": {
-      "Cancel": "Cancel",
-      "ColdDark": "Cold & Dark",
-      "ConfirmationDialogMsg": "Please confirm loading of preset.",
-      "CurrentProcedureStep": "Current Procedure Step",
-      "PleaseConfirmLoadingOfPreset": "Please confirm loading of preset.",
-      "ReadyPushback": "Ready for Pushback",
-      "ReadyTakeoff": "Ready for Takeoff",
-      "ReadyTaxi": "Ready for Taxi",
-      "SelectAPresetToLoad": "Select a Preset to Load",
-      "TheAircraftMustBeOnTheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "TheAircraftMustBeOntheGroundToLoadAPreset": "The aircraft must be on the ground to load a preset.",
-      "Title": "Aircraft States",
+      "Cancel": "Anulare",
+      "ColdDark": "Rece și întuneric",
+      "ConfirmationDialogMsg": "Vă rugăm să confirmați încărcarea presetării.",
+      "CurrentProcedureStep": "Etapa de procedură curentă",
+      "PleaseConfirmLoadingOfPreset": "Vă rugăm să confirmați încărcarea presetării.",
+      "ReadyPushback": "Gata de împingerea înapoi",
+      "ReadyTakeoff": "Gata de decolare",
+      "ReadyTaxi": "Gata de rulare",
+      "SelectAPresetToLoad": "Selectarea unei presetări pentru încărcare",
+      "TheAircraftMustBeOnTheGroundToLoadAPreset": "Aeronava trebuie să fie la sol pentru a încărca o presetare.",
+      "TheAircraftMustBeOntheGroundToLoadAPreset": "Aeronava trebuie să fie la sol pentru a încărca o presetare.",
+      "Title": "Stări aeronava ",
       "Turnaround": "Turnaround"
     },
     "InteriorLighting": {
@@ -487,6 +487,7 @@
     "Feb": "Feb",
     "Fri": "Fri",
     "Jan": "Jan",
+    "Jul": "Jul",
     "Jun": "Jun",
     "Mar": "Mar",
     "May": "May",

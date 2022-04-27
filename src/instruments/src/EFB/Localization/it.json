@@ -20,7 +20,7 @@
     "ResetAll": "Ripristina Tutto",
     "ResetChecklist": "Ripristina Checklist",
     "TheLastChecklistIsComplete": "L'ultima checklist è completa",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Ci sono campi rimanenti per l'autoriempimento della checklist, che non sono ancora stati completati",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Ci sono campi rimanenti per l'autocompilazione della checklist, che non sono ancora stati completati",
     "Title": "Checklist"
   },
   "Dashboard": {
@@ -47,7 +47,7 @@
         "DewPoint": "Punto di rugiada",
         "IcaoInvalid": "ICAO non valido o nessun METAR disponibile",
         "Loading": "Caricamento",
-        "MetarParsingError": "Il METAR ricevuto non può essere analizzato",
+        "MetarParsingError": "Il METAR ricevuto non può essere elaborato",
         "NoIcaoProvided": "Nessun ICAO fornito",
         "Raw": "Tecnica",
         "TT": {
@@ -120,12 +120,12 @@
       "LeftOuterTank": "Serbatoio Sinistro Esterno",
       "ReadyToStart": "Pronto a Iniziare",
       "Refuel": "Rifornimento Carburante",
-      "RefuelTime": "Tempo di Rifornimento",
+      "RefuelTime": "Durata Rifornimento",
       "Refueling": "Caricamento",
       "RightInnerTank": "Serbatoio Destro Interno",
       "RightOuterTank": "Serbatoio Destro Esterno",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'Aereomobile Deve Essere Spento per Cambiare i Tempi di Rifornimento",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'Aereomobile Deve Essere Spento per Cambiare Durata Rifornimento",
         "FillBlockFuelFromSimBrief": "Inserisci Block Fuel da SimBrief"
       },
       "Title": "Carburante",
@@ -142,7 +142,7 @@
       "DoorFwd": "Porta Ant.",
       "ExternalPower": "Alimentazione Esterna",
       "FuelTruck": "Veicolo Carburante",
-      "JetBridge": "Ponte d'Imbarco",
+      "JetBridge": "Ponte Imbarco",
       "Title": "Servizi"
     },
     "Title": "Terra"
@@ -204,8 +204,8 @@
       "FitChartToHeight": "Adatta Carta all'Altezza",
       "FitChartToWidth": "Adatta Carta alla Larghezza",
       "ResetMovement": "Ripristina Posizione",
-      "RotateLeft45Degrees": "Ruota a Sinistra di 45 Gradi",
-      "RotateRight45Degrees": "Ruota a Destra di 45 Gradi",
+      "RotateLeft45Degrees": "Ruota 45 Gradi a Sinistra",
+      "RotateRight45Degrees": "Ruota 45 Gradi a Destra",
       "ZoomIn": "Ingrandisci",
       "ZoomOut": "Rimpicciolisci"
     },
@@ -225,13 +225,13 @@
       "Clear": "Cancella",
       "DropDownNo": "No",
       "DropDownYes": "Sì",
-      "FillDataFrom": "Riempi dati da",
+      "FillDataFrom": "Inserisci dati da",
       "FlapsConfiguration": "Configurazione Flap",
       "Low": "Low",
-      "MaximumManual": "Max Manuale",
+      "MaximumManual": "Maximum Manuale",
       "Medium": "Medium",
-      "MetarErrorDialogMessage": "Non è stato possibile analizzare con successo il METAR dal tuo OFP. Desideri autoriempire i dati da un METAR recuperato altrove?",
-      "MetarErrorDialogTitle": "Errore Analisi METAR dell'OFP",
+      "MetarErrorDialogMessage": "Non è stato possibile elaborare con successo il METAR dal tuo OFP. Desideri, invece, inserire automaticamente i dati recuperando un altro METAR?",
+      "MetarErrorDialogTitle": "Errore Elaborazione METAR dell'OFP",
       "OverweightProcedure": "Procedura in Sovraccarico",
       "Qnh": "QNH",
       "ReverseThrust": "Inversori di Spinta",
@@ -246,7 +246,7 @@
       "RunwaySlope": "Pendenza Pista",
       "TT": {
         "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "Devi inserire un codice ICAO in modo da effettuare una richiesta METAR",
-        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "Devi caricare i dati SimBrief per l'autoriempimento dei dati"
+        "YouNeedToLoadSimBriefDataInOrderToAutofillData": "Devi caricare i dati SimBrief per l'inserimento automatico dei dati"
       },
       "Temperature": "Temperatura",
       "Title": "Atterraggio",
@@ -280,7 +280,7 @@
         "GroundSpeed": "Velocità al Suolo",
         "ManualInput": "Inserimento Manuale",
         "MinAltitude": "Altitudine Min.",
-        "RemoveLast": "Rimuovi Ultimo",
+        "RemoveLast": "Rimuovi l'Ultimo",
         "Sync": "SINC",
         "Title": "Velocità al Suolo",
         "UnitKnots": "nodi",
@@ -294,8 +294,8 @@
         "Title": "Risultato"
       },
       "TT": {
-        "DesynchronizeInputWithAircraftsCurrentAltitude": "Non sincronizzare inserimento con Altitudine Attuale dell'Aeromobile",
-        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizzare inserimento con Altitudine Attuale dell'Aeromobile"
+        "DesynchronizeInputWithAircraftsCurrentAltitude": "Non Sincronizzare Inserimento con Altitudine Attuale dell'Aeromobile",
+        "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizzare Inserimento con Altitudine Attuale dell'Aeromobile"
       },
       "Title": "Inizio della Discesa"
     }
@@ -321,7 +321,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "L'Aeromobile deve essere Alimentato per Salvare i Preset",
       "LoadPreset": "Carica Preset",
       "LoadingPreset": "Caricamento Preset",
-      "NewNameConfirmationDialogMsg": "Conferma nuovo nome per il preset di illuminazione",
+      "NewNameConfirmationDialogMsg": "Prego conferma nuovo nome per il preset di illuminazione",
       "NoName": "Nessun Nome",
       "PleaseConfirmSavingPreset": "Conferma Salvataggio Preset",
       "SavePreset": "Salva Preset",
@@ -331,7 +331,7 @@
         "AircraftMustBePowered": "L'Aeromobile deve essere Alimentato",
         "ClickTextToChangeThePresetsName": "Clicca il Testo per Cambiare Nome Preset",
         "LoadThisPreset": "Carica Questo Preset",
-        "SaveTheCurrentLightingLevels": "Salva Livelli di Illuminazione Correnti"
+        "SaveTheCurrentLightingLevels": "Salva Livelli di Illuminazione Attuali"
       },
       "TheAircraftMustBePoweredForInteriorLightingPresets": "L’aeromobile deve essere alimentato per i preset di illuminazione interna.",
       "Title": "Illuminazione Interna"
@@ -346,7 +346,7 @@
     "ParkingBrake": {
       "Off": "Off",
       "On": "On",
-      "Title": "Freni di Parcheggio"
+      "Title": "Freni Parcheggio"
     },
     "TugDirection": "Direzione Tug",
     "TugSpeed": "Velocità Tug"
@@ -369,7 +369,7 @@
     },
     "AtsuAoc": {
       "AtisAtcSource": "Fonte ATIS/ATC",
-      "AutomaticallyImportSimBriefData": "Importa Dati SimBrief Automaticamente",
+      "AutomaticallyImportSimBriefData": "Importa Automaticamente Dati SimBrief",
       "Enable": "Abilita",
       "EnableTelex": "Abilita TELEX",
       "ErrorReporting": "Segnalazione Errori",
@@ -392,7 +392,7 @@
     },
     "Audio": {
       "Announcements": "Annunci",
-      "BoardingMusic": "Musica d'Imbarco",
+      "BoardingMusic": "Musica Imbarco",
       "EngineInteriorVolume": "Volume Motori all'Interno",
       "ExteriorMasterVolume": "Volume Generale all'Esterno",
       "PassengerAmbience": "Brusio Passeggeri",
@@ -401,13 +401,13 @@
       "WindInteriorVolume": "Volume Vento all'Interno"
     },
     "Fast": "Veloce",
-    "Instant": "Istantaneo",
+    "Instant": "Istantanea",
     "Real": "Reale",
     "Realism": {
-      "AdirsAlignTime": "Tempo Allineamento ADIRS",
-      "AutofillChecklists": "Autoriempi Checklist",
-      "BoardingTime": "Tempo d'Imbarco",
-      "DmcSelfTestTime": "Tempo Autotest DMC",
+      "AdirsAlignTime": "Durata Allineamento ADIRS",
+      "AutofillChecklists": "Autocompila Checklist",
+      "BoardingTime": "Durata Imbarco",
+      "DmcSelfTestTime": "Durata Autotest DMC",
       "HomeCockpitMode": "Modalità Home Cockpit",
       "McduFocusTimeout": "Rilascio Selezione su MCDU (secondi)",
       "McduKeyboardInput": "Input Tastiera MCDU",
@@ -436,7 +436,7 @@
     },
     "ThrottleConfig": {
       "Apply": "Applica",
-      "AreYouSureThatYouWantToResetYourCurrentThrottleConfigurationToTheirDefaultStates": "Sei sicuro di voler ripristinare la tua configurazione attuale della manetta a quella predefinita? Questa azione è irreversibile.",
+      "AreYouSureThatYouWantToResetYourCurrentThrottleConfigurationToTheirDefaultStates": "Sei sicuro di voler ripristinare la tua attuale configurazione della manetta a quella predefinita? Questa azione è irreversibile.",
       "Axis": "Asse",
       "Back": "Indietro",
       "ConfigureEnd": "Configura Fine",
@@ -444,7 +444,7 @@
       "CurrentValue": "Valore Attuale",
       "Deadband": "Zona Morta",
       "ErrorOverlapMsg": "Conflitto con",
-      "IndependentAxis": "Asse Unica",
+      "IndependentAxis": "Assi Separate",
       "LoadFromFile": "Carica da File",
       "PleaseEnterAValidDeadzone": "Prego inserisci una zona morta valida",
       "ResetToDefaults": "Ripristina Predefiniti",
@@ -487,6 +487,7 @@
     "Feb": "Feb",
     "Fri": "Ven",
     "Jan": "Gen",
+    "Jul": "Lug",
     "Jun": "Giu",
     "Mar": "Mar",
     "May": "Mag",
