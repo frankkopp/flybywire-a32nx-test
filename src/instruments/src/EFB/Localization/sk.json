@@ -1,10 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Aktívne",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Zmena zdroja ATIS/ATC",
     "ConnectHoppieACARS": "Pripojiť Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Nie sú k dispozícii žiadne informácie o tejto frekvencii",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
+    "SelectCorrectATISATCSource": "Táto stránka je dostupná len vtedy, keď je na stránke nastavení vybratá funkcia IVAO alebo VATSIM ako zdroj ATIS/ATC.",
     "SetActive": "Nastaviť aktívnu",
     "SetStandby": "Nastaviť pohotovostný režim",
     "Standby": "Pohotovostný režim",
@@ -61,7 +61,7 @@
     },
     "Title": "Prehľad",
     "YourFlight": {
-      "Alternate": "Alternate",
+      "Alternate": "Alternatívna stopa",
       "AverageWind": "Priemerný vietor",
       "CompanyRoute": "Route spoločnosti",
       "CostIndex": "Index nákladov",
@@ -360,7 +360,7 @@
       "EngineOutAccelerationHeight": "Výška zrýchlenia pri poruche motora (ft)",
       "IsisBaroUnit": "Jednotka ISIS Baro",
       "IsisMetricAltitude": "Metrická nadmorská výška ISIS",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
+      "LatLonExtendedFormat": "Formát bod cesty FMGC Lat/Lon",
       "PaxSigns": "PAX Signs",
       "RmpVhfSpacing": "RMP vzdialenosť VHF",
       "ThrustReductionHeight": "Výška redukcie ťahu (ft)",
@@ -383,11 +383,11 @@
       "Telex": "TELEX",
       "TelexEnablesFreeTextAndLiveMap": "TELEX umožňuje voľný text a živú mapu. Ak je povolené, údaje o polohe lietadla sa uverejňujú počas trvania letu. Správy sú verejné a nie moderované. POUŽITE TÚTO FUNKCIU NA VLASTNÉ RIZIKO. Ak sa chcete dozvedieť viac o TELEX a funkciách, ktoré umožňuje, prejdite na https://docs.flybywiresim.com/telex.",
       "TelexWarning": "TELEX varovanie",
-      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "There was an error validating your Hoppie-ID",
+      "ThereWasAnErrorEncounteredWhenValidatingYourHoppieID": "Pri overovaní ID Hoppie sa vyskytla chyba",
       "Title": "ATSU / AOC",
       "YouAreAbleToOptIntoAnonymousErrorReporting": "Môžete sa prihlásiť do anonymného hlásenia chýb, ktoré nám umožní diagnostikovať, monitorovať a starať sa o problémy rýchlejšie. Táto funkcia je úplne voliteľná a nikdy nebudeme zhromažďovať vaše osobné údaje, ale môže vám umožniť ľahšie získať podporu a vyriešiť problémy, s ktorými sa stretnete rýchlejšie.",
-      "YourHoppieIdHasBeenRemoved": "Your Hoppie-ID has been removed",
-      "YourHoppieIdHasBeenValidated": "Your Hoppie-ID has been validated",
+      "YourHoppieIdHasBeenRemoved": "Identifikácia Hoppie-ID bola odstránená",
+      "YourHoppieIdHasBeenValidated": "Identifikácia vášho Hoppie-ID bola overená",
       "YourSimBriefPilotIdHasBeenValidatedAndUpdatedTo": "Vaše SimBrief PilotID bolo overené a aktualizované na"
     },
     "Audio": {
@@ -440,7 +440,7 @@
       "Axis": "Os",
       "Back": "Späť",
       "ConfigureEnd": "Konfigurovať koniec",
-      "ConfigureStart": "Configure Start",
+      "ConfigureStart": "Konfigurovať Štart",
       "CurrentValue": "Aktuálna hodnota",
       "Deadband": "Deadband",
       "ErrorOverlapMsg": "prekrýva",
@@ -500,10 +500,10 @@
     "TT": {
       "ConnectedToLocalApi": "Pripojené k lokálnej API",
       "DisconnectedFromLocalApi": "Odpojené od lokálnej API",
-      "TurnOffOrShutdownEfb": "Turn off or Shutdown EFB"
+      "TurnOffOrShutdownEfb": "Vypnúť alebo zastaviť EFB"
     },
-    "Thu": "Thu",
-    "Tue": "Tue",
-    "Wed": "Wed"
+    "Thu": "Štv",
+    "Tue": "Uto",
+    "Wed": "Str"
   }
 }
