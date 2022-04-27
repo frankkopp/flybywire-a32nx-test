@@ -317,54 +317,54 @@
       "Turnaround": "Obrat"
     },
     "InteriorLighting": {
-      "AircraftNeedsToBePoweredToLoadPresets": "Aircraft Needs to be Powered to Load Presets",
-      "AircraftNeedsToBePoweredToSavePresets": "Aircraft Needs to Be Powered to Save Presets",
-      "LoadPreset": "Load Preset",
-      "LoadingPreset": "Loading Preset",
+      "AircraftNeedsToBePoweredToLoadPresets": "Lietadlo musí byť zapnuté na načítanie predvolieb",
+      "AircraftNeedsToBePoweredToSavePresets": "Lietadlo musí byť zapnuté pre uloženie prednastavení",
+      "LoadPreset": "Načítať prednastavenie",
+      "LoadingPreset": "Načítanie prednastavenia",
       "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
-      "NoName": "No Name",
-      "PleaseConfirmSavingPreset": "Please Confirm Saving Preset",
-      "SavePreset": "Save Preset",
-      "SavingPreset": "Saving Preset",
-      "SelectAnInteriorLightingPresetToLoadOrSave": "Select an interior lighting preset to load or save.",
+      "NoName": "Bez mena",
+      "PleaseConfirmSavingPreset": "Potvrďte prednastavenie uloženia",
+      "SavePreset": "Uložiť prednastavenie",
+      "SavingPreset": "Uloženie prednastavenia",
+      "SelectAnInteriorLightingPresetToLoadOrSave": "Vyberte prednastavenie vnútorného osvetlenia, ktoré chcete načítať alebo uložiť.",
       "TT": {
-        "AircraftMustBePowered": "Aircraft Must be Powered",
-        "ClickTextToChangeThePresetsName": "Click Text to Change the Preset's Name",
-        "LoadThisPreset": "Load This Preset",
-        "SaveTheCurrentLightingLevels": "Save the Current Lighting Levels"
+        "AircraftMustBePowered": "Lietadlo musí byť zapnuté",
+        "ClickTextToChangeThePresetsName": "Ak chcete zmeniť názov predvoľby, kliknite na položku Text",
+        "LoadThisPreset": "Načítať túto predvoľbu",
+        "SaveTheCurrentLightingLevels": "Uložiť aktuálne úrovne osvetlenia"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "The aircraft must be powered for interior lighting presets.",
-      "Title": "Interior Lighting"
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "Lietadlo musí byť zapnuté pre prednastavenia vnútorného osvetlenia.",
+      "Title": "Interiérové osvetlenie"
     },
-    "Title": "Presets"
+    "Title": "Predvoľby"
   },
   "Pushback": {
-    "Backward": "Backward",
-    "CallTug": "Call Tug",
-    "Forward": "Forward",
-    "Halt": "Halt",
+    "Backward": "Dozadu",
+    "CallTug": "Zavolajte Tug",
+    "Forward": "Dopredu",
+    "Halt": "Zastaviť",
     "ParkingBrake": {
-      "Off": "Off",
-      "On": "On",
-      "Title": "Parking Brake"
+      "Off": "Vypnuté",
+      "On": "Zapnuté",
+      "Title": "Parkovacia brzda"
     },
-    "TugDirection": "Tug Direction",
-    "TugSpeed": "Tug Speed"
+    "TugDirection": "Smer Tagu",
+    "TugSpeed": "Rýchlosť Tugu"
   },
   "Settings": {
     "About": {
-      "Title": "About"
+      "Title": "O aplikácií"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Acceleration Height (ft)",
-      "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
-      "IsisBaroUnit": "ISIS Baro Unit",
-      "IsisMetricAltitude": "ISIS Metric Altitude",
+      "AccelerationHeight": "Výška zrýchlenia (ft)",
+      "EngineOutAccelerationHeight": "Výška zrýchlenia pri poruche motora (ft)",
+      "IsisBaroUnit": "Jednotka ISIS Baro",
+      "IsisMetricAltitude": "Metrická nadmorská výška ISIS",
       "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "PAX Signs",
-      "RmpVhfSpacing": "RMP VHF Spacing",
-      "ThrustReductionHeight": "Thrust Reduction Height (ft)",
-      "Title": "Aircraft Options / Pin Programs",
+      "RmpVhfSpacing": "RMP vzdialenosť VHF",
+      "ThrustReductionHeight": "Výška redukcie ťahu (ft)",
+      "Title": "Nastavenia lietadla / Pin programy",
       "WeightUnit": "Weight Unit"
     },
     "AtsuAoc": {
