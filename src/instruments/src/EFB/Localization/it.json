@@ -44,7 +44,7 @@
       "Title": "Informazioni importanti",
       "Weather": {
         "AirPressure": "Pressione Atmosferica",
-        "DewPoint": "Punto di rugiada",
+        "DewPoint": "Punto di Rugiada",
         "IcaoInvalid": "ICAO non valido o nessun METAR disponibile",
         "Loading": "Caricamento",
         "MetarParsingError": "Il METAR ricevuto non può essere elaborato",
@@ -62,7 +62,7 @@
     "Title": "Dashboard",
     "YourFlight": {
       "Alternate": "Alternato",
-      "AverageWind": "Velocità Media Vento",
+      "AverageWind": "Velocità Vento Media",
       "CompanyRoute": "Rotta Compagnia",
       "CostIndex": "Cost Index",
       "CruiseAlt": "Alt. Crociera",
@@ -119,7 +119,7 @@
       "LeftInnerTank": "Serbatoio Sinistro Interno",
       "LeftOuterTank": "Serbatoio Sinistro Esterno",
       "ReadyToStart": "Pronto a Iniziare",
-      "Refuel": "Rifornimento Carburante",
+      "Refuel": "Rifornimento",
       "RefuelTime": "Durata Rifornimento",
       "Refueling": "Caricamento",
       "RightInnerTank": "Serbatoio Destro Interno",
@@ -280,14 +280,14 @@
         "GroundSpeed": "Velocità al Suolo",
         "ManualInput": "Inserimento Manuale",
         "MinAltitude": "Altitudine Min.",
-        "RemoveLast": "Rimuovi l'Ultimo",
+        "RemoveLast": "Rimuovi Ultimo",
         "Sync": "SINC",
         "Title": "Velocità al Suolo",
         "UnitKnots": "nodi",
         "UnitKt": "kt"
       },
       "Result": {
-        "BeforeTarget": "Prima del Target",
+        "BeforeTarget": "prima del target",
         "DesiredDescentAngle": "Angolo Discesa Desiderato",
         "DesiredVerticalSpeed": "Velocità Verticale Desiderata",
         "StartYourDescentAbout": "Inizia la tua discesa a circa",
@@ -328,7 +328,7 @@
       "SavingPreset": "Salvataggio Preset",
       "SelectAnInteriorLightingPresetToLoadOrSave": "Seleziona un preset di illuminazione interna da caricare o salvare.",
       "TT": {
-        "AircraftMustBePowered": "L'Aeromobile deve essere Alimentato",
+        "AircraftMustBePowered": "L'Aeromobile Deve essere Alimentato",
         "ClickTextToChangeThePresetsName": "Clicca il Testo per Cambiare Nome Preset",
         "LoadThisPreset": "Carica Questo Preset",
         "SaveTheCurrentLightingLevels": "Salva Livelli di Illuminazione Attuali"
