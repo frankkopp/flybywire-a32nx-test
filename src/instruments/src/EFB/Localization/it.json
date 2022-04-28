@@ -90,7 +90,7 @@
       "MTOW": "MTOW",
       "MZFW": "MZFW",
       "MaximumCargo": "Carico Massimo",
-      "MaximumFuelCapacity": "Capacità Massima Carburante",
+      "MaximumFuelCapacity": "Capacità Carburante Massima",
       "MaximumPassengers": "Passeggeri Massimi",
       "Model": "Modello",
       "Range": "Autonomia",
@@ -192,7 +192,7 @@
       },
       "TT": {
         "ChangeChartProvider": "Cambia Fornitore Carte",
-        "ChangeChartSortMethod": "Cambia Modalità di Ordinamento delle Carte",
+        "ChangeChartSortMethod": "Cambia Modalità Disposizione Carte",
         "RemoveAllPinnedCharts": "Rimuovi Tutte le Carte Fissate"
       },
       "Title": "Carte Fissate",
@@ -258,7 +258,7 @@
       "WindMagnitude": "Magnitudo Vento",
       "WindMagnitudeUnit": "kts"
     },
-    "SYNC": "SINC",
+    "SYNC": "SYNC",
     "Title": "Prestazioni",
     "TopOfDescent": {
       "Data": {
@@ -281,7 +281,7 @@
         "ManualInput": "Inserimento Manuale",
         "MinAltitude": "Altitudine Min.",
         "RemoveLast": "Rimuovi Ultimo",
-        "Sync": "SINC",
+        "Sync": "SYNC",
         "Title": "Velocità al Suolo",
         "UnitKnots": "nodi",
         "UnitKt": "kt"
@@ -356,15 +356,15 @@
       "Title": "Informazioni"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Accelerazione in Altezza (ft)",
-      "EngineOutAccelerationHeight": "Accelerazione in Altezza Senza Motore (ft)",
+      "AccelerationHeight": "Altezza Accelerazione (ft)",
+      "EngineOutAccelerationHeight": "Altezza Accelerazione Senza Motore (ft)",
       "IsisBaroUnit": "Unità ISIS Baro",
       "IsisMetricAltitude": "Altitudine Metrica ISIS",
       "LatLonExtendedFormat": "Formato Waypoint Lat/Lon FMGC",
       "PaxSigns": "PAX Sign",
       "RmpVhfSpacing": "Spaziatura VHF RMP",
       "ThrustReductionHeight": "Altezza Riduzione Spinta (ft)",
-      "Title": "Opzioni Aeromobile / Programmi Fissati",
+      "Title": "Opzioni Aeromobile / Definisci Comportamenti",
       "WeightUnit": "Unità Peso"
     },
     "AtsuAoc": {
@@ -410,7 +410,7 @@
       "DmcSelfTestTime": "Durata Autotest DMC",
       "HomeCockpitMode": "Modalità Home Cockpit",
       "McduFocusTimeout": "Rilascio Selezione su MCDU (secondi)",
-      "McduKeyboardInput": "Input Tastiera MCDU",
+      "McduKeyboardInput": "Input Tastiera su MCDU",
       "SeparateTillerFromRudderInputs": "Separa gli Input del Tiller e dei Pedali",
       "Title": "Realismo"
     },
@@ -425,7 +425,7 @@
       "Hpa": "hPa",
       "Inactive": "Inattivo",
       "LoadOnly": "Carica Solamente",
-      "None": "Nessuno",
+      "None": "No",
       "Off": "Off",
       "Save": "Salva",
       "SyncMsfsFlightPlan": "Sincronizza Piano di Volo MSFS",
@@ -500,7 +500,7 @@
     "TT": {
       "ConnectedToLocalApi": "Connesso all'API Locale",
       "DisconnectedFromLocalApi": "Sconnesso dall'API Locale",
-      "TurnOffOrShutdownEfb": "Spegni o Arresta l'EFB"
+      "TurnOffOrShutdownEfb": "Spegni o Arresta EFB"
     },
     "Thu": "Gio",
     "Tue": "Mar",
