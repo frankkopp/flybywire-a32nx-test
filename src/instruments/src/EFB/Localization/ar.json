@@ -64,43 +64,43 @@
       "Alternate": "بديل",
       "AverageWind": "متوسط الرياح",
       "CompanyRoute": "مسار الشركة",
-      "CostIndex": "Cost Index",
-      "CruiseAlt": "Cruise Alt.",
-      "ImportSimBriefData": "Import SimBrief Data",
-      "Route": "Route",
-      "SimBriefDataNotYetLoaded": "SimBrief data not yet loaded.",
-      "Title": "Your Flight",
-      "ZFW": "ZFW"
+      "CostIndex": "مؤشر التكلفة",
+      "CruiseAlt": "الارتفاع النهائي ",
+      "ImportSimBriefData": "استيراد بيانات SimBrief",
+      "Route": "مسار",
+      "SimBriefDataNotYetLoaded": "بيانات SimBrief لم يتم تحميلها بعد.\n",
+      "Title": "رحلتك",
+      "ZFW": "الوزن بدون الوقود "
     }
   },
   "Dispatch": {
     "Ofp": {
-      "ImportSimBriefData": "Import SimBrief Data",
+      "ImportSimBriefData": "استيراد بيانات SimBrief",
       "TT": {
-        "IncreaseFontSize": "Increase Font Size",
-        "ReduceFontSize": "Reduce Font Size"
+        "IncreaseFontSize": "زيادة حجم الخط",
+        "ReduceFontSize": "تقليل حجم الخط"
       },
-      "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "You have not yet imported any SimBrief data."
+      "Title": "خطة الطيران التشغيلية\n",
+      "YouHaveNotYetImportedAnySimBriefData": "لم تستورد بعد أي بيانات SimBrief.\n"
     },
     "Overview": {
-      "Engines": "Engines",
+      "Engines": "محركات",
       "MMO": "MMO",
       "MRW": "MRW",
-      "MTOW": "MTOW",
-      "MZFW": "MZFW",
-      "MaximumCargo": "Maximum Cargo",
-      "MaximumFuelCapacity": "Maximum Fuel Capacity",
-      "MaximumPassengers": "Maximum Passengers",
-      "Model": "Model",
-      "Range": "Range",
-      "Title": "Overview"
+      "MTOW": "الوزن الأقصى للإقلاع\n",
+      "MZFW": "أقصى وزن للطائرة من غير الوقود ",
+      "MaximumCargo": "الحد الأقصى للشحن",
+      "MaximumFuelCapacity": "الحد الأقصى لسعة الوقود",
+      "MaximumPassengers": "الحد الأقصى للركاب",
+      "Model": "الطراز",
+      "Range": "المدى ",
+      "Title": "نظرة عامة"
     },
-    "Title": "Dispatch"
+    "Title": "إرسال"
   },
   "Failures": {
     "Comfort": {
-      "Title": "Comfort"
+      "Title": "الراحة"
     },
     "Compact": {
       "Title": "Compact"
