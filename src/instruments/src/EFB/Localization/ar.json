@@ -14,7 +14,7 @@
     "AreYouSureYouWantToResetAllChecklists": "هل تريد بالتأكيد إعادة تعيين جميع قوائم التحقق؟",
     "AreYouSureYouWantToResetChecklists": "هل انت متأكد من انك تريد اعادة تعيين جميع قوائم التحقق؟ ",
     "ChecklistResetWarning": "إنذار إعادة تعيين قوائم التحقق",
-    "MarkChecklistAsComplete": "وضع علامة على قائمة التحقق كاملة",
+    "MarkChecklistAsComplete": "وضع علامة اكتمال على القائمة المرجعية ",
     "MarkItemAsComplete": "اشر على العنصر على انه اكتمل",
     "ProceedToNextChecklist": "الانتقال الى قائمة التحقق التالية",
     "ResetAll": "إعادة تعيين الكل",
@@ -52,18 +52,18 @@
         "Raw": "غير معالج",
         "TT": {
           "SwitchToIconView": "التبديل إلى عرض الأيقونة",
-          "SwitchToRawMetarView": "Switch to Raw METAR View"
+          "SwitchToRawMetarView": "التبديل إلى طريقة عرض METAR الخام"
         },
-        "Temperature": "Temperature",
-        "Title": "Weather",
-        "WindSpeed": "Wind Speed"
+        "Temperature": "درجة الحرارة",
+        "Title": "الطقس",
+        "WindSpeed": "سرعة الرياح"
       }
     },
-    "Title": "Dashboard",
+    "Title": "لوحة المعلومات",
     "YourFlight": {
-      "Alternate": "Alternate",
-      "AverageWind": "Average Wind",
-      "CompanyRoute": "Company Route",
+      "Alternate": "بديل",
+      "AverageWind": "متوسط الرياح",
+      "CompanyRoute": "مسار الشركة",
       "CostIndex": "Cost Index",
       "CruiseAlt": "Cruise Alt.",
       "ImportSimBriefData": "Import SimBrief Data",
