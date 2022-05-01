@@ -49,6 +49,7 @@
         "Loading": "Nalagam",
         "MetarParsingError": "Prejetega METAR-ja ni bilo mogoče razčleniti",
         "NoIcaoProvided": "ICAO ni naveden",
+        "NotAvailableShort": "N/A",
         "Raw": "Nerazčlenjeno",
         "TT": {
           "SwitchToIconView": "Preklopi na ikonski pogled",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Preverjanje pristnosti z Navigraph-om",
       "InsufficientEnv": "Nezadostna datoteka .env",
       "IntoYourBrowserAndEnterTheCodeBelow": "v brskalniku in vnesite spodnjo kodo",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Ni izbranega letališča",
       "ResetNavigraphAuthentication": "Ponastavitev Navigraph avtentikacije",
       "ScanTheQrCodeOrOpen": "Skenirajte QR kodo ali odprite",
@@ -238,6 +240,14 @@
       "RunwayAltitude": "Višina steze",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Stanje steze",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Smer steze",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "LDA steze",
@@ -343,11 +353,14 @@
     "CallTug": "Pokliči vlačilec",
     "Forward": "Naprej",
     "Halt": "Ustavi",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "Izklop",
       "On": "Vklop",
       "Title": "Parkirna zavora"
     },
+    "Right": "Right",
     "TugDirection": "Smer vlačilca",
     "TugSpeed": "Hitrost vlačilca"
   },

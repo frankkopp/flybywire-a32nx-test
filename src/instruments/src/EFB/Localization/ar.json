@@ -49,6 +49,7 @@
         "Loading": "جارٍ التحميل…",
         "MetarParsingError": "لا يمكن تحليل الMETAR المستلم",
         "NoIcaoProvided": "لم يتم توفير ICAO\n",
+        "NotAvailableShort": "N/A",
         "Raw": "غير معالج",
         "TT": {
           "SwitchToIconView": "التبديل إلى عرض الأيقونة",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "مصادقة مع Navigraph",
       "InsufficientEnv": "ملف .env غير كاف",
       "IntoYourBrowserAndEnterTheCodeBelow": "في متصفحك وأدخل الرمز بالاسفل\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "لم يتم اختيار مطار",
       "ResetNavigraphAuthentication": "إعادة تعيين مصادقة Navigraph",
       "ScanTheQrCodeOrOpen": "مسح رمز الاستجابة السريعة أو فتح",
@@ -199,25 +201,25 @@
       "View": "عرض"
     },
     "PleaseWait": "يرجى الإنتظار...",
-    "ShowingAllItems": "Showing All Items",
+    "ShowingAllItems": "عرض جميع العناصر",
     "TT": {
       "FitChartToHeight": "Fit Chart to Height",
       "FitChartToWidth": "Fit Chart to Width",
-      "ResetMovement": "Reset Movement",
-      "RotateLeft45Degrees": "Rotate Left 45 Degrees",
-      "RotateRight45Degrees": "Rotate Right 45 Degrees",
-      "ZoomIn": "Zoom In",
-      "ZoomOut": "Zoom Out"
+      "ResetMovement": "إعادة تعيين الحركة",
+      "RotateLeft45Degrees": "تدوير لليسار 45 درجة",
+      "RotateRight45Degrees": "تدوير لليمين 45 درجة ",
+      "ZoomIn": "تكبير",
+      "ZoomOut": "تصغير"
     },
-    "ThereAreNoChartsToDisplay": "There are no charts to display.",
-    "ThereIsNoChartToDisplay": "There is no chart to display.",
-    "Title": "Navigation & Charts",
-    "To": "To"
+    "ThereAreNoChartsToDisplay": "لا توجد مخططات لعرضها.",
+    "ThereIsNoChartToDisplay": "لا يوجد مخطط لعرضه.",
+    "Title": "الملاحة ومخططات الطيران ",
+    "To": "إلى"
   },
   "Performance": {
-    "Data": "Data",
+    "Data": "البيانات",
     "Landing": {
-      "AirportIcao": "Airport ICAO",
+      "AirportIcao": "معلومات ICAO للمطار ",
       "ApproachSpeed": "Approach Speed",
       "ApproachSpeedUnit": "kts",
       "AutoLand": "Autoland",
@@ -238,6 +240,14 @@
       "RunwayAltitude": "Runway Altitude",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Runway Condition",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Runway Heading",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Runway LDA",
@@ -342,12 +352,15 @@
     "Backward": "Backward",
     "CallTug": "Call Tug",
     "Forward": "Forward",
-    "Halt": "Halt",
+    "Halt": "Paused",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "Off",
       "On": "On",
       "Title": "Parking Brake"
     },
+    "Right": "Right",
     "TugDirection": "Tug Direction",
     "TugSpeed": "Tug Speed"
   },

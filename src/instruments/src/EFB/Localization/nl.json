@@ -49,6 +49,7 @@
         "Loading": "Laden...",
         "MetarParsingError": "Ontvangen METAR kon niet worden ontcijferd",
         "NoIcaoProvided": "Er is geen ICAO verstrekt",
+        "NotAvailableShort": "N/A",
         "Raw": "Onbewerkt",
         "TT": {
           "SwitchToIconView": "Overschakelen naar pictogramweergave",
@@ -125,7 +126,7 @@
       "RightInnerTank": "Rechter binnentank",
       "RightOuterTank": "Buitenste rechtertank",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Vliegtuig moet Cold & Dark zijn om de snelheid van het bijtanken te wijzigen.",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Wijziging van de bijtanktijd alleen op de grond met uitgeschakelde motoren",
         "FillBlockFuelFromSimBrief": "Vul blokbrandstof van SimBrief"
       },
       "Title": "Brandstof",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Authenticeren met Navigraph",
       "InsufficientEnv": "Incorrect .env-bestand",
       "IntoYourBrowserAndEnterTheCodeBelow": "in uw browser en voer de onderstaande code in\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Geen luchthaven geselecteerd",
       "ResetNavigraphAuthentication": "Navigraph-verificatie resetten",
       "ScanTheQrCodeOrOpen": "Scan de QR-code of Open",
@@ -230,14 +232,22 @@
       "Low": "Laag",
       "MaximumManual": "Maximum Manual",
       "Medium": "Medium",
-      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
-      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
+      "MetarErrorDialogMessage": "De METAR van uw OFP kon niet met succes worden geparseerd. Wilt u in plaats daarvan automatisch gegevens invullen met behulp van een opgehaalde METAR?",
+      "MetarErrorDialogTitle": "Fout bij parseren van OFP METAR",
       "OverweightProcedure": "Procedure bij overgewicht",
       "Qnh": "QNH",
       "ReverseThrust": "Reverse Thrust",
       "RunwayAltitude": "Hoogte Landingsbaan",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Conditie landingsbaan",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Koers Landingsbaan",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Landingsbaan LDA",
@@ -342,12 +352,15 @@
     "Backward": "Terug",
     "CallTug": "Bel Tug",
     "Forward": "Vooruit",
-    "Halt": "Stoppen",
+    "Halt": "Gepauzeerd",
+    "Left": "Left",
+    "Moving": "Bewegend",
     "ParkingBrake": {
       "Off": "Uit",
       "On": "Aan",
       "Title": "Parkeerrem"
     },
+    "Right": "Right",
     "TugDirection": "Richting tug",
     "TugSpeed": "Tug snelheid"
   },

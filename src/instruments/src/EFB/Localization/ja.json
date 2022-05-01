@@ -49,6 +49,7 @@
         "Loading": "読み込み中…",
         "MetarParsingError": "受信したMETARを解析できませんでした",
         "NoIcaoProvided": "ICAOから提供されていません",
+        "NotAvailableShort": "N/A",
         "Raw": "原文",
         "TT": {
           "SwitchToIconView": "アイコン表示に切り替え",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Navigraphで認証する",
       "InsufficientEnv": ".envファイルが不足しています",
       "IntoYourBrowserAndEnterTheCodeBelow": "このURLをブラウザに入力し、以下のコードを入力してください\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "空港が選択されていません",
       "ResetNavigraphAuthentication": "Navigraph認証のリセット",
       "ScanTheQrCodeOrOpen": "QRコードをスキャンするか、これを開いてください",
@@ -238,6 +240,14 @@
       "RunwayAltitude": "滑走路の標高",
       "RunwayAltitudeUnit": "ft(海抜高度)",
       "RunwayCondition": "滑走路の状態",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "滑走路の方位",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "滑走路のLDA",
@@ -343,11 +353,14 @@
     "CallTug": "牽引車を呼ぶ",
     "Forward": "前進",
     "Halt": "停止",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "オフ",
       "On": "オン",
       "Title": "パーキングブレーキ"
     },
+    "Right": "Right",
     "TugDirection": "牽引方向",
     "TugSpeed": "牽引速度"
   },

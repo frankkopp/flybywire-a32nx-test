@@ -49,6 +49,7 @@
         "Loading": "Laddar",
         "MetarParsingError": "Mottagen METAR kunde inte tolkas",
         "NoIcaoProvided": "Ingen ICAO tillhandahållen",
+        "NotAvailableShort": "N/A",
         "Raw": "Rådata",
         "TT": {
           "SwitchToIconView": "Byt till ikonvy",
@@ -125,7 +126,7 @@
       "RightInnerTank": "Höger innertank",
       "RightOuterTank": "Höger yttertank",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Ändring av tankningstiden endast på marken med avstängda motorer.",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Ändring av tankningstiden endast på marken med avstängda motorer",
         "FillBlockFuelFromSimBrief": "Fyll block bränsle från SimBrief"
       },
       "Title": "Bränsle",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Autentisera med Navigraph",
       "InsufficientEnv": "Otillräcklig .env-fil",
       "IntoYourBrowserAndEnterTheCodeBelow": "i din webbläsare och ange koden nedan\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Ingen flygplats vald",
       "ResetNavigraphAuthentication": "Återställ Navigraph autentisering",
       "ScanTheQrCodeOrOpen": "Skanna QR-koden eller öppna",
@@ -238,6 +240,14 @@
       "RunwayAltitude": "Höjd på landningsbanan",
       "RunwayAltitudeUnit": "Fot över havsnivå",
       "RunwayCondition": "Banans skick",
+      "RunwayConditions": {
+        "Dry": "Torr (6)",
+        "Good": "Bra (5)",
+        "GoodMedium": "Bra-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Dålig (2)",
+        "Poor": "Dålig (1)"
+      },
       "RunwayHeading": "Kurs för landningsbana",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Landningsbana LDA",
@@ -342,12 +352,15 @@
     "Backward": "Bakåt",
     "CallTug": "Ring dragare",
     "Forward": "Framåt",
-    "Halt": "Stopp",
+    "Halt": "Pausad",
+    "Left": "Vänster",
+    "Moving": "Flyttar",
     "ParkingBrake": {
       "Off": "Av",
       "On": "På",
       "Title": "Parkeringsbroms"
     },
+    "Right": "Höger",
     "TugDirection": "Dragarriktning",
     "TugSpeed": "Dragarhastighet"
   },

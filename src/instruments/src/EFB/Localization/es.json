@@ -49,6 +49,7 @@
         "Loading": "Cargando",
         "MetarParsingError": "El METAR recibido no ha podido ser analizado",
         "NoIcaoProvided": "No se ha proporcionado ningún código ICAO",
+        "NotAvailableShort": "N/A",
         "Raw": "Sin procesar",
         "TT": {
           "SwitchToIconView": "Cambiar a vista de iconos",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Autenticar con Navigraph",
       "InsufficientEnv": "Archivo .env insuficiente",
       "IntoYourBrowserAndEnterTheCodeBelow": "en su navegador e introduzca el siguiente código\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Sin aeropuerto seleccionado",
       "ResetNavigraphAuthentication": "Restablecer la autenticación de Navigraph",
       "ScanTheQrCodeOrOpen": "Escanee el código QR o pinche",
@@ -238,6 +240,14 @@
       "RunwayAltitude": "Altitud de pista",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Estado de la pista",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Rumbo de pista",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Pista LDA",
@@ -343,11 +353,14 @@
     "CallTug": "Llamar al remolcador",
     "Forward": "Adelante",
     "Halt": "Detener",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "Apagado",
       "On": "Encendido",
       "Title": "Freno de estacionamiento"
     },
+    "Right": "Right",
     "TugDirection": "Dirección del remolcador",
     "TugSpeed": "Velocidad del remolcador"
   },

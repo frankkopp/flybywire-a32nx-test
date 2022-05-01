@@ -49,6 +49,7 @@
         "Loading": "Memuat",
         "MetarParsingError": "METAR yang diterima gagal dimuat",
         "NoIcaoProvided": "Tak ada ICAO yang disediakan",
+        "NotAvailableShort": "N/A",
         "Raw": "Format mentah",
         "TT": {
           "SwitchToIconView": "Beralih ke Tampilan Ikon",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Autentikasi dengan Navigraph",
       "InsufficientEnv": "File .env tidak memadai",
       "IntoYourBrowserAndEnterTheCodeBelow": "pada browser anda dan masukkan kode dibawah ini",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Tidak ada Bandara yang dipilih",
       "ResetNavigraphAuthentication": "Atur Ulang Autentikasi Navigraph",
       "ScanTheQrCodeOrOpen": "Pindai Kode QR atau Buka",
@@ -238,6 +240,14 @@
       "RunwayAltitude": "Ketinggian Landasan",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Kondisi Landasan",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Arah Landasan",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "LDA Landasan",
@@ -342,12 +352,15 @@
     "Backward": "Mundur",
     "CallTug": "Panggil Tug",
     "Forward": "Maju",
-    "Halt": "Berhenti",
+    "Halt": "Jeda",
+    "Left": "Left",
+    "Moving": "Bergerak",
     "ParkingBrake": {
       "Off": "Mati",
       "On": "Nyala",
       "Title": "Parking Brake"
     },
+    "Right": "Right",
     "TugDirection": "Arah Tug",
     "TugSpeed": "Kecepatan Tug"
   },

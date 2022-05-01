@@ -49,6 +49,7 @@
         "Loading": "טוען",
         "MetarParsingError": "לא ניתן היה לנתח את ה-METAR שהתקבל",
         "NoIcaoProvided": "ICAO לא סופק",
+        "NotAvailableShort": "N/A",
         "Raw": "גלם",
         "TT": {
           "SwitchToIconView": "עבור לתצוגת אייקונים",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "אמת עם Navigraph",
       "InsufficientEnv": "קובץ env. לא מספיק",
       "IntoYourBrowserAndEnterTheCodeBelow": "לדפדפן שלך והזן את הקוד שלהלן",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "לא נבחר שדה תעופה",
       "ResetNavigraphAuthentication": "אפס את אימות Navigraph",
       "ScanTheQrCodeOrOpen": "סרוק קוד QR או פתח",
@@ -238,6 +240,14 @@
       "RunwayAltitude": "גובה המסלול",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "מצב המסלול",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "כיוון המסלול",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "מרחק נחיתה זמין (LDA)",
@@ -343,11 +353,14 @@
     "CallTug": "קרא לנע-דחף",
     "Forward": "קדימה",
     "Halt": "עצור",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "כבוי",
       "On": "פועל",
       "Title": "בלם חניה"
     },
+    "Right": "Right",
     "TugDirection": "כיוון הגרירה",
     "TugSpeed": "מהירות הגרירה"
   },
