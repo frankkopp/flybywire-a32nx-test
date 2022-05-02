@@ -365,9 +365,9 @@
     "TT": {
       "CallReleaseTug": "Call or release tug",
       "CenterPlaneMode": "Vycentrovat mapu na letadlo Zap/Vyp",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
+      "DecreaseSpeed": "Vzad nebo pomaleji vpřed (dvojklikem nastavit rychlost na 0)",
+      "IncreaseSpeed": "Vpřed nebo pomaleji vzad (dvojklikem nastavit rychlost na 0)",
+      "Left": "Jet doleva (dvojklik pro jízdu rovně)",
       "PausePushback": "Pause or unpause pushback",
       "Right": "Jet doprava (dvojklik pro jízdu rovně)",
       "SetReleaseParkingBrake": "Set or release parking brake",
