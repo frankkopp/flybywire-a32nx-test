@@ -1,7 +1,7 @@
 {
   "AirTrafficControl": {
     "Active": "Aktiv",
-    "ChangeATISATCSourceButton": "Endre ATIS/ATC-kilde",
+    "ChangeATISATCSourceButton": "Endre ATIS/ATC kilde",
     "ConnectHoppieACARS": "Koble til Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Ingen informasjon er tilgjengelig for denne frekvensen",
     "SelectCorrectATISATCSource": "Denne siden er bare tilgjengelig når IVAO eller VATSIM er valgt som ATIS/ATC-kilde på innstillingssiden.",
@@ -49,6 +49,7 @@
         "Loading": "Laster inn",
         "MetarParsingError": "Mottatt METAR kunne ikke analyseres",
         "NoIcaoProvided": "Ingen ICAO oppgitt",
+        "NotAvailableShort": "N/A",
         "Raw": "Rå",
         "TT": {
           "SwitchToIconView": "Bytt til ikonvisning",
@@ -125,7 +126,7 @@
       "RightInnerTank": "Høyre indre tank",
       "RightOuterTank": "Høyre Ytre Tank",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Flyet må være kaldt og mørkt for å endre drivstofftider",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Endring av tanking varighet bare på bakken med motorer stengt",
         "FillBlockFuelFromSimBrief": "Fyll Block Fuel fra SimBrief"
       },
       "Title": "Drivstoff",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Autentisere med Navigraph",
       "InsufficientEnv": "Utilstrekkelig .env-fil",
       "IntoYourBrowserAndEnterTheCodeBelow": "inn i nettleseren din og skriv inn koden nedenfor\n",
+      "LoadingMsg": "Laster inn",
       "NoAirportSelected": "Ingen flyplass valgt",
       "ResetNavigraphAuthentication": "Tilbakestill Navigraph-autentisering",
       "ScanTheQrCodeOrOpen": "Skann QR-koden eller åpne",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "Bytt diagramleverandør",
-        "ChangeChartSortMethod": "Endre diagramsorteringsmetode"
+        "ChangeChartSortMethod": "Endre diagramsorteringsmetode",
+        "RemoveAllPinnedCharts": "Fjern alle låste kart"
       },
       "Title": "Festede kart",
       "View": "Vis"
@@ -229,12 +232,22 @@
       "Low": "Lav",
       "MaximumManual": "Maksimal manuell",
       "Medium": "Middels",
+      "MetarErrorDialogMessage": "METAR fra OFP kunne ikke bli parset vellykket. Ønsker du å fylle inn data automatisk fra en hentet METAR i stedet?",
+      "MetarErrorDialogTitle": "Feil med parsing av OFP METAR",
       "OverweightProcedure": "Overvektsprosedyre",
       "Qnh": "QNH",
       "ReverseThrust": "Reverse Thrust",
       "RunwayAltitude": "Rullebanehøyde",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Rullebanetilstand",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Rullebaneretning",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Rullebane LDA",
@@ -318,7 +331,8 @@
       "AircraftNeedsToBePoweredToSavePresets": "Flyet må ha strøm for å lagre forhåndsinnstillinger",
       "LoadPreset": "Last inn forhåndsinnstilling",
       "LoadingPreset": "Laster inn forhåndsinnstilling",
-      "NoName": "Intet navn",
+      "NewNameConfirmationDialogMsg": "Bekreft det nye navnet på forhåndsinnstillingen for belysning",
+      "NoName": "Ukjent navn",
       "PleaseConfirmSavingPreset": "Vennligst bekreft lagring av forhåndsinnstilling",
       "SavePreset": "Lagre forhåndsinnstilling",
       "SavingPreset": "Lagrer forhåndsinnstilling",
@@ -338,12 +352,31 @@
     "Backward": "Bakover",
     "CallTug": "Tilkall pushbacktraktor",
     "Forward": "Fremover",
-    "Halt": "Stans",
+    "Halt": "Stoppet",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Left",
+    "Moving": "I bevegelse",
     "ParkingBrake": {
       "Off": "Av",
       "On": "På",
-      "Title": "Parkeringsbrems"
+      "Title": "Parkeringsbremse"
     },
+    "Right": "Right",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
+    },
+    "Right": "Right",
     "TugDirection": "Pushbacktraktor-retning",
     "TugSpeed": "pushbacktraktor-hastighet"
   },
@@ -369,6 +402,7 @@
       "Enable": "Aktiver",
       "EnableTelex": "Aktiver TELEX",
       "ErrorReporting": "Feilrapportering",
+      "HoppieEnabled": "Hoppie aktivert",
       "HoppieUserId": "Hoppie bruker-ID",
       "MetarSource": "METAR Kilde",
       "OptionalA32nxErrorReporting": "Valgfri A32NX feilrapportering",
@@ -482,6 +516,7 @@
     "Feb": "feb.",
     "Fri": "fre.",
     "Jan": "jan.",
+    "Jul": "Jul.",
     "Jun": "jun.",
     "Mar": "mar.",
     "May": "mai",

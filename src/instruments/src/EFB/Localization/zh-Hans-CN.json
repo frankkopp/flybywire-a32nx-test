@@ -3,8 +3,8 @@
     "Active": "启用",
     "ChangeATISATCSourceButton": "更改 ATIS/ATC 来源",
     "ConnectHoppieACARS": "连接 Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "当前频率里没有可用的信息",
-    "SelectCorrectATISATCSource": "只有在设置页面中选择 IVAO 或 VATSIM 作为 ATIS/ATC 来源时,此页面才可用.",
+    "NoInformationAvailableForThisFrequency": "当前频率无可用信息",
+    "SelectCorrectATISATCSource": "只有在设置页面中选择 IVAO 或 VATSIM 作为 ATIS/ATC 来源时,此页面才可用。",
     "SetActive": "设置为启用",
     "SetStandby": "设置为待命",
     "Standby": "待命",
@@ -14,8 +14,8 @@
     "AreYouSureYouWantToResetAllChecklists": "确定要重置所有检查单吗？",
     "AreYouSureYouWantToResetChecklists": "确定要重置所有检查单吗？",
     "ChecklistResetWarning": "检查单重置警告",
-    "MarkChecklistAsComplete": "将检查单标记为已完成",
-    "MarkItemAsComplete": "将项目标记为完成",
+    "MarkChecklistAsComplete": "标记检查单为已完成",
+    "MarkItemAsComplete": "标记项目为完成",
     "ProceedToNextChecklist": "进行下一个检查单",
     "ResetAll": "全部重置",
     "ResetChecklist": "重置检查单",
@@ -32,7 +32,7 @@
       "GoToPage": "跳转至此页面",
       "Maintenance": {
         "NoActiveFailures": "无故障",
-        "Title": "保养"
+        "Title": "维护"
       },
       "PinnedCharts": {
         "NoPinnedCharts": "没有固定的航图",
@@ -49,6 +49,7 @@
         "Loading": "正在加载",
         "MetarParsingError": "无法解析 METAR",
         "NoIcaoProvided": "未填入 ICAO 代码",
+        "NotAvailableShort": "N/A",
         "Raw": "原始数据",
         "TT": {
           "SwitchToIconView": "切换到图标视图",
@@ -80,7 +81,7 @@
         "IncreaseFontSize": "增大字号",
         "ReduceFontSize": "减小字号"
       },
-      "Title": "运行飞行计划",
+      "Title": "运行飞行计划 (OFP)",
       "YouHaveNotYetImportedAnySimBriefData": "您尚未从 SimBrief 导入任何数据"
     },
     "Overview": {
@@ -105,7 +106,7 @@
     "Compact": {
       "Title": "紧凑"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "以下故障的模拟尚不能保证完全完整",
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "以下故障尚不能保证完整模拟",
     "Search": "搜索",
     "Title": "失效"
   },
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "使用 Navigraph 帐户进行身份验证",
       "InsufficientEnv": ".env 文件数量不足",
       "IntoYourBrowserAndEnterTheCodeBelow": "进入浏览器并输入下面的代码\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "未选择机场",
       "ResetNavigraphAuthentication": "重置 Navigraph 身份验证",
       "ScanTheQrCodeOrOpen": "扫描二维码或打开",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "更换航图来源",
-        "ChangeChartSortMethod": "更改航图排序方式"
+        "ChangeChartSortMethod": "更改航图排序方式",
+        "RemoveAllPinnedCharts": "移除所有固定的航图"
       },
       "Title": "固定的航图",
       "View": "浏览"
@@ -229,12 +232,22 @@
       "Low": "低刹力",
       "MaximumManual": "最高性能手动降落",
       "Medium": "中刹力",
+      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
+      "MetarErrorDialogTitle": "解析 OFP METAR 时出错",
       "OverweightProcedure": "超重程序",
       "Qnh": "海平面气压",
       "ReverseThrust": "反推",
       "RunwayAltitude": "跑道海拔",
       "RunwayAltitudeUnit": "海拔高度 (英尺/ft)",
       "RunwayCondition": "跑道状况",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "跑道航向",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "跑道可用着陆长度",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "飞机必须接通电源才能保存预设",
       "LoadPreset": "加载预设",
       "LoadingPreset": "正在加载预设",
+      "NewNameConfirmationDialogMsg": "请确认灯光预设配置的新名称",
       "NoName": "无名称",
       "PleaseConfirmSavingPreset": "请确认保存预设",
       "SavePreset": "保存预设",
@@ -339,10 +353,28 @@
     "CallTug": "呼叫推车",
     "Forward": "向前",
     "Halt": "停止",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "断开停机刹车",
       "On": "拉起停机刹车",
       "Title": "停机刹车"
+    },
+    "Right": "Right",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "后推方向",
     "TugSpeed": "后推速度"
@@ -369,6 +401,7 @@
       "Enable": "启用",
       "EnableTelex": "启用电传 (TELEX)",
       "ErrorReporting": "报告错误",
+      "HoppieEnabled": "Hoppie 已启用",
       "HoppieUserId": "Hoppie 用户代码",
       "MetarSource": "METAR 来源",
       "OptionalA32nxErrorReporting": "自愿发送 A32NX 错误报告",
@@ -423,10 +456,10 @@
       "None": "无",
       "Off": "关",
       "Save": "保存",
-      "SyncMsfsFlightPlan": "同步 MSFS 飞行计划",
+      "SyncMsfsFlightPlan": "同步 MSFS 内飞行计划",
       "ThrottleDetents": "油门卡位",
       "Title": "模拟选项",
-      "UseCalculatedIlsSignals": "使用计算的 ILS 信号",
+      "UseCalculatedIlsSignals": "使用经系统计算的ILS 信号",
       "inHg": "英寸汞柱 (inHg)"
     },
     "ThrottleConfig": {
@@ -482,6 +515,7 @@
     "Feb": "二月",
     "Fri": "周五",
     "Jan": "一月",
+    "Jul": "Jul",
     "Jun": "六月",
     "Mar": "三月",
     "May": "五月",

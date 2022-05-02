@@ -49,6 +49,7 @@
         "Loading": "Indlæser",
         "MetarParsingError": "Modtaget METAR kunne ikke analyseres",
         "NoIcaoProvided": "Ingen ICAO givet ",
+        "NotAvailableShort": "N/A",
         "Raw": "Rå",
         "TT": {
           "SwitchToIconView": "Skift til Ikonvisning",
@@ -125,7 +126,7 @@
       "RightInnerTank": "Højre Indvendig tank",
       "RightOuterTank": "Højre Ydre tank",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Flyet skal være \"Cold And Dark\" for at ændre tankningstider",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Ændring af optankningstiden kun på jorden med slukkede motorer",
         "FillBlockFuelFromSimBrief": "Fyld \"Block Fuel\" fra SimBrief"
       },
       "Title": "Brændstof",
@@ -142,15 +143,15 @@
       "DoorFwd": "Front Dør",
       "ExternalPower": "Ekstern Strøm",
       "FuelTruck": "Brændstof Lastbil",
-      "JetBridge": "Jet Bridge",
+      "JetBridge": "Jetbro",
       "Title": "Tjenester"
     },
-    "Title": "Ground"
+    "Title": "Jorden"
   },
   "Modals": {
     "Cancel": "Annuller",
     "Confirm": "Bekræft ",
-    "Okay": "okay"
+    "Okay": "Okay"
   },
   "NavigationAndCharts": {
     "All": "Alle",
@@ -169,9 +170,10 @@
     },
     "Navigraph": {
       "AirportDoesNotExist": "Lufthavn findes ikke",
-      "AuthenticateWithNavigraph": "Godkend med Navigraph",
+      "AuthenticateWithNavigraph": "Autentificering med Navigraph",
       "InsufficientEnv": "Utilstrækkelig .env-fil",
       "IntoYourBrowserAndEnterTheCodeBelow": "ind i din browser og indtast koden nedenfor\n",
+      "LoadingMsg": "Indlæser",
       "NoAirportSelected": "Ingen lufthavn valgt",
       "ResetNavigraphAuthentication": "Nulstil Navigraph-godkendelse",
       "ScanTheQrCodeOrOpen": "Scan QR-koden eller Åbn",
@@ -191,26 +193,27 @@
         "None": "Ingen"
       },
       "TT": {
-        "ChangeChartProvider": "Skift diagram udbyder",
-        "ChangeChartSortMethod": "Skift diagram sorteringsmetode"
+        "ChangeChartProvider": "Skift kort udbyder",
+        "ChangeChartSortMethod": "Skift kort sorteringsmetode",
+        "RemoveAllPinnedCharts": "Fjern alle fastgjorte kort"
       },
-      "Title": "Fastgjorte diagrammer",
+      "Title": "Fastgjorte kort",
       "View": "Visning "
     },
     "PleaseWait": "Vent venligst ",
     "ShowingAllItems": "Viser alle elementer",
     "TT": {
-      "FitChartToHeight": "Tilpas diagram til højde",
-      "FitChartToWidth": "Tilpas diagram til bredde",
+      "FitChartToHeight": "Tilpas kort til højde",
+      "FitChartToWidth": "Tilpas kort til bredde",
       "ResetMovement": "Nulstil bevægelse",
-      "RotateLeft45Degrees": "Drej til venstre 45 grader",
+      "RotateLeft45Degrees": "Rotere 45 grader til venstre",
       "RotateRight45Degrees": "Roter højre 45 grader",
       "ZoomIn": "Zoom ind",
       "ZoomOut": "Zoom ud"
     },
-    "ThereAreNoChartsToDisplay": "Der er ingen diagrammer at vise.",
-    "ThereIsNoChartToDisplay": "Der er ikke noget chart at vise",
-    "Title": "Navigation & Charts",
+    "ThereAreNoChartsToDisplay": "Der er ingen kort tilgængelig",
+    "ThereIsNoChartToDisplay": "Der er ikke noget kort at vise",
+    "Title": "Navigation & Kort",
     "To": "Til"
   },
   "Performance": {
@@ -225,16 +228,26 @@
       "DropDownNo": "Nej",
       "DropDownYes": "Ja",
       "FillDataFrom": "Udfyld data fra",
-      "FlapsConfiguration": "Flaps configuration ",
+      "FlapsConfiguration": "Flaps konfiguration ",
       "Low": "Lav",
       "MaximumManual": "Maksimum Manual",
       "Medium": "Mellem",
+      "MetarErrorDialogMessage": "METAR fra din OFP kunne ikke analyseres med succes. Vil du automatisk udfylde data ved hjælp af en hentet METAR i stedet?",
+      "MetarErrorDialogTitle": "Fejl ved analyse af OFP METAR",
       "OverweightProcedure": "Overvægt Procedure",
       "Qnh": "QNH",
       "ReverseThrust": "Reversetrust",
       "RunwayAltitude": "Højde Runway",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Landingsbane tilstand",
+      "RunwayConditions": {
+        "Dry": "Tør (6)",
+        "Good": "God (5)",
+        "GoodMedium": "God-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Dårlig (2)",
+        "Poor": "Dårlig (1)"
+      },
       "RunwayHeading": "Baneretning",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Landingsbane LDA",
@@ -252,18 +265,18 @@
       "Weight": "vægt",
       "WindDirection": "Vindretning",
       "WindDirectionUnit": "°",
-      "WindMagnitude": "Vind størrelsesorden",
+      "WindMagnitude": "Vindhastighed",
       "WindMagnitudeUnit": "kts"
     },
     "SYNC": "Sync",
-    "Title": "Ydelse",
+    "Title": "Ydeevne",
     "TopOfDescent": {
       "Data": {
         "Angle": "Vinkel",
         "CurrentAltitude": "Aktuel højde",
         "Distance": "Afstand",
-        "GroundSpeed": "Ground Speed ",
-        "TargetAltitude": "Target Højde",
+        "GroundSpeed": "Hastighed på jorden",
+        "TargetAltitude": "Målhøjde",
         "Title": "Data",
         "UnitAngleDegrees": "Grader",
         "UnitFeet": "Fod",
@@ -279,7 +292,7 @@
         "MinAltitude": "Min. Højde",
         "RemoveLast": "Fjern sidste",
         "Sync": "Sync",
-        "Title": "Ground Speed",
+        "Title": "Fart over jorden",
         "UnitKnots": "knob",
         "UnitKt": "Kt"
       },
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Flyet skal være tændt for at gemme forudindstillinger",
       "LoadPreset": "Indlæs forudindstilling",
       "LoadingPreset": "Indlæsning af forudindstilling",
+      "NewNameConfirmationDialogMsg": "Bekræft venligst det nye navn for lysforindstillingen",
       "NoName": "Intet navn",
       "PleaseConfirmSavingPreset": "Bekræft venligst lagring af forudindstilling",
       "SavePreset": "Gem forudindstilling",
@@ -325,7 +339,7 @@
       "SelectAnInteriorLightingPresetToLoadOrSave": "Vælg en forudindstillet indvendig belysning for at indlæse eller gemme.",
       "TT": {
         "AircraftMustBePowered": "Flyet skal være tændt",
-        "ClickTextToChangeThePresetsName": "Klik på Tekst for at ændre forudindstillingsnavnet",
+        "ClickTextToChangeThePresetsName": "Klik på tekst for at ændre det forudindstillede navn",
         "LoadThisPreset": "Indlæs denne forudindstilling",
         "SaveTheCurrentLightingLevels": "Gem de aktuelle lysniveauer"
       },
@@ -338,11 +352,29 @@
     "Backward": "Bagud",
     "CallTug": "Kald skubber",
     "Forward": "Fremad",
-    "Halt": "Stop",
+    "Halt": "Pauset",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Venstre",
+    "Moving": "Flytning",
     "ParkingBrake": {
       "Off": "Fra",
       "On": "Til",
       "Title": "Parkeringsbremse"
+    },
+    "Right": "Højre",
+    "TT": {
+      "CallReleaseTug": "Kald eller frigør skubber",
+      "CenterPlaneMode": "Centrer kort på flyet On/Off",
+      "DecreaseSpeed": "Baglæns eller langsommere fremad (dobbeltklik for at indstille hastigheden til 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause eller unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Indstil eller slip parkeringsbremse",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom ind",
+      "ZoomOut": "Zoom ud"
     },
     "TugDirection": "Skubber Retning",
     "TugSpeed": "Skubber hastighed"
@@ -369,6 +401,7 @@
       "Enable": "Aktiver",
       "EnableTelex": "Aktiver TELEX",
       "ErrorReporting": "Fejl Rapportering",
+      "HoppieEnabled": "Hoppie aktiveret",
       "HoppieUserId": "Hoppie-bruger-id",
       "MetarSource": "METAR Kilde",
       "OptionalA32nxErrorReporting": "Valgfri A32NX-fejlrapportering",
@@ -482,6 +515,7 @@
     "Feb": "Feb",
     "Fri": "Fre",
     "Jan": "Jan",
+    "Jul": "Jul",
     "Jun": "Jun",
     "Mar": "Mar",
     "May": "Maj",

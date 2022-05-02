@@ -1,17 +1,17 @@
 {
   "AirTrafficControl": {
     "Active": "Активная",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Изменить источник ATIS/ATC",
     "ConnectHoppieACARS": "Подключить Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "Нет доступной информации по этой частоте",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
-    "SetActive": "Установить активную",
-    "SetStandby": "Установить резервную",
+    "SelectCorrectATISATCSource": "Эта страница доступна только в том случае, если в качестве источника ATIS/ATC выбран IVAO или VATSIM на странице настроек.",
+    "SetActive": "Установить активной",
+    "SetStandby": "Установить резервной",
     "Standby": "Резервная",
     "Title": "Управление Воздушным Движением"
   },
   "Checklists": {
-    "AreYouSureYouWantToResetAllChecklists": "Вы уверены, что хотите сбросить все контрольные списки?",
+    "AreYouSureYouWantToResetAllChecklists": "Вы уверены, что хотите сбросить все чек-листы?",
     "AreYouSureYouWantToResetChecklists": "Вы уверены, что хотите сбросить все контрольные списки?",
     "ChecklistResetWarning": "Предупреждение сброса контрольного списка",
     "MarkChecklistAsComplete": "Отметить контрольный список как завершенный",
@@ -49,6 +49,7 @@
         "Loading": "Загрузка...",
         "MetarParsingError": "Не удалось разобрать полученный METAR",
         "NoIcaoProvided": "ИКАО не предоставленно",
+        "NotAvailableShort": "N/A",
         "Raw": "Необработанный",
         "TT": {
           "SwitchToIconView": "Переключиться в режим просмотра значков",
@@ -125,7 +126,7 @@
       "RightInnerTank": "Правый внутренний бак",
       "RightOuterTank": "Правый внешний бак",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Самолёт должен быть отключен, чтобы изменить время заправки",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Изменение продолжительности заправки только на земле при выключенных двигателях",
         "FillBlockFuelFromSimBrief": "Заполнить блок топлива из simBrief"
       },
       "Title": "Топливо",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Аутентификация с помощью Navigraph",
       "InsufficientEnv": "Неверный .env файл",
       "IntoYourBrowserAndEnterTheCodeBelow": "в браузере и введите приведенный ниже код\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Аэропорт не выбран",
       "ResetNavigraphAuthentication": "Сбросить аутентификацию Navigraph",
       "ScanTheQrCodeOrOpen": "Отсканируйте QR-код или откройте",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "Изменить поставщика порта",
-        "ChangeChartSortMethod": "Изменить метод сортировки карт"
+        "ChangeChartSortMethod": "Изменить метод сортировки карт",
+        "RemoveAllPinnedCharts": "Удалить все закрепленные карты"
       },
       "Title": "Закрепленные карты",
       "View": "Посмотреть"
@@ -229,12 +232,22 @@
       "Low": "Низкий",
       "MaximumManual": "Максимальный",
       "Medium": "Средний",
+      "MetarErrorDialogMessage": "Не удалось успешно проанализировать METAR из вашего OFP. Хотите вместо этого автоматически заполнить данные с помощью извлечённого METAR?",
+      "MetarErrorDialogTitle": "Ошибка при разборе OFP METAR",
       "OverweightProcedure": "Процедура избыточного веса",
       "Qnh": "QNH",
       "ReverseThrust": "Обратная тяга",
       "RunwayAltitude": "Высота ВПП",
       "RunwayAltitudeUnit": "футов ASL",
       "RunwayCondition": "Состояние ВПП",
+      "RunwayConditions": {
+        "Dry": "Сухая (6)",
+        "Good": "Хорошая (5)",
+        "GoodMedium": "Хорошая средняя (4)",
+        "Medium": "Средняя (3)",
+        "MediumPoor": "Средняя плохая (2)",
+        "Poor": "Плохая (1)"
+      },
       "RunwayHeading": "Направление ВПП",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "ВПП LDA",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Самолёт должен иметь питание для загрузки пресетов",
       "LoadPreset": "Загрузить пресет",
       "LoadingPreset": "Загрузка пресета...",
+      "NewNameConfirmationDialogMsg": "Подтвердите новое имя для пресета освещения",
       "NoName": "Без имени",
       "PleaseConfirmSavingPreset": "Подтвердите сохранение пресета",
       "SavePreset": "Сохранить пресет",
@@ -338,11 +352,29 @@
     "Backward": "Назад",
     "CallTug": "Вызов буксира",
     "Forward": "Вперёд",
-    "Halt": "Остановить",
+    "Halt": "Приостановить",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Налево",
+    "Moving": "Перемещение",
     "ParkingBrake": {
       "Off": "Откл.",
       "On": "Вкл.",
       "Title": "Стояночный тормоз"
+    },
+    "Right": "Направо",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "Направление буксира",
     "TugSpeed": "Скорость буксира"
@@ -356,7 +388,7 @@
       "EngineOutAccelerationHeight": "Высота ускорения на выходе двигателя (фт)",
       "IsisBaroUnit": "Единица измерения барометра на ISIS",
       "IsisMetricAltitude": "Метрическая высота на ISIS",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
+      "LatLonExtendedFormat": "Формат промежуточных точек FMGC для широты/долготы",
       "PaxSigns": "Табло салона",
       "RmpVhfSpacing": "Интервал RMP VHF",
       "ThrustReductionHeight": "Высота уменьшения тяги (фт)",
@@ -369,6 +401,7 @@
       "Enable": "Включить",
       "EnableTelex": "Включить TELEX",
       "ErrorReporting": "Отчеты об ошибках",
+      "HoppieEnabled": "Hoppie включен",
       "HoppieUserId": "Идентификатор пользователя Hoppie (ID)",
       "MetarSource": "Источник METAR",
       "OptionalA32nxErrorReporting": "Необязательные отчеты об ошибках A32NX",
@@ -435,7 +468,7 @@
       "Axis": "Ось",
       "Back": "Назад",
       "ConfigureEnd": "Настроить конец защелки",
-      "ConfigureStart": "Configure Start",
+      "ConfigureStart": "Начать конфигурацию",
       "CurrentValue": "Текущее значение",
       "Deadband": "Зона нечувствительности",
       "ErrorOverlapMsg": "перекрывается",
@@ -482,6 +515,7 @@
     "Feb": "Фев",
     "Fri": "Пт",
     "Jan": "Янв",
+    "Jul": "Июл",
     "Jun": "Июн",
     "Mar": "Мар",
     "May": "Май",

@@ -49,6 +49,7 @@
         "Loading": "読み込み中…",
         "MetarParsingError": "受信したMETARを解析できませんでした",
         "NoIcaoProvided": "ICAOから提供されていません",
+        "NotAvailableShort": "利用不可",
         "Raw": "原文",
         "TT": {
           "SwitchToIconView": "アイコン表示に切り替え",
@@ -125,7 +126,7 @@
       "RightInnerTank": "右内側タンク",
       "RightOuterTank": "右外側タンク",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "給油時間を変更するには、機体の状態をコールド＆ダーク(全電源停止)にする必要がある",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "エンジン停止かつ地上にいる場合のみ、給油時間を変更できます",
         "FillBlockFuelFromSimBrief": "SimBriefからブロック燃料を読み込む"
       },
       "Title": "燃料",
@@ -169,12 +170,13 @@
     },
     "Navigraph": {
       "AirportDoesNotExist": "空港が存在しません",
-      "AuthenticateWithNavigraph": "Navigraphで認証",
+      "AuthenticateWithNavigraph": "Navigraphで認証する",
       "InsufficientEnv": ".envファイルが不足しています",
       "IntoYourBrowserAndEnterTheCodeBelow": "このURLをブラウザに入力し、以下のコードを入力してください\n",
+      "LoadingMsg": "読み込み中…",
       "NoAirportSelected": "空港が選択されていません",
       "ResetNavigraphAuthentication": "Navigraph認証のリセット",
-      "ScanTheQrCodeOrOpen": "QRコードをスキャンするか、これを開く",
+      "ScanTheQrCodeOrOpen": "QRコードをスキャンするか、これを開いてください",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
@@ -192,17 +194,18 @@
       },
       "TT": {
         "ChangeChartProvider": "チャートの提供元を変更",
-        "ChangeChartSortMethod": "チャートの並び替えを変更"
+        "ChangeChartSortMethod": "チャートの並び替えを変更",
+        "RemoveAllPinnedCharts": "ピン留めしたチャートを全て削除"
       },
       "Title": "ピン留めしたチャート",
       "View": "閲覧"
     },
     "PleaseWait": "しばらくお待ちください...",
-    "ShowingAllItems": "全アイテム表示",
+    "ShowingAllItems": "全アイテムを表示",
     "TT": {
       "FitChartToHeight": "チャートの高さに合わせる",
       "FitChartToWidth": "チャートの幅に合わせる",
-      "ResetMovement": "拡大や移動のリセット",
+      "ResetMovement": "拡縮、移動のリセット",
       "RotateLeft45Degrees": "左に45 度回転",
       "RotateRight45Degrees": "右に45 度回転",
       "ZoomIn": "拡大",
@@ -229,18 +232,28 @@
       "Low": "低",
       "MaximumManual": "最大手動",
       "Medium": "中",
+      "MetarErrorDialogMessage": "OFPのMETARを正常に解析できませんでした。代わりに取得したMETARを使用してデータを自動入力しますか？",
+      "MetarErrorDialogTitle": "OFPのMETARを解析中にエラーが発生しました",
       "OverweightProcedure": "過積載の手順",
       "Qnh": "QNH",
       "ReverseThrust": "逆噴射の使用",
-      "RunwayAltitude": "滑走路標高",
+      "RunwayAltitude": "滑走路の標高",
       "RunwayAltitudeUnit": "ft(海抜高度)",
       "RunwayCondition": "滑走路の状態",
-      "RunwayHeading": "滑走路方位",
+      "RunwayConditions": {
+        "Dry": "乾燥(6)",
+        "Good": "良い(5)",
+        "GoodMedium": "やや良い(4)",
+        "Medium": "中間(3)",
+        "MediumPoor": "やや悪い(2)",
+        "Poor": "悪い(1)"
+      },
+      "RunwayHeading": "滑走路の方位",
       "RunwayHeadingUnit": "°",
-      "RunwayLda": "滑走路LDA",
+      "RunwayLda": "滑走路のLDA",
       "RunwayLdaUnitFt": "ft",
       "RunwayLdaUnitMeter": "m",
-      "RunwaySlope": "滑走路勾配",
+      "RunwaySlope": "滑走路の勾配",
       "TT": {
         "YouNeedToEnterAnIcaoCodeInOrderToMakeAMetarRequest": "METARをリクエストするにはICAOコードを入力してください",
         "YouNeedToLoadSimBriefDataInOrderToAutofillData": "データを自動入力するにはSimBriefのデータを読み込む必要があります"
@@ -285,7 +298,7 @@
       },
       "Result": {
         "BeforeTarget": "で降下開始",
-        "DesiredDescentAngle": "望ましい降下角",
+        "DesiredDescentAngle": "望ましい降下角度",
         "DesiredVerticalSpeed": "望ましい降下速度",
         "StartYourDescentAbout": "目標の手前",
         "Title": "結果"
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "プリセットを保存するには、航空機に電力を供給する必要があります",
       "LoadPreset": "プリセットの読み込み",
       "LoadingPreset": "プリセットの読み込み中",
+      "NewNameConfirmationDialogMsg": "機内照明プリセットの新しい名前を確認してください",
       "NoName": "名称未設定",
       "PleaseConfirmSavingPreset": "プリセットの保存を確認してください",
       "SavePreset": "プリセットの保存",
@@ -338,11 +352,29 @@
     "Backward": "後進",
     "CallTug": "牽引車を呼ぶ",
     "Forward": "前進",
-    "Halt": "停止",
+    "Halt": "停止中",
+    "LeavePageMessage": "プッシュバックを一時停止中",
+    "Left": "左へ旋回",
+    "Moving": "移動中",
     "ParkingBrake": {
       "Off": "オフ",
       "On": "オン",
       "Title": "パーキングブレーキ"
+    },
+    "Right": "右へ旋回",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "後進・前進速度を落とす(ダブルクリックで速度を0にする)",
+      "IncreaseSpeed": "前進・後進速度を落とす(ダブルクリックで速度を0にする)",
+      "Left": "左へ旋回(ダブルクリックで直進)",
+      "PausePushback": "プッシュバックの一時停止・再開",
+      "Right": "右へ旋回(ダブルクリックで直進)",
+      "SetReleaseParkingBrake": "パーキングブレーキの有効・無効",
+      "SliderDirection": "任意の牽引方向",
+      "SliderSpeed": "任意の牽引速度",
+      "ZoomIn": "拡大",
+      "ZoomOut": "縮小"
     },
     "TugDirection": "牽引方向",
     "TugSpeed": "牽引速度"
@@ -369,6 +401,7 @@
       "Enable": "有効化",
       "EnableTelex": "テレックスを有効化",
       "ErrorReporting": "エラー報告の送信",
+      "HoppieEnabled": "Hoppie有効",
       "HoppieUserId": "HoppieユーザーID",
       "MetarSource": "METARの提供元",
       "OptionalA32nxErrorReporting": "A32NXエラー報告の送信(オプション)",
@@ -406,7 +439,7 @@
       "HomeCockpitMode": "ホームコックピットモード",
       "McduFocusTimeout": "MCDUへのフォーカスがタイムアウトする時間(秒)",
       "McduKeyboardInput": "MCDUへのキーボード入力",
-      "SeparateTillerFromRudderInputs": "ティラーをラダー入力から分離する",
+      "SeparateTillerFromRudderInputs": "ティラーをラダー入力から分離",
       "Title": "リアリズム"
     },
     "SimOptions": {
@@ -426,7 +459,7 @@
       "SyncMsfsFlightPlan": "MSFSのフライトプランと同期",
       "ThrottleDetents": "スロットルディテント",
       "Title": "シミュレーターオプション",
-      "UseCalculatedIlsSignals": "計算されたILS信号を使用する",
+      "UseCalculatedIlsSignals": "計算されたILS信号を使用",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -434,8 +467,8 @@
       "AreYouSureThatYouWantToResetYourCurrentThrottleConfigurationToTheirDefaultStates": "現在のスロットル構成設定をデフォルトの状態にリセットしてよろしいですか？この操作は元に戻せません。",
       "Axis": "軸",
       "Back": "戻る",
-      "ConfigureEnd": "終了を設定",
-      "ConfigureStart": "開始を設定",
+      "ConfigureEnd": "終了値を設定",
+      "ConfigureStart": "開始値を設定",
       "CurrentValue": "現在の値",
       "Deadband": "デッドバンド",
       "ErrorOverlapMsg": "が次の項目と重複:",
@@ -447,21 +480,21 @@
       "ReverseIdle": "Reverse Idle",
       "ReverserOnAxis": "逆噴射を軸に設定",
       "SaveAndApply": "保存して適用",
-      "SetFromThrottle": "現在のスロットルをセット",
+      "SetFromThrottle": "現在のスロットル値をセット",
       "ThrottleConfigurationReset": "スロットル構成のリセット"
     },
     "Title": "設定",
     "Unrealistic": "非現実的",
     "flyPad": {
       "AutoBrightness": "明るさ自動調節",
-      "AutomaticallyShowOnscreenKeyboard": "スクリーンキーボードを自動的に表示する",
+      "AutomaticallyShowOnscreenKeyboard": "スクリーンキーボードを自動的に表示",
       "Blue": "ブルー",
       "Brightness": "明るさ",
       "Dark": "ダーク",
       "Language": "言語",
       "Light": "ライト",
       "Local": "ローカル",
-      "LocalTimeFormat": "ローカルタイム形式",
+      "LocalTimeFormat": "ローカルタイムの形式",
       "OnscreenKeyboardLayout": "オンスクリーンキーボードのレイアウト",
       "ShowColoredRawMetar": "METARの原文を色付きで表示",
       "ShowStatusBarFlightProgressIndicator": "ステータスバーにフライト進行状況インジケーターを表示",
@@ -482,6 +515,7 @@
     "Feb": "2月",
     "Fri": "(金)",
     "Jan": "1月",
+    "Jul": "7月",
     "Jun": "6月",
     "Mar": "3月",
     "May": "5月",

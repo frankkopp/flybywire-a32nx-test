@@ -1,10 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Ενεργό",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Αλλαγή πηγής ATIS/ATC",
     "ConnectHoppieACARS": "Σύνδεση Hoppie ACARS",
-    "NoInformationAvailableForThisFrequency": "ΔΕΝ ΥΠΑΡΧΟΥΝ ΔΙΑΘΕΣΙΜΕΣ ΠΛΗΡΟΦΟΡΙΕΣ ΓΙΑ ΑΥΤΗ ΤΗ ΣΥΧΝΟΤΗΤΑ",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
+    "NoInformationAvailableForThisFrequency": "Δεν υπάρχουν διαθέσιμες πληροφορίες για αυτή τη συχνότητα",
+    "SelectCorrectATISATCSource": "Αυτή η σελίδα είναι διαθέσιμη μόνο όταν έχει επιλεγεί το IVAO ή το VATSIM ως πηγή ATIS/ATC στη σελίδα ρυθμίσεων.",
     "SetActive": "Θέστε Ενεργό",
     "SetStandby": "Θέστε σε Αναμονή",
     "Standby": "Αναμονή",
@@ -20,7 +20,7 @@
     "ResetAll": "Επαναφορά Όλων",
     "ResetChecklist": "Επαναφορά Λίστας Ελέγχου",
     "TheLastChecklistIsComplete": "Η τελευταία λίστα ελέγχου έχει ολοκληρωθεί",
-    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Υπάρχουν υπόλοιπα στοιχεία της λίστας ελέγχου αυτόματης συμπλήρωσης που δεν έχουν ακόμη ολοκληρωθεί",
+    "ThereAreRemainingAutofillChecklistItemsThatHaveNotYetBeenCompleted": "Υπάρχουν στοιχεία της λίστας ελέγχου αυτόματης συμπλήρωσης που δεν έχουν ακόμη ολοκληρωθεί",
     "Title": "Λίστες Ελέγχου"
   },
   "Dashboard": {
@@ -49,6 +49,7 @@
         "Loading": "Φόρτωση...",
         "MetarParsingError": "Ληφθέν METAR αδύνατο να αναλυθεί",
         "NoIcaoProvided": "Δεν παρέχεται ICAO",
+        "NotAvailableShort": "N/A",
         "Raw": "Ακατέργαστο",
         "TT": {
           "SwitchToIconView": "Εναλλαγή σε Προβολή Εικονιδίων",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Έλεγχος ταυτότητας με Navigraph",
       "InsufficientEnv": "Ανεπαρκές αρχείο.env",
       "IntoYourBrowserAndEnterTheCodeBelow": "στο πρόγραμμα περιήγησής σας και εισάγετε τον παρακάτω κωδικό\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Δεν Επιλέχθηκε Αεροδρόμιο",
       "ResetNavigraphAuthentication": "Επαναφορά Ελέγχου Ταυτότητας Navigraph",
       "ScanTheQrCodeOrOpen": "Σάρωση του κώδικα QR ή Άνοιγμα",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "Αλλαγή Παροχέα Γραφήματος",
-        "ChangeChartSortMethod": "Αλλαγή Μεθόδου Ταξινόμησης Γραφήματος"
+        "ChangeChartSortMethod": "Αλλαγή Μεθόδου Ταξινόμησης Γραφήματος",
+        "RemoveAllPinnedCharts": "Αφαίρεση όλων των Καρφιτσωμένων Γραφημάτων"
       },
       "Title": "Καρφιτσωμένοι Χάρτες",
       "View": "Προβολή"
@@ -229,12 +232,22 @@
       "Low": "Χαμηλή",
       "MaximumManual": "Μέγιστο Τεχνικό Εγχειρίδιο ",
       "Medium": "Μεσαίο",
+      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
+      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
       "OverweightProcedure": "Διαδικασία Υπερβολικού Βάρους",
       "Qnh": "QNH",
       "ReverseThrust": "Ανάστροφη Ώση",
       "RunwayAltitude": "Υψόμετρο Διαδρόμου",
       "RunwayAltitudeUnit": "Πόδια Άνωθεν Επιπέδου Θαλάσσης ",
       "RunwayCondition": "Κατάσταση Διαδρόμου",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Πορεία Διαδρόμου",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "LDA Διαδρόμου",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Το αεροσκάφος πρέπει να τροφοδοτείται για να εξοικονομήσει προεπιλογές",
       "LoadPreset": "Φόρτωση Προκαθορισμένης Ρύθμισης",
       "LoadingPreset": "Φόρτωση Προκαθορισμένης Ρύθμισης",
+      "NewNameConfirmationDialogMsg": "Παρακαλώ επιβεβαιώστε το νέο όνομα για την προκαθορισμένη ρύθμιση φωτισμού",
       "NoName": "Χωρίς Όνομα",
       "PleaseConfirmSavingPreset": "Επιβεβαιώστε την προκαθορισμένη ρύθμιση αποθήκευσης",
       "SavePreset": "Αποθήκευση Προεπιλογής",
@@ -339,10 +353,28 @@
     "CallTug": "Καλέστε Ρυμουλκό",
     "Forward": "Μπροστά",
     "Halt": "Διακοπή",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "Απενεργοποίηση",
       "On": "Ενεργοποίηση",
       "Title": "Φρένο Στάθμευσης"
+    },
+    "Right": "Right",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "Κατεύθυνση Ρυμουλκού",
     "TugSpeed": "Ταχύτητα Ρυμουλκού"
@@ -356,7 +388,7 @@
       "EngineOutAccelerationHeight": "Ύψος Επιτάχυνσης Εξερχόμενου Κινητήρα (ft)",
       "IsisBaroUnit": "Μονάδα ISIS Baro",
       "IsisMetricAltitude": "Μετρικό Υψόμετρο ISIS",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
+      "LatLonExtendedFormat": "Μορφή Σημείου Αναφοράς Lat/Lon FMGC",
       "PaxSigns": "Πινακίδες Επιβατών",
       "RmpVhfSpacing": "Απόσταση VHF RMP",
       "ThrustReductionHeight": "Ύψος Mείωσης Ώσης (ft)",
@@ -369,6 +401,7 @@
       "Enable": "Ενεργοποίηση",
       "EnableTelex": "Ενεργοποίηση TELEX",
       "ErrorReporting": "Αναφορά Σφαλμάτων",
+      "HoppieEnabled": "Hoppie Ενεργό ",
       "HoppieUserId": "Αναγνωριστικό Χρήστη Hoppie",
       "MetarSource": "Πηγή METAR",
       "OptionalA32nxErrorReporting": "Προαιρετική Αναφορά Σφαλμάτων A32NX",
@@ -435,7 +468,7 @@
       "Axis": "Άξονας",
       "Back": "Προηγούμενο",
       "ConfigureEnd": "Ρύθμιση Τέλους",
-      "ConfigureStart": "Configure Start",
+      "ConfigureStart": "Ρύθμιση Παραμέτρων Έναρξης",
       "CurrentValue": "Τρέχουσα Τιμή",
       "Deadband": "Νεκρή ζώνη",
       "ErrorOverlapMsg": "επικαλύπτεται με",
@@ -482,6 +515,7 @@
     "Feb": "Φεβ",
     "Fri": "Παρ",
     "Jan": "Ιαν.",
+    "Jul": "Jul",
     "Jun": "Ιούν",
     "Mar": "Μαρ",
     "May": "Μάιος",

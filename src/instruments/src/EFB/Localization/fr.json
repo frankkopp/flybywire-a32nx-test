@@ -1,10 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Actif",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Modifier la source ATIS/ATC",
     "ConnectHoppieACARS": "Connecter l'ACARS Hoppie",
     "NoInformationAvailableForThisFrequency": "Aucune information disponible pour cette fréquence",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
+    "SelectCorrectATISATCSource": "Cette page est uniquement disponible lorsque IVAO ou VATSIM est sélectionné comme source ATIS/ATC dans la page des paramètres.",
     "SetActive": "Activer",
     "SetStandby": "Mettre en veille",
     "Standby": "Veille",
@@ -49,6 +49,7 @@
         "Loading": "Chargement",
         "MetarParsingError": "Le METAR reçu n'a pas pu être analysé",
         "NoIcaoProvided": "Aucun code OACI fourni",
+        "NotAvailableShort": "N/A",
         "Raw": "Brut",
         "TT": {
           "SwitchToIconView": "Basculer vers METAR visuel",
@@ -159,7 +160,7 @@
     "From": "De",
     "LocalFiles": {
       "Both": "Les deux",
-      "EstablishingConnection": "Établissement de la connexion…",
+      "EstablishingConnection": "Connexion en cours",
       "FailedToEstablishConnection": "Impossible d'établir la connexion.",
       "FileName": "Nom du fichier",
       "Image": "Images",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "S'authentifier avec Navigraph",
       "InsufficientEnv": "Fichier .env insuffisant",
       "IntoYourBrowserAndEnterTheCodeBelow": "dans votre navigateur et saisissez le code ci-dessous\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Aucun aéroport sélectionné",
       "ResetNavigraphAuthentication": "Réinitialiser l'authentification Navigraph",
       "ScanTheQrCodeOrOpen": "Scannez le code QR ou ouvrez",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "Changer le fournisseur de cartes",
-        "ChangeChartSortMethod": "Modifier la méthode de tri des cartes"
+        "ChangeChartSortMethod": "Modifier la méthode de tri des cartes",
+        "RemoveAllPinnedCharts": "Supprimer toutes les cartes épinglées"
       },
       "Title": "Cartes épinglées",
       "View": "Afficher"
@@ -229,12 +232,22 @@
       "Low": "Faible",
       "MaximumManual": "Manuel maximum",
       "Medium": "Moyenne",
+      "MetarErrorDialogMessage": "Le METAR de votre OFP n'a pas pu être analysé avec succès. Souhaitez-vous plutôt remplir automatiquement les données à l'aide d'un METAR récupéré ?",
+      "MetarErrorDialogTitle": "Erreur lors de l'analyse du METAR OFP",
       "OverweightProcedure": "Procédure de surpoids",
       "Qnh": "QNH",
       "ReverseThrust": "Inversion de poussée",
       "RunwayAltitude": "Altitude de la piste",
       "RunwayAltitudeUnit": "pi. ASL",
       "RunwayCondition": "État de la piste",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Cap de piste",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Piste LDA",
@@ -262,7 +275,7 @@
         "Angle": "Angle",
         "CurrentAltitude": "Altitude actuelle",
         "Distance": "Distance",
-        "GroundSpeed": "Vitesse au sol",
+        "GroundSpeed": "Vitesse sol",
         "TargetAltitude": "Altitude cible",
         "Title": "Données",
         "UnitAngleDegrees": "degrés",
@@ -287,14 +300,14 @@
         "BeforeTarget": "avant la cible",
         "DesiredDescentAngle": "Angle de descente souhaité",
         "DesiredVerticalSpeed": "Vitesse verticale désirée",
-        "StartYourDescentAbout": "Commencez votre descente environ",
+        "StartYourDescentAbout": "Commencez votre descente dans",
         "Title": "Résultat"
       },
       "TT": {
         "DesynchronizeInputWithAircraftsCurrentAltitude": "Désynchroniser l'entrée avec l'altitude actuelle de l'avion",
         "SynchronizeInputWithAircraftsCurrentAltitude": "Synchroniser l'entrée avec l'altitude actuelle de l'avion"
       },
-      "Title": "Au sommet de la descente"
+      "Title": "Début de descente"
     }
   },
   "Presets": {
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "L'avion doit être alimenté pour enregistrer les préréglages",
       "LoadPreset": "Charger le préréglage",
       "LoadingPreset": "Chargement du préréglage",
+      "NewNameConfirmationDialogMsg": "Veuillez confirmer le nouveau nom du préréglage d'éclairage",
       "NoName": "Sans nom",
       "PleaseConfirmSavingPreset": "Veuillez confirmer l'enregistrement du préréglage",
       "SavePreset": "Sauvegarder le préréglage",
@@ -339,10 +353,28 @@
     "CallTug": "Appeler le remorqueur",
     "Forward": "Avancer",
     "Halt": "Interrompre",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "DÉSACTIVÉ",
       "On": "ACTIVÉ",
       "Title": "Frein de parc"
+    },
+    "Right": "Right",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "Direction du remorqueur",
     "TugSpeed": "Vitesse du remorqueur"
@@ -356,7 +388,7 @@
       "EngineOutAccelerationHeight": "Hauteur d'accélération du moteur en panne (pi)",
       "IsisBaroUnit": "Unité Baromètre ISIS",
       "IsisMetricAltitude": "Altitude métrique ISIS",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
+      "LatLonExtendedFormat": "Format de point de cheminement lat/long FMGC",
       "PaxSigns": "Panneaux PAX",
       "RmpVhfSpacing": "Espacement VHF RMP",
       "ThrustReductionHeight": "Hauteur de réduction de poussée (pi)",
@@ -369,6 +401,7 @@
       "Enable": "Activer",
       "EnableTelex": "Activer le TELEX",
       "ErrorReporting": "Rapport d'erreurs",
+      "HoppieEnabled": "Hoppie activé",
       "HoppieUserId": "Nom d'utilisateur Hoppie",
       "MetarSource": "Source METAR",
       "OptionalA32nxErrorReporting": "Rapport d'erreurs A32NX optionnel",
@@ -434,8 +467,8 @@
       "AreYouSureThatYouWantToResetYourCurrentThrottleConfigurationToTheirDefaultStates": "Êtes-vous sûr de vouloir réinitialiser les paramètres actuels de la manette à leurs valeurs par défaut ? Cette action est irréversible.",
       "Axis": "Axis",
       "Back": "Retour",
-      "ConfigureEnd": "Configurer la fin",
-      "ConfigureStart": "Configure Start",
+      "ConfigureEnd": "Fin de la plage de tolérance",
+      "ConfigureStart": "Début de la plage de tolérance",
       "CurrentValue": "Valeur actuelle",
       "Deadband": "Bande morte",
       "ErrorOverlapMsg": "se superpose à",
@@ -482,6 +515,7 @@
     "Feb": "Fév",
     "Fri": "Ven",
     "Jan": "Janv",
+    "Jul": "Juil",
     "Jun": "Juin",
     "Mar": "Mars",
     "May": "Mai",

@@ -49,6 +49,7 @@
         "Loading": "載入中...",
         "MetarParsingError": "無法解析 METAR",
         "NoIcaoProvided": "未提供 ICAO 代碼",
+        "NotAvailableShort": "無",
         "Raw": "原本",
         "TT": {
           "SwitchToIconView": "圖標",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Navigraph 驗證",
       "InsufficientEnv": ".env 文件不足",
       "IntoYourBrowserAndEnterTheCodeBelow": "進入您的瀏覽器，然後輸入下面的代碼\n",
+      "LoadingMsg": "載入中...",
       "NoAirportSelected": "未有選擇機場",
       "ResetNavigraphAuthentication": "重置 Navigraph 驗證",
       "ScanTheQrCodeOrOpen": "掃描二維碼或打開",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "轉換航圖提供商",
-        "ChangeChartSortMethod": "轉換航圖排序方法"
+        "ChangeChartSortMethod": "轉換航圖排序方法",
+        "RemoveAllPinnedCharts": "移除所有編上航圖"
       },
       "Title": "編上航圖",
       "View": "檢視"
@@ -229,12 +232,22 @@
       "Low": "低剎力",
       "MaximumManual": "最大手動",
       "Medium": "中剎力",
+      "MetarErrorDialogMessage": "OFP 中的 METAR 無法解析。要否使用網上的 METAR 自動填充數據？",
+      "MetarErrorDialogTitle": "解析 OFP METAR 時出錯",
       "OverweightProcedure": "超重程序",
       "Qnh": "QNH",
       "ReverseThrust": "反向推力 (Reverse)",
       "RunwayAltitude": "跑道海拔",
       "RunwayAltitudeUnit": "海拔英尺 (ft ASL)",
       "RunwayCondition": "跑道狀況",
+      "RunwayConditions": {
+        "Dry": "幹 (6)",
+        "Good": "良好 (5)",
+        "GoodMedium": "好下 (4)",
+        "Medium": "中 (3)",
+        "MediumPoor": "中下 (2)",
+        "Poor": "差 (1)"
+      },
       "RunwayHeading": "跑道方針",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "跑道可降距離 (LDA)",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "飛機必須通電才能儲存預設",
       "LoadPreset": "加載預設",
       "LoadingPreset": "正在加載預設",
+      "NewNameConfirmationDialogMsg": "請確認新照明預設的名稱",
       "NoName": "無名",
       "PleaseConfirmSavingPreset": "請確認儲存預設",
       "SavePreset": "儲存預設",
@@ -338,11 +352,29 @@
     "Backward": "向後",
     "CallTug": "召喚推機車",
     "Forward": "向前",
-    "Halt": "停",
+    "Halt": "已暫停",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "左",
+    "Moving": "移動中",
     "ParkingBrake": {
       "Off": "放開",
       "On": "鎖上",
       "Title": "泊機煞掣"
+    },
+    "Right": "右",
+    "TT": {
+      "CallReleaseTug": "召喚或釋放推機車",
+      "CenterPlaneMode": "地圖中央於本機 — 開/關",
+      "DecreaseSpeed": "向後或慢前 (雙擊重設速度為 0",
+      "IncreaseSpeed": "向前或慢後 (雙擊重設速度為 0",
+      "Left": "左轉 (雙擊停轉)",
+      "PausePushback": "暫停或回復推機",
+      "Right": "右轉 (雙擊停轉)",
+      "SetReleaseParkingBrake": "鎖上或放開泊機煞掣",
+      "SliderDirection": "移動到所需方向",
+      "SliderSpeed": "移動到所需速度",
+      "ZoomIn": "放大",
+      "ZoomOut": "縮小"
     },
     "TugDirection": "推機方向",
     "TugSpeed": "推機速度"
@@ -369,6 +401,7 @@
       "Enable": "啟用",
       "EnableTelex": "啟用 TELEX",
       "ErrorReporting": "報告錯誤",
+      "HoppieEnabled": "Hoppie 已啟用",
       "HoppieUserId": "Hoppie 用戶編號",
       "MetarSource": "METAR 供應商",
       "OptionalA32nxErrorReporting": "志願 A32NX 錯誤報告",
@@ -482,6 +515,7 @@
     "Feb": "二月",
     "Fri": "星期五",
     "Jan": "一月",
+    "Jul": "七月",
     "Jun": "六月",
     "Mar": "三月",
     "May": "五月",

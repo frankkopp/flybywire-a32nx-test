@@ -3,7 +3,7 @@
     "Active": "활성",
     "ChangeATISATCSourceButton": "ATIS/ATC 출처 변경",
     "ConnectHoppieACARS": "Hoppie ACARS 연결",
-    "NoInformationAvailableForThisFrequency": "이 주파수에 사용 가능한 정보 없음",
+    "NoInformationAvailableForThisFrequency": "이 주파수에서 사용할 수 있는 정보 없음",
     "SelectCorrectATISATCSource": "이 페이지는 설정 페이지의 ATIS/ATC 출처를 IVAO 또는 VATSIM으로 설정했을 때만 사용할 수 있습니다.",
     "SetActive": "활성 주파수로 설정",
     "SetStandby": "대기 주파수로 설정",
@@ -49,6 +49,7 @@
         "Loading": "로딩 중...",
         "MetarParsingError": "수신된 METAR 정보를 분석할 수 없음",
         "NoIcaoProvided": "ICAO가 제공되지 않음",
+        "NotAvailableShort": "N/A",
         "Raw": "원본",
         "TT": {
           "SwitchToIconView": "아이콘 보기로 전환",
@@ -68,7 +69,7 @@
       "CruiseAlt": "순항 고도",
       "ImportSimBriefData": "SimBrief 데이터 불러오기",
       "Route": "루트",
-      "SimBriefDataNotYetLoaded": "SimBrief 데이터가 아직 로드되지 않았습니다.",
+      "SimBriefDataNotYetLoaded": "SimBrief 데이터가 로드되지 않았습니다.",
       "Title": "운항 정보",
       "ZFW": "ZFW"
     }
@@ -81,7 +82,7 @@
         "ReduceFontSize": "글씨 작게"
       },
       "Title": "OFP",
-      "YouHaveNotYetImportedAnySimBriefData": "아직 SimBrief 데이터를 불러오지 않았습니다."
+      "YouHaveNotYetImportedAnySimBriefData": "SimBrief 데이터를 불러오지 않았습니다."
     },
     "Overview": {
       "Engines": "엔진",
@@ -93,7 +94,7 @@
       "MaximumFuelCapacity": "최대 연료 용량",
       "MaximumPassengers": "최대 승객 수",
       "Model": "모델",
-      "Range": "거리",
+      "Range": "항속 거리",
       "Title": "개요"
     },
     "Title": "운항 관리"
@@ -172,9 +173,10 @@
       "AuthenticateWithNavigraph": "Navigraph 인증",
       "InsufficientEnv": "불충분한 .env 파일",
       "IntoYourBrowserAndEnterTheCodeBelow": "브라우저에서 아래 코드를 입력하세요",
+      "LoadingMsg": "로딩 중...",
       "NoAirportSelected": "선택된 공항 없음",
       "ResetNavigraphAuthentication": "Navigraph 인증 재설정",
-      "ScanTheQrCodeOrOpen": "QR코드 스캔 또는 열기",
+      "ScanTheQrCodeOrOpen": "QR코드 스캔 또는 열기 - ",
       "Title": "Navigraph"
     },
     "PinnedCharts": {
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "차트 출처 변경",
-        "ChangeChartSortMethod": "차트 정렬 방법 변경"
+        "ChangeChartSortMethod": "차트 정렬 방법 변경",
+        "RemoveAllPinnedCharts": "고정된 차트 모두 제거"
       },
       "Title": "고정된 차트",
       "View": "보기"
@@ -229,12 +232,22 @@
       "Low": "최저",
       "MaximumManual": "최대 수동",
       "Medium": "보통",
+      "MetarErrorDialogMessage": "OFP에서 METAR를 추출하는 도중 오류가 발생했습니다. OFP 대신 이미 추가된 METAR를 이용하여 데이터를 자동으로 채우시겠습니까?",
+      "MetarErrorDialogTitle": "OFP METAR 추출 오류",
       "OverweightProcedure": "최대착륙중량 초과",
       "Qnh": "QNH",
       "ReverseThrust": "역추진 추력",
       "RunwayAltitude": "활주로 고도",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "활주로 상태",
+      "RunwayConditions": {
+        "Dry": "완전히 마름 (6)",
+        "Good": "매우 좋음 (5)",
+        "GoodMedium": "좋음 (4)",
+        "Medium": "보통 (3)",
+        "MediumPoor": "나쁨 (2)",
+        "Poor": "매우 나쁨 (1)"
+      },
       "RunwayHeading": "활주로 방향",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "활주로 LDA",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "프리셋을 저장하려면 항공기에 전원이 공급되어야 합니다",
       "LoadPreset": "프리셋 불러오기",
       "LoadingPreset": "프리셋 불러오는 중...",
+      "NewNameConfirmationDialogMsg": "조명 프리셋의 이름을 확인해주세요",
       "NoName": "이름 없음",
       "PleaseConfirmSavingPreset": "저장하려는 프리셋을 확인해주세요",
       "SavePreset": "프리셋 저장",
@@ -338,11 +352,29 @@
     "Backward": "뒤로",
     "CallTug": "터그 부르기",
     "Forward": "앞으로",
-    "Halt": "중지",
+    "Halt": "일시 중지",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "왼쪽",
+    "Moving": "이동 중",
     "ParkingBrake": {
       "Off": "끄기",
       "On": "켜기",
       "Title": "파킹 브레이크"
+    },
+    "Right": "오른쪽",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "터그 방향",
     "TugSpeed": "터그 속도"
@@ -369,6 +401,7 @@
       "Enable": "활성화",
       "EnableTelex": "TELEX 활성화",
       "ErrorReporting": "오류 보고",
+      "HoppieEnabled": "Hoppie 활성화됨",
       "HoppieUserId": "Hoppie 사용자 ID",
       "MetarSource": "METAR 출처",
       "OptionalA32nxErrorReporting": "선택적으로 A32NX 오류 보고",
@@ -482,6 +515,7 @@
     "Feb": "2월",
     "Fri": "금",
     "Jan": "1월",
+    "Jul": "7월",
     "Jun": "6월",
     "Mar": "3월",
     "May": "5월",

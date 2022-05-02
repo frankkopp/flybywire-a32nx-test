@@ -1,10 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Aktivno",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Zamenjaj vir ATIS/ATC",
     "ConnectHoppieACARS": "Povežite Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "ZA TO FREKVENCO NI NA VOLJO NOBENIH INFORMACIJ",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
+    "SelectCorrectATISATCSource": "Ta stran je na voljo le, če je IVAO ali VATSIM izbran kot vir ATIS/ATC na strani z nastavitvami.",
     "SetActive": "Nastavi kot aktivno",
     "SetStandby": "Nastavi v pripravljenost",
     "Standby": "V pripravljenosti",
@@ -49,6 +49,7 @@
         "Loading": "Nalagam",
         "MetarParsingError": "Prejetega METAR-ja ni bilo mogoče razčleniti",
         "NoIcaoProvided": "ICAO ni naveden",
+        "NotAvailableShort": "N/A",
         "Raw": "Nerazčlenjeno",
         "TT": {
           "SwitchToIconView": "Preklopi na ikonski pogled",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Preverjanje pristnosti z Navigraph-om",
       "InsufficientEnv": "Nezadostna datoteka .env",
       "IntoYourBrowserAndEnterTheCodeBelow": "v brskalniku in vnesite spodnjo kodo",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Ni izbranega letališča",
       "ResetNavigraphAuthentication": "Ponastavitev Navigraph avtentikacije",
       "ScanTheQrCodeOrOpen": "Skenirajte QR kodo ali odprite",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "Spremeni ponudnika kart",
-        "ChangeChartSortMethod": "Spreminjanje načina razvrščanja kart"
+        "ChangeChartSortMethod": "Spreminjanje načina razvrščanja kart",
+        "RemoveAllPinnedCharts": "Odstrani vse pripete karte"
       },
       "Title": "Pripete karte",
       "View": "Pogled"
@@ -229,12 +232,22 @@
       "Low": "Nizko",
       "MaximumManual": "Ročni maksimum",
       "Medium": "Srednje",
+      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
+      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
       "OverweightProcedure": "Postopek ob prekomerni teži",
       "Qnh": "QNH",
       "ReverseThrust": "Vzvratni potisk",
       "RunwayAltitude": "Višina steze",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Stanje steze",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Smer steze",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "LDA steze",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Za shranjevanje prednastavitev zrakoplov potrebuje napajanje",
       "LoadPreset": "Naloži prednastavitev",
       "LoadingPreset": "Nalaganje prednastavitve",
+      "NewNameConfirmationDialogMsg": "Prosimo, potrdite novo ime za prednastavitev osvetlitve",
       "NoName": "Brez imena",
       "PleaseConfirmSavingPreset": "Prosimo, potrdite shranjevanje prednastavitve",
       "SavePreset": "Shrani prednastavitev",
@@ -339,10 +353,28 @@
     "CallTug": "Pokliči vlačilec",
     "Forward": "Naprej",
     "Halt": "Ustavi",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "Izklop",
       "On": "Vklop",
       "Title": "Parkirna zavora"
+    },
+    "Right": "Right",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "Smer vlačilca",
     "TugSpeed": "Hitrost vlačilca"
@@ -369,6 +401,7 @@
       "Enable": "Omogoči",
       "EnableTelex": "Omogoči TELEX",
       "ErrorReporting": "Poročanje napak",
+      "HoppieEnabled": "Hoppie omogočen",
       "HoppieUserId": "Hoppie uporabniški ID",
       "MetarSource": "METAR vir",
       "OptionalA32nxErrorReporting": "Prostovoljno poročanje o napakah A32NX",
@@ -435,7 +468,7 @@
       "Axis": "Os",
       "Back": "Nazaj",
       "ConfigureEnd": "Končaj konfiguracijo",
-      "ConfigureStart": "Configure Start",
+      "ConfigureStart": "Konfiguriraj začetek",
       "CurrentValue": "Trenutna vrednost",
       "Deadband": "Mrtvi trak",
       "ErrorOverlapMsg": "se prekriva z/s",
@@ -482,6 +515,7 @@
     "Feb": "Feb",
     "Fri": "Pet",
     "Jan": "Jan",
+    "Jul": "Jul",
     "Jun": "Jun",
     "Mar": "Mar",
     "May": "Maj",

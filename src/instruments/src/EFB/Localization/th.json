@@ -1,10 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "ใช้งานอยู่",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "เปลี่ยนแหล่งที่มา ATIS/ATC",
     "ConnectHoppieACARS": "เชื่อมต่อ Hoppie ACARS",
     "NoInformationAvailableForThisFrequency": "ไม่มีข้อมูลให้สำหรับความถี่นี้",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
+    "SelectCorrectATISATCSource": "หน้านี้จะใช้ได้เฉพาะเมื่อเลือก IVAO หรือ VATSIM เป็นแหล่งข้อมูล ATIS/ATC ในหน้าการตั้งค่า",
     "SetActive": "ตั้งค่าเป็นใช้งานอยู่",
     "SetStandby": "ตั้งค่าเป็นสแตนด์บาย",
     "Standby": "สแตนด์บาย",
@@ -36,7 +36,7 @@
       },
       "PinnedCharts": {
         "NoPinnedCharts": "ไม่มี Charts ที่ปักหมุดไว้",
-        "Title": "Chart ที่ปักหมุดไว้"
+        "Title": "Charts ที่ปักหมุดไว้"
       },
       "TT": {
         "RearrangeWidgets": "จัดเรียงวิดเจ็ตใหม่"
@@ -49,6 +49,7 @@
         "Loading": "กำลังโหลด",
         "MetarParsingError": "ไม่สามารถแยกวิเคราะห์ METAR ที่ได้รับได้",
         "NoIcaoProvided": "ไม่มี ICAO ให้",
+        "NotAvailableShort": "ไม่มี",
         "Raw": "ข้อมูลดิบ",
         "TT": {
           "SwitchToIconView": "สลับไปยังมุมมองไอคอน",
@@ -125,7 +126,7 @@
       "RightInnerTank": "ถังน้ำมันด้านในขวา",
       "RightOuterTank": "ถังน้ำมันด้านนอกขวา",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "เครื่องบินต้องเป็น Cold & Dark เพื่อที่จะเปลี่ยนเวลาเติมน้ำมัน",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "สามารถเปลี่ยนระยะเวลาการเติมน้ำมันได้บนพื้นดิน และเครื่องยนต์ดับอยู่เท่านั้น",
         "FillBlockFuelFromSimBrief": "กรอก Block Fuel จาก SimBrief"
       },
       "Title": "น้ำมัน",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "ตรวจสอบสิทธิ์ด้วย Navigraph",
       "InsufficientEnv": "ไฟล์ .env ไม่เพียงพอ",
       "IntoYourBrowserAndEnterTheCodeBelow": "ลงในเบราว์เซอร์ของคุณและป้อนรหัสด้านล่าง",
+      "LoadingMsg": "กำลังโหลด",
       "NoAirportSelected": "ไม่มีสนามบินที่เลือก",
       "ResetNavigraphAuthentication": "รีเซ็ตการตรวจสอบสิทธิ์ของ Navigraph",
       "ScanTheQrCodeOrOpen": "สแกน QR Code หรือ เปิด",
@@ -192,9 +194,10 @@
       },
       "TT": {
         "ChangeChartProvider": "เปลี่ยนผู้ให้บริการ Chart",
-        "ChangeChartSortMethod": "เปลี่ยนวิธีการจัดเรียง Chart"
+        "ChangeChartSortMethod": "เปลี่ยนวิธีการจัดเรียง Chart",
+        "RemoveAllPinnedCharts": "ลบ Chart ที่ปักหมุดไว้ทั้งหมด"
       },
-      "Title": "Chart ที่ปักหมุด",
+      "Title": "Charts ที่ปักหมุดไว้",
       "View": "ดู"
     },
     "PleaseWait": "กรุณารอสักครู่",
@@ -229,12 +232,22 @@
       "Low": "ต่ำ",
       "MaximumManual": "ด้วยตัวเองสูงสุด",
       "Medium": "ปานกลาง",
+      "MetarErrorDialogMessage": "METAR จาก OFP ของคุณไม่สามารถแยกวิเคราะห์ได้ คุณต้องการจะป้อนข้อมูลอัตโนมัติโดยใช้การดึงข้อมูล METAR แทนหรือไม่",
+      "MetarErrorDialogTitle": "เกิดข้อผิดพลาดในการแยกวิเคราะห์ METAR จาก OFP",
       "OverweightProcedure": "ขั้นตอนการลงจอดแบบน้ำหนักเกิน",
       "Qnh": "QNH",
       "ReverseThrust": "Reverse Thrust",
       "RunwayAltitude": "ความสูงรันเวย์",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "สภาพรันเวย์",
+      "RunwayConditions": {
+        "Dry": "แห้ง (6)",
+        "Good": "ดี (5)",
+        "GoodMedium": "ดี-ปานกลาง (4)",
+        "Medium": "กลาง (3)",
+        "MediumPoor": "ปานกลาง-แย่ (2)",
+        "Poor": "แย่ (1)"
+      },
       "RunwayHeading": " ทิศทางรันเวย์",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "ระยะที่ลงจอดได้ บนรันเวย์",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "เครื่องบินจำเป็นต้องใช้พลังงานสำหรับการบันทึกค่าที่ตั้งไว้",
       "LoadPreset": "โหลดค่าที่ตั้งไว้ล่วงหน้า",
       "LoadingPreset": "กำลังโหลดค่าที่ตั้งไว้",
+      "NewNameConfirmationDialogMsg": "กรุณายืนยันชื่อใหม่ของค่าแสงที่ตั้งไว้",
       "NoName": "ไม่มีชื่อ",
       "PleaseConfirmSavingPreset": "กรุณายืนยันการบันทึกค่าที่ตั้งไว้ล่วงหน้า",
       "SavePreset": "บันทึกค่าที่ตั้งไว้",
@@ -338,11 +352,29 @@
     "Backward": "ถอยหลัง",
     "CallTug": "เรียกรถลากจูง",
     "Forward": "ไปข้างหน้า",
-    "Halt": "หยุด",
+    "Halt": "หยุดชั่วคราว",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "ซ้าย",
+    "Moving": "กำลังเคลื่อนที่…",
     "ParkingBrake": {
       "Off": "ปิด",
       "On": "เปิด",
       "Title": "Parking Brake"
+    },
+    "Right": "ขวา",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "ทิศทางการลากจูง",
     "TugSpeed": "ความเร็วลากจูง"
@@ -369,6 +401,7 @@
       "Enable": "เปิดใช้งาน",
       "EnableTelex": "เปิดใช้งาน TELEX",
       "ErrorReporting": "การรายงานข้อผิดพลาด",
+      "HoppieEnabled": "Hoppie เปิดใช้งานแล้ว",
       "HoppieUserId": "รหัสผู้ใช้ Hoppie",
       "MetarSource": "แหล่งที่มา METAR",
       "OptionalA32nxErrorReporting": "การรายงานข้อผิดผลาดของ A32NX แบบไม่บังคับ",
@@ -435,7 +468,7 @@
       "Axis": "แกน",
       "Back": "กลับ",
       "ConfigureEnd": "กำหนดค่าจุดจบ",
-      "ConfigureStart": "Configure Start",
+      "ConfigureStart": "กำหนดค่าเริ่มต้น",
       "CurrentValue": "ค่าปัจจุบัน",
       "Deadband": "Deadband",
       "ErrorOverlapMsg": "ซ้อนทับกับ",
@@ -482,6 +515,7 @@
     "Feb": "ก.พ.",
     "Fri": "ศ.",
     "Jan": "ม.ค.",
+    "Jul": "ก.ค.",
     "Jun": "มิ.ย.",
     "Mar": "มี.ค.",
     "May": "พ.ค.",

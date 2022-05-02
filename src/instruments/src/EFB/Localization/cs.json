@@ -1,10 +1,10 @@
 {
   "AirTrafficControl": {
     "Active": "Aktivní",
-    "ChangeATISATCSourceButton": "Change ATIS/ATC source",
+    "ChangeATISATCSourceButton": "Změnit zdroj ATIS/ATC",
     "ConnectHoppieACARS": "Připojit ACARS Hoppie",
     "NoInformationAvailableForThisFrequency": "Pro tuto frekvenci nejsou dostupné žádné informace",
-    "SelectCorrectATISATCSource": "This page is only available when IVAO or VATSIM is selected as the ATIS/ATC source in the settings page.",
+    "SelectCorrectATISATCSource": "Tato stránka je dostupná pouze pokud je v nastavení jako zdroj ATIS/ATC vybrána možnost IVAO nebo VATSIM.",
     "SetActive": "Nastavit aktivní",
     "SetStandby": "Nastavit standby",
     "Standby": "Standby",
@@ -49,6 +49,7 @@
         "Loading": "Načítání",
         "MetarParsingError": "Přijatý METAR nemohl být analyzován",
         "NoIcaoProvided": "ICAO nezadáno",
+        "NotAvailableShort": "N/A",
         "Raw": "Nezpracovaný",
         "TT": {
           "SwitchToIconView": "Přepnout na zobrazení ikon",
@@ -61,7 +62,7 @@
     },
     "Title": "Hlavní panel",
     "YourFlight": {
-      "Alternate": "Záložní let.",
+      "Alternate": "Náhradní letiště",
       "AverageWind": "Průměrný vítr",
       "CompanyRoute": "Company Route",
       "CostIndex": "Cost Index",
@@ -100,7 +101,7 @@
   },
   "Failures": {
     "Comfort": {
-      "Title": "Příjemné"
+      "Title": "Komfort"
     },
     "Compact": {
       "Title": "Kompaktní"
@@ -114,11 +115,11 @@
       "CenterTank": "Středová nádrž",
       "Completed": "Dokončeno",
       "Defueling": "Odčerpávání",
-      "EstimatedDuration": "Odhadovaná doba trvání (minuty)",
+      "EstimatedDuration": "Odhadovaná délka (min)",
       "EstimatedTime": "Odhadovaný čas",
       "LeftInnerTank": "Levá vnitřní nádrž",
       "LeftOuterTank": "Levá vnější nádrž",
-      "ReadyToStart": "Připraveno k zahájení",
+      "ReadyToStart": "Připraveno",
       "Refuel": "Tankování",
       "RefuelTime": "Čas tankování",
       "Refueling": "Tankování",
@@ -129,19 +130,19 @@
         "FillBlockFuelFromSimBrief": "Načíst palivo (Block Fuel) ze SimBriefu"
       },
       "Title": "Palivo",
-      "TotalFuel": "Celkové palivo",
+      "TotalFuel": "Celkem paliva",
       "Unavailable": "Nedostupné"
     },
     "Pushback": {
       "Title": "Vytlačení"
     },
     "Services": {
-      "BaggageTruck": "Zavazadlové vozidlo",
-      "CateringTruck": "Cateringové vozidlo",
+      "BaggageTruck": "Zavazadlový vůz",
+      "CateringTruck": "Cateringový vůz",
       "DoorAft": "Zadní dveře",
       "DoorFwd": "Přední dveře",
       "ExternalPower": "Externí napájení",
-      "FuelTruck": "Palivová cisterna",
+      "FuelTruck": "Cisterna",
       "JetBridge": "Nástupní most",
       "Title": "Služby"
     },
@@ -154,12 +155,12 @@
   },
   "NavigationAndCharts": {
     "All": "Vše",
-    "Altn": "Altn",
+    "Altn": "Náhr.",
     "ExitFullscreenMode": "Ukončit režim celé obrazovky",
     "From": "Od",
     "LocalFiles": {
       "Both": "Obojí",
-      "EstablishingConnection": "Navazování spojení",
+      "EstablishingConnection": "Navazuji spojení",
       "FailedToEstablishConnection": "Nepodařilo se navázat spojení.",
       "FileName": "Název souboru",
       "Image": "Obrázek",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Navigraph autentizace",
       "InsufficientEnv": "Nedostatečný soubor .env",
       "IntoYourBrowserAndEnterTheCodeBelow": "ve vašem prohlížeči a vložte následující kód\n",
+      "LoadingMsg": "Načítání",
       "NoAirportSelected": "Není vybrané letiště",
       "ResetNavigraphAuthentication": "Resetovat Navigraph autentizaci",
       "ScanTheQrCodeOrOpen": "Naskenujte QR kód nebo otevřete",
@@ -186,13 +188,14 @@
       "SortMethods": {
         "AlphabeticalAZ": "Abecedně - A -> Z",
         "AlphabeticalZA": "Abecedně - Z -> A",
-        "FirstAccessed": "Nejdříve otevřené",
-        "LastAccessed": "Nejpozději otevřené",
+        "FirstAccessed": "První otevřené",
+        "LastAccessed": "Poslední otevřené",
         "None": "Žádné"
       },
       "TT": {
         "ChangeChartProvider": "Změnit poskytovatele map",
-        "ChangeChartSortMethod": "Změna metody řazení map"
+        "ChangeChartSortMethod": "Změna metodu řazení map",
+        "RemoveAllPinnedCharts": "Odstranit všechny připnuté mapy"
       },
       "Title": "Připnuté mapy",
       "View": "Zobrazit"
@@ -229,15 +232,25 @@
       "Low": "Low",
       "MaximumManual": "Maximální manuální",
       "Medium": "Medium",
+      "MetarErrorDialogMessage": "METAR z vašeho letového plánu nebylo možné zpracovat. Chcete stáhnout online METAR?",
+      "MetarErrorDialogTitle": "Chyba zpracování dat METAR v OFP",
       "OverweightProcedure": "Overweight postup",
       "Qnh": "QNH",
       "ReverseThrust": "Zpětný tah",
       "RunwayAltitude": "Výška dráhy",
       "RunwayAltitudeUnit": "ft ASL (stopy nad mořem)",
       "RunwayCondition": "Stav dráhy",
+      "RunwayConditions": {
+        "Dry": "Suchý (6)",
+        "Good": "Dobrý (5)",
+        "GoodMedium": "Dobrý-Střední (4)",
+        "Medium": "Střední (3)",
+        "MediumPoor": "Střední-Špatný (2)",
+        "Poor": "Špatný (1)"
+      },
       "RunwayHeading": "Směr dráhy",
       "RunwayHeadingUnit": "°",
-      "RunwayLda": "LDA dráhy",
+      "RunwayLda": "Použitelná délka přistání",
       "RunwayLdaUnitFt": "ft",
       "RunwayLdaUnitMeter": "m",
       "RunwaySlope": "Sklon dráhy",
@@ -300,7 +313,7 @@
   "Presets": {
     "AircraftStates": {
       "Cancel": "Zrušit",
-      "ColdDark": "Studené letadlo (všechno vypnuté - C&D)",
+      "ColdDark": "Vše vypnuto (Cold & Dark)",
       "ConfirmationDialogMsg": "Potvrďte prosím načtení přednastaveného stavu.",
       "CurrentProcedureStep": "Aktuální krok v postupu",
       "PleaseConfirmLoadingOfPreset": "Potvrďte prosím načtení přednastaveného stavu.",
@@ -311,13 +324,14 @@
       "TheAircraftMustBeOnTheGroundToLoadAPreset": "K načtení přednastaveného stavu musí být letadlo na zemi.",
       "TheAircraftMustBeOntheGroundToLoadAPreset": "K načtení přednastaveného stavu musí být letadlo na zemi.",
       "Title": "Stavy letadla",
-      "Turnaround": "Spuštěné systémy (Turnaround)"
+      "Turnaround": "Otočení (Turnaround)"
     },
     "InteriorLighting": {
       "AircraftNeedsToBePoweredToLoadPresets": "K načtení předvoleb musí být letadlo napájené",
       "AircraftNeedsToBePoweredToSavePresets": "K uložení předvoleb musí být letadlo napájené",
       "LoadPreset": "Načíst předvolbu",
       "LoadingPreset": "Načítání předvolby",
+      "NewNameConfirmationDialogMsg": "Prosím potvrďte změnu názvu předvolby osvětlení",
       "NoName": "Bez názvu",
       "PleaseConfirmSavingPreset": "Prosím potvrďte uložení předvolby",
       "SavePreset": "Uložit předvolbu",
@@ -336,16 +350,34 @@
   },
   "Pushback": {
     "Backward": "Vzad",
-    "CallTug": "Přivolat tahač",
+    "CallTug": "Přivolat pushback",
     "Forward": "Vpřed",
-    "Halt": "Zastavit",
+    "Halt": "Pozastaveno",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Vlevo",
+    "Moving": "V pohybu",
     "ParkingBrake": {
       "Off": "Vypnuto",
       "On": "Zapnuto",
       "Title": "Parkovací brzda"
     },
-    "TugDirection": "Směr jízdy tahače",
-    "TugSpeed": "Rychlost jízdy tahače"
+    "Right": "Vpravo",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Vycentrovat mapu na letadlo Zap/Vyp",
+      "DecreaseSpeed": "Vzad nebo pomaleji vpřed (dvojklikem nastavit rychlost na 0)",
+      "IncreaseSpeed": "Vpřed nebo pomaleji vzad (dvojklikem nastavit rychlost na 0)",
+      "Left": "Jet doleva (dvojklik pro jízdu rovně)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Jet doprava (dvojklik pro jízdu rovně)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Posuňte pro požadovaný směr",
+      "SliderSpeed": "Posuňte pro požadovanou rychlost",
+      "ZoomIn": "Přiblížit",
+      "ZoomOut": "Oddálit"
+    },
+    "TugDirection": "Směr vytlačení",
+    "TugSpeed": "Rychlost vytlačení"
   },
   "Settings": {
     "About": {
@@ -356,11 +388,11 @@
       "EngineOutAccelerationHeight": "Akcelerační výška s vysazeným motorem - EO ACC (ft AGL)",
       "IsisBaroUnit": "ISIS jednotky tlaku",
       "IsisMetricAltitude": "ISIS metrická nadmořská výška",
-      "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
-      "PaxSigns": "Transparenty",
+      "LatLonExtendedFormat": "Formát FMGC Lat/Lon Waypointů",
+      "PaxSigns": "Znamení cestujícím",
       "RmpVhfSpacing": "RMP VHF rozteč",
       "ThrustReductionHeight": "Výška snížení tahu (ft AGL)",
-      "Title": "Možnosti letadla / Pin programy",
+      "Title": "Možnosti letadla / Připnout programy",
       "WeightUnit": "Jednotky hmotnosti"
     },
     "AtsuAoc": {
@@ -369,6 +401,7 @@
       "Enable": "Povolit",
       "EnableTelex": "Povolit TELEX",
       "ErrorReporting": "Hlášení chyb",
+      "HoppieEnabled": "Hoppie povoleno",
       "HoppieUserId": "Hoppie uživatelské ID",
       "MetarSource": "Zdroj METAR",
       "OptionalA32nxErrorReporting": "Volitelné hlášení chyb A32NX",
@@ -399,14 +432,14 @@
     "Instant": "Okamžitý",
     "Real": "Reálný",
     "Realism": {
-      "AdirsAlignTime": "Čas zarovnání ADIRS",
+      "AdirsAlignTime": "Čas zaměření ADIRS",
       "AutofillChecklists": "Automaticky vyplňovat checklisty",
       "BoardingTime": "Čas nastupování cestujících",
       "DmcSelfTestTime": "Inicializační test DMC",
       "HomeCockpitMode": "Režim domácího kokpitu",
       "McduFocusTimeout": "Časový limit vstupu MCDU z klávesnice (sekundy)",
       "McduKeyboardInput": "MCDU zadávání pomocí klávesnice",
-      "SeparateTillerFromRudderInputs": "Oddělit vstupy pro Tiller a směrovku",
+      "SeparateTillerFromRudderInputs": "Oddělit vstupy pro tiller a směrovku",
       "Title": "Realismus"
     },
     "SimOptions": {
@@ -422,7 +455,7 @@
       "LoadOnly": "Pouze při načtení",
       "None": "Žádné",
       "Off": "Vypnuto",
-      "Save": "Vždy",
+      "Save": "Uložit",
       "SyncMsfsFlightPlan": "Synchronizace letového plánu MSFS",
       "ThrottleDetents": "Zarážky plynu",
       "Title": "Možnosti simulace",
@@ -435,8 +468,8 @@
       "Axis": "Osa",
       "Back": "Zpět",
       "ConfigureEnd": "Horní hranice",
-      "ConfigureStart": "Configure Start",
-      "CurrentValue": "Současná hodnota",
+      "ConfigureStart": "Spodní hranice",
+      "CurrentValue": "Aktuální hodnota",
       "Deadband": "Rozsah",
       "ErrorOverlapMsg": "se překrývá s",
       "IndependentAxis": "Nezávislé osy",
@@ -482,6 +515,7 @@
     "Feb": "Úno",
     "Fri": "Pá",
     "Jan": "Led",
+    "Jul": "Čvc",
     "Jun": "Čer",
     "Mar": "Bře",
     "May": "Kvě",
@@ -494,7 +528,7 @@
     "TT": {
       "ConnectedToLocalApi": "Připojeno k místnímu API",
       "DisconnectedFromLocalApi": "Odpojeno od místního API",
-      "TurnOffOrShutdownEfb": "Vypnout EFB"
+      "TurnOffOrShutdownEfb": "Uspat nebo vypnout EFB"
     },
     "Thu": "Čt",
     "Tue": "Út",

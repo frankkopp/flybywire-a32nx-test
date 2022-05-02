@@ -31,7 +31,7 @@
       },
       "GoToPage": "Gehe zur Seite",
       "Maintenance": {
-        "NoActiveFailures": "Keine aktiven Ausfälle",
+        "NoActiveFailures": "Keine aktiven Störungen",
         "Title": "Wartung"
       },
       "PinnedCharts": {
@@ -49,6 +49,7 @@
         "Loading": "Wird geladen…",
         "MetarParsingError": "Erhaltene METAR Information konnte nicht gelesen werden",
         "NoIcaoProvided": "Kein ICAO angegeben",
+        "NotAvailableShort": "N/A",
         "Raw": "Rohdaten",
         "TT": {
           "SwitchToIconView": "Zur Icon-Ansicht wechseln",
@@ -105,9 +106,9 @@
     "Compact": {
       "Title": "Kompakt"
     },
-    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Eine vollständige Simulation der folgenden Ausfälle ist noch nicht garantiert.",
+    "FullSimulationOfTheFailuresBelowIsntYetGuaranteed": "Eine vollständige Simulation der folgenden Störungen ist noch nicht garantiert.",
     "Search": "Suchen",
-    "Title": "Ausfälle"
+    "Title": "Störungen"
   },
   "Ground": {
     "Fuel": {
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Authentifizierung mit Navigraph",
       "InsufficientEnv": "Keine oder unzureichende .env Datei",
       "IntoYourBrowserAndEnterTheCodeBelow": "mit dem Browser öffnen und folgenden Code eingeben:",
+      "LoadingMsg": "Wird geladen…",
       "NoAirportSelected": "Kein Flughafen ausgewählt",
       "ResetNavigraphAuthentication": "Navigraph-Authentifizierung zurücksetzen",
       "ScanTheQrCodeOrOpen": "QR-Code scannen oder",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "Kartenanbieter wechseln",
-        "ChangeChartSortMethod": "Sortiermethode für Karten ändern"
+        "ChangeChartSortMethod": "Sortiermethode für Karten ändern",
+        "RemoveAllPinnedCharts": "Alle angehefteten Karten entfernen"
       },
       "Title": "Angeheftete Karten",
       "View": "Ansicht"
@@ -229,12 +232,22 @@
       "Low": "Low",
       "MaximumManual": "Maximum Manuell",
       "Medium": "Medium",
+      "MetarErrorDialogMessage": "Die METAR Daten aus dem OFP konnten nicht gelesen werden. Sollen stattdessen aktuelle METAR Daten abgerufen und genutzt werden?",
+      "MetarErrorDialogTitle": "Fehler beim Lesen der OFP METAR Daten",
       "OverweightProcedure": "Übergewichtsverfahren",
       "Qnh": "QNH",
       "ReverseThrust": "Schubumkehr",
       "RunwayAltitude": "Landebahnhöhenlage",
       "RunwayAltitudeUnit": "Fuß über Meeresspiegel",
       "RunwayCondition": "Zustand der Landebahn",
+      "RunwayConditions": {
+        "Dry": "Trocken (6)",
+        "Good": "Gut (5)",
+        "GoodMedium": "Gut-Mittel (4)",
+        "Medium": "Mittel (3)",
+        "MediumPoor": "Mittel-Schlecht (2)",
+        "Poor": "Schlecht (1)"
+      },
       "RunwayHeading": "Landebahnrichtung",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Verfügbare Landebahnlänge",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Das Flugzeug muss mit Strom versorgt sein, um Voreinstellungen zu speichern",
       "LoadPreset": "Voreinstellung laden",
       "LoadingPreset": "Voreinstellung wird geladen",
+      "NewNameConfirmationDialogMsg": "Bestätige bitte den neuen Namen der Voreinstellung",
       "NoName": "Kein Name",
       "PleaseConfirmSavingPreset": "Bitte bestätige das Speichern der Voreinstellung",
       "SavePreset": "Voreinstellung speichern",
@@ -338,11 +352,29 @@
     "Backward": "Rückwärts",
     "CallTug": "Rufe Flugzeugschlepper",
     "Forward": "Vorwärts",
-    "Halt": "Halt",
+    "Halt": "Pausiert",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Links",
+    "Moving": "In Bewegung",
     "ParkingBrake": {
       "Off": "Aus",
       "On": "An",
       "Title": "Parkbremse"
+    },
+    "Right": "Rechts",
+    "TT": {
+      "CallReleaseTug": "Schlepper rufen oder freigeben",
+      "CenterPlaneMode": "Karte auf Flugzeugposition zentrieren",
+      "DecreaseSpeed": "Rückwärts oder langsamer vorwärts (doppelklicken, um die Geschwindigkeit auf 0 zu setzen)",
+      "IncreaseSpeed": "Vorwärts oder langsamer rückwärts (doppelklicken, um die Geschwindigkeit auf 0 zu setzen)",
+      "Left": "Nach links (Doppelklick für geradeaus)",
+      "PausePushback": "Pushback pausieren oder fortsetzen",
+      "Right": "Nach rechts (Doppelklick für geradeaus)",
+      "SetReleaseParkingBrake": "Parkbremse setzen oder lösen",
+      "SliderDirection": "Schieberegler verschieben, um die gewünschte Richtung einzustellen",
+      "SliderSpeed": "Schieberegler verschieben, um die gewünschte Geschwindigkeit einzustellen",
+      "ZoomIn": "Vergrößern",
+      "ZoomOut": "Verkleinern"
     },
     "TugDirection": "Schlepprichtung",
     "TugSpeed": "Schleppgeschwindigkeit"
@@ -369,6 +401,7 @@
       "Enable": "Aktivieren",
       "EnableTelex": "TELEX aktivieren",
       "ErrorReporting": "Fehlerberichte senden",
+      "HoppieEnabled": "Hoppie aktiviert",
       "HoppieUserId": "Hoppie-Benutzer-ID",
       "MetarSource": "METAR-Quelle",
       "OptionalA32nxErrorReporting": "Optionale A32NX-Fehlerberichterstattung",
@@ -482,6 +515,7 @@
     "Feb": "Feb",
     "Fri": "Fr",
     "Jan": "Jan",
+    "Jul": "Jul",
     "Jun": "Jun",
     "Mar": "Mär",
     "May": "Mai",

@@ -49,6 +49,7 @@
         "Loading": "Yükleniyor",
         "MetarParsingError": "Alınan METAR ayrıştırılamadı",
         "NoIcaoProvided": "ICAO sağlanmadı",
+        "NotAvailableShort": "N/A",
         "Raw": "Ham",
         "TT": {
           "SwitchToIconView": "Simge Görünümüne Geç",
@@ -172,6 +173,7 @@
       "AuthenticateWithNavigraph": "Navigraph ile Kimlik Doğrulama",
       "InsufficientEnv": "Yetersiz .env dosyası",
       "IntoYourBrowserAndEnterTheCodeBelow": "tarayıcınıza girin ve aşağıdaki kodu girin\n",
+      "LoadingMsg": "Loading",
       "NoAirportSelected": "Havaalanı Seçilmedi",
       "ResetNavigraphAuthentication": "Navigraph Kimlik Doğrulamasını Sıfırla",
       "ScanTheQrCodeOrOpen": "QR Kodunu tarayın veya Açın",
@@ -192,7 +194,8 @@
       },
       "TT": {
         "ChangeChartProvider": "Harita Sağlayıcısını Değiştir",
-        "ChangeChartSortMethod": "Harita Sıralama Yöntemini Değiştir"
+        "ChangeChartSortMethod": "Harita Sıralama Yöntemini Değiştir",
+        "RemoveAllPinnedCharts": "Remove All Pinned Charts"
       },
       "Title": "Sabitlenmiş Haritalar",
       "View": "Görüntüle"
@@ -229,12 +232,22 @@
       "Low": "Alçak",
       "MaximumManual": "Maksimum Manuel",
       "Medium": "Orta",
+      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
+      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
       "OverweightProcedure": "Overweight Prosedürleri",
       "Qnh": "QNH",
       "ReverseThrust": "Reverse Thrust",
       "RunwayAltitude": "Pist İrtifası",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Pist Durumu",
+      "RunwayConditions": {
+        "Dry": "Dry (6)",
+        "Good": "Good (5)",
+        "GoodMedium": "Good-Medium (4)",
+        "Medium": "Medium (3)",
+        "MediumPoor": "Medium-Poor (2)",
+        "Poor": "Poor (1)"
+      },
       "RunwayHeading": "Pist Başı",
       "RunwayHeadingUnit": "°",
       "RunwayLda": "Pist LDA",
@@ -318,6 +331,7 @@
       "AircraftNeedsToBePoweredToSavePresets": "Ön Ayarları Kaydetmek için Uçağa Güç Verilmesi Gerekiyor",
       "LoadPreset": "Ön Ayarı Yükle",
       "LoadingPreset": "Ön Ayar Yükleniyor",
+      "NewNameConfirmationDialogMsg": "Please confirm the new name for the lighting preset",
       "NoName": "İsimsiz",
       "PleaseConfirmSavingPreset": "Lütfen Ön Ayarı Kaydetmeyi Onaylayın",
       "SavePreset": "Ön ayarı kaydet",
@@ -339,10 +353,28 @@
     "CallTug": "Çekiciye Haber Ver",
     "Forward": "İleri",
     "Halt": "Durdur",
+    "LeavePageMessage": "Pausing Pushback",
+    "Left": "Left",
+    "Moving": "Moving",
     "ParkingBrake": {
       "Off": "Kapalı",
       "On": "Açık",
       "Title": "Park Freni"
+    },
+    "Right": "Right",
+    "TT": {
+      "CallReleaseTug": "Call or release tug",
+      "CenterPlaneMode": "Center map on plane On/Off",
+      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
+      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "Left": "Go left (double click for straight)",
+      "PausePushback": "Pause or unpause pushback",
+      "Right": "Go right (double click for straight)",
+      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SliderDirection": "Move for desired direction",
+      "SliderSpeed": "Move for desired speed",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
     },
     "TugDirection": "Çekici Yönü",
     "TugSpeed": "Çekici Hızı"
@@ -369,6 +401,7 @@
       "Enable": "Etkinleştir",
       "EnableTelex": "TELEX'i Etkinleştir",
       "ErrorReporting": "Hata Raporlama",
+      "HoppieEnabled": "Hoppie enabled",
       "HoppieUserId": "Hoppie Kullanıcı Kimliği",
       "MetarSource": "METAR Kaynağı",
       "OptionalA32nxErrorReporting": "İsteğe Bağlı A32NX Hata Bildirimi",
@@ -482,6 +515,7 @@
     "Feb": "Şub",
     "Fri": "Cum",
     "Jan": "Oca",
+    "Jul": "Jul",
     "Jun": "Haz",
     "Mar": "Mar",
     "May": "Mayıs",
