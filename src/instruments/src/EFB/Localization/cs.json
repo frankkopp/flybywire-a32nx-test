@@ -364,17 +364,17 @@
     "Right": "Vpravo",
     "TT": {
       "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
+      "CenterPlaneMode": "Vycentrovat mapu na letadlo Zap/Vyp",
       "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
       "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
       "Left": "Go left (double click for straight)",
       "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
+      "Right": "Jet doprava (dvojklik pro jízdu rovně)",
       "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "SliderDirection": "Posuňte pro požadovaný směr",
+      "SliderSpeed": "Posuňte pro požadovanou rychlost",
+      "ZoomIn": "Přiblížit",
+      "ZoomOut": "Oddálit"
     },
     "TugDirection": "Směr vytlačení",
     "TugSpeed": "Rychlost vytlačení"
