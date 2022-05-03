@@ -230,7 +230,7 @@
       "FillDataFrom": "Inserisci dati da",
       "FlapsConfiguration": "Configurazione Flap",
       "Low": "Low",
-      "MaximumManual": "Maximum Manuale",
+      "MaximumManual": "Maximum Manual",
       "Medium": "Medium",
       "MetarErrorDialogMessage": "Non è stato possibile elaborare con successo il METAR dal tuo OFP. Desideri, invece, inserire i dati automaticamente recuperando un altro METAR?",
       "MetarErrorDialogTitle": "Errore Elaborazione METAR dell'OFP",
@@ -307,7 +307,7 @@
         "DesynchronizeInputWithAircraftsCurrentAltitude": "Non Sincronizzare Inserimento con Altitudine Attuale dell'Aeromobile",
         "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizzare Inserimento con Altitudine Attuale dell'Aeromobile"
       },
-      "Title": "Inizio della Discesa"
+      "Title": "Top of Descent"
     }
   },
   "Presets": {

@@ -194,7 +194,7 @@
       },
       "TT": {
         "ChangeChartProvider": "Změnit poskytovatele map",
-        "ChangeChartSortMethod": "Změna metodu řazení map",
+        "ChangeChartSortMethod": "Změna metody řazení map",
         "RemoveAllPinnedCharts": "Odstranit všechny připnuté mapy"
       },
       "Title": "Připnuté mapy",
@@ -353,7 +353,7 @@
     "CallTug": "Přivolat pushback",
     "Forward": "Vpřed",
     "Halt": "Pozastaveno",
-    "LeavePageMessage": "Pausing Pushback",
+    "LeavePageMessage": "Vytlačení pozastaveno",
     "Left": "Vlevo",
     "Moving": "V pohybu",
     "ParkingBrake": {
@@ -363,14 +363,14 @@
     },
     "Right": "Vpravo",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
+      "CallReleaseTug": "Přivolat nebo uvolnit pushback",
       "CenterPlaneMode": "Vycentrovat mapu na letadlo Zap/Vyp",
       "DecreaseSpeed": "Vzad nebo pomaleji vpřed (dvojklikem nastavit rychlost na 0)",
       "IncreaseSpeed": "Vpřed nebo pomaleji vzad (dvojklikem nastavit rychlost na 0)",
       "Left": "Jet doleva (dvojklik pro jízdu rovně)",
-      "PausePushback": "Pause or unpause pushback",
+      "PausePushback": "Pozastavit nebo zrušit pozastavení vytlačení",
       "Right": "Jet doprava (dvojklik pro jízdu rovně)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
+      "SetReleaseParkingBrake": "Zapnout nebo vypnout parkovací brzdu",
       "SliderDirection": "Posuňte pro požadovaný směr",
       "SliderSpeed": "Posuňte pro požadovanou rychlost",
       "ZoomIn": "Přiblížit",
@@ -392,7 +392,7 @@
       "PaxSigns": "Znamení cestujícím",
       "RmpVhfSpacing": "RMP VHF rozteč",
       "ThrustReductionHeight": "Výška snížení tahu (ft AGL)",
-      "Title": "Možnosti letadla / Připnout programy",
+      "Title": "Možnosti letadla / Pin programy",
       "WeightUnit": "Jednotky hmotnosti"
     },
     "AtsuAoc": {
@@ -432,7 +432,7 @@
     "Instant": "Okamžitý",
     "Real": "Reálný",
     "Realism": {
-      "AdirsAlignTime": "Čas zaměření ADIRS",
+      "AdirsAlignTime": "Čas zarovnání ADIRS",
       "AutofillChecklists": "Automaticky vyplňovat checklisty",
       "BoardingTime": "Čas nastupování cestujících",
       "DmcSelfTestTime": "Inicializační test DMC",

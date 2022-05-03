@@ -363,8 +363,8 @@
     },
     "Right": "右へ旋回",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
+      "CallReleaseTug": "牽引車を呼ぶ・解除",
+      "CenterPlaneMode": "自機を地図の中心に表示する オン/オフ",
       "DecreaseSpeed": "後進・前進速度を落とす(ダブルクリックで速度を0にする)",
       "IncreaseSpeed": "前進・後進速度を落とす(ダブルクリックで速度を0にする)",
       "Left": "左へ旋回(ダブルクリックで直進)",
