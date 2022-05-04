@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "ถอยหลัง",
     "CallTug": "เรียกรถลากจูง",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
+    "EnableSystemMessageTitle": "Enable Pushback Systems",
     "Forward": "ไปข้างหน้า",
     "Halt": "หยุดชั่วคราว",
     "LeavePageMessage": "กำลังหยุด Pushback",
@@ -362,6 +364,8 @@
       "Title": "Parking Brake"
     },
     "Right": "ขวา",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "เรียกหรือปล่อยรถลากจูง",
       "CenterPlaneMode": "เปิด/ปิด ปรับศูนย์กลางเครื่องบินบนแผนที่",
@@ -373,9 +377,12 @@
       "SetReleaseParkingBrake": "ตั้งหรือปล่อย Parking Brake",
       "SliderDirection": "เคลื่อนที่ไปยังทิศทางที่ต้องการ",
       "SliderSpeed": "เคลื่อนที่สำหรับความเร็วที่ต้องการ",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "ซูมเข้า",
       "ZoomOut": "ซูมออก"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "ทิศทางการลากจูง",
     "TugSpeed": "ความเร็วลากจูง"
   },

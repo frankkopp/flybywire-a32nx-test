@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "Indietro",
     "CallTug": "Chiama Tug",
+    "EnableSystemMessageBody": "Il nuovo Sistema Pushback del flyPad OS 3 non è ancora finalizzato. È incompatibile con altri add-on Pushback e potrebbe causare altri problemi.",
+    "EnableSystemMessageTitle": "Abilita Sistemi Pushback",
     "Forward": "Avanti",
     "Halt": "Interrotto",
     "LeavePageMessage": "Interruzione Pushback",
@@ -362,6 +364,8 @@
       "Title": "Freni Parcheggio"
     },
     "Right": "Destra",
+    "SystemEnabledOff": "Sistema Pushback Off",
+    "SystemEnabledOn": "Sistema Pushback On",
     "TT": {
       "CallReleaseTug": "Chiama o allontana tug",
       "CenterPlaneMode": "Centra mappa sull'aereo On/Off",
@@ -373,9 +377,12 @@
       "SetReleaseParkingBrake": "Inserisci o rilascia freni parcheggio",
       "SliderDirection": "Sposta per direzione desiderata",
       "SliderSpeed": "Sposta per velocità desiderata",
+      "SystemEnabledOff": "Clicca per attivare il sistema pushback.",
+      "SystemEnabledOn": "Clicca per spegner completamente il sistema pushback.",
       "ZoomIn": "Ingrandisci",
       "ZoomOut": "Rimpicciolisci"
     },
+    "TugAttached": "Tug è collegato",
     "TugDirection": "Direzione Tug",
     "TugSpeed": "Velocità Tug"
   },

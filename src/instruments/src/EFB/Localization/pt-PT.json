@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "Reverso",
     "CallTug": "Ligar para o Reboque",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
+    "EnableSystemMessageTitle": "Enable Pushback Systems",
     "Forward": "Frontal",
     "Halt": "Parar",
     "LeavePageMessage": "Interromper o pushback",
@@ -362,6 +364,8 @@
       "Title": "Travão de Estacionamento"
     },
     "Right": "Direita",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Ligue ou liberte o rebocador",
       "CenterPlaneMode": "Mapa central no avião Ligado/Desligado",
@@ -373,9 +377,12 @@
       "SetReleaseParkingBrake": "Acione ou solte o freio de estacionamento",
       "SliderDirection": "Mova para a direção desejada",
       "SliderSpeed": "Mova para a velocidade desejada",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Ampliar",
       "ZoomOut": "Reduzir"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Direção do Reboque",
     "TugSpeed": "Velocidade do Reboque"
   },

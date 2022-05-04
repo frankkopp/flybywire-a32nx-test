@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "Vzad",
     "CallTug": "Přivolat pushback",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
+    "EnableSystemMessageTitle": "Enable Pushback Systems",
     "Forward": "Vpřed",
     "Halt": "Pozastaveno",
     "LeavePageMessage": "Vytlačení pozastaveno",
@@ -362,6 +364,8 @@
       "Title": "Parkovací brzda"
     },
     "Right": "Vpravo",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Přivolat nebo uvolnit pushback",
       "CenterPlaneMode": "Vycentrovat mapu na letadlo Zap/Vyp",
@@ -373,9 +377,12 @@
       "SetReleaseParkingBrake": "Zapnout nebo vypnout parkovací brzdu",
       "SliderDirection": "Posuňte pro požadovaný směr",
       "SliderSpeed": "Posuňte pro požadovanou rychlost",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Přiblížit",
       "ZoomOut": "Oddálit"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Směr vytlačení",
     "TugSpeed": "Rychlost vytlačení"
   },

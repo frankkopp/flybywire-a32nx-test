@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "אחורה",
     "CallTug": "קרא לנע-דחף",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
+    "EnableSystemMessageTitle": "Enable Pushback Systems",
     "Forward": "קדימה",
     "Halt": "עצור",
     "LeavePageMessage": "השהיית דחיפה",
@@ -362,6 +364,8 @@
       "Title": "בלם חניה"
     },
     "Right": "ימינה",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "קרא או שחרר את הגורר",
       "CenterPlaneMode": "הפעלת או ביטול מרכוז המטוס על המפה. ",
@@ -373,9 +377,12 @@
       "SetReleaseParkingBrake": "הפעל או שחרר בלם חנייה. ",
       "SliderDirection": "נוע לכיוון הרצוי",
       "SliderSpeed": "מעבר למהירות הרצויה",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "הגדל תצוגה",
       "ZoomOut": "הקטן תצוגה"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "כיוון הגרירה",
     "TugSpeed": "מהירות הגרירה"
   },

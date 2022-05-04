@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "Назад",
     "CallTug": "Вызов буксира",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
+    "EnableSystemMessageTitle": "Enable Pushback Systems",
     "Forward": "Вперёд",
     "Halt": "Приостановить",
     "LeavePageMessage": "Приостановка отталкивания",
@@ -362,6 +364,8 @@
       "Title": "Стояночный тормоз"
     },
     "Right": "Направо",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Вызовите или отпустите буксир",
       "CenterPlaneMode": "Вкл/выкл центра карты",
@@ -373,9 +377,12 @@
       "SetReleaseParkingBrake": "Установите или отпустите стояночный тормоз",
       "SliderDirection": "Перемещение в нужном направлении",
       "SliderSpeed": "Перемещение на желаемую скорость",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Увеличить",
       "ZoomOut": "Уменьшить"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Направление буксира",
     "TugSpeed": "Скорость буксира"
   },
