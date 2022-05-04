@@ -384,14 +384,14 @@
       "Title": "O Programie"
     },
     "AircraftOptionsPinPrograms": {
-      "AccelerationHeight": "Acceleration Height (ft)",
+      "AccelerationHeight": "Wysokość Zwiększenia Prędkości (ft)",
       "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (ft)",
       "IsisBaroUnit": "Ustawienie Jednostki Barometrycznej na ISIS",
       "IsisMetricAltitude": "Ustawienie Wysokości Metrycznej na ISIS",
       "LatLonExtendedFormat": "FMGC Lat/Lon Waypoint Format",
       "PaxSigns": "Znaki dla Pasażerów",
       "RmpVhfSpacing": "Odstępy Częstotliwości VHF na Panelu RMP",
-      "ThrustReductionHeight": "Thrust Reduction Height (ft)",
+      "ThrustReductionHeight": "Wysokość Redukcji Ciągu (ft)",
       "Title": "Opcje Samolotu/Przypięte Programy",
       "WeightUnit": "Jednostka Masy"
     },
