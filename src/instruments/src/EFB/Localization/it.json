@@ -351,8 +351,10 @@
   "Pushback": {
     "Backward": "Indietro",
     "CallTug": "Chiama Tug",
+    "DisableSystemMessageBody": "Sei sicuro di voler disabilitare il Sistema Pushback? Questo farà anche allontanare il tug.",
+    "DisableSystemMessageTitle": "Disabilita Sistema Pushback",
     "EnableSystemMessageBody": "Il nuovo Sistema Pushback del flyPad OS 3 non è ancora finalizzato. È incompatibile con altri add-on Pushback e potrebbe causare altri problemi.",
-    "EnableSystemMessageTitle": "Abilita Sistemi Pushback",
+    "EnableSystemMessageTitle": "Abilita Sistema Pushback",
     "Forward": "Avanti",
     "Halt": "Interrotto",
     "LeavePageMessage": "Interruzione Pushback",

@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "뒤로",
     "CallTug": "터그 부르기",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
     "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
     "EnableSystemMessageTitle": "푸시백 시스템 활성화",
     "Forward": "앞으로",

@@ -351,6 +351,8 @@
   "Pushback": {
     "Backward": "Reculer",
     "CallTug": "Appeler le remorqueur",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
     "EnableSystemMessageBody": "Le nouveau Système de Repoussage du FlyPadOS 3 n'est pas encore finalisé. Il est incompatible avec d'autres add-ons de Repoussage et peut entraîner d'autres problèmes.",
     "EnableSystemMessageTitle": "Activer Systèmes de Repoussage",
     "Forward": "Avancer",
