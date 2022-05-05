@@ -371,8 +371,8 @@
     "TT": {
       "CallReleaseTug": "Iškviesti ar paleisti vilkiką",
       "CenterPlaneMode": "Centruoti žemėlapį",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
+      "DecreaseSpeed": "Backwards or slower forwards",
+      "IncreaseSpeed": "Forwards or slower backwards",
       "Left": "Dešinėn (paspausti du kartus norint tiesaus)",
       "PausePushback": "Pristabdyti ar atstabdyti išstumimą",
       "Right": "Dešinėn (paspausti du kartus norint tiesaus)",
