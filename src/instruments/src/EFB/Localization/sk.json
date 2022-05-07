@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Smer Tagu",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Rýchlosť Tugu"
   },
   "Settings": {

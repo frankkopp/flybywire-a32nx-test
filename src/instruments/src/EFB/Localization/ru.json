@@ -386,6 +386,7 @@
     },
     "TugAttached": "Буксир прикреплен",
     "TugDirection": "Направление буксира",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Скорость буксира"
   },
   "Settings": {

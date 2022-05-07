@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Kierunek Holowania",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Prędkość Holowania"
   },
   "Settings": {

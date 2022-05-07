@@ -386,6 +386,7 @@
     },
     "TugAttached": "รถลากจูงติดอยู่แล้ว",
     "TugDirection": "ทิศทางการลากจูง",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "ความเร็วลากจูง"
   },
   "Settings": {

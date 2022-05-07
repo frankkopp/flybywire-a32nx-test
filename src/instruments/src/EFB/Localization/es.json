@@ -386,6 +386,7 @@
     },
     "TugAttached": "El remolcador está unido",
     "TugDirection": "Dirección del remolcador",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Velocidad del remolcador"
   },
   "Settings": {

@@ -386,6 +386,7 @@
     },
     "TugAttached": "Schlepper ist befestigt",
     "TugDirection": "Schlepprichtung",
+    "TugInTransit": "Warten auf Schlepper und Pin",
     "TugSpeed": "Schleppgeschwindigkeit"
   },
   "Settings": {

@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Pushbacktraktor-retning",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "pushbacktraktor-hastighet"
   },
   "Settings": {

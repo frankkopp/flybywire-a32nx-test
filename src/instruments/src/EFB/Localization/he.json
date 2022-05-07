@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "כיוון הגרירה",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "מהירות הגרירה"
   },
   "Settings": {

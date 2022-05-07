@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Direcție remorcher",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Viteză remorcher"
   },
   "Settings": {

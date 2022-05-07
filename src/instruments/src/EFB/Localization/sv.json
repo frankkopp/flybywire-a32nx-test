@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Dragarriktning",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Dragarhastighet"
   },
   "Settings": {

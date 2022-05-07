@@ -386,6 +386,7 @@
     },
     "TugAttached": "터그가  연결되었습니다",
     "TugDirection": "터그 방향",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "터그 속도"
   },
   "Settings": {

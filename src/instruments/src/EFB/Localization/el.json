@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Κατεύθυνση Ρυμουλκού",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Ταχύτητα Ρυμουλκού"
   },
   "Settings": {

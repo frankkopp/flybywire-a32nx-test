@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Tug Direction",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Tug Speed"
   },
   "Settings": {

@@ -386,6 +386,7 @@
     },
     "TugAttached": "Le remorqueur est attaché",
     "TugDirection": "Direction du remorqueur",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Vitesse du remorqueur"
   },
   "Settings": {

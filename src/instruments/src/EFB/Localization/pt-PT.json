@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Direção do Reboque",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Velocidade do Reboque"
   },
   "Settings": {

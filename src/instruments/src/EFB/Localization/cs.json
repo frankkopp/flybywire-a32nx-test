@@ -386,6 +386,7 @@
     },
     "TugAttached": "Pushback je připojen",
     "TugDirection": "Směr vytlačení",
+    "TugInTransit": "Čekání na pushback/pin",
     "TugSpeed": "Rychlost vytlačení"
   },
   "Settings": {

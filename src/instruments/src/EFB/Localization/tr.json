@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Çekici Yönü",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Çekici Hızı"
   },
   "Settings": {

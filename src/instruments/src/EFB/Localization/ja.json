@@ -386,6 +386,7 @@
     },
     "TugAttached": "牽引車に接続中",
     "TugDirection": "牽引方向",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "牽引速度"
   },
   "Settings": {

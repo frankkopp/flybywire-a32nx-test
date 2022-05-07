@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug è collegato",
     "TugDirection": "Direzione Tug",
+    "TugInTransit": "In Attesa del Tug",
     "TugSpeed": "Velocità Tug"
   },
   "Settings": {

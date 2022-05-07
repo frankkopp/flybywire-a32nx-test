@@ -386,6 +386,7 @@
     },
     "TugAttached": "Vilkikas prisijungęs",
     "TugDirection": "Vilkiko kryptis",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Vilkiko greitis"
   },
   "Settings": {

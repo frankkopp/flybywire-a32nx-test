@@ -386,6 +386,7 @@
     },
     "TugAttached": "Tug is attached",
     "TugDirection": "Skubber Retning",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Skubber hastighed"
   },
   "Settings": {
