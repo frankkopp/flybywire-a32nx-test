@@ -349,6 +349,7 @@
     "Title": "Пресеты"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Назад",
     "CallTug": "Вызов буксира",
     "DisableSystemMessageBody": "Вы действительно хотите отключить систему буксировки? Это также освободит буксир.",

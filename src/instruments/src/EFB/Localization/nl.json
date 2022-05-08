@@ -349,6 +349,7 @@
     "Title": "Voorinstellingen"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Terug",
     "CallTug": "Bel Tug",
     "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",

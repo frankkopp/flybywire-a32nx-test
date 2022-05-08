@@ -349,6 +349,7 @@
     "Title": "Forhåndsinnstillinger"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Bakover",
     "CallTug": "Tilkall pushbacktraktor",
     "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",

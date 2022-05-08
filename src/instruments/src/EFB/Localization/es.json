@@ -349,6 +349,7 @@
     "Title": "Predeterminados"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Atrás",
     "CallTug": "Llamar al remolcador",
     "DisableSystemMessageBody": "¿Está seguro que desea deshabilitar el sistema de remolque? Esto también liberará el remolcador.",

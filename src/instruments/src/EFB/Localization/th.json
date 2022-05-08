@@ -349,6 +349,7 @@
     "Title": "ค่าที่ตั้งไว้"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "ถอยหลัง",
     "CallTug": "เรียกรถลากจูง",
     "DisableSystemMessageBody": "คุณแน่ใจหรือว่าต้องการจะปิดการใช้งานระบบ Pushback? นอกจากนี้ยังจะปล่อยรถลากจูงด้วย",
