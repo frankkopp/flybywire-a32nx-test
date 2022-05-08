@@ -126,7 +126,7 @@
       "RightInnerTank": "右内侧油箱",
       "RightOuterTank": "右外侧油箱",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "飞机必须处于冷舱状态才能更改加油时间",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "飞机必须恢复至冷舱状态以更改加油时间",
         "FillBlockFuelFromSimBrief": "填充来自SimBrief的燃油量"
       },
       "Title": "燃油",
@@ -261,7 +261,7 @@
       "Temperature": "气温",
       "Title": "着陆",
       "UnitFt": "英尺 (ft)",
-      "UnitMeter": "米",
+      "UnitMeter": "米 (m)",
       "Weight": "重量",
       "WindDirection": "风向",
       "WindDirectionUnit": "°",
@@ -357,7 +357,7 @@
     "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
     "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "向前",
-    "Halt": "停止",
+    "Halt": "暂停",
     "LeavePageMessage": "Pausing Pushback",
     "Left": "Left",
     "Moving": "Moving",
@@ -440,7 +440,7 @@
       "WindInteriorVolume": "舱内气流音量"
     },
     "Fast": "快",
-    "Instant": "立即",
+    "Instant": "即时",
     "Real": "真实",
     "Realism": {
       "AdirsAlignTime": "ADIRS 校准需时",
@@ -457,7 +457,7 @@
       "Active": "启用",
       "Auto": "自动",
       "Calibrate": "校准",
-      "DefaultBarometerUnit": "默认气压计单位",
+      "DefaultBarometerUnit": "默认气压单位",
       "DynamicRegistrationDecal": "动态注册号喷涂",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "启用 MCDU 服务器 (5 分钟之内无连接将自动停用)",
       "ExternalMcduServerPort": "MCDU 服务器端口",
@@ -469,7 +469,7 @@
       "Save": "保存",
       "SyncMsfsFlightPlan": "同步 MSFS 内飞行计划",
       "ThrottleDetents": "油门卡位",
-      "Title": "模拟选项",
+      "Title": "模拟器选项",
       "UseCalculatedIlsSignals": "使用经系统计算的ILS 信号",
       "inHg": "英寸汞柱 (inHg)"
     },
