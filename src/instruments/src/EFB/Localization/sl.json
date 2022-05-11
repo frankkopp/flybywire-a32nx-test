@@ -349,7 +349,7 @@
     "Title": "Prednastavitve"
   },
   "Pushback": {
-    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
+    "AvailableOnlyOnGround": "Nadzor vleke je mogoč samo na tleh",
     "Backward": "Vzvratno",
     "CallTug": "Pokliči vlačilec",
     "DisableSystemMessageBody": "Ali ste prepričani, da želite onemogočiti sistem vleke? To bo odklopilo tudi vlačilca.",
