@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "手荷物トラック",
       "CateringTruck": "機内食トラック",
+      "Cones": "Safety Cones",
       "DoorAft": "後部ドア",
       "DoorFwd": "前部ドア",
       "ExternalPower": "外部電源",
       "FuelTruck": "燃料トラック",
       "JetBridge": "ボーディングブリッジ",
-      "Title": "サービス"
+      "Title": "サービス",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "グランド"
   },

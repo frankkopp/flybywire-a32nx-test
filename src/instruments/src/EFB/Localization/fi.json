@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Matkatavarat",
       "CateringTruck": "Ateriapalvelut",
+      "Cones": "Safety Cones",
       "DoorAft": "Takaovi",
       "DoorFwd": "Etuovi",
       "ExternalPower": "Maasähkö",
       "FuelTruck": "Polttoainerekka",
       "JetBridge": "Matkustajasilta",
-      "Title": "Palvelut"
+      "Title": "Palvelut",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Maa"
   },

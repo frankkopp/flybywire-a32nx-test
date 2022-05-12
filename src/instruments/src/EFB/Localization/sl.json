@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Tovornjak za prtljago",
       "CateringTruck": "Gostinski tovornjak",
+      "Cones": "Safety Cones",
       "DoorAft": "Zadnja vrata",
       "DoorFwd": "Sprednja vrata",
       "ExternalPower": "Zunanje napajanje",
       "FuelTruck": "Tovornjak z gorivom",
       "JetBridge": "Potniški most",
-      "Title": "Storitve"
+      "Title": "Storitve",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Tla"
   },

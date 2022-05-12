@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "รถบรรทุกสัมภาระ",
       "CateringTruck": "รถบรรทุกอาหาร",
+      "Cones": "Safety Cones",
       "DoorAft": "ประตูท้าย",
       "DoorFwd": "ประตูหน้า",
       "ExternalPower": "พลังงานภาคพื้น",
       "FuelTruck": "รถบรรทุกน้ำมัน",
       "JetBridge": "สะพานเทียบ",
-      "Title": "บริการ"
+      "Title": "บริการ",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "ภาคพื้น"
   },

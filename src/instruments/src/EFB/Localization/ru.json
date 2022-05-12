@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Багажный грузовик",
       "CateringTruck": "Кейтеринг грузовик",
+      "Cones": "Safety Cones",
       "DoorAft": "Задняя дверь",
       "DoorFwd": "Передняя дверь",
       "ExternalPower": "Внешнее питание",
       "FuelTruck": "Топливная тележка",
       "JetBridge": "Джет Бридж",
-      "Title": "Сервисы"
+      "Title": "Сервисы",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Земля"
   },

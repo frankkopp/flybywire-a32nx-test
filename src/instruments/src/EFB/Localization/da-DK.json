@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Bagage Truck",
       "CateringTruck": "Catering Truck",
+      "Cones": "Safety Cones",
       "DoorAft": "Bagdør",
       "DoorFwd": "Front Dør",
       "ExternalPower": "Ekstern Strøm",
       "FuelTruck": "Brændstof Lastbil",
       "JetBridge": "Jetbro",
-      "Title": "Tjenester"
+      "Title": "Tjenester",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Jorden"
   },

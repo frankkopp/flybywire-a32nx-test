@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Gepäckabfertigung",
       "CateringTruck": "Catering",
+      "Cones": "Sicherheitskegel",
       "DoorAft": "Hintere Tür",
       "DoorFwd": "Vordere Tür",
       "ExternalPower": "Externe Stromversorgung",
       "FuelTruck": "Tankwagen",
       "JetBridge": "Fluggastbrücke",
-      "Title": "Bodendienste"
+      "Title": "Bodendienste",
+      "WheelChocks": "Radvorleger"
     },
     "Title": "Bodendienste"
   },

@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "משאית כבודה",
       "CateringTruck": "משאית קייטרינג",
+      "Cones": "Safety Cones",
       "DoorAft": "דלת אחורית",
       "DoorFwd": "דלת קדמית",
       "ExternalPower": "מתח חיצוני",
       "FuelTruck": "משאית דלק",
       "JetBridge": "שרוול",
-      "Title": "שירותים"
+      "Title": "שירותים",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "קרקע"
   },

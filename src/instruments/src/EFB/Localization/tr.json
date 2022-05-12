@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Bagaj Kamyonu",
       "CateringTruck": "Yemek Servis Aracı",
+      "Cones": "Safety Cones",
       "DoorAft": "Arka Giriş Kapısı",
       "DoorFwd": "Ön Giriş Kapısı",
       "ExternalPower": "Harici Güç",
       "FuelTruck": "Yakıt Kamyonu",
       "JetBridge": "Körük",
-      "Title": "Hizmetler"
+      "Title": "Hizmetler",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Yer"
   },

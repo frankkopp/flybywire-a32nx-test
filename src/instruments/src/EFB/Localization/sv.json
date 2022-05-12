@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Bagagelastbil",
       "CateringTruck": "Cateringlastbil",
+      "Cones": "Koner",
       "DoorAft": "Bakre dörr",
       "DoorFwd": "Främre dörr",
       "ExternalPower": "Extern ström",
       "FuelTruck": "Bränslebil",
       "JetBridge": "Jetbrygga",
-      "Title": "Tjänster"
+      "Title": "Tjänster",
+      "WheelChocks": "Hjulklossar"
     },
     "Title": "Marken"
   },

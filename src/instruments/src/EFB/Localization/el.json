@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Φορτηγό Αποσκευών",
       "CateringTruck": "Φορτηγό Τροφοδοσίας",
+      "Cones": "Safety Cones",
       "DoorAft": "Πίσω Πόρτα",
       "DoorFwd": "Μπροστινή Πόρτα",
       "ExternalPower": "Εξωτερική Ισχύος ",
       "FuelTruck": "Φορτηγό Καυσίμων",
       "JetBridge": "Γέφυρα Επιβίβασης ",
-      "Title": "Υπηρεσίες"
+      "Title": "Υπηρεσίες",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Έδαφος"
   },

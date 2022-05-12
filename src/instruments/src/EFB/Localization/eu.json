@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Ekipaje kamioia",
       "CateringTruck": "Catering kamioia",
+      "Cones": "Safety Cones",
       "DoorAft": "Atz. Atea",
       "DoorFwd": "Aurr. Atea",
       "ExternalPower": "Kanpo elikatze elektrikoa",
       "FuelTruck": "Erregai kamioia",
       "JetBridge": "Hegazkineratze zubia",
-      "Title": "Zerbitzuak"
+      "Title": "Zerbitzuak",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Lurra"
   },

@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "सामान ट्रक",
       "CateringTruck": "खानपान ट्रक",
+      "Cones": "Safety Cones",
       "DoorAft": "पिछला दरवाज़ा",
       "DoorFwd": "अगला दरवाज़ा",
       "ExternalPower": "बाहरी ऊर्जा",
       "FuelTruck": "ईंधन ट्रक",
       "JetBridge": "जेट पुल",
-      "Title": "सेवाएं"
+      "Title": "सेवाएं",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "सेवाएं"
   },

@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Truk Bagasi",
       "CateringTruck": "Truk Katering",
+      "Cones": "Safety Cones",
       "DoorAft": "Pintu Belakang",
       "DoorFwd": "Pintu Depan",
       "ExternalPower": "Daya Eksternal",
       "FuelTruck": "Truk Bahan Bakar",
       "JetBridge": "Garbarata",
-      "Title": "Layanan"
+      "Title": "Layanan",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Konfigurasi Darat"
   },

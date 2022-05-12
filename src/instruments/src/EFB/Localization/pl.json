@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Ciężarówka Bagażowa",
       "CateringTruck": "Ciężarówka Gastronomiczna",
+      "Cones": "Safety Cones",
       "DoorAft": "Drzwi Rufowe",
       "DoorFwd": "Przednie Drzwi",
       "ExternalPower": "Zewnętrzne Zasilanie",
       "FuelTruck": "Cysterna z Paliwem",
       "JetBridge": "Rękaw",
-      "Title": "Obsługa"
+      "Title": "Obsługa",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Obsługa Naziemna"
   },

@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Poggyászkocsi",
       "CateringTruck": "Utasellátó",
+      "Cones": "Safety Cones",
       "DoorAft": "Hátsó ajtó",
       "DoorFwd": "Első ajtó",
       "ExternalPower": "Külső áramforrás",
       "FuelTruck": "Tartálykocsi",
       "JetBridge": "Utashíd",
-      "Title": "Szolgáltatások"
+      "Title": "Szolgáltatások",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Földi kiszolgálás"
   },

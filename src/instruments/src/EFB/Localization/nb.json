@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Bagasjebil",
       "CateringTruck": "Cateringbil",
+      "Cones": "Safety Cones",
       "DoorAft": "Bakre dør",
       "DoorFwd": "Fremre dør",
       "ExternalPower": "Ekstern Strøm",
       "FuelTruck": "Drivstoffbil",
       "JetBridge": "Ombordstigningsbro",
-      "Title": "Tjenester"
+      "Title": "Tjenester",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Bakke"
   },

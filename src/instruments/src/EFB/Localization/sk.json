@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Batožinové vozidlo",
       "CateringTruck": "Cateringové vozidlo",
+      "Cones": "Safety Cones",
       "DoorAft": "Dvere zadné",
       "DoorFwd": "Dvere predné",
       "ExternalPower": "Externé napájanie",
       "FuelTruck": "Cisterna z palivom",
       "JetBridge": "Jet Bridge",
-      "Title": "Služby"
+      "Title": "Služby",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Pozemný servis"
   },

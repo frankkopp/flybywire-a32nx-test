@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Camion de bagaje",
       "CateringTruck": "Camion de Catering",
+      "Cones": "Safety Cones",
       "DoorAft": "Uşa din spate",
       "DoorFwd": "Uşa din față",
       "ExternalPower": "Unitate externă",
       "FuelTruck": "Camion de combustibil",
       "JetBridge": "Burduf de îmbarcare ",
-      "Title": "Servicii"
+      "Title": "Servicii",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Sol"
   },

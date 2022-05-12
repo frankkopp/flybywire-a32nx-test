@@ -139,12 +139,14 @@
     "Services": {
       "BaggageTruck": "Caminhão de bagagem",
       "CateringTruck": "Caminhão de refeições",
+      "Cones": "Safety Cones",
       "DoorAft": "Porta traseira",
       "DoorFwd": "Porta Frontal",
       "ExternalPower": "Alimentação externa",
       "FuelTruck": "Caminhão de combustível",
       "JetBridge": "Ponte de embarque",
-      "Title": "Serviços"
+      "Title": "Serviços",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Solo"
   },
