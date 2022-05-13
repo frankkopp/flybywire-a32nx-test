@@ -459,6 +459,7 @@
       "Active": "Aktiv",
       "Auto": "Automatisk",
       "Calibrate": "Kalibrer",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Standard Barometerenhet",
       "DynamicRegistrationDecal": "Dynamisk registreringsdekal",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Aktiver MCDU Servertilkobling (Deaktiveres automatisk etter 5 minutter hvis tilkoblingen ikke er vellykket)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Gassperrer",
       "Title": "Sim-alternativer",
       "UseCalculatedIlsSignals": "Bruk kalkulerte ILS-signaler",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

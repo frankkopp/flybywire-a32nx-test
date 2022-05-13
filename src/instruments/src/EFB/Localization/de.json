@@ -146,7 +146,7 @@
       "FuelTruck": "Tankwagen",
       "JetBridge": "Fluggastbrücke",
       "Title": "Bodendienste",
-      "WheelChocks": "Radvorleger"
+      "WheelChocks": "Bremskeile"
     },
     "Title": "Bodendienste"
   },
@@ -356,7 +356,7 @@
     "CallTug": "Rufe Flugzeugschlepper",
     "DisableSystemMessageBody": "Möchten Sie das Pushback-System wirklich deaktivieren? Dadurch wird auch der Schlepper freigegeben.",
     "DisableSystemMessageTitle": "Pushback-System deaktivieren",
-    "EnableSystemMessageBody": "Das neue flyPadOS 3 Pushback-System ist noch nicht fertiggestellt. Es ist nicht mit anderen Pushback-Add-ons kompatibel und kann andere Probleme verursachen.",
+    "EnableSystemMessageBody": "Das neue flyPadOS 3 Pushback-System kann Konflikte mit anderen Pushback-Add-Ons verursachen. Wir empfehlen, das System nicht zu aktivieren, sollte ein anderes Pushback-Add-on verwendet werden.. ",
     "EnableSystemMessageTitle": "Pushback-System aktivieren",
     "Forward": "Vorwärts",
     "Halt": "Pausiert",
@@ -459,6 +459,7 @@
       "Active": "Aktiv",
       "Auto": "Auto",
       "Calibrate": "Kalibrieren",
+      "ConesEnabled": "Sicherheitskegel",
       "DefaultBarometerUnit": "Standard Barometer-Einheit",
       "DynamicRegistrationDecal": "Flugzeugkennzeichen dynamisch darstellen",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "MCDU Serververbindung aktivieren (Wird nach 5 Minuten automatisch deaktiviert, wenn keine Verbindung zustande kommt)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Schubhebelkalibrierung",
       "Title": "Sim-Optionen",
       "UseCalculatedIlsSignals": "Berechnete ILS-Signale verwenden",
+      "WheelChocksEnabled": "Bremskeile",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

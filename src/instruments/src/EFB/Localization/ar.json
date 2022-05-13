@@ -459,6 +459,7 @@
       "Active": "نشط",
       "Auto": "تلقائي",
       "Calibrate": "تعيّر ",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "وحدة البارومتر الافتراضية",
       "DynamicRegistrationDecal": "ملصق تسجيل ديناميكي",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "تمكين اتصال خادم MCDU (إلغاء التنشيط التلقائي بعد 5 دقائق إذا لم يكن هناك اتصال ناجح)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "محددات دفة تحكم النفاث ",
       "Title": "خيارات المحاكاة ",
       "UseCalculatedIlsSignals": "استخدم إشارات ILS المحسوبة",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "زنج"
     },
     "ThrottleConfig": {

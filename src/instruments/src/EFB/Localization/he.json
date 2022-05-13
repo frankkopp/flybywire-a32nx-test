@@ -459,6 +459,7 @@
       "Active": "פעיל",
       "Auto": "אוטומטי",
       "Calibrate": "ויסות",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "יחידת ברומטר ברירת מחדל",
       "DynamicRegistrationDecal": "דִינָמִי מדבקת רישום",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "אפשר חיבור שרת MCDU (נכבה אוטומטית לאחר חמש דקות אם לא היה חיבור מוצלח)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "מעצורי מצערת",
       "Title": "אפשרויות סימולטור",
       "UseCalculatedIlsSignals": "השתמש באותות ILS מחושבים",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

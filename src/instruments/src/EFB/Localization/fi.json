@@ -459,6 +459,7 @@
       "Active": "Aktiivinen",
       "Auto": "Automaattinen",
       "Calibrate": "Kalibroi",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Paineen oletusyksikkö",
       "DynamicRegistrationDecal": "Dynaaminen rekisteröintimerkintä",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Ota lentotietokoneen palvelinyhteys käyttöön (yhdistysyritykset loppuvat 5 minuutin kuluttua, jos yhdistäminen ei onnistu)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Kaasupykälät",
       "Title": "Sim -asetukset",
       "UseCalculatedIlsSignals": "Käytä laskettuja ILS-signaaleja",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

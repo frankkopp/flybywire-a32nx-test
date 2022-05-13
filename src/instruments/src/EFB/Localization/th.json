@@ -459,6 +459,7 @@
       "Active": "ใช้งานอยู่",
       "Auto": "อัตโนมัติ",
       "Calibrate": "Calibrate",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "หน่วย Barometer เริ่มต้น",
       "DynamicRegistrationDecal": "ทะเบียนเครื่องบินแบบไดนามิก",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "เปิดใช้งานการเชื่อมต่อเซิร์ฟเวอร์ MCDU (ปิดการทำงานหลังจาก 5 นาทีอัตโนมัติ หากไม่มีการเชื่อมต่อที่สำเร็จ)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Throttle Detents",
       "Title": "ตัวเลือกซิม",
       "UseCalculatedIlsSignals": "ใช้สัญญาณ ILS ที่คำนวณได้",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

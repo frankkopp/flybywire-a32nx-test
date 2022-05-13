@@ -459,6 +459,7 @@
       "Active": "Aktif",
       "Auto": "Otomatis",
       "Calibrate": "Kalibrasi",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Standar Satuan Barometer",
       "DynamicRegistrationDecal": "Nomor Registrasi Pesawat",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Aktifkan Koneksi Server MCDU (Otomatis dinonaktifkan setelah 5 menit jika tidak ada koneksi yang berhasil)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Penahan Throttle",
       "Title": "Opsi Sim",
       "UseCalculatedIlsSignals": "Gunakan Sinyal ILS yang telah dikalkulasikan",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

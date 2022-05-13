@@ -459,6 +459,7 @@
       "Active": "Ativo",
       "Auto": "Automático",
       "Calibrate": "Calibrar",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Unidade padrão do barômetro",
       "DynamicRegistrationDecal": "Registro dinâmico do decalque",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Ativar conexão com o servidor MCDU (desativa automaticamente após 5 minutos se não houver conexão bem-sucedida)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Manetes de potência",
       "Title": "Opções do Simulador",
       "UseCalculatedIlsSignals": "Usar sinais ILS calculados",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

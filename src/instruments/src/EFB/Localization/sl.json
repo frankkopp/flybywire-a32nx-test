@@ -139,14 +139,14 @@
     "Services": {
       "BaggageTruck": "Tovornjak za prtljago",
       "CateringTruck": "Gostinski tovornjak",
-      "Cones": "Safety Cones",
+      "Cones": "Varnostni stožci",
       "DoorAft": "Zadnja vrata",
       "DoorFwd": "Sprednja vrata",
       "ExternalPower": "Zunanje napajanje",
       "FuelTruck": "Tovornjak z gorivom",
       "JetBridge": "Potniški most",
       "Title": "Storitve",
-      "WheelChocks": "Wheel Chocks"
+      "WheelChocks": "Kolesne zagozde"
     },
     "Title": "Tla"
   },
@@ -459,6 +459,7 @@
       "Active": "Aktivno",
       "Auto": "Samodejno",
       "Calibrate": "Kalibracija",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Privzeta barometrična enota",
       "DynamicRegistrationDecal": "Dinamična registrska nalepka",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Omogoči povezavo s strežnikom MCDU (samodejna deaktivacija po 5 minutah, če ni uspešne povezave)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Odkloni plinske ročke",
       "Title": "Nastavitve simulatorja",
       "UseCalculatedIlsSignals": "Uporaba izračunanih signalov ILS",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {

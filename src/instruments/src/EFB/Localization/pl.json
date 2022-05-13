@@ -356,7 +356,7 @@
     "CallTug": "Wezwij Holownik",
     "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
     "DisableSystemMessageTitle": "Disable Pushback System",
-    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System is not yet finalized. It is incompatible with other Pushback add-ons and might cause other issues.",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System can cause conflicts with other pushback add-ons. We recommend not to enable the system if you plan to use another pushback add-on. ",
     "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "Do Przodu",
     "Halt": "Stój",
@@ -459,6 +459,7 @@
       "Active": "Aktywny",
       "Auto": "Automatycznie",
       "Calibrate": "Kalibruj",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Domyślna Jednostka Barometru",
       "DynamicRegistrationDecal": "Dynamiczny Numer Rejestracyjny",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Włącz połączenie z serwerem MCDU (Automatycznie dezaktywowane po 5 minutach bez połączenia)",
@@ -473,6 +474,7 @@
       "ThrottleDetents": "Kalibracja Przepustnic",
       "Title": "Ustawienia Symulatora",
       "UseCalculatedIlsSignals": "Użyj Wyliczonego Sygnału ILS",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
