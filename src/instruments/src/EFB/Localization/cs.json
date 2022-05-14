@@ -364,8 +364,8 @@
     "Left": "Doleva",
     "Moving": "V pohybu",
     "ParkingBrake": {
-      "Off": "Vypnuto",
-      "On": "Zapnuto",
+      "Off": "vypnutá",
+      "On": "zapnutá",
       "Title": "Parkovací brzda"
     },
     "Right": "Doprava",
