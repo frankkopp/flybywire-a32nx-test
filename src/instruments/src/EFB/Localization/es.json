@@ -523,6 +523,8 @@
       "UtcAndLocal": "UTC y local"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Duración de la batería simulada",
   "StatusBar": {
     "Apr": "Abr",
