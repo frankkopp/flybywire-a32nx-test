@@ -453,6 +453,8 @@
       "HomeCockpitMode": "Режим домашней кабины",
       "McduFocusTimeout": "Тайм-аут фокуса MCDU (секунды)",
       "McduKeyboardInput": "Ввод с клавиатуры MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Отдельный румпель от входов руля",
       "Title": "Реализм"
     },
@@ -504,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Автояркость",
       "AutomaticallyShowOnscreenKeyboard": "Автоматически показывать экранную клавиатуру",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Синяя",
       "Brightness": "Яркость",
       "Dark": "Темная",

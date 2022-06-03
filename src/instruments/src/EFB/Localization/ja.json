@@ -453,6 +453,8 @@
       "HomeCockpitMode": "ホームコックピットモード",
       "McduFocusTimeout": "MCDUへのフォーカスがタイムアウトする時間(秒)",
       "McduKeyboardInput": "MCDUへのキーボード入力",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "ティラーをラダー入力から分離",
       "Title": "リアリズム"
     },
@@ -504,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "明るさ自動調節",
       "AutomaticallyShowOnscreenKeyboard": "スクリーンキーボードを自動的に表示",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "ブルー",
       "Brightness": "明るさ",
       "Dark": "ダーク",
