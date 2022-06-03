@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "行李車",
       "CateringTruck": "飲食服務車",
+      "Cones": "Safety Cones",
       "DoorAft": "後門",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "正門",
       "ExternalPower": "外部電源",
       "FuelTruck": "燃油車",
       "JetBridge": "登機橋",
-      "Title": "服務"
+      "Title": "服務",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "地勤"
   },
@@ -349,11 +352,16 @@
     "Title": "預設"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "向後",
     "CallTug": "召喚推機車",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System can cause conflicts with other pushback add-ons. We recommend not to enable the system if you plan to use another pushback add-on. ",
+    "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "向前",
     "Halt": "已暫停",
-    "LeavePageMessage": "Pausing Pushback",
+    "LeavePageMessage": "暫停推機",
     "Left": "左",
     "Moving": "移動中",
     "ParkingBrake": {
@@ -362,21 +370,27 @@
       "Title": "泊機煞掣"
     },
     "Right": "右",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "召喚或釋放推機車",
       "CenterPlaneMode": "地圖中央於本機 — 開/關",
-      "DecreaseSpeed": "向後或慢前 (雙擊重設速度為 0",
-      "IncreaseSpeed": "向前或慢後 (雙擊重設速度為 0",
-      "Left": "左轉 (雙擊停轉)",
+      "DecreaseSpeed": "向後或慢前",
+      "IncreaseSpeed": "向前或慢後",
+      "Left": "左轉",
       "PausePushback": "暫停或回復推機",
-      "Right": "右轉 (雙擊停轉)",
+      "Right": "右轉",
       "SetReleaseParkingBrake": "鎖上或放開泊機煞掣",
       "SliderDirection": "移動到所需方向",
       "SliderSpeed": "移動到所需速度",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "放大",
       "ZoomOut": "縮小"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "推機方向",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "推機速度"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "砌機駕駛艙模式",
       "McduFocusTimeout": "MCDU 對焦超時 (秒)",
       "McduKeyboardInput": "MCDU 鍵盤輸入",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "將舵柄與腳踏輸入分開",
       "Title": "仿真度"
     },
@@ -446,6 +462,7 @@
       "Active": "使用中",
       "Auto": "自動",
       "Calibrate": "校正",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "氣壓單位",
       "DynamicRegistrationDecal": "註冊印花隨機",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "啟用 MCDU 伺服器 (5 分鐘之內無連接下會自動停用)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "油門停點",
       "Title": "模擬選項",
       "UseCalculatedIlsSignals": "使用電腦計算的 ILS 信號",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "英寸汞柱 (inHg)"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "自動調整亮度",
       "AutomaticallyShowOnscreenKeyboard": "自動顯示屏幕鍵盤",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "藍色",
       "Brightness": "亮度",
       "Dark": "深色",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC 和本地時間"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "模擬電池充量",
   "StatusBar": {
     "Apr": "四月",

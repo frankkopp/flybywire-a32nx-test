@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Bagažo sunkvežimis",
       "CateringTruck": "Maitinimo sunkvežimis",
+      "Cones": "Saugumo kūgiai",
       "DoorAft": "Galinės durys",
+      "DoorCargo": "Bagažo durys",
       "DoorFwd": "Priekinės durys",
-      "ExternalPower": "Išorinė energija",
+      "ExternalPower": "Išorinė elektros energija",
       "FuelTruck": "Kuro cisterna",
       "JetBridge": "Rankovė",
-      "Title": "Aptarnavimas"
+      "Title": "Aptarnavimas",
+      "WheelChocks": "Ratų atrama"
     },
     "Title": "Paslaugos"
   },
@@ -173,7 +176,7 @@
       "AuthenticateWithNavigraph": "Autentifikuoti su Navigraph",
       "InsufficientEnv": "Nepakankamas .env failas",
       "IntoYourBrowserAndEnterTheCodeBelow": "savo naršyklėje ir įveskite žemiau esantį kodą.",
-      "LoadingMsg": "Loading",
+      "LoadingMsg": "Įkeliama",
       "NoAirportSelected": "Oro uostas nepasirinktas",
       "ResetNavigraphAuthentication": "Atstatyti Navigraph autentifikaciją",
       "ScanTheQrCodeOrOpen": "Nuskanuokite QR kodą arba atidarykite",
@@ -241,12 +244,12 @@
       "RunwayAltitudeUnit": "pėdos virš jūros lygio",
       "RunwayCondition": "Pakilimo tako kondicija",
       "RunwayConditions": {
-        "Dry": "Dry (6)",
-        "Good": "Good (5)",
-        "GoodMedium": "Good-Medium (4)",
-        "Medium": "Medium (3)",
-        "MediumPoor": "Medium-Poor (2)",
-        "Poor": "Poor (1)"
+        "Dry": "Sausa (6)",
+        "Good": "Gera (5)",
+        "GoodMedium": "Gera (4)",
+        "Medium": "Vidutiniška (3)",
+        "MediumPoor": "Prasta (2)",
+        "Poor": "Labai prasta (1)"
       },
       "RunwayHeading": "Pakilimo tako kryptis",
       "RunwayHeadingUnit": "°",
@@ -349,34 +352,45 @@
     "Title": "Išankstiniai nustatymai"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Išstumimo kontrolė prieinama tik ant žemės",
     "Backward": "Atgal",
     "CallTug": "Iškviesti vilkiką",
+    "DisableSystemMessageBody": "Ar tikrai norite išjunti išstumimo sistemą? Vilkikas bus paleistas.",
+    "DisableSystemMessageTitle": "Išjungti išstumimo sistemą",
+    "EnableSystemMessageBody": "Nauja flyPadOS 3 išstumimo sistema yra nesuderinama su kitais išstumimo papildymais ir gali sukelti problemų.",
+    "EnableSystemMessageTitle": "Įjungti išstumimo sistemą",
     "Forward": "Pirmyn",
-    "Halt": "Sustabdyti",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Left",
-    "Moving": "Moving",
+    "Halt": "Pristabdyta",
+    "LeavePageMessage": "Išstumimas pristabdomas",
+    "Left": "Kairėn",
+    "Moving": "Juda",
     "ParkingBrake": {
       "Off": "Išjungta",
       "On": "Įjungta",
       "Title": "Stovėjimo stabdys"
     },
-    "Right": "Right",
+    "Right": "Dešinėn",
+    "SystemEnabledOff": "Išstumimo sistema išjungta",
+    "SystemEnabledOn": "Išstumimo sistema įjungta",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "Iškviesti ar paleisti vilkiką",
+      "CenterPlaneMode": "Centruoti žemėlapį",
+      "DecreaseSpeed": "Atgal arba lėčiau pirmyn",
+      "IncreaseSpeed": "Pirmyn arba lėčiau atgal",
+      "Left": "Dešinėn",
+      "PausePushback": "Pristabdyti ar atstabdyti išstumimą",
+      "Right": "Dešinėn",
+      "SetReleaseParkingBrake": "Užtraukti ar atleisti stovėjimo stabdį",
+      "SliderDirection": "Pasirinkite norimą kryptį",
+      "SliderSpeed": "Pasirinkite norimą greitį",
+      "SystemEnabledOff": "Paspauskite norint įjungti išstumimo sistemą.",
+      "SystemEnabledOn": "Paspauskite norint pilnai išjungti išstumimo sistemą.",
+      "ZoomIn": "Priartinti",
+      "ZoomOut": "Nutolinti"
     },
+    "TugAttached": "Vilkikas prisijungęs",
     "TugDirection": "Vilkiko kryptis",
+    "TugInTransit": "Laukiama vilkiko",
     "TugSpeed": "Vilkiko greitis"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Namų kabinos režimas",
       "McduFocusTimeout": "MCDU fokuso praradimas (sekundės)",
       "McduKeyboardInput": "MCDU duomenų įvedimas klaviatūra",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Išskirti tiller iš krypties vairo komandų",
       "Title": "Realizmas"
     },
@@ -446,7 +462,8 @@
       "Active": "Aktyvus",
       "Auto": "Automatinis",
       "Calibrate": "Kalibruoti",
-      "DefaultBarometerUnit": "Numatyti Barometro Vienetai",
+      "ConesEnabled": "Saugumo kūgiai",
+      "DefaultBarometerUnit": "Numatyti barometro vienetai",
       "DynamicRegistrationDecal": "Dinaminis registracijos lipdukas",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Įgalinti MCDU serverio prisijungimą (automatiškai išjungiama po 5 minučių, jei nepavyksta prisijungti)",
       "ExternalMcduServerPort": "Išorinis MCDU serverio port",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Droselio detentai",
       "Title": "Simuliatoriaus nustatymai",
       "UseCalculatedIlsSignals": "Naudoti apskaičiuotus ILS signalus",
+      "WheelChocksEnabled": "Ratų atrama",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Automatinis ryškumas",
       "AutomaticallyShowOnscreenKeyboard": "Automatiškai rodyti ekrano klaviatūrą",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Mėlyna",
       "Brightness": "Ryškumas",
       "Dark": "Tamsi",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC ir vietinis"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Baterijos veikimo laikas simuliuotas",
   "StatusBar": {
     "Apr": "Bal",

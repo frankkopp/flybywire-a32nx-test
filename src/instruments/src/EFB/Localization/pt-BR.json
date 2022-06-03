@@ -49,7 +49,7 @@
         "Loading": "Carregando",
         "MetarParsingError": "O METAR recebido não pôde ser analisado",
         "NoIcaoProvided": "Nenhum ICAO fornecido",
-        "NotAvailableShort": "N/A",
+        "NotAvailableShort": "Indisponível",
         "Raw": "Tempo ruim",
         "TT": {
           "SwitchToIconView": "Mudar para a visualização de ícones",
@@ -126,7 +126,7 @@
       "RightInnerTank": "Tanque interno direito",
       "RightOuterTank": "Tanque externo direito",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "A aeronave deve estar completamente desligada para mudar os tempos de reabastecimento",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Alterar a duração do reabastecimento somente no solo com os motores desligados",
         "FillBlockFuelFromSimBrief": "Preencher o bloco de combustível a partir do SimBrief"
       },
       "Title": "Combustível",
@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Caminhão de bagagem",
       "CateringTruck": "Caminhão de refeições",
+      "Cones": "Safety Cones",
       "DoorAft": "Porta traseira",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Porta Frontal",
       "ExternalPower": "Alimentação externa",
       "FuelTruck": "Caminhão de combustível",
       "JetBridge": "Ponte de embarque",
-      "Title": "Serviços"
+      "Title": "Serviços",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Solo"
   },
@@ -173,7 +176,7 @@
       "AuthenticateWithNavigraph": "Autenticar com Navigraph",
       "InsufficientEnv": "Arquivo .env insuficiente",
       "IntoYourBrowserAndEnterTheCodeBelow": "em seu navegador e insira o código abaixo\n",
-      "LoadingMsg": "Loading",
+      "LoadingMsg": "Carregando",
       "NoAirportSelected": "Nenhum aeroporto selecionado",
       "ResetNavigraphAuthentication": "Redefinir a autenticação Navigraph",
       "ScanTheQrCodeOrOpen": "Digitalize o código QR ou abra",
@@ -241,12 +244,12 @@
       "RunwayAltitudeUnit": "pés ASL",
       "RunwayCondition": "Condição da pista",
       "RunwayConditions": {
-        "Dry": "Dry (6)",
-        "Good": "Good (5)",
-        "GoodMedium": "Good-Medium (4)",
-        "Medium": "Medium (3)",
-        "MediumPoor": "Medium-Poor (2)",
-        "Poor": "Poor (1)"
+        "Dry": "Seco (6)",
+        "Good": "Bom (5)",
+        "GoodMedium": "Bom-médio (4)",
+        "Medium": "Médio (3)",
+        "MediumPoor": "Médio-Ruim (2)",
+        "Poor": "Ruim (1)"
       },
       "RunwayHeading": "Direção da pista",
       "RunwayHeadingUnit": "°",
@@ -349,34 +352,45 @@
     "Title": "Predefinições"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Os controles de Pushback só estão disponíveis no solo",
     "Backward": "Para trás",
     "CallTug": "Chamar reboque",
+    "DisableSystemMessageBody": "Tem certeza de que deseja desativar o Sistema de Pushback? Isso também irá retirar o rebocador.",
+    "DisableSystemMessageTitle": "Desativar sistema de pushback",
+    "EnableSystemMessageBody": "O novo Sistema de Pushback do FlyPadOS 3 ainda não está finalizado. Ele é incompatível com outros add-ons de Pushback e pode causar outros problemas.",
+    "EnableSystemMessageTitle": "Habilitar sistemas de pushback",
     "Forward": "Para frente",
-    "Halt": "Parar",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Left",
-    "Moving": "Moving",
+    "Halt": "Pausado",
+    "LeavePageMessage": "Pausando o pushback",
+    "Left": "Esquerda",
+    "Moving": "Movendo",
     "ParkingBrake": {
       "Off": "Desativado",
       "On": "Ativado",
       "Title": "Freio de estacionamento"
     },
-    "Right": "Right",
+    "Right": "Direita",
+    "SystemEnabledOff": "Sistema de pushback desligado",
+    "SystemEnabledOn": "Sistema de pushback ativado",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "Chamar ou liberar o reboque",
+      "CenterPlaneMode": "Ligar/desligar centralização de mapa no avião",
+      "DecreaseSpeed": "Para trás ou para frente mais devagar",
+      "IncreaseSpeed": "Para frente ou mais devagar para trás",
+      "Left": "Vá para a esquerda",
+      "PausePushback": "Pausar ou despausar o pushback",
+      "Right": "Vá para a direita",
+      "SetReleaseParkingBrake": "Acione ou solte o freio de estacionamento",
+      "SliderDirection": "Mova-se para a direção desejada",
+      "SliderSpeed": "Mova-se para a velocidade desejada",
+      "SystemEnabledOff": "Clique para ativar o sistema de pushback.",
+      "SystemEnabledOn": "Clique para desligar completamente o sistema de pushback.",
+      "ZoomIn": "Aumentar zoom",
+      "ZoomOut": "Diminuir zoom"
     },
+    "TugAttached": "O rebocador está acoplado",
     "TugDirection": "Direção do rebocador",
+    "TugInTransit": "Esperando pelo reboque/pino",
     "TugSpeed": "Velocidade do rebocador"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Modo Home Cockpit",
       "McduFocusTimeout": "Tempo limite de foco da MCDU (segundos)",
       "McduKeyboardInput": "Entrada de teclado MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Separar controle de taxi do leme",
       "Title": "Realismo"
     },
@@ -446,6 +462,7 @@
       "Active": "Ativo",
       "Auto": "Automático",
       "Calibrate": "Calibrar",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Unidade padrão do barômetro",
       "DynamicRegistrationDecal": "Registro dinâmico do decalque",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Ativar conexão com o servidor MCDU (desativa automaticamente após 5 minutos se não houver conexão bem-sucedida)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Manetes de potência",
       "Title": "Opções do Simulador",
       "UseCalculatedIlsSignals": "Usar sinais ILS calculados",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Brilho automático",
       "AutomaticallyShowOnscreenKeyboard": "Mostrar automaticamente o teclado na tela",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Azul",
       "Brightness": "Brilho",
       "Dark": "Escuro",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC e local"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Duração da bateria simulada",
   "StatusBar": {
     "Apr": "Abr",

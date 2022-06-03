@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Bagasjebil",
       "CateringTruck": "Cateringbil",
+      "Cones": "Sikkerhet kjegler",
       "DoorAft": "Bakre dør",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Fremre dør",
       "ExternalPower": "Ekstern Strøm",
       "FuelTruck": "Drivstoffbil",
       "JetBridge": "Ombordstigningsbro",
-      "Title": "Tjenester"
+      "Title": "Tjenester",
+      "WheelChocks": "Hjul Chocks"
     },
     "Title": "Bakke"
   },
@@ -241,12 +244,12 @@
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Rullebanetilstand",
       "RunwayConditions": {
-        "Dry": "Dry (6)",
-        "Good": "Good (5)",
-        "GoodMedium": "Good-Medium (4)",
-        "Medium": "Medium (3)",
-        "MediumPoor": "Medium-Poor (2)",
-        "Poor": "Poor (1)"
+        "Dry": "Tørr (6)",
+        "Good": "Bra (5)",
+        "GoodMedium": "Bra-Middels (4)",
+        "Medium": "Middels (3)",
+        "MediumPoor": "Middels dårlig (2)",
+        "Poor": "Dårlig (1)"
       },
       "RunwayHeading": "Rullebaneretning",
       "RunwayHeadingUnit": "°",
@@ -349,35 +352,45 @@
     "Title": "Forhåndsinnstillinger"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback-kontroller er bare tilgjengelige på bakken",
     "Backward": "Bakover",
     "CallTug": "Tilkall pushbacktraktor",
+    "DisableSystemMessageBody": "Er du sikker på at du vil deaktivere pushback systemet? Dette vil også frigjøre pushbacktraktor.",
+    "DisableSystemMessageTitle": "Deaktiver pushback system",
+    "EnableSystemMessageBody": "Det nye FlyPadOS 3 Pushback System kan forårsake konflikter med andre pushback-tillegg. Vi anbefaler ikke å aktivere systemet hvis du planlegger å bruke et annet pushback-tillegg. ",
+    "EnableSystemMessageTitle": "Aktiver pushback system",
     "Forward": "Fremover",
     "Halt": "Stoppet",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Left",
+    "LeavePageMessage": "Pauser pushback",
+    "Left": "Venstre",
     "Moving": "I bevegelse",
     "ParkingBrake": {
       "Off": "Av",
       "On": "På",
       "Title": "Parkeringsbremse"
     },
-    "Right": "Right",
+    "Right": "Høyre",
+    "SystemEnabledOff": "Pushback system Av",
+    "SystemEnabledOn": "Pushback system på",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "Ring eller slipp pushbacktraktor",
+      "CenterPlaneMode": "Senter kart på fly på/av",
+      "DecreaseSpeed": "Bakover eller langsommere fremover",
+      "IncreaseSpeed": "Fremover eller langsommere bakover",
+      "Left": "Gå til venstre",
+      "PausePushback": "Pause eller unpause pushback",
+      "Right": "Gå til høyre",
+      "SetReleaseParkingBrake": "Sett eller slipp parkeringsbrems",
+      "SliderDirection": "Flytt regler for ønsket retning",
+      "SliderSpeed": "Flytt regler for ønsket hastighet",
+      "SystemEnabledOff": "Klikk for å slå på pushback-systemet.",
+      "SystemEnabledOn": "Klikk for å slå pushback-systemet helt av.",
+      "ZoomIn": "Zoom inn",
+      "ZoomOut": "Zoom ut"
     },
-    "Right": "Right",
+    "TugAttached": "Pushbacktraktor er festet",
     "TugDirection": "Pushbacktraktor-retning",
+    "TugInTransit": "Venter på pushbacktraktor/pin",
     "TugSpeed": "pushbacktraktor-hastighet"
   },
   "Settings": {
@@ -440,6 +453,8 @@
       "HomeCockpitMode": "Hjemmecockpitsmodus",
       "McduFocusTimeout": "Tidsavbrudd for MCDU Focus (sekunder)",
       "McduKeyboardInput": "MCDU tastaturinntastning",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Separer nesehjulsstyingen fra ror-aksen",
       "Title": "Realisme"
     },
@@ -447,6 +462,7 @@
       "Active": "Aktiv",
       "Auto": "Automatisk",
       "Calibrate": "Kalibrer",
+      "ConesEnabled": "Sikkerhet kjegler",
       "DefaultBarometerUnit": "Standard Barometerenhet",
       "DynamicRegistrationDecal": "Dynamisk registreringsdekal",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Aktiver MCDU Servertilkobling (Deaktiveres automatisk etter 5 minutter hvis tilkoblingen ikke er vellykket)",
@@ -461,6 +477,7 @@
       "ThrottleDetents": "Gassperrer",
       "Title": "Sim-alternativer",
       "UseCalculatedIlsSignals": "Bruk kalkulerte ILS-signaler",
+      "WheelChocksEnabled": "Hjul Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -489,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Automatisk lysstyrke",
       "AutomaticallyShowOnscreenKeyboard": "Automatisk vis skjermtastatur",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Blå",
       "Brightness": "Lysstyrke",
       "Dark": "Mørk",
@@ -508,6 +526,8 @@
       "UtcAndLocal": "UTC og lokal"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Simulert batterilevetid",
   "StatusBar": {
     "Apr": "apr.",

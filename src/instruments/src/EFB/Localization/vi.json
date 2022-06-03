@@ -49,7 +49,7 @@
         "Loading": "Đang tải…",
         "MetarParsingError": "METAR đã nhận không thể phân tích được",
         "NoIcaoProvided": "Chưa cung cấp mã ICAO",
-        "NotAvailableShort": "N/A",
+        "NotAvailableShort": "Không có",
         "Raw": "Nguyên",
         "TT": {
           "SwitchToIconView": "Chuyển sang Chế độ biểu tượng",
@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Xe tải chở hành lý",
       "CateringTruck": "Xe cung cấp thức ăn",
+      "Cones": "Chóp nón An toàn",
       "DoorAft": "Cửa phía sau",
+      "DoorCargo": "Cửa hàng hóa vận chuyển",
       "DoorFwd": "Cửa phía trước",
-      "ExternalPower": "Nguồn điện ngoài",
+      "ExternalPower": "Nguồn điện phía ngoài",
       "FuelTruck": "Xe chở nhiên liệu",
       "JetBridge": "Ống lồng",
-      "Title": "Các dịch vụ"
+      "Title": "Các dịch vụ",
+      "WheelChocks": "Ốp chặn bánh xe"
     },
     "Title": "Mặt đất"
   },
@@ -173,7 +176,7 @@
       "AuthenticateWithNavigraph": "Xác thực với Navigraph",
       "InsufficientEnv": "Tệp .env không đủ",
       "IntoYourBrowserAndEnterTheCodeBelow": "vào trình duyệt của bạn và nhập mã dưới đây\n",
-      "LoadingMsg": "Loading",
+      "LoadingMsg": "Đang tải…",
       "NoAirportSelected": "Không có sân bay nào được chọn",
       "ResetNavigraphAuthentication": "Đặt lại xác thực Navigraph",
       "ScanTheQrCodeOrOpen": "Quét mã QR hoặc Mở",
@@ -232,8 +235,8 @@
       "Low": "Thấp",
       "MaximumManual": "Mức độ tối đa khi lái tay",
       "Medium": "Trung bình",
-      "MetarErrorDialogMessage": "The METAR from your OFP could not be successfully parsed. Would you like to autofill data using a fetched METAR instead?",
-      "MetarErrorDialogTitle": "Error Parsing OFP METAR",
+      "MetarErrorDialogMessage": "METAR từ OFP của bạn không thể được phân tích thành công. Bạn có muốn tự động điền dữ liệu bằng METAR đã được lấy từ nguồn khác không?",
+      "MetarErrorDialogTitle": "Lỗi phân tích OFP METAR",
       "OverweightProcedure": "Thủ tục quá trọng lượng",
       "Qnh": "QNH",
       "ReverseThrust": "Lực đẩy ngược",
@@ -241,12 +244,12 @@
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Điều kiện đường băng",
       "RunwayConditions": {
-        "Dry": "Dry (6)",
-        "Good": "Good (5)",
-        "GoodMedium": "Good-Medium (4)",
-        "Medium": "Medium (3)",
-        "MediumPoor": "Medium-Poor (2)",
-        "Poor": "Poor (1)"
+        "Dry": "Khô (6)",
+        "Good": "Tốt (5)",
+        "GoodMedium": "Tốt-trung bình (4)",
+        "Medium": "Trung bình (3)",
+        "MediumPoor": "Trung bình kém (2)",
+        "Poor": "Kém (1)"
       },
       "RunwayHeading": "Hướng của đường băng",
       "RunwayHeadingUnit": "°",
@@ -319,12 +322,12 @@
       "PleaseConfirmLoadingOfPreset": "Vui lòng xác nhận tải cấu hình sẵn.",
       "ReadyPushback": "Sẵn sàng để đẩy lùi",
       "ReadyTakeoff": "Sẵn sàng để cất cánh",
-      "ReadyTaxi": "Sẵn sàng để taxi",
+      "ReadyTaxi": "Sẵn sàng để lăn",
       "SelectAPresetToLoad": "Chọn cấu hình sẵn để tải",
       "TheAircraftMustBeOnTheGroundToLoadAPreset": "Máy bay cần phải ở trên mặt đất để tải cấu hình sẵn.",
       "TheAircraftMustBeOntheGroundToLoadAPreset": "Máy bay cần phải ở trên mặt đất để tải cấu hình sẵn.",
       "Title": "Trạng thái máy bay",
-      "Turnaround": "Turnaround"
+      "Turnaround": "Quay đầu"
     },
     "InteriorLighting": {
       "AircraftNeedsToBePoweredToLoadPresets": "Máy bay cần được cung cấp năng lượng để tải cấu hình sẵn",
@@ -349,34 +352,45 @@
     "Title": "Cấu hình sẵn"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Điểu khiển đẩy lùi chỉ có sẵn ở mặt đất",
     "Backward": "Lùi",
     "CallTug": "Gọi xe kéo",
+    "DisableSystemMessageBody": "Bạn có chắc muốn vô hiệu hóa hệ thống đẩy lùi không? Điều này sẽ làm ngắt kết nối với xe lai dắt.",
+    "DisableSystemMessageTitle": "Vô hiệu hóa hệ thống đẩy lùi",
+    "EnableSystemMessageBody": "Hệ thống đẩy lùi của flyPadOS 3 chưa được hoàn thiện. Nó không tương thích với các tiện ích đẩy lùi khác và có thể gây ra lỗi. Chúng tôi khuyên bạn không nên dùng hệ thống này nếu bạn định dùng một tiện ích đẩy lùi khác.",
+    "EnableSystemMessageTitle": "Kích hoạt hệ thống đẩy lùi",
     "Forward": "Tiến",
     "Halt": "Tạm dừng",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Left",
-    "Moving": "Moving",
+    "LeavePageMessage": "Tạm dừng đẩy lùi",
+    "Left": "Trái",
+    "Moving": "Đang di chuyển",
     "ParkingBrake": {
       "Off": "Cài",
       "On": "Cài",
       "Title": "Phanh đỗ"
     },
-    "Right": "Right",
+    "Right": "Phải",
+    "SystemEnabledOff": "Hệ thống đẩy lùi tắt",
+    "SystemEnabledOn": "Hệ thống đẩy lùi bật",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "Gọi hoặc tách khỏi xe lai dắt",
+      "CenterPlaneMode": "Đặt trung tâm bản đồ là tàu bay Bật/Tắt",
+      "DecreaseSpeed": "Lùi ngược hoặc chậm hơn về phía trước",
+      "IncreaseSpeed": "Tiến lên hoặc chậm hơn về phía sau",
+      "Left": "Rẽ trái (nhấp đúp để đi thẳng)",
+      "PausePushback": "Tạm dừng hoặc tiếp tục đẩy lùi",
+      "Right": "Rẽ phải (nhấp đúp để đi thẳng)",
+      "SetReleaseParkingBrake": "Cài hoặc nhả phanh tay",
+      "SliderDirection": "Di chuyển thanh trượt cho hướng mong muốn",
+      "SliderSpeed": "Di chuyển thanh trượt cho tốc độ mong muốn",
+      "SystemEnabledOff": "Nhấp để bật hệ thống đẩy lùi.",
+      "SystemEnabledOn": "Nhấp để tắt hoàn toàn hệ thống đẩy lùi.",
+      "ZoomIn": "Phóng to",
+      "ZoomOut": "Thu nhỏ"
     },
+    "TugAttached": "Xe lai dắt được kết nối",
     "TugDirection": "Hướng của xe kéo",
+    "TugInTransit": "Đang chờ xe đẩy",
     "TugSpeed": "Tốc độ xe kéo"
   },
   "Settings": {
@@ -439,13 +453,16 @@
       "HomeCockpitMode": "Chế độ buồng lái tại nhà",
       "McduFocusTimeout": "Thời gian chờ MCDU chỉnh (giây)",
       "McduKeyboardInput": "Dùng bàn phím cho MCDU",
-      "SeparateTillerFromRudderInputs": "Tách rời Đầu lái bánh xe từ Đầu vào bánh lái",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
+      "SeparateTillerFromRudderInputs": "Tách rời Điều Khiển Bánh Mũi với Bàn Đạp",
       "Title": "Mức thực tế"
     },
     "SimOptions": {
       "Active": "Hoạt động",
       "Auto": "Tự động",
       "Calibrate": "Hiệu chỉnh",
+      "ConesEnabled": "Chóp nón An toàn",
       "DefaultBarometerUnit": "Đơn vị áp kế mặc định",
       "DynamicRegistrationDecal": "Đề-can đăng ký động",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Bật kết nối máy chủ MCDU (Tự động ngừng kích hoạt sau 5 phút nếu không có kết nối thành công)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Chốt cần ga",
       "Title": "Tùy chọn giả lập",
       "UseCalculatedIlsSignals": "Sử dụng tín hiệu ILS được tính",
+      "WheelChocksEnabled": "Ốp chặn bánh xe",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Tự động điều chỉnh độ sáng",
       "AutomaticallyShowOnscreenKeyboard": "Tự động hiển thị bàn phím trên màn hình",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Xanh lam",
       "Brightness": "Độ sáng",
       "Dark": "Tối",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC và địa phương"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Giả lập mức pin",
   "StatusBar": {
     "Apr": "Thg 4",
@@ -515,7 +536,7 @@
     "Feb": "Thg 2",
     "Fri": "Th 6",
     "Jan": "Thg 1",
-    "Jul": "Jul",
+    "Jul": "Thg 7",
     "Jun": "Thg 6",
     "Mar": "Thg 3",
     "May": "Thg 5",

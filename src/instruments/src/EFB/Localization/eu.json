@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Ekipaje kamioia",
       "CateringTruck": "Catering kamioia",
+      "Cones": "Safety Cones",
       "DoorAft": "Atz. Atea",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Aurr. Atea",
       "ExternalPower": "Kanpo elikatze elektrikoa",
       "FuelTruck": "Erregai kamioia",
       "JetBridge": "Hegazkineratze zubia",
-      "Title": "Zerbitzuak"
+      "Title": "Zerbitzuak",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Lurra"
   },
@@ -237,7 +240,7 @@
       "OverweightProcedure": "Overweight Procedure",
       "Qnh": "QNH",
       "ReverseThrust": "Reverse Thrust",
-      "RunwayAltitude": "Runway Altitude",
+      "RunwayAltitude": "Runway Elevation",
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Runway Condition",
       "RunwayConditions": {
@@ -349,8 +352,13 @@
     "Title": "Presets"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Backward",
     "CallTug": "Call Tug",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System can cause conflicts with other pushback add-ons. We recommend not to enable the system if you plan to use another pushback add-on. ",
+    "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "Forward",
     "Halt": "Paused",
     "LeavePageMessage": "Pausing Pushback",
@@ -362,21 +370,27 @@
       "Title": "Parking Brake"
     },
     "Right": "Right",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Call or release tug",
       "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
+      "DecreaseSpeed": "Backwards or slower forwards",
+      "IncreaseSpeed": "Forwards or slower backwards",
+      "Left": "Go left",
       "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
+      "Right": "Go right",
       "SetReleaseParkingBrake": "Set or release parking brake",
       "SliderDirection": "Move for desired direction",
       "SliderSpeed": "Move for desired speed",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Zoom in",
       "ZoomOut": "Zoom out"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Tug Direction",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Tug Speed"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Home Cockpit Mode",
       "McduFocusTimeout": "MCDU Focus Timeout (seconds)",
       "McduKeyboardInput": "MCDU Keyboard Input",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Separate Tiller from Rudder Inputs",
       "Title": "Realism"
     },
@@ -446,6 +462,7 @@
       "Active": "Active",
       "Auto": "Auto",
       "Calibrate": "Calibrate",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Default Barometer Unit",
       "DynamicRegistrationDecal": "Dynamic Registration Decal",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Enable MCDU Server Connection (Auto deactivates after 5 minutes if no successful connection)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Throttle Detents",
       "Title": "Sim Options",
       "UseCalculatedIlsSignals": "Use Calculated ILS Signals",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Auto Brightness",
       "AutomaticallyShowOnscreenKeyboard": "Automatically Show Onscreen Keyboard",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Blue",
       "Brightness": "Brightness",
       "Dark": "Dark",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC and Local"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Battery Life Simulated",
   "StatusBar": {
     "Apr": "Apr",

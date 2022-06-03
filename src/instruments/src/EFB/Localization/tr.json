@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Bagaj Kamyonu",
       "CateringTruck": "Yemek Servis Aracı",
+      "Cones": "Safety Cones",
       "DoorAft": "Arka Giriş Kapısı",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Ön Giriş Kapısı",
       "ExternalPower": "Harici Güç",
       "FuelTruck": "Yakıt Kamyonu",
       "JetBridge": "Körük",
-      "Title": "Hizmetler"
+      "Title": "Hizmetler",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Yer"
   },
@@ -349,8 +352,13 @@
     "Title": "Ön Ayarlar"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Geri",
     "CallTug": "Çekiciye Haber Ver",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System can cause conflicts with other pushback add-ons. We recommend not to enable the system if you plan to use another pushback add-on. ",
+    "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "İleri",
     "Halt": "Durdur",
     "LeavePageMessage": "Pausing Pushback",
@@ -362,21 +370,27 @@
       "Title": "Park Freni"
     },
     "Right": "Right",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Call or release tug",
       "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
+      "DecreaseSpeed": "Backwards or slower forwards",
+      "IncreaseSpeed": "Forwards or slower backwards",
+      "Left": "Go left",
       "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
+      "Right": "Go right",
       "SetReleaseParkingBrake": "Set or release parking brake",
       "SliderDirection": "Move for desired direction",
       "SliderSpeed": "Move for desired speed",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Zoom in",
       "ZoomOut": "Zoom out"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Çekici Yönü",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Çekici Hızı"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Ev Kokpit Modu",
       "McduFocusTimeout": "MCDU Focus Zaman Aşımı (saniye)",
       "McduKeyboardInput": "MCDU Klavye Girişi",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Tiller'ı Rudder Girişlerinden Ayır",
       "Title": "Gerçekçilik"
     },
@@ -446,6 +462,7 @@
       "Active": "Etkin",
       "Auto": "Otomatik",
       "Calibrate": "Kalibrasyon",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Varsayılan Barometre Birimi",
       "DynamicRegistrationDecal": "Dinamik Kayıt Çıkartması",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "MCDU Sunucu Bağlantısını Etkinleştir (Başarılı bağlantı olmazsa 5 dakika sonra otomatik olarak devre dışı bırakılır)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Gaz Mandalları",
       "Title": "Simülasyon Seçenekleri",
       "UseCalculatedIlsSignals": "Hesaplanan ILS Sinyallerini Kullan",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Otomatik Parlaklık",
       "AutomaticallyShowOnscreenKeyboard": "Ekran Klavyesini Otomatik Olarak Göster",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Mavi",
       "Brightness": "Parlaklık",
       "Dark": "Koyu",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC ve Yerel"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Pil Ömrü Simülasyonu Etkin",
   "StatusBar": {
     "Apr": "Nis",

@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Φορτηγό Αποσκευών",
       "CateringTruck": "Φορτηγό Τροφοδοσίας",
+      "Cones": "Safety Cones",
       "DoorAft": "Πίσω Πόρτα",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Μπροστινή Πόρτα",
       "ExternalPower": "Εξωτερική Ισχύος ",
       "FuelTruck": "Φορτηγό Καυσίμων",
       "JetBridge": "Γέφυρα Επιβίβασης ",
-      "Title": "Υπηρεσίες"
+      "Title": "Υπηρεσίες",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Έδαφος"
   },
@@ -349,8 +352,13 @@
     "Title": "Προεπιλογές"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Πίσω",
     "CallTug": "Καλέστε Ρυμουλκό",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System can cause conflicts with other pushback add-ons. We recommend not to enable the system if you plan to use another pushback add-on. ",
+    "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "Μπροστά",
     "Halt": "Διακοπή",
     "LeavePageMessage": "Pausing Pushback",
@@ -362,21 +370,27 @@
       "Title": "Φρένο Στάθμευσης"
     },
     "Right": "Right",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Call or release tug",
       "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
+      "DecreaseSpeed": "Backwards or slower forwards",
+      "IncreaseSpeed": "Forwards or slower backwards",
+      "Left": "Go left",
       "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
+      "Right": "Go right",
       "SetReleaseParkingBrake": "Set or release parking brake",
       "SliderDirection": "Move for desired direction",
       "SliderSpeed": "Move for desired speed",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Zoom in",
       "ZoomOut": "Zoom out"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Κατεύθυνση Ρυμουλκού",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Ταχύτητα Ρυμουλκού"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Λειτουργία θαλάμου πιλοτηρίου οικιακής χρήσης",
       "McduFocusTimeout": "Χρονικό Όριο Εστίασης MCDU (δευτερόλεπτα)",
       "McduKeyboardInput": "Είσαγωγή Πληκτρολογίου MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Ξεχωριστό Οιακοστροφίο απο τις Εισαγωγές Πηδαλίου",
       "Title": "Ρεαλισμός"
     },
@@ -446,6 +462,7 @@
       "Active": "Ενεργό",
       "Auto": "Αυτόματο",
       "Calibrate": "Βαθμονόμηση",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Προκαθορισμένη Βαρομετρική Μονάδα",
       "DynamicRegistrationDecal": "Δυναμική Χαλκομανία Εγγραφής",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Ενεργοποίηση σύνδεσης διακομιστή MCDU (Αυτόματη απενεργοποίηση μετά από 5 λεπτά εάν δεν υπάρχει επιτυχής σύνδεση)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Αναστολέας Γκαζιού",
       "Title": "Επιλογές Sim",
       "UseCalculatedIlsSignals": "Χρήση Υπολογισμένων Σημάτων ILS",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Αυτόματη Φωτεινότητα",
       "AutomaticallyShowOnscreenKeyboard": "Αυτόματη Εμφάνιση Πληκτρολογίου Οθόνης",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Μπλέ",
       "Brightness": "Φωτεινότητα",
       "Dark": "Σκοτεινό",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC και Τοπική"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Προσομοίωση Διάρκειας Zωής Mπαταρίας",
   "StatusBar": {
     "Apr": "Απρ",

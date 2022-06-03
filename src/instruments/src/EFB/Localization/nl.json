@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Bagage Truck",
       "CateringTruck": "Catering Truck",
+      "Cones": "Safety Cones",
       "DoorAft": "Deur achter",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Deur voor",
       "ExternalPower": "Externe voeding",
       "FuelTruck": "Brandstof Wagen",
       "JetBridge": "Jet Bridge",
-      "Title": "Diensten"
+      "Title": "Diensten",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Grond"
   },
@@ -349,8 +352,13 @@
     "Title": "Voorinstellingen"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Terug",
     "CallTug": "Bel Tug",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System can cause conflicts with other pushback add-ons. We recommend not to enable the system if you plan to use another pushback add-on. ",
+    "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "Vooruit",
     "Halt": "Gepauzeerd",
     "LeavePageMessage": "Pausing Pushback",
@@ -362,21 +370,27 @@
       "Title": "Parkeerrem"
     },
     "Right": "Right",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Call or release tug",
       "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
+      "DecreaseSpeed": "Backwards or slower forwards",
+      "IncreaseSpeed": "Forwards or slower backwards",
+      "Left": "Go left",
       "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
+      "Right": "Go right",
       "SetReleaseParkingBrake": "Set or release parking brake",
       "SliderDirection": "Move for desired direction",
       "SliderSpeed": "Move for desired speed",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Zoom in",
       "ZoomOut": "Zoom out"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Richting tug",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Tug snelheid"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Home Cockpit Modus",
       "McduFocusTimeout": "MCDU Focus Time-out (seconden)",
       "McduKeyboardInput": "MCDU Toetsenbordinvoer",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Scheid Tiller van Roer invoer",
       "Title": "Realisme"
     },
@@ -446,6 +462,7 @@
       "Active": "Actief",
       "Auto": "Auto",
       "Calibrate": "Kalibreren",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Standaard barometer-eenheid",
       "DynamicRegistrationDecal": "Dynamische Registratie Sticker",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "MCDU-serververbinding inschakelen (Deactiveert automatisch na 5 minuten als er geen succesvolle verbinding is)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Throttle Detents",
       "Title": "Sim-opties",
       "UseCalculatedIlsSignals": "Gebruik berekende ILS-signalen",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Auto helderheid",
       "AutomaticallyShowOnscreenKeyboard": "Automatisch toetsenbord op scherm weergeven",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Blauw",
       "Brightness": "Helderheid",
       "Dark": "Donker",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC en lokaal"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Levensduur batterij gesimuleerd",
   "StatusBar": {
     "Apr": "Apr.",

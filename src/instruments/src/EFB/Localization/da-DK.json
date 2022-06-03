@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Bagage Truck",
       "CateringTruck": "Catering Truck",
+      "Cones": "Safety Cones",
       "DoorAft": "Bagdør",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Front Dør",
       "ExternalPower": "Ekstern Strøm",
       "FuelTruck": "Brændstof Lastbil",
       "JetBridge": "Jetbro",
-      "Title": "Tjenester"
+      "Title": "Tjenester",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Jorden"
   },
@@ -349,11 +352,16 @@
     "Title": "Forudindstillinger"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Kontrol for skub er kun tilgængelige når du er på jorden",
     "Backward": "Bagud",
     "CallTug": "Kald skubber",
+    "DisableSystemMessageBody": "Er du sikker på, at du vil deaktivere skubbe systemet? Dette frigiver også traktoren",
+    "DisableSystemMessageTitle": "Deaktiver skubbe systemet",
+    "EnableSystemMessageBody": "Det nye flyPadOS 3 skubbe-system er endnu ikke færdig. Det er virker ikke i kombination med andre udvidelser til at foretage skubning og kan forårsage andre problemer.",
+    "EnableSystemMessageTitle": "Aktiver skubbe-systemet",
     "Forward": "Fremad",
     "Halt": "Pauset",
-    "LeavePageMessage": "Pausing Pushback",
+    "LeavePageMessage": "Sætter skubningen på pause",
     "Left": "Venstre",
     "Moving": "Flytning",
     "ParkingBrake": {
@@ -362,21 +370,27 @@
       "Title": "Parkeringsbremse"
     },
     "Right": "Højre",
+    "SystemEnabledOff": "Skubbe systemet er slået fra",
+    "SystemEnabledOn": "Skubbe systemet er tændt",
     "TT": {
       "CallReleaseTug": "Kald eller frigør skubber",
       "CenterPlaneMode": "Centrer kort på flyet On/Off",
-      "DecreaseSpeed": "Baglæns eller langsommere fremad (dobbeltklik for at indstille hastigheden til 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
+      "DecreaseSpeed": "Baglæns eller langsommere fremad",
+      "IncreaseSpeed": "Fremad eller langsommere bagud",
+      "Left": "Drej til venstre",
       "PausePushback": "Pause eller unpause pushback",
-      "Right": "Go right (double click for straight)",
+      "Right": "Drej til højre",
       "SetReleaseParkingBrake": "Indstil eller slip parkeringsbremse",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
+      "SliderDirection": "Sæt den ønskede retning",
+      "SliderSpeed": "Sæt den ønskede hastighed",
+      "SystemEnabledOff": "Tryk for at aktivere skubbe systemet",
+      "SystemEnabledOn": "Tryk for at deaktivere skubbe systemet helt",
       "ZoomIn": "Zoom ind",
       "ZoomOut": "Zoom ud"
     },
+    "TugAttached": "Traktoren er forbundet til flyet",
     "TugDirection": "Skubber Retning",
+    "TugInTransit": "Venter på traktoren/styrestift",
     "TugSpeed": "Skubber hastighed"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Hjemmecockpit tilstand",
       "McduFocusTimeout": "MCDU Fokus Timeout (sekunder)",
       "McduKeyboardInput": "MCDU Tastatur Input",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Separat Tiller fra Rudder Inputs",
       "Title": "Realisme"
     },
@@ -446,6 +462,7 @@
       "Active": "Aktiv",
       "Auto": "Automatisk",
       "Calibrate": "Kalibrering",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Standard Barometer enhed",
       "DynamicRegistrationDecal": "Dynamisk registrerings mærke",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Aktiver MCDU Server Forbindelse (Deaktiveres automatisk efter 5 minutter, hvis der ikke oprettes succesfuld forbindelse)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Gashåndtagspositioner",
       "Title": "Sim-instillinger",
       "UseCalculatedIlsSignals": "Brug beregnede ILS-signaler",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Automatisk lysstyrke",
       "AutomaticallyShowOnscreenKeyboard": "Vis automatisk tastatur på skærmen",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Blå",
       "Brightness": "Lysstyrke",
       "Dark": "Mørk",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC og Lokal"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Batterilevetid simuleret",
   "StatusBar": {
     "Apr": "Apr",

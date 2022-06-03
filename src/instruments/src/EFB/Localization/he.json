@@ -49,7 +49,7 @@
         "Loading": "טוען",
         "MetarParsingError": "לא ניתן היה לנתח את ה-METAR שהתקבל",
         "NoIcaoProvided": "ICAO לא סופק",
-        "NotAvailableShort": "N/A",
+        "NotAvailableShort": "לא זמין. ",
         "Raw": "גלם",
         "TT": {
           "SwitchToIconView": "עבור לתצוגת אייקונים",
@@ -92,7 +92,7 @@
       "MZFW": "MZFW",
       "MaximumCargo": "מטען מקסימלי",
       "MaximumFuelCapacity": "קיבולת דלק מקסימלית",
-      "MaximumPassengers": "מקסימום נוסעים",
+      "MaximumPassengers": "קיבולת נוסעים",
       "Model": "דגם",
       "Range": "טווח",
       "Title": "סקירה כללית"
@@ -126,7 +126,7 @@
       "RightInnerTank": "מיכל פנימי ימני",
       "RightOuterTank": "מיכל חיצוני ימני",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "המטוס חייב להיות במצב Cold and Dark בכדי לשנות את זמני תדלוק",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "שינוי זמן התדלוק אפשרי רק שהמטוס על הקרקע וכשהמנועים כבויים \n",
         "FillBlockFuelFromSimBrief": "מילוי דלק מ-SimBrief"
       },
       "Title": "דלק",
@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "משאית כבודה",
       "CateringTruck": "משאית קייטרינג",
+      "Cones": "קונוס בטיחות",
       "DoorAft": "דלת אחורית",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "דלת קדמית",
       "ExternalPower": "מתח חיצוני",
       "FuelTruck": "משאית דלק",
       "JetBridge": "שרוול",
-      "Title": "שירותים"
+      "Title": "שירותים",
+      "WheelChocks": "סדים (צ'וקים)"
     },
     "Title": "קרקע"
   },
@@ -173,7 +176,7 @@
       "AuthenticateWithNavigraph": "אמת עם Navigraph",
       "InsufficientEnv": "קובץ env. לא מספיק",
       "IntoYourBrowserAndEnterTheCodeBelow": "לדפדפן שלך והזן את הקוד שלהלן",
-      "LoadingMsg": "Loading",
+      "LoadingMsg": "טוען",
       "NoAirportSelected": "לא נבחר שדה תעופה",
       "ResetNavigraphAuthentication": "אפס את אימות Navigraph",
       "ScanTheQrCodeOrOpen": "סרוק קוד QR או פתח",
@@ -241,12 +244,12 @@
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "מצב המסלול",
       "RunwayConditions": {
-        "Dry": "Dry (6)",
-        "Good": "Good (5)",
-        "GoodMedium": "Good-Medium (4)",
-        "Medium": "Medium (3)",
-        "MediumPoor": "Medium-Poor (2)",
-        "Poor": "Poor (1)"
+        "Dry": "יבש (6)",
+        "Good": "טוב (5)",
+        "GoodMedium": "טוב-בינוני (4)",
+        "Medium": "בינוני (3)",
+        "MediumPoor": "בינוני-נמוך (2)",
+        "Poor": "נמוך (1)"
       },
       "RunwayHeading": "כיוון המסלול",
       "RunwayHeadingUnit": "°",
@@ -349,34 +352,45 @@
     "Title": "תבניות"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "פקדי דחיפה זמינים רק על הקרקע",
     "Backward": "אחורה",
     "CallTug": "קרא לנע-דחף",
+    "DisableSystemMessageBody": "האם אתם בטוחים כי ברצונכם לבטל את מערכת הדחיפה? פעולה זו תשחרר גם את הנע-דחף",
+    "DisableSystemMessageTitle": "השבת מערכת דחיפה",
+    "EnableSystemMessageBody": "מערכת הדחיפה ב-flyPadOS3 איננה מותאמת לתוספי דחיפה אחרים. אנו ממליצים לא להשתמש במערכת זו אם ברצונכם להשתמש בתופס דחיפה חיצוני.",
+    "EnableSystemMessageTitle": "הפעל מערכת דחיפה",
     "Forward": "קדימה",
-    "Halt": "עצור",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Left",
-    "Moving": "Moving",
+    "Halt": "מושהה",
+    "LeavePageMessage": "השהיית דחיפה",
+    "Left": "שמאלה",
+    "Moving": "נע",
     "ParkingBrake": {
       "Off": "כבוי",
       "On": "פועל",
       "Title": "בלם חניה"
     },
-    "Right": "Right",
+    "Right": "ימינה",
+    "SystemEnabledOff": "מערכת דחיפה כבויה",
+    "SystemEnabledOn": "מערכת דחיפה מופעלת",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "קרא או שחרר את הגורר",
+      "CenterPlaneMode": "הפעלת או ביטול מרכוז המטוס על המפה. ",
+      "DecreaseSpeed": "אחורה או לאט יותר קדימה",
+      "IncreaseSpeed": "קדימה או לאט יותר אחורה",
+      "Left": "נוע שמאלה",
+      "PausePushback": "השהה או המשך דחיפה",
+      "Right": "נוע ימינה",
+      "SetReleaseParkingBrake": "הפעל או שחרר בלם חנייה. ",
+      "SliderDirection": "נוע לכיוון הרצוי",
+      "SliderSpeed": "מעבר למהירות הרצויה",
+      "SystemEnabledOff": "לחץ כדי להפעיל את מערכת הדחיפה.",
+      "SystemEnabledOn": "לחץ כדי לכבות את מערכת הדחיפה לחלוטין.",
+      "ZoomIn": "הגדל תצוגה",
+      "ZoomOut": "הקטן תצוגה"
     },
+    "TugAttached": "נע-דחף מחובר",
     "TugDirection": "כיוון הגרירה",
+    "TugInTransit": "ממתין לנע-דחף",
     "TugSpeed": "מהירות הגרירה"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "מצב תא טייס ביתי",
       "McduFocusTimeout": "MCDU - זמן לשחרור מקלדת",
       "McduKeyboardInput": "MCDU - קלט מקלדת",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "היגוי גלגל האף נפרד מהפדלים",
       "Title": "מציאותיות"
     },
@@ -446,6 +462,7 @@
       "Active": "פעיל",
       "Auto": "אוטומטי",
       "Calibrate": "ויסות",
+      "ConesEnabled": "קונוס בטיחות",
       "DefaultBarometerUnit": "יחידת ברומטר ברירת מחדל",
       "DynamicRegistrationDecal": "דִינָמִי מדבקת רישום",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "אפשר חיבור שרת MCDU (נכבה אוטומטית לאחר חמש דקות אם לא היה חיבור מוצלח)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "מעצורי מצערת",
       "Title": "אפשרויות סימולטור",
       "UseCalculatedIlsSignals": "השתמש באותות ILS מחושבים",
+      "WheelChocksEnabled": "סדים (צ'וקים)",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -478,7 +496,7 @@
       "ResetToDefaults": "איפוס לברירות מחדל",
       "ReverseFull": "דחף אחורי - מירבי",
       "ReverseIdle": "דחף אחורי - סרק",
-      "ReverserOnAxis": "דחף אחורי - בעל ציר",
+      "ReverserOnAxis": "דחף אחורי על ציר",
       "SaveAndApply": "שמור והחל",
       "SetFromThrottle": "הגדר מהמצערת",
       "ThrottleConfigurationReset": "איפוס תצורת מצערת"
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "בהירות אוטומטית",
       "AutomaticallyShowOnscreenKeyboard": "הצג אוטומטית מקלדת על המסך",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "כחול",
       "Brightness": "בהירות",
       "Dark": "כהה",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC ומקומי"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "הדמיית חיי סוללה",
   "StatusBar": {
     "Apr": "אפריל",

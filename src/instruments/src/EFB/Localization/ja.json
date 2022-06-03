@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "手荷物トラック",
       "CateringTruck": "機内食トラック",
+      "Cones": "セーフティコーン",
       "DoorAft": "後部ドア",
+      "DoorCargo": "貨物ドア",
       "DoorFwd": "前部ドア",
-      "ExternalPower": "外部電源",
+      "ExternalPower": "地上電源装置",
       "FuelTruck": "燃料トラック",
       "JetBridge": "ボーディングブリッジ",
-      "Title": "サービス"
+      "Title": "サービス",
+      "WheelChocks": "輪止め"
     },
     "Title": "グランド"
   },
@@ -349,8 +352,13 @@
     "Title": "プリセット"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "プッシュバックコントロールは地上でのみ使用できます",
     "Backward": "後進",
     "CallTug": "牽引車を呼ぶ",
+    "DisableSystemMessageBody": "プッシュバックシステムを無効にしてもよろしいですか?これにより、牽引車との接続も解除されます。",
+    "DisableSystemMessageTitle": "プッシュバックシステムを無効にする",
+    "EnableSystemMessageBody": "新しいflyPadOS 3プッシュバックシステムは、他のプッシュバックアドオンと競合する可能性があります。他のプッシュバックアドオンを使用する予定がある場合は、システムを有効にしないことをお勧めします。",
+    "EnableSystemMessageTitle": "プッシュバックシステムを有効にする",
     "Forward": "前進",
     "Halt": "停止中",
     "LeavePageMessage": "プッシュバックを一時停止中",
@@ -362,21 +370,27 @@
       "Title": "パーキングブレーキ"
     },
     "Right": "右へ旋回",
+    "SystemEnabledOff": "プッシュバックシステム オフ",
+    "SystemEnabledOn": "プッシュバックシステム オン",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "後進・前進速度を落とす(ダブルクリックで速度を0にする)",
-      "IncreaseSpeed": "前進・後進速度を落とす(ダブルクリックで速度を0にする)",
-      "Left": "左へ旋回(ダブルクリックで直進)",
+      "CallReleaseTug": "牽引車を呼ぶ・解除",
+      "CenterPlaneMode": "自機を地図の中心に表示する オン/オフ",
+      "DecreaseSpeed": "後進・前進速度を落とす",
+      "IncreaseSpeed": "前進・後進速度を落とす",
+      "Left": "左へ旋回",
       "PausePushback": "プッシュバックの一時停止・再開",
-      "Right": "右へ旋回(ダブルクリックで直進)",
+      "Right": "右へ旋回",
       "SetReleaseParkingBrake": "パーキングブレーキの有効・無効",
       "SliderDirection": "任意の牽引方向",
       "SliderSpeed": "任意の牽引速度",
+      "SystemEnabledOff": "クリックすると、プッシュバックシステムがオンになります。",
+      "SystemEnabledOn": "クリックすると、プッシュバックシステムが完全にオフになります。",
       "ZoomIn": "拡大",
       "ZoomOut": "縮小"
     },
+    "TugAttached": "牽引車に接続中",
     "TugDirection": "牽引方向",
+    "TugInTransit": "牽引車/ピンの取り外しを準備中",
     "TugSpeed": "牽引速度"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "ホームコックピットモード",
       "McduFocusTimeout": "MCDUへのフォーカスがタイムアウトする時間(秒)",
       "McduKeyboardInput": "MCDUへのキーボード入力",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "ティラーをラダー入力から分離",
       "Title": "リアリズム"
     },
@@ -446,6 +462,7 @@
       "Active": "有効",
       "Auto": "自動",
       "Calibrate": "調整",
+      "ConesEnabled": "セーフティコーン",
       "DefaultBarometerUnit": "デフォルトの気圧計単位",
       "DynamicRegistrationDecal": "登録番号デカールの表示",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "MCDUサーバー接続の有効化(接続が成功しなかった場合、5分後に自動的に非有効化)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "スロットルディテント",
       "Title": "シミュレーターオプション",
       "UseCalculatedIlsSignals": "計算されたILS信号を使用",
+      "WheelChocksEnabled": "輪止め",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "明るさ自動調節",
       "AutomaticallyShowOnscreenKeyboard": "スクリーンキーボードを自動的に表示",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "ブルー",
       "Brightness": "明るさ",
       "Dark": "ダーク",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTCとローカル"
     }
   },
+  "Settings.Realism.PauseAtTod": "降下開始地点で一時停止",
+  "Settings.Realism.PauseAtTodDistance": "降下開始地点の手前で一時停止する距離(nm)",
   "Settings.flyPad.BatteryLifeEnabled": "バッテリー消耗のシミュレーション",
   "StatusBar": {
     "Apr": "4月",

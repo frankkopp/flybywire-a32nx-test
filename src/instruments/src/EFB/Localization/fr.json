@@ -6,7 +6,7 @@
     "NoInformationAvailableForThisFrequency": "Aucune information disponible pour cette fréquence",
     "SelectCorrectATISATCSource": "Cette page est uniquement disponible lorsque IVAO ou VATSIM est sélectionné comme source ATIS/ATC dans la page des paramètres.",
     "SetActive": "Activer",
-    "SetStandby": "Mettre en veille",
+    "SetStandby": "Passer en Standby",
     "Standby": "Veille",
     "Title": "Contrôle du trafic aérien"
   },
@@ -49,7 +49,7 @@
         "Loading": "Chargement",
         "MetarParsingError": "Le METAR reçu n'a pas pu être analysé",
         "NoIcaoProvided": "Aucun code OACI fourni",
-        "NotAvailableShort": "N/A",
+        "NotAvailableShort": "N/D",
         "Raw": "Brut",
         "TT": {
           "SwitchToIconView": "Basculer vers METAR visuel",
@@ -64,7 +64,7 @@
     "YourFlight": {
       "Alternate": "Alternate",
       "AverageWind": "Vent moyen",
-      "CompanyRoute": "Route de la compagnie",
+      "CompanyRoute": "Route de compagnie",
       "CostIndex": "Cost Index",
       "CruiseAlt": "Altitude de croisière",
       "ImportSimBriefData": "Importer les données depuis SimBrief",
@@ -126,7 +126,7 @@
       "RightInnerTank": "Réservoir Intérieur Droit",
       "RightOuterTank": "Réservoir Extérieur Droit",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "L'avion doit être en cold-and-dark pour changer la vitesse de ravitaillement",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "Changement de la vitesse de ravitaillement uniquement au sol avec moteurs à l'arrêt",
         "FillBlockFuelFromSimBrief": "Remplir Block Fuel de SimBrief"
       },
       "Title": "Carburant",
@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Camion à bagages",
       "CateringTruck": "Camion d'approvisionnement",
+      "Cones": "Cônes de sécurité",
       "DoorAft": "Porte arrière",
+      "DoorCargo": "Porte cargo",
       "DoorFwd": "Porte avant",
       "ExternalPower": "Alimentation externe",
       "FuelTruck": "Camion de carburant",
       "JetBridge": "Passerelle",
-      "Title": "Services"
+      "Title": "Services",
+      "WheelChocks": "Cales de roue"
     },
     "Title": "Sol"
   },
@@ -157,7 +160,7 @@
     "All": "Tout",
     "Altn": "Altn",
     "ExitFullscreenMode": "Quitter le mode plein-écran",
-    "From": "De",
+    "From": "FROM",
     "LocalFiles": {
       "Both": "Les deux",
       "EstablishingConnection": "Connexion en cours",
@@ -173,7 +176,7 @@
       "AuthenticateWithNavigraph": "S'authentifier avec Navigraph",
       "InsufficientEnv": "Fichier .env insuffisant",
       "IntoYourBrowserAndEnterTheCodeBelow": "dans votre navigateur et saisissez le code ci-dessous\n",
-      "LoadingMsg": "Loading",
+      "LoadingMsg": "Chargement",
       "NoAirportSelected": "Aucun aéroport sélectionné",
       "ResetNavigraphAuthentication": "Réinitialiser l'authentification Navigraph",
       "ScanTheQrCodeOrOpen": "Scannez le code QR ou ouvrez",
@@ -211,10 +214,10 @@
       "ZoomIn": "Zoom avant",
       "ZoomOut": "Zoom arrière"
     },
-    "ThereAreNoChartsToDisplay": "Il n'y a aucune cartes à afficher.",
+    "ThereAreNoChartsToDisplay": "Il n'y a aucune carte à afficher.",
     "ThereIsNoChartToDisplay": "Il n'y a aucune carte à afficher.",
     "Title": "Navigation et Cartes",
-    "To": "À"
+    "To": "TO"
   },
   "Performance": {
     "Data": "Données",
@@ -241,12 +244,12 @@
       "RunwayAltitudeUnit": "pi. ASL",
       "RunwayCondition": "État de la piste",
       "RunwayConditions": {
-        "Dry": "Dry (6)",
-        "Good": "Good (5)",
-        "GoodMedium": "Good-Medium (4)",
-        "Medium": "Medium (3)",
-        "MediumPoor": "Medium-Poor (2)",
-        "Poor": "Poor (1)"
+        "Dry": "Sec (6)",
+        "Good": "Bon (5)",
+        "GoodMedium": "Bon - Moyen (4)",
+        "Medium": "Moyen (3)",
+        "MediumPoor": "Moyen - Pauvre (2)",
+        "Poor": "Pauvre (1)"
       },
       "RunwayHeading": "Cap de piste",
       "RunwayHeadingUnit": "°",
@@ -262,7 +265,7 @@
       "Title": "Atterrissage",
       "UnitFt": "pieds",
       "UnitMeter": "m",
-      "Weight": "Poids",
+      "Weight": "Masse",
       "WindDirection": "Direction du vent",
       "WindDirectionUnit": "°",
       "WindMagnitude": "Force du vent",
@@ -324,7 +327,7 @@
       "TheAircraftMustBeOnTheGroundToLoadAPreset": "L'avion doit être au sol pour charger un préréglage.",
       "TheAircraftMustBeOntheGroundToLoadAPreset": "L'avion doit être au sol pour charger un préréglage.",
       "Title": "Préréglages de l'avion",
-      "Turnaround": "Disponibilité"
+      "Turnaround": "Disponibilité (Turnaround)"
     },
     "InteriorLighting": {
       "AircraftNeedsToBePoweredToLoadPresets": "L'avion doit être alimenté pour charger des préréglages",
@@ -343,40 +346,51 @@
         "LoadThisPreset": "Charger ce préréglage",
         "SaveTheCurrentLightingLevels": "Enregistrer les niveaux d'éclairage actuels"
       },
-      "TheAircraftMustBePoweredForInteriorLightingPresets": "L'avion doit être alimenté pour les préréglages d'éclairage intérieur.",
+      "TheAircraftMustBePoweredForInteriorLightingPresets": "L'avion doit être alimenté pour utiliser les préréglages d'éclairage intérieur.",
       "Title": "Éclairage intérieur"
     },
     "Title": "Préréglages"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Les commandes de repoussage ne sont disponibles qu'au sol",
     "Backward": "Reculer",
     "CallTug": "Appeler le remorqueur",
+    "DisableSystemMessageBody": "Êtes-vous sûr de désactiver le système de repoussage ? Cela retirera également le remorqueur.",
+    "DisableSystemMessageTitle": "Désactiver le système de repoussage",
+    "EnableSystemMessageBody": "Le nouveau Système de Repoussage du FlyPadOS 3 n'est pas encore finalisé. Il est incompatible avec d'autres add-ons de Repoussage et peut entraîner d'autres problèmes.",
+    "EnableSystemMessageTitle": "Activer le système de repoussage",
     "Forward": "Avancer",
-    "Halt": "Interrompre",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Left",
-    "Moving": "Moving",
+    "Halt": "En pause",
+    "LeavePageMessage": "Suspendre Repoussage",
+    "Left": "Gauche",
+    "Moving": "Déplacement",
     "ParkingBrake": {
       "Off": "DÉSACTIVÉ",
       "On": "ACTIVÉ",
       "Title": "Frein de parc"
     },
-    "Right": "Right",
+    "Right": "Droite",
+    "SystemEnabledOff": "Système Repoussage Inactif",
+    "SystemEnabledOn": "Système Repoussage Actif",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "Appel ou libérer remorqueur",
+      "CenterPlaneMode": "Centrer le plan sur l’avion On/Off",
+      "DecreaseSpeed": "Arrière ou avance lente",
+      "IncreaseSpeed": "Avance ou reculer lentement",
+      "Left": "Aller à gauche",
+      "PausePushback": "Suspendre ou reprendre repoussage",
+      "Right": "Aller à droite",
+      "SetReleaseParkingBrake": "Serrer ou Desserrer le frein de parking",
+      "SliderDirection": "Déplacer pour la direction souhaitée",
+      "SliderSpeed": "Déplacer pour la vitesse souhaitée",
+      "SystemEnabledOff": "Cliquez pour démarrer le système de repoussage.",
+      "SystemEnabledOn": "Cliquez pour éteindre complètement le système de repoussage.",
+      "ZoomIn": "Zoom avant",
+      "ZoomOut": "Zoom arrière"
     },
+    "TugAttached": "Le remorqueur est attaché",
     "TugDirection": "Direction du remorqueur",
+    "TugInTransit": "En attente du remorqueur/de la liaison",
     "TugSpeed": "Vitesse du remorqueur"
   },
   "Settings": {
@@ -385,15 +399,15 @@
     },
     "AircraftOptionsPinPrograms": {
       "AccelerationHeight": "Acceleration Height (pi)",
-      "EngineOutAccelerationHeight": "Hauteur d'accélération du moteur en panne (pi)",
+      "EngineOutAccelerationHeight": "Engine-Out Acceleration Height (pi)",
       "IsisBaroUnit": "Unité Baromètre ISIS",
       "IsisMetricAltitude": "Altitude métrique ISIS",
       "LatLonExtendedFormat": "Format de point de cheminement lat/long FMGC",
-      "PaxSigns": "Panneaux PAX",
+      "PaxSigns": "Voyants passagers",
       "RmpVhfSpacing": "Espacement VHF RMP",
-      "ThrustReductionHeight": "Hauteur de réduction de poussée (pi)",
+      "ThrustReductionHeight": "Thrust Reduction Height (pi)",
       "Title": "Options de l'avion/configuration matérielle",
-      "WeightUnit": "Unité de poids"
+      "WeightUnit": "Unité de masse"
     },
     "AtsuAoc": {
       "AtisAtcSource": "Source ATIS/ATC",
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Mode home cockpit",
       "McduFocusTimeout": "Délai d'attente du focus MCDU (secondes)",
       "McduKeyboardInput": "Entrée clavier MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Séparer le tiller du palonnier",
       "Title": "Réalisme"
     },
@@ -446,6 +462,7 @@
       "Active": "Actif",
       "Auto": "Auto",
       "Calibrate": "Calibrer",
+      "ConesEnabled": "Cônes de sécurité",
       "DefaultBarometerUnit": "Unité baromètre par défaut",
       "DynamicRegistrationDecal": "Calque d'enregistrement dynamique",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Activer la connexion au serveur MCDU (désactivation automatique après 5 minutes en cas d'échec de la connexion)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Encoches des manettes",
       "Title": "Options de simulation",
       "UseCalculatedIlsSignals": "Utiliser des signaux ILS calculés",
+      "WheelChocksEnabled": "Cales de roue",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Luminosité automatique",
       "AutomaticallyShowOnscreenKeyboard": "Afficher automatiquement le clavier à l'écran",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Bleu",
       "Brightness": "Luminosité",
       "Dark": "Sombre",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC et local"
     }
   },
+  "Settings.Realism.PauseAtTod": "Pause au T/D",
+  "Settings.Realism.PauseAtTodDistance": "Distance de pause au T/D (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Simuler la décharge de batterie",
   "StatusBar": {
     "Apr": "Avr",

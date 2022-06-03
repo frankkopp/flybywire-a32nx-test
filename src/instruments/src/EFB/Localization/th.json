@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "รถบรรทุกสัมภาระ",
       "CateringTruck": "รถบรรทุกอาหาร",
+      "Cones": "กรวยนิรภัย",
       "DoorAft": "ประตูท้าย",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "ประตูหน้า",
       "ExternalPower": "พลังงานภาคพื้น",
       "FuelTruck": "รถบรรทุกน้ำมัน",
       "JetBridge": "สะพานเทียบ",
-      "Title": "บริการ"
+      "Title": "บริการ",
+      "WheelChocks": "ลูกกลิ้งล้อ"
     },
     "Title": "ภาคพื้น"
   },
@@ -349,11 +352,16 @@
     "Title": "ค่าที่ตั้งไว้"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "การควบคุม Pushback จะใช้ได้เฉพาะบนพื้นดินเท่านั้น",
     "Backward": "ถอยหลัง",
     "CallTug": "เรียกรถลากจูง",
+    "DisableSystemMessageBody": "คุณแน่ใจหรือว่าต้องการจะปิดการใช้งานระบบ Pushback? นอกจากนี้ยังจะปล่อยรถลากจูงด้วย",
+    "DisableSystemMessageTitle": "ปิดการใช้งานระบบ Pushback",
+    "EnableSystemMessageBody": "flyPadOS 3 ระบบ Pushback ใหม่สามารถทำให้เกิดปัญหากับ Pushback Add-on อื่นๆ เราไม่แนะนำให้เปิดใช้งานระบบ ถ้าคุณจะใช้ Pushback Add-on อื่นๆ",
+    "EnableSystemMessageTitle": "เปิดใช้งานระบบ Pushback",
     "Forward": "ไปข้างหน้า",
     "Halt": "หยุดชั่วคราว",
-    "LeavePageMessage": "Pausing Pushback",
+    "LeavePageMessage": "กำลังหยุด Pushback",
     "Left": "ซ้าย",
     "Moving": "กำลังเคลื่อนที่…",
     "ParkingBrake": {
@@ -362,21 +370,27 @@
       "Title": "Parking Brake"
     },
     "Right": "ขวา",
+    "SystemEnabledOff": "ระบบ Pushback ปิด",
+    "SystemEnabledOn": "ระบบ Pushback เปิด",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "เรียกหรือปล่อยรถลากจูง",
+      "CenterPlaneMode": "เปิด/ปิด ปรับศูนย์กลางเครื่องบินบนแผนที่",
+      "DecreaseSpeed": "ถอยหลังหรือไปข้างหน้าช้าลง",
+      "IncreaseSpeed": "ไปข้างหน้าหรือถอยหลังช้าลง",
+      "Left": "ไปทางซ้าย",
+      "PausePushback": "หยุดชั่วคราวหรือยกเลิกการหยุด Pushback",
+      "Right": "ไปทางขวา",
+      "SetReleaseParkingBrake": "ตั้งหรือปล่อย Parking Brake",
+      "SliderDirection": "เคลื่อนที่ไปยังทิศทางที่ต้องการ",
+      "SliderSpeed": "เคลื่อนที่สำหรับความเร็วที่ต้องการ",
+      "SystemEnabledOff": "คลิกเพื่อเปิดระบบ Pushback",
+      "SystemEnabledOn": "คลิกเพื่อปิดระบบ Pushback ให้ปิดอย่างสมบูรณ์",
+      "ZoomIn": "ซูมเข้า",
+      "ZoomOut": "ซูมออก"
     },
+    "TugAttached": "รถลากจูงติดอยู่แล้ว",
     "TugDirection": "ทิศทางการลากจูง",
+    "TugInTransit": "กำลังรอ รถลากจูง/หมุด",
     "TugSpeed": "ความเร็วลากจูง"
   },
   "Settings": {
@@ -392,7 +406,7 @@
       "PaxSigns": "ป้ายห้องโดยสาร",
       "RmpVhfSpacing": "ระยะห่าง RMP VHF",
       "ThrustReductionHeight": "Thrust Reduction Height (ft)",
-      "Title": "ตัวเลือกเครื่องบิน/ปักหมุดโปรแกรม",
+      "Title": "ตัวเลือกเครื่องบิน/โปรแกรมปักหมุด",
       "WeightUnit": "หน่วยน้ำหนัก"
     },
     "AtsuAoc": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "โหมด Home Cockpit",
       "McduFocusTimeout": "หมดเวลาโฟกัส MCDU (วินาที)",
       "McduKeyboardInput": "ป้อนข้อมูลคีย์บอร์ด MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "แยก Tiller ออกจากอินพุต Rudder",
       "Title": "ความสมจริง"
     },
@@ -446,6 +462,7 @@
       "Active": "ใช้งานอยู่",
       "Auto": "อัตโนมัติ",
       "Calibrate": "Calibrate",
+      "ConesEnabled": "กรวยนิรภัย",
       "DefaultBarometerUnit": "หน่วย Barometer เริ่มต้น",
       "DynamicRegistrationDecal": "ทะเบียนเครื่องบินแบบไดนามิก",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "เปิดใช้งานการเชื่อมต่อเซิร์ฟเวอร์ MCDU (ปิดการทำงานหลังจาก 5 นาทีอัตโนมัติ หากไม่มีการเชื่อมต่อที่สำเร็จ)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Throttle Detents",
       "Title": "ตัวเลือกซิม",
       "UseCalculatedIlsSignals": "ใช้สัญญาณ ILS ที่คำนวณได้",
+      "WheelChocksEnabled": "ลูกกลิ้งล้อ",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "ปรับความสว่างอัตโนมัติ",
       "AutomaticallyShowOnscreenKeyboard": "แสดงแป้นพิมพ์บนหน้าจอโดยอัตโนมัติ",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "ฟ้า",
       "Brightness": "ความสว่าง",
       "Dark": "ดำ",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC และท้องถิ่น"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "จำลองการใช้งานแบตเตอรี่",
   "StatusBar": {
     "Apr": "เม.ย.",

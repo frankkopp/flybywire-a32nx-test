@@ -126,7 +126,7 @@
       "RightInnerTank": "우측 내부 탱크",
       "RightOuterTank": "우측 외부 탱크",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "급유 시간을 변경하려면 항공기가 Cold and Dark 상태여야 합니다",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "급유 시간을 변경하려면 항공기의 엔진이 꺼진 상태로 지상에 있어야 합니다.",
         "FillBlockFuelFromSimBrief": "SimBrief 데이터를 바탕으로 연료 채우기"
       },
       "Title": "연료",
@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "수하물 트럭",
       "CateringTruck": "기내식 트럭",
+      "Cones": "안전콘",
       "DoorAft": "뒤쪽 문",
+      "DoorCargo": "화물칸 문",
       "DoorFwd": "앞쪽 문",
-      "ExternalPower": "외부 전원",
+      "ExternalPower": "지상 전원 공급 장비",
       "FuelTruck": "연료 트럭",
       "JetBridge": "탑승교",
-      "Title": "서비스"
+      "Title": "서비스",
+      "WheelChocks": "휠 초크"
     },
     "Title": "지상"
   },
@@ -349,11 +352,16 @@
     "Title": "프리셋"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "푸시백은 지상에서만 사용할 수 있습니다",
     "Backward": "뒤로",
     "CallTug": "터그 부르기",
+    "DisableSystemMessageBody": "푸시백 시스템을 비활성화 하시겠습니까? 비활성화 할 경우 터그가 해제됩니다.",
+    "DisableSystemMessageTitle": "푸시백 시스템 비활성화",
+    "EnableSystemMessageBody": "새로운 flyPadOS 3의 푸시백 시스템은 아직 완성되지 않았습니다. 다른 푸시백 애드온과 호환되지 않으며, 문제가 발생할 수 있습니다.",
+    "EnableSystemMessageTitle": "푸시백 시스템 활성화",
     "Forward": "앞으로",
     "Halt": "일시 중지",
-    "LeavePageMessage": "Pausing Pushback",
+    "LeavePageMessage": "푸시백 일시 정지",
     "Left": "왼쪽",
     "Moving": "이동 중",
     "ParkingBrake": {
@@ -362,21 +370,27 @@
       "Title": "파킹 브레이크"
     },
     "Right": "오른쪽",
+    "SystemEnabledOff": "푸시백 시스템 끄기",
+    "SystemEnabledOn": "푸시백 시스템 켜기",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "터그 요청 또는 연결 해제",
+      "CenterPlaneMode": "맵 중앙에 항공기 아이콘 켜기/끄기",
+      "DecreaseSpeed": "느리게 앞으로 또는 뒤로 가기",
+      "IncreaseSpeed": "느리게 뒤로 또는 앞으로 가기",
+      "Left": "좌측으로 이동",
+      "PausePushback": "푸시백 일시 중지 또는 일시 중지 해제",
+      "Right": "우측으로 이동",
+      "SetReleaseParkingBrake": "파킹 브레이크 설정 또는 해제",
+      "SliderDirection": "원하는 방향으로 슬라이더 이동",
+      "SliderSpeed": "원하는 속도로 슬라이더 이동",
+      "SystemEnabledOff": "클릭하여 푸시백 시스템을 켭니다.",
+      "SystemEnabledOn": "클릭하여 푸시백 시스템을 완전히 끕니다.",
+      "ZoomIn": "확대",
+      "ZoomOut": "축소"
     },
+    "TugAttached": "터그가  연결되었습니다",
     "TugDirection": "터그 방향",
+    "TugInTransit": "터그/핀 대기 중",
     "TugSpeed": "터그 속도"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "실내 조종석 모드",
       "McduFocusTimeout": "MCDU 포커스 타임아웃 (초)",
       "McduKeyboardInput": "MCDU 키보드 입력",
+      "PauseAtTod": "T/D 일시정지",
+      "PauseAtTodDistance": "T/D 일시정지 거리 (nm)",
       "SeparateTillerFromRudderInputs": "러더 입력과 틸러 입력 분리",
       "Title": "리얼리즘"
     },
@@ -446,6 +462,7 @@
       "Active": "활성",
       "Auto": "자동",
       "Calibrate": "보정",
+      "ConesEnabled": "안전콘",
       "DefaultBarometerUnit": "기본 기압 단위",
       "DynamicRegistrationDecal": "다이나믹 등록 데칼",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "MCDU 서버 연결 사용 (연결 실패 시 5분 후 자동으로 비활성화)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "쓰로틀 단계",
       "Title": "시뮬레이션 옵션",
       "UseCalculatedIlsSignals": "계산된 ILS 신호 사용",
+      "WheelChocksEnabled": "휠 초크",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "자동 밝기",
       "AutomaticallyShowOnscreenKeyboard": "온스크린 키보드 자동 표시",
+      "BatteryLifeEnabled": "배터리 수명 시뮬레이션",
       "Blue": "블루",
       "Brightness": "밝기",
       "Dark": "다크",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC 및 현지 시간"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D 일시정지",
+  "Settings.Realism.PauseAtTodDistance": "T/D 일시정지 거리 (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "배터리 수명 시뮬레이션",
   "StatusBar": {
     "Apr": "4월",

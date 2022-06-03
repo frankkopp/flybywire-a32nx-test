@@ -66,7 +66,7 @@
       "AverageWind": "Průměrný vítr",
       "CompanyRoute": "Company Route",
       "CostIndex": "Cost Index",
-      "CruiseAlt": "Cestovní hladina",
+      "CruiseAlt": "Letová hladina",
       "ImportSimBriefData": "Importovat SimBrief data",
       "Route": "Trať",
       "SimBriefDataNotYetLoaded": "SimBrief data nejsou načtena.",
@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Zavazadlový vůz",
       "CateringTruck": "Cateringový vůz",
+      "Cones": "Výstražné kužely",
       "DoorAft": "Zadní dveře",
+      "DoorCargo": "Nákladní dveře",
       "DoorFwd": "Přední dveře",
       "ExternalPower": "Externí napájení",
       "FuelTruck": "Cisterna",
       "JetBridge": "Nástupní most",
-      "Title": "Služby"
+      "Title": "Služby",
+      "WheelChocks": "Špalky kol"
     },
     "Title": "Pozemní"
   },
@@ -194,7 +197,7 @@
       },
       "TT": {
         "ChangeChartProvider": "Změnit poskytovatele map",
-        "ChangeChartSortMethod": "Změna metodu řazení map",
+        "ChangeChartSortMethod": "Změna metody řazení map",
         "RemoveAllPinnedCharts": "Odstranit všechny připnuté mapy"
       },
       "Title": "Připnuté mapy",
@@ -349,34 +352,45 @@
     "Title": "Předvolby"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Ovládací prvky pro vytlačení jsou dostupné pouze na zemi",
     "Backward": "Vzad",
     "CallTug": "Přivolat pushback",
+    "DisableSystemMessageBody": "Určitě chcete vypnout pushback systém? Tato akce také uvolní pushback.",
+    "DisableSystemMessageTitle": "Vypnout Pushback System",
+    "EnableSystemMessageBody": "Nový pushback systém z flyPadOS 3 může způsobit konflikty s jinými pushback doplňky. Při použití jiných pushback doplňků jej doporučujeme vypnout.",
+    "EnableSystemMessageTitle": "Zapnout Pushback System",
     "Forward": "Vpřed",
     "Halt": "Pozastaveno",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Vlevo",
+    "LeavePageMessage": "Vytlačení pozastaveno",
+    "Left": "Doleva",
     "Moving": "V pohybu",
     "ParkingBrake": {
-      "Off": "Vypnuto",
-      "On": "Zapnuto",
+      "Off": "vypnutá",
+      "On": "zapnutá",
       "Title": "Parkovací brzda"
     },
-    "Right": "Vpravo",
+    "Right": "Doprava",
+    "SystemEnabledOff": "Pushback systém vypnutý",
+    "SystemEnabledOn": "Pushback systém zapnutý",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
+      "CallReleaseTug": "Přivolat nebo uvolnit pushback",
       "CenterPlaneMode": "Vycentrovat mapu na letadlo Zap/Vyp",
-      "DecreaseSpeed": "Vzad nebo pomaleji vpřed (dvojklikem nastavit rychlost na 0)",
-      "IncreaseSpeed": "Vpřed nebo pomaleji vzad (dvojklikem nastavit rychlost na 0)",
-      "Left": "Jet doleva (dvojklik pro jízdu rovně)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Jet doprava (dvojklik pro jízdu rovně)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
+      "DecreaseSpeed": "Dozadu nebo pomaleji dopředu",
+      "IncreaseSpeed": "Dopředu nebo pomaleji dozadu",
+      "Left": "Jet doleva",
+      "PausePushback": "Pozastavit nebo zrušit pozastavení vytlačení",
+      "Right": "Jet doprava",
+      "SetReleaseParkingBrake": "Zapnout nebo vypnout parkovací brzdu",
       "SliderDirection": "Posuňte pro požadovaný směr",
       "SliderSpeed": "Posuňte pro požadovanou rychlost",
+      "SystemEnabledOff": "Klikněte pro zapnutí systému pro vytlačení.",
+      "SystemEnabledOn": "Klikněte pro úplné vypnutí systému pro vytlačení.",
       "ZoomIn": "Přiblížit",
       "ZoomOut": "Oddálit"
     },
+    "TugAttached": "Pushback je připojen",
     "TugDirection": "Směr vytlačení",
+    "TugInTransit": "Čekání na pushback/pin",
     "TugSpeed": "Rychlost vytlačení"
   },
   "Settings": {
@@ -392,7 +406,7 @@
       "PaxSigns": "Znamení cestujícím",
       "RmpVhfSpacing": "RMP VHF rozteč",
       "ThrustReductionHeight": "Výška snížení tahu (ft AGL)",
-      "Title": "Možnosti letadla / Připnout programy",
+      "Title": "Možnosti letadla / Pin programy",
       "WeightUnit": "Jednotky hmotnosti"
     },
     "AtsuAoc": {
@@ -432,13 +446,15 @@
     "Instant": "Okamžitý",
     "Real": "Reálný",
     "Realism": {
-      "AdirsAlignTime": "Čas zaměření ADIRS",
+      "AdirsAlignTime": "Čas zarovnání ADIRS",
       "AutofillChecklists": "Automaticky vyplňovat checklisty",
       "BoardingTime": "Čas nastupování cestujících",
       "DmcSelfTestTime": "Inicializační test DMC",
       "HomeCockpitMode": "Režim domácího kokpitu",
       "McduFocusTimeout": "Časový limit vstupu MCDU z klávesnice (sekundy)",
       "McduKeyboardInput": "MCDU zadávání pomocí klávesnice",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Oddělit vstupy pro tiller a směrovku",
       "Title": "Realismus"
     },
@@ -446,6 +462,7 @@
       "Active": "Aktivní",
       "Auto": "Auto.",
       "Calibrate": "Kalibrovat",
+      "ConesEnabled": "Výstražné kužely",
       "DefaultBarometerUnit": "Výchozí jednotky tlaku vzduchu",
       "DynamicRegistrationDecal": "Dynamická imatrikulace letadla",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Povolit připojení k serveru MCDU (Bez úspěšného připojení se po 5 minutách automaticky vypne)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Zarážky plynu",
       "Title": "Možnosti simulace",
       "UseCalculatedIlsSignals": "Používat vypočítaný signál ILS",
+      "WheelChocksEnabled": "Špalky kol",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Automatický jas",
       "AutomaticallyShowOnscreenKeyboard": "Automaticky zobrazit klávesnici na obrazovce",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Modrý",
       "Brightness": "Jas",
       "Dark": "Tmavý",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC a místní"
     }
   },
+  "Settings.Realism.PauseAtTod": "Pauza na T/D",
+  "Settings.Realism.PauseAtTodDistance": "Vzdálenost zapauzování před T/D (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Simulace výdrže baterie",
   "StatusBar": {
     "Apr": "Dub",

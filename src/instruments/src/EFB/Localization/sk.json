@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Batožinové vozidlo",
       "CateringTruck": "Cateringové vozidlo",
+      "Cones": "Safety Cones",
       "DoorAft": "Dvere zadné",
+      "DoorCargo": "Cargo Door",
       "DoorFwd": "Dvere predné",
       "ExternalPower": "Externé napájanie",
       "FuelTruck": "Cisterna z palivom",
       "JetBridge": "Jet Bridge",
-      "Title": "Služby"
+      "Title": "Služby",
+      "WheelChocks": "Wheel Chocks"
     },
     "Title": "Pozemný servis"
   },
@@ -349,8 +352,13 @@
     "Title": "Predvoľby"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Pushback controls are only available on the ground",
     "Backward": "Dozadu",
     "CallTug": "Zavolajte Tug",
+    "DisableSystemMessageBody": "Are you sure you want to disable the Pushback System? This will also release the tug.",
+    "DisableSystemMessageTitle": "Disable Pushback System",
+    "EnableSystemMessageBody": "The new flyPadOS 3 Pushback System can cause conflicts with other pushback add-ons. We recommend not to enable the system if you plan to use another pushback add-on. ",
+    "EnableSystemMessageTitle": "Enable Pushback System",
     "Forward": "Dopredu",
     "Halt": "Zastaviť",
     "LeavePageMessage": "Pausing Pushback",
@@ -362,21 +370,27 @@
       "Title": "Parkovacia brzda"
     },
     "Right": "Right",
+    "SystemEnabledOff": "Pushback System Off",
+    "SystemEnabledOn": "Pushback System On",
     "TT": {
       "CallReleaseTug": "Call or release tug",
       "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
+      "DecreaseSpeed": "Backwards or slower forwards",
+      "IncreaseSpeed": "Forwards or slower backwards",
+      "Left": "Go left",
       "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
+      "Right": "Go right",
       "SetReleaseParkingBrake": "Set or release parking brake",
       "SliderDirection": "Move for desired direction",
       "SliderSpeed": "Move for desired speed",
+      "SystemEnabledOff": "Click to turn the pushback system on.",
+      "SystemEnabledOn": "Click to turn the pushback system completely off.",
       "ZoomIn": "Zoom in",
       "ZoomOut": "Zoom out"
     },
+    "TugAttached": "Tug is attached",
     "TugDirection": "Smer Tagu",
+    "TugInTransit": "Waiting for Tug/Pin",
     "TugSpeed": "Rýchlosť Tugu"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Domáci režim kokpitu",
       "McduFocusTimeout": "Časový limit zaostrenia MCDU (sekundy)",
       "McduKeyboardInput": "Vstup klávesnice MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Oddeľte Tiller od vstupov kormidla",
       "Title": "Realizmus"
     },
@@ -446,6 +462,7 @@
       "Active": "Aktívne",
       "Auto": "Automaticky",
       "Calibrate": "Skalibrovať",
+      "ConesEnabled": "Safety Cones",
       "DefaultBarometerUnit": "Štandardná jednotka barometra",
       "DynamicRegistrationDecal": "Dynamický registračný kód",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Povoliť pripojenie servera MCDU (automaticky sa deaktivuje po 5 minútach, ak nie je úspešné pripojenie)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Detenty škrtiacej klapky",
       "Title": "Možnosti Simulátora",
       "UseCalculatedIlsSignals": "Použiť vypočítané signály ILS",
+      "WheelChocksEnabled": "Wheel Chocks",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Automatický jas",
       "AutomaticallyShowOnscreenKeyboard": "Automaticky zobrazovať klávesnicu na obrazovke",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Modrá",
       "Brightness": "Jas",
       "Dark": "Tmavá",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC a lokálne"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Simulovaná životnosť batérie",
   "StatusBar": {
     "Apr": "apr",

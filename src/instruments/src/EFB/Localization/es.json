@@ -49,7 +49,7 @@
         "Loading": "Cargando",
         "MetarParsingError": "El METAR recibido no ha podido ser analizado",
         "NoIcaoProvided": "No se ha proporcionado ningún código ICAO",
-        "NotAvailableShort": "N/A",
+        "NotAvailableShort": "N/D",
         "Raw": "Sin procesar",
         "TT": {
           "SwitchToIconView": "Cambiar a vista de iconos",
@@ -126,7 +126,7 @@
       "RightInnerTank": "Tanque interior derecho",
       "RightOuterTank": "Tanque exterior derecho",
       "TT": {
-        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "El avión debe estar frío y oscuro para cambiar los tiempos de reabastecimiento",
+        "AircraftMustBeColdAndDarkToChangeRefuelTimes": "El avión debe estar en tierra con los motores apagados para poder cambiar el tiempo de reabastecimiemto",
         "FillBlockFuelFromSimBrief": "Rellenar Block Fuel de SimBrief"
       },
       "Title": "Combustible",
@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Camión de equipaje",
       "CateringTruck": "Camión de catering",
+      "Cones": "Conos de seguridad",
       "DoorAft": "Puerta trasera",
+      "DoorCargo": "Puerta de Carga",
       "DoorFwd": "Puerta delantera",
       "ExternalPower": "Alimentación externa",
       "FuelTruck": "Camión de combustible",
       "JetBridge": "Puente de embarque",
-      "Title": "Servicios"
+      "Title": "Servicios",
+      "WheelChocks": "Calzos de ruedas"
     },
     "Title": "Ground"
   },
@@ -173,7 +176,7 @@
       "AuthenticateWithNavigraph": "Autenticar con Navigraph",
       "InsufficientEnv": "Archivo .env insuficiente",
       "IntoYourBrowserAndEnterTheCodeBelow": "en su navegador e introduzca el siguiente código\n",
-      "LoadingMsg": "Loading",
+      "LoadingMsg": "Cargando ",
       "NoAirportSelected": "Sin aeropuerto seleccionado",
       "ResetNavigraphAuthentication": "Restablecer la autenticación de Navigraph",
       "ScanTheQrCodeOrOpen": "Escanee el código QR o pinche",
@@ -241,12 +244,12 @@
       "RunwayAltitudeUnit": "ft ASL",
       "RunwayCondition": "Estado de la pista",
       "RunwayConditions": {
-        "Dry": "Dry (6)",
-        "Good": "Good (5)",
-        "GoodMedium": "Good-Medium (4)",
-        "Medium": "Medium (3)",
-        "MediumPoor": "Medium-Poor (2)",
-        "Poor": "Poor (1)"
+        "Dry": "Seco (6)",
+        "Good": "Bueno (5)",
+        "GoodMedium": "Bueno-Moderado (4)",
+        "Medium": "Moderado (3)",
+        "MediumPoor": "Moderado-Pobre (2)",
+        "Poor": "Pobre (1)"
       },
       "RunwayHeading": "Rumbo de pista",
       "RunwayHeadingUnit": "°",
@@ -349,34 +352,45 @@
     "Title": "Predeterminados"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "Los controles de remolque sólo están disponibles en tierra",
     "Backward": "Atrás",
     "CallTug": "Llamar al remolcador",
+    "DisableSystemMessageBody": "¿Está seguro que desea deshabilitar el sistema de remolque? Esto también liberará el remolcador.",
+    "DisableSystemMessageTitle": "Deshabilitar sistema de remolque",
+    "EnableSystemMessageBody": "El nuevo Sistema de Remolque de flyPadOS 3 puede causar conflictos con otros add-ons de remolque. Recomendamos no habilitar el sistema si tiene previsto utilizar otro complemento de remolque. ",
+    "EnableSystemMessageTitle": "Habilitar sistemas de remolque ",
     "Forward": "Adelante",
-    "Halt": "Detener",
-    "LeavePageMessage": "Pausing Pushback",
-    "Left": "Left",
-    "Moving": "Moving",
+    "Halt": "En pausa",
+    "LeavePageMessage": "Pausando remolque",
+    "Left": "Izquierda ",
+    "Moving": "En movimiento",
     "ParkingBrake": {
       "Off": "Apagado",
       "On": "Encendido",
       "Title": "Freno de estacionamiento"
     },
-    "Right": "Right",
+    "Right": "Derecha",
+    "SystemEnabledOff": "Sistema de remolque desactivado ",
+    "SystemEnabledOn": "Sistema de remolque encendido ",
     "TT": {
-      "CallReleaseTug": "Call or release tug",
-      "CenterPlaneMode": "Center map on plane On/Off",
-      "DecreaseSpeed": "Backwards or slower forwards (double click to set speed to 0)",
-      "IncreaseSpeed": "Forwards or slower backwards (double click to set speed to 0)",
-      "Left": "Go left (double click for straight)",
-      "PausePushback": "Pause or unpause pushback",
-      "Right": "Go right (double click for straight)",
-      "SetReleaseParkingBrake": "Set or release parking brake",
-      "SliderDirection": "Move for desired direction",
-      "SliderSpeed": "Move for desired speed",
-      "ZoomIn": "Zoom in",
-      "ZoomOut": "Zoom out"
+      "CallReleaseTug": "Llamar o soltar remolcador ",
+      "CenterPlaneMode": "Centrar mapa en avión Activar / Desactivar",
+      "DecreaseSpeed": "Hacia atrás o más lento hacia adelante",
+      "IncreaseSpeed": "Hacia adelante o más lento hacia atrás",
+      "Left": "Ir a la izquierda",
+      "PausePushback": "Pausar o reanudar remolque ",
+      "Right": "Ir a la derecha",
+      "SetReleaseParkingBrake": "Establecer o liberar freno de estacionamiento",
+      "SliderDirection": "Mover en la dirección deseada ",
+      "SliderSpeed": "Mover a la velocidad deseada",
+      "SystemEnabledOff": "Haz click para encender el sistema de remolque.",
+      "SystemEnabledOn": "Haz click para apagar completamente el sistema de remolque ",
+      "ZoomIn": "Acercar",
+      "ZoomOut": "Alejar"
     },
+    "TugAttached": "El remolcador está unido",
     "TugDirection": "Dirección del remolcador",
+    "TugInTransit": "Esperando al Remolcador/Pin",
     "TugSpeed": "Velocidad del remolcador"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Modo Home Cockpit",
       "McduFocusTimeout": "Tiempo de espera del MCDU (segundos)",
       "McduKeyboardInput": "Entrada de teclado MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Separar Tiller de la entrada del Timón",
       "Title": "Realismo"
     },
@@ -446,6 +462,7 @@
       "Active": "Activo",
       "Auto": "Auto",
       "Calibrate": "Calibrar",
+      "ConesEnabled": "Conos de seguridad",
       "DefaultBarometerUnit": "Unidad del barómetro predeterminado",
       "DynamicRegistrationDecal": "Calcomanía de registro dinámica",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Activar la conexión con el servidor MCDU (se desactivará automáticamente tras 5 minutos si no ha habido una conexión exitosa)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Throttle Detents",
       "Title": "Opciones de simulación",
       "UseCalculatedIlsSignals": "Usar señales ILS calculadas",
+      "WheelChocksEnabled": "Calzos de ruedas",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Brillo automático",
       "AutomaticallyShowOnscreenKeyboard": "Mostrar automáticamente el teclado en pantalla",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Azul",
       "Brightness": "Brillo",
       "Dark": "Oscuro",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC y local"
     }
   },
+  "Settings.Realism.PauseAtTod": "T/D Pause",
+  "Settings.Realism.PauseAtTodDistance": "T/D Pause Distance (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Duración de la batería simulada",
   "StatusBar": {
     "Apr": "Abr",

@@ -139,12 +139,15 @@
     "Services": {
       "BaggageTruck": "Veicolo Bagagli",
       "CateringTruck": "Veicolo Catering",
+      "Cones": "Coni di Sicurezza",
       "DoorAft": "Porta Post.",
+      "DoorCargo": "Porta Cargo",
       "DoorFwd": "Porta Ant.",
-      "ExternalPower": "Alimentazione Esterna",
+      "ExternalPower": "Unità di Alimentazione Esterna",
       "FuelTruck": "Veicolo Carburante",
       "JetBridge": "Ponte Imbarco",
-      "Title": "Servizi"
+      "Title": "Servizi",
+      "WheelChocks": "Tacchi per Ruote"
     },
     "Title": "Terra"
   },
@@ -230,14 +233,14 @@
       "FillDataFrom": "Inserisci dati da",
       "FlapsConfiguration": "Configurazione Flap",
       "Low": "Low",
-      "MaximumManual": "Maximum Manuale",
+      "MaximumManual": "Maximum Manual",
       "Medium": "Medium",
       "MetarErrorDialogMessage": "Non è stato possibile elaborare con successo il METAR dal tuo OFP. Desideri, invece, inserire i dati automaticamente recuperando un altro METAR?",
       "MetarErrorDialogTitle": "Errore Elaborazione METAR dell'OFP",
       "OverweightProcedure": "Procedura Sovraccarico",
       "Qnh": "QNH",
       "ReverseThrust": "Inversori di Spinta",
-      "RunwayAltitude": "Altitudine Pista",
+      "RunwayAltitude": "Elevazione Pista",
       "RunwayAltitudeUnit": "ASL ft",
       "RunwayCondition": "Condizioni Pista",
       "RunwayConditions": {
@@ -307,13 +310,13 @@
         "DesynchronizeInputWithAircraftsCurrentAltitude": "Non Sincronizzare Inserimento con Altitudine Attuale dell'Aeromobile",
         "SynchronizeInputWithAircraftsCurrentAltitude": "Sincronizzare Inserimento con Altitudine Attuale dell'Aeromobile"
       },
-      "Title": "Inizio della Discesa"
+      "Title": "Top of Descent"
     }
   },
   "Presets": {
     "AircraftStates": {
       "Cancel": "Annulla",
-      "ColdDark": "Spento",
+      "ColdDark": "Cold & Dark",
       "ConfirmationDialogMsg": "Prego conferma caricamento del preset.",
       "CurrentProcedureStep": "Stato Processo in Corso",
       "PleaseConfirmLoadingOfPreset": "Prego conferma caricamento del preset.",
@@ -349,8 +352,13 @@
     "Title": "Preset"
   },
   "Pushback": {
+    "AvailableOnlyOnGround": "I comandi per il pushback sono disponibili solo a terra",
     "Backward": "Indietro",
     "CallTug": "Chiama Tug",
+    "DisableSystemMessageBody": "Sei sicuro di voler disabilitare il Sistema Pushback? Questo farà anche allontanare il tug.",
+    "DisableSystemMessageTitle": "Disabilita Sistema Pushback",
+    "EnableSystemMessageBody": "Il nuovo Sistema Pushback del FlyPadOS 3 può causare conflitti con altri pushback add-on. Consigliamo di non abilitare il sistema se hai in programma di utilizzare un altro pushback add-on.",
+    "EnableSystemMessageTitle": "Abilita Sistema Pushback",
     "Forward": "Avanti",
     "Halt": "Interrotto",
     "LeavePageMessage": "Interruzione Pushback",
@@ -362,21 +370,27 @@
       "Title": "Freni Parcheggio"
     },
     "Right": "Destra",
+    "SystemEnabledOff": "Sistema Pushback Off",
+    "SystemEnabledOn": "Sistema Pushback On",
     "TT": {
       "CallReleaseTug": "Chiama o allontana tug",
       "CenterPlaneMode": "Centra mappa sull'aereo On/Off",
-      "DecreaseSpeed": "Indietro o avanti lento (doppio click per impostare velocità a 0)",
-      "IncreaseSpeed": "Avanti o indietro lento (doppio click per impostare velocità a 0)",
-      "Left": "Vai a sinistra (doppio click per dritto)",
+      "DecreaseSpeed": "Indietro o avanti lentamente",
+      "IncreaseSpeed": "Avanti o indietro lentamente",
+      "Left": "Vai a sinistra",
       "PausePushback": "Interrompi o riavvia pushback",
-      "Right": "Vai a destra (doppio click per dritto)",
+      "Right": "Vai a destra",
       "SetReleaseParkingBrake": "Inserisci o rilascia freni parcheggio",
       "SliderDirection": "Sposta per direzione desiderata",
       "SliderSpeed": "Sposta per velocità desiderata",
+      "SystemEnabledOff": "Clicca per attivare il sistema pushback.",
+      "SystemEnabledOn": "Clicca per disattivare completamente il sistema pushback.",
       "ZoomIn": "Ingrandisci",
       "ZoomOut": "Rimpicciolisci"
     },
+    "TugAttached": "Tug è collegato",
     "TugDirection": "Direzione Tug",
+    "TugInTransit": "In Attesa del Tug",
     "TugSpeed": "Velocità Tug"
   },
   "Settings": {
@@ -439,6 +453,8 @@
       "HomeCockpitMode": "Modalità Home Cockpit",
       "McduFocusTimeout": "Rilascio Selezione su MCDU (secondi)",
       "McduKeyboardInput": "Input Tastiera su MCDU",
+      "PauseAtTod": "T/D Pause",
+      "PauseAtTodDistance": "T/D Pause Distance (nm)",
       "SeparateTillerFromRudderInputs": "Separa gli Input del Tiller e dei Pedali",
       "Title": "Realismo"
     },
@@ -446,6 +462,7 @@
       "Active": "Attivo",
       "Auto": "Auto",
       "Calibrate": "Calibra",
+      "ConesEnabled": "Coni di Sicurezza",
       "DefaultBarometerUnit": "Unità Barometro Predefinita",
       "DynamicRegistrationDecal": "Decalco Registrazione Dinamico",
       "EnabledMcduServerConnectionAutoDeactivatesAfter5MinutesIfNoSuccessfulConnection": "Abilita Connessione Server MCDU (Disattivazione automatica dopo 5 minuti in caso di connessione non riuscita)",
@@ -460,6 +477,7 @@
       "ThrottleDetents": "Posizioni Manetta",
       "Title": "Opzioni Sim",
       "UseCalculatedIlsSignals": "Usa Segnali ILS Calcolati",
+      "WheelChocksEnabled": "Tacchi per Ruote",
       "inHg": "inHg"
     },
     "ThrottleConfig": {
@@ -488,6 +506,7 @@
     "flyPad": {
       "AutoBrightness": "Luminosità Automatica",
       "AutomaticallyShowOnscreenKeyboard": "Visualizza Tastiera a Schermo Automaticamente",
+      "BatteryLifeEnabled": "Battery Life Simulated",
       "Blue": "Blu",
       "Brightness": "Luminosità",
       "Dark": "Scuro",
@@ -507,6 +526,8 @@
       "UtcAndLocal": "UTC e Locale"
     }
   },
+  "Settings.Realism.PauseAtTod": "Interruzione T/D",
+  "Settings.Realism.PauseAtTodDistance": "Distanza Interruzione T/D (nm)",
   "Settings.flyPad.BatteryLifeEnabled": "Durata Batteria Simulata",
   "StatusBar": {
     "Apr": "Apr",
